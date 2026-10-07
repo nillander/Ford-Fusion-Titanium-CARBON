@@ -47,3 +47,12 @@ conferindo antes se o arquivo não ficou maior que o aprovado; vale também test
 (BIN aprovados: GEOMETRY `AE4BB255…`, TEXTURES `8989A7E4…`), `SHA256SUMS.txt`,
 `SHA256SUMS-conteudo.txt`. Instalador com backup em `CARS\MUSTANGGT_original` e
 `desinstalar.bat` em `release/pacote/`. Notas: `release/notes-v0.1.md`.
+
+## Desfecho da entrada de ar (12:00–12:40)
+
+Mais duas tentativas travaram ao visualizar o carro: ROOF_A..D + ROOF_T0/T1 clonados
+do oficial com vértices/índices zerados e arquivo 33 KB menor que a v1.0; e ROOF_A..D
+no formato CarToolkit, feitos dos placeholders `KIT00_SPOILER`. Conclusão: acrescentar
+sólidos a um GEOMETRY.BIN pronto trava, independentemente de tamanho e formato.
+Jogo e `main` voltaram à release v1.0; tentativas no branch local `experimento/entrada-de-ar-teto`.
+Próximos passos em `docs/CONTINUACAO-CODEX.md`.

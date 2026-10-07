@@ -1,113 +1,78 @@
-# Passagem para o Codex — 07/10/2026, manhã
+# Passagem para o Codex — a partir da release v1.0 (07/10/2026, 12:40)
 
-> **Estado mais recente — 11:06:** instalado `stage-dynamic-lights`.
-> Vermelho visível nas lanternas e refletores após usar HEADLIGHT_RIGHT e
-> BRAKELIGHT_RIGHT do MUSTANGGT oficial. DXT1 isolado e difuso isolado não
-> corrigiram. Miolo branco/partes cinza, frente, milha, luzes ON e adesivos
-> Mustang ainda pendentes. Ler o fim do README e da sessão Codex; os estados
-> anteriores abaixo são histórico. GEOMETRY `8158464702D4B7805844C60E392121ABF72356E41AC4AA905725578CEC2FB4EE`;
-> TEXTURES `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC`.
+Trabalhar em pt-BR. Ao parar: atualizar TODO/README, registrar a sessão em
+`docs/SESSAO-CODEX-<data>.md` e fazer commit com coautoria. Push, tags e releases
+ficam com o usuário (Cursor). Fechar o jogo antes de qualquer instalação.
 
-> **Atualização após execução pelo Codex:** recompilação e auditoria concluídas;
-> instalação experimental ativa e Fusion 2018 com rodas observado no jogo.
-> Ler `docs/SESSAO-CODEX-2026-10-07.md` e o TODO atualizado para o estado atual.
-> **10:18, continuação:** `stage-colors` instalado com 552 cores recuperadas;
-> faixas/artefatos persistem. Usuário interrompeu Computer Use com Esc. Fechar
-> o jogo antes de nova instalação; corrida e kits ainda não testados.
-> **10:28:** `stage-lenses` instalado. Usuário considera carroceria boa; faltam
-> lentes de lanternas/refletores/faróis/milha e adesivos Mustang estão deslocados.
-> Oito configurações de lentes do doador recuperadas e 26 DECAL ocultos, com
-> 152 sólidos intactos. Confirmar resultado visual; Computer Use interrompido
-> com Esc antes da observação. VINYLS não mudou e pode explicar faixas persistentes.
-> Os passos abaixo registram a passagem original. Próximo trabalho: artefatos
-> visuais e compatibilidade de peças; o primeiro teste não aprova a release.
+## Estado atual
 
-Trabalhar em pt-BR. Ler antes: `TODO.md` (estado consolidado), `docs/SESSAO-CLAUDE-2026-10-07.md`.
-Ao parar, atualizar TODO/README e fazer commit com coautoria.
+- **Publicado:** release **v1.0** no GitHub (tag `v1.0` → `e1df347`; `main` em `8b832d3`).
+  Fusion 2018 no slot `MUSTANGGT`. Pacote local em `local/release-v0.1/`
+  (nome antigo da pasta; conteúdo é o da v1.0).
+- **Instalado no jogo = release v1.0:**
+  GEOMETRY `AE4BB255576689D0668AAB54B677F8D3393AE74C5A15700AB2176FDC89B647B2`,
+  TEXTURES `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC`,
+  VINYLS original. Staging de origem: `work/carbon2018-stage-spoiler`
+  (`docs/carbon2018-stage-spoiler-verification.json`). GLOBAL, VLT e CAMARO intactos.
+- **Aprovado pelo usuário no jogo:** carroceria, rodas, faróis, farol de milha,
+  lanternas e refletores traseiros, aerofólios da loja (comuns e AutoSculpt).
+- **Backup do Mustang original:** `CARS/MUSTANGGT_backup_stock` (confere com
+  `reference/carbon-stock/MUSTANGGT`).
+- **Instalar/restaurar:** `scripts/test-install-2018.ps1 -Action Install
+  -VerificationFile docs/carbon2018-stage-spoiler-verification.json` reinstala a v1.0;
+  `-Action Restore` volta ao Mustang original. Atenção: sem `-VerificationFile` o
+  script usa `stage-axes`, que é antigo.
 
-## Por que o usuário não viu nada no jogo
+## O que não fazer (aprendido em 07/10)
 
-Nada foi instalado. `CARS/MUSTANGGT` e `CARS/CAMARO` no jogo continuam com os BIN
-originais (mtime 2006-10-14, SHA-256 iguais a `reference/carbon-stock/`). O staging
-`work/carbon2018-stage` **não deve ser instalado**: está girado 90° e sem pontos de
-montagem. O objetivo desta sessão é chegar ao **primeiro teste visível em jogo** do
-Fusion 2018 no slot MUSTANGGT, de forma reversível.
+1. **Não acrescentar sólidos a um GEOMETRY.BIN pronto.** Três tentativas de pôr
+   `KIT00_ROOF` para a entrada de ar travaram o jogo ao visualizar o carro: clones EA
+   do Mustang (só ROOF_A..D; depois com ROOF_T0/T1, vértices zerados e arquivo 33 KB
+   menor que a v1.0) e clones no formato CarToolkit a partir dos placeholders
+   `KIT00_SPOILER`. Editar sólidos existentes funciona; criar novos, não. O código das
+   tentativas está no branch local `experimento/entrada-de-ar-teto` (só consulta).
+2. **Não aumentar o GEOMETRY.BIN.** A versão só com aerofólios, comprimida com o JDLZ
+   guloso (+29 KB), travou; a mesma com `jdlz.compress_optimal` (menor que a anterior)
+   abriu. Manter o arquivo ≤ 31.880.960 bytes (tamanho da v1.0) até entender o limite.
+3. **Pares light material × textura dinâmica precisam existir no Mustang oficial.**
+   `BRAKELIGHTGLASS` + `BRAKELIGHT_RIGHT` travou. Os que funcionam: `BRAKELIGHT` +
+   `BRAKELIGHT_RIGHT` (02B52399) na lanterna; `HEADLIGHTGLASS` + `HEADLIGHT_GLASS_RIGHT`
+   (F68EF19F) no farol. Atenção: F68EF19F é **HEADLIGHT_GLASS_RIGHT**; HEADLIGHT_RIGHT é A532FC46.
+4. Sólidos oficiais (formato EA: flag 0x40, um buffer por material, chunks 0x134C02 e
+   0x13401D) não se misturam com os do CarToolkit (flag 0, um buffer).
 
-## O que a sessão Claude deixou pronto (commit b831d70)
+## Ferramentas sem GUI disponíveis
 
-| Item | Onde |
-| --- | --- |
-| Causa da rotação: nfscgc grava (x′,y′)=(y,−x) | `docs/SESSAO-CLAUDE-2026-10-07.md` §1 |
-| Fonte pré-girada (−y, x, z) + 165 OBJ de ponto de montagem + `mpoints.txt` | `work/carbon2018-source-axes/` (gerada por `scripts/prepare-compiler-input.py`) |
-| Relatório dos pontos (posição Carbon, peça, rotação) | `docs/carbon2018-mountpoints.json` |
-| Marcadores do doador e do MW | `docs/{mustanggt,camaro}-stock-markers.json`, `docs/mw20{12,18}-markers.json` |
-| Leitor de marcadores (chunk 0x13401A; padding 0x11) | `scripts/dump_position_markers.py`, `scripts/mw_position_markers.py` |
-| Leitor VPAK/VLT somente leitura | `scripts/vlt_dump.py`; resumo `docs/vlt-slots.json` |
-| VltEd 4.6 extraído | `tools/vendor/cartoolkit/vlted/NFS-VltEd.exe` |
+- `scripts/jdlz.py`: `decompress`, `compress` (guloso) e `compress_optimal` (menor que o
+  CarToolkit). Cache de recompressão: `scripts/recompress_cache.py` → `work/jdlz-cache`.
+- Remontagem de GEOMETRY.BIN no layout CarToolkit (cabeçalho 0x134002/3/4, blocos
+  0x55441122 alinhados a 128): ver `scripts/prepare-spoiler-roof.py` (modo `none`,
+  usado na v1.0) e `scripts/prepare-glass-brake-lenses.py`.
+- Leitores: `scripts/vlt_dump.py` (VPAK/VLT, só leitura), `scripts/dump_position_markers.py`.
+- Detalhes técnicos: `docs/SESSAO-CLAUDE-2026-10-07-tarde.md`.
 
-A pasta `work/` é ignorada pelo Git. Se faltar `work/carbon2018-source-axes`, regenerar com
-`python scripts/prepare-compiler-input.py` (lê `work/carbon2018-source` e `docs/mw2018-markers.json`).
+## Próximos passos, em ordem
 
-## Passo 1 — Recompilar com a fonte corrigida (GUI)
-
-1. `work/carbon-compiler/nfscgc.exe`, working directory nessa pasta. XNAME `MUSTANGGT`.
-   Selecionar **todos** os `.obj` de `work/carbon2018-source-axes` (186 peças + 165 pontos).
-2. Conferir onde o nfscgc procura `mpoints.txt`/`link.txt`/`matlist.txt`: o binário
-   imprime `Loading mpoints.txt...Loaded/Failed`. Se carregar da pasta do executável,
-   copiar os três arquivos de `work/carbon2018-source-axes` para `work/carbon-compiler/`
-   (guardar os anteriores).
-3. No log: esperar `Mount point processed` e nenhum `Not found any part for the mount point`
-   nem `Mount point skipped`. Se os OBJ de ponto virarem sólidos na saída
-   (`MUSTANGGT_LEFT_HEADLIGHT00` etc.), registrar; não é o esperado.
-4. CarToolkit 3.1: abrir a saída, Carbon/Racer/MUSTANGGT, exportar para
-   `work/carbon2018-stage-axes/GEOMETRY.BIN`. Texturas: reaproveitar
-   `work/carbon2018-stage/TEXTURES.BIN` (não depende da orientação) ou reexportar igual antes.
-
-## Passo 2 — Auditoria obrigatória antes de instalar
-
-```powershell
-pwsh -NoProfile -File scripts/extract-carbon-solids.ps1 -InventoryFile <inventário novo> -OutputRoot work/carbon2018-stage-axes-solids
-pwsh -NoProfile -File scripts/validate-carbon-solids.ps1 -InputRoot work/carbon2018-stage-axes-solids -OutputFile docs/carbon2018-stage-axes-audit.json
-python scripts/dump_position_markers.py work/carbon2018-stage-axes-solids docs/carbon2018-stage-axes-audit.json docs/carbon2018-stage-axes-markers.json
-```
-(regenerar o inventário com `inventory(path, carbon=True, extracted_root=...)` de `scripts/inventory_geometry.py`, como na passagem anterior)
-
-Critérios de aprovação:
-- `KIT00_BODY_A`: X ≈ −2,36 → 2,37 (frente em +X), Y ≈ ±1,04, Z ≈ −0,04 → 1,26.
-  `KIT00_RIGHT_BRAKELIGHT_GLASS_A` com X negativo (traseira). Pneu com largura em Y.
-- Marcadores presentes em `BASE_A..E`, `KITxx_BODY_A..E` e `KIT00_FRONT_TIRE_*`,
-  posições iguais às de `docs/carbon2018-mountpoints.json` (tolerância 1 mm).
-- Matrizes de rotação dos marcadores compatíveis com as do doador para o mesmo nome
-  (`docs/mustanggt-stock-markers.json`; ex. headlight linhas (0,0,1),(0,−1,0),(1,0,0);
-  brake/reverse (0,0,1),(0,1,0),(−1,0,0)). Se divergirem, ajustar a coluna de rotação
-  do `mpoints.txt` (o compilador pode aplicar a mesma rotação de eixos às rotações) e recompilar.
-- Contagens de índices ≤ 65535 e sem sentinel, como na auditoria anterior.
-
-## Passo 3 — Primeiro teste em jogo (reversível)
-
-Só depois do Passo 2 aprovado:
-1. Backup: copiar `CARS/MUSTANGGT/` inteira para `CARS/MUSTANGGT_backup_stock/` e conferir
-   SHA-256 contra `reference/carbon-stock/MUSTANGGT/` (`55957752…` geometria).
-2. Copiar `GEOMETRY.BIN` e `TEXTURES.BIN` de `work/carbon2018-stage-axes/` para `CARS/MUSTANGGT/`.
-   Manter o `VINYLS.BIN` original.
-3. Teste do usuário: Corrida rápida ou Desafio → escolher o Mustang GT. Se o carro sumir ou
-   faltarem peças, é a lacuna de kits/peças do doador (Fusion não tem `ROOF`,
-   `FRONT/REAR_BUMPER`, `LEFT_HEADLIGHT`, `LEFT_BRAKELIGHT` como peças separadas);
-   anotar o que falta e ir para o mapa de peças (`docs/mustanggt-part-map.csv`).
-4. Reverter: copiar de volta os BIN de `CARS/MUSTANGGT_backup_stock/`.
-   Nada de VLT/FE neste teste: o nome continua "Mustang GT".
-
-Atenção: o jogo tem NFSCUnlimiter (`MissingPartsFix=1`, `ReplacementModel=1`/CARRERAGT).
-Um carro inválido pode ser trocado pelo Carrera GT em vez de travar.
-
-## Depois do primeiro teste
-
-- Lacunas de peças exigidas pelo slot (kits KIT01–05/KITW, para-choques, teto, damage,
-  AutoSculpt `_T0/_T1`). Pontos ainda sem fonte: `LICENSEPLATE`, `ROOF_SCOOP`,
-  `LEFT/RIGHT_EXHAUST` dos para-choques, hashes 0x45D8B27B/C, 0x7C883442/3, 0x357E917F, 0xD1409DEE.
-- VltEd (sempre com backup de `GLOBAL/attributes.bin` e `FE_ATTRIB.bin`): nome FE,
-  fabricante Ford no `camaro`, FWD em `transmission/camaro`. `pvehicle/camaron` herda de
-  `pvehicle/camaro`: conferir valores efetivos do CAMARON antes e depois.
-- Decisão pendente do usuário: 2018 RWD (como no MW) ou AWD real.
-- 2012 → CAMARO: repetir a cadeia com `scripts/prepare-compiler-input.py` adaptado
-  (fonte COBALTSS, `docs/mw2012-markers.json`, doador `docs/camaro-stock-markers.json`, XNAME `CAMARO`).
+1. **Nome, logotipo, preço e fabricante no frontend (VltEd 4.6).** Backup de
+   `GLOBAL/attributes.bin` e `GLOBAL/FE_ATTRIB.bin` antes. `frontend/mustanggt` já herda
+   de `ford`. Nome "Ford Fusion Titanium AWD" (ver `FE.MWPS` da v2.8 MW). Coleções em
+   `docs/vlt-slots.json`.
+2. **Performance e tração do 2018.** Perguntar ao usuário: RWD (como na v2.8 MW) ou AWD
+   real. Converter a intenção do `ATTRIBUTES.MWPS` MW para os nós `mustanggt`
+   (engine, transmission, chassis, tires, brakes). MUSTANGGT não tem induction/nos próprios.
+3. **Luz de freio acesa.** Hoje o atlas ON é cópia do OFF. Gerar `KIT00_BRAKELIGHT_ON`
+   (7E68A778) mais claro na área da lente (u 0,669–0,996, v 0,033–0,361; vermelho médio
+   atual 97/255) e reexportar o TPK no CarToolkit. Só textura; GEOMETRY intacto.
+4. **Faixas/adesivos do Mustang fora do lugar.** Os 26 DECAL ocultos não resolveram.
+   Investigar vinil de fábrica/preset e `VINYLS.BIN` (texturas MUSTANGGT_DEBUG*) antes de
+   mexer em arquivos globais.
+5. **Entrada de ar do teto.** Único caminho que resta: recompilar o carro inteiro no
+   nfscgc com uma peça `KIT00_ROOF_A..D` na fonte (OBJ mínimo oculto dentro do teto) e
+   `_ROOF_SCOOP00` no `mpoints.txt` (posição Fusion: x 0,10, z 1,2376, inclinação 5,35°;
+   ver `scripts/prepare-roof-scoop.py` no branch experimental). Depois reaplicar, em
+   ordem, as correções da v1.0: matrizes dos marcadores do doador, cores de vértice,
+   lentes, vínculos dinâmicos, lente `BRAKELIGHT`, alturas dos aerofólios (SPOILER −0,023,
+   SPOILER2 −0,087). Consolidar isso num único script antes. Arquivo final ≤ v1.0.
+6. **Fusion 2012 → CAMARO** (FWD, fabricante Ford no FE, preservar `CAMARON`, que herda
+   `pvehicle/camaro`). Reaproveitar a cadeia do 2018 desde a compilação com eixos corrigidos.
+7. Cada etapa aprovada pelo usuário no jogo vira candidata à próxima release (v1.1).
