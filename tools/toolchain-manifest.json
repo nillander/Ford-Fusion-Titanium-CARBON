@@ -1,0 +1,22 @@
+[
+  {
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\tools\\mwgc\\mwgc.exe",
+    "path": "tools/vendor/mw/mwgc.exe",
+    "sha256": "67043486047B173C8507AE0F5EBEAA3AB49111FC7DDFF0764B3BB938A3734D0E"
+  },
+  {
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\tools\\mwtc\\mwtc.exe",
+    "path": "tools/vendor/mw/mwtc.exe",
+    "sha256": "83556CE2498FF38DC81CBF5C352E827291E284A9DDDB837FC7883AB161625B05"
+  },
+  {
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\tools\\mwgc\\RetargetSlot.exe",
+    "path": "tools/vendor/mw/RetargetSlot.exe",
+    "sha256": "A9FCA189211CBCD0EF47F676964558C0F8E9D4A17AD7EE901FDE9EBE3E58A7BC"
+  },
+  {
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\scripts\\RetargetSlot.cs",
+    "path": "tools/vendor/mw/RetargetSlot.cs",
+    "sha256": "AB31E1AAF1BCE699CB58ABA38212375ACCE7FB63119E8B8BD13F04DAE27C2268"
+  }
+]

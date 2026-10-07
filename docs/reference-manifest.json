@@ -1,0 +1,513 @@
+[
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/instalar.bat",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 5288,
+    "sha256": "1F192AFFB2FDE3DF817FF095034AA093C56F7584F2623028861E60A90753D8D5"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/LEIA-ME.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1983,
+    "sha256": "1A6B43E7B2C04DA8CB4BB4A6125F87BFE5279A12C5512906D4082C93C46CE07F"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/NOTAS-v2.6.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1366,
+    "sha256": "8F0B866749315091B9A85FBFEB138FE9203DEB6E4DE5F11256150F2304328E6A"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/NOTAS-v2.7.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 879,
+    "sha256": "7EB344703E887A2CC326FB6EEC1610186DAF5FA8A0CE1DC3FAE6D7E0DD9C8534"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/NOTAS-v2.8.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1026,
+    "sha256": "25610DC40A693C8033DAEB73F77D914446041E9D737CF11480FD3FBF78E08192"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/SHA256SUMS.txt",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1661,
+    "sha256": "5873080BA1293692FCD08A965D3814C56D7F07230149CD2E3245EDAC66BC14F0"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/ADDONS/CARS_REPLACE/COBALTSS/ATTRIBUTES.MWPS",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 5766,
+    "sha256": "744596F4A3E34A49BD83982C7D9C9294328004BAD40156B5F126A3C643C3A8D5"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/ADDONS/CARS_REPLACE/COBALTSS/CAR.INI",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 95,
+    "sha256": "002D671D29A706CB6D7D98C278F5B36EA958B204239B79C6E23F8197BB6CD1DA"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/ADDONS/CARS_REPLACE/COBALTSS/FE.MWPS",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 554,
+    "sha256": "91B557D2B3368A09C695D104F289FD5D6C6C5AA21C03BACB43A22F5B4C7740E9"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/ADDONS/CARS_REPLACE/COBALTSS/GEOMETRY.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 56492032,
+    "sha256": "46EA905703DC3BADAA92236FCCA8DD0BE65BFBAA95DC65B9D807DC427F4115C3"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/ADDONS/CARS_REPLACE/COBALTSS/SECONDARYLOGO.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 17152,
+    "sha256": "7FBFE6CAD5D86975448498C34E2DF0F3970AC4622E15C5BA1ABE67DB01D1700D"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/ADDONS/CARS_REPLACE/COBALTSS/TEXTURES.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 4295680,
+    "sha256": "380AEF7826723967DB0E3CD49284387A4469E75938D767EC437CEC9A8670A5B7"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/ADDONS/FRONTEND/MANUFACTURERS/27-FORD_HD.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 131840,
+    "sha256": "094B4B6B0C299AF1735833CC481693057DEBA3AE014D14ECB4B3A8EE8919C848"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/CARS/COBALTSS/GEOMETRY.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 56492032,
+    "sha256": "46EA905703DC3BADAA92236FCCA8DD0BE65BFBAA95DC65B9D807DC427F4115C3"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/CARS/COBALTSS/TEXTURES.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 4295680,
+    "sha256": "380AEF7826723967DB0E3CD49284387A4469E75938D767EC437CEC9A8670A5B7"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/CREDITOS/donor-readme.txt",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 254,
+    "sha256": "3DC92F408A88823401C9A1342D2DBC0541F638F178F8904181E13C67BBB70B80"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/CREDITOS/source-2016-readme.txt",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 575,
+    "sha256": "95985828377A70ED3E5B4729E100BDC1906FCD2642681E4C609A7625C5DEA264"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/CREDITOS/source-2018-readme.txt",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2012_FWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1360,
+    "sha256": "7BC1C1EB4F8F8113DB0871C0FA834A1A24A3FBE38948E99BF24AAC87F9ACBC84"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/instalar.bat",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 5288,
+    "sha256": "1F192AFFB2FDE3DF817FF095034AA093C56F7584F2623028861E60A90753D8D5"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/LEIA-ME.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 2459,
+    "sha256": "36A121D03B3BA1F9DB792B8F6220CC85F0794E4F63C2B47EDEAB2B94F7B37F06"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/NOTAS-v2.6.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1366,
+    "sha256": "8F0B866749315091B9A85FBFEB138FE9203DEB6E4DE5F11256150F2304328E6A"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/NOTAS-v2.7.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 879,
+    "sha256": "7EB344703E887A2CC326FB6EEC1610186DAF5FA8A0CE1DC3FAE6D7E0DD9C8534"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/NOTAS-v2.8.md",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1026,
+    "sha256": "25610DC40A693C8033DAEB73F77D914446041E9D737CF11480FD3FBF78E08192"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/SHA256SUMS.txt",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1784,
+    "sha256": "334854F577FE872DF9C925ACED2AF6AF14297B0FC7DF93B1791DCF50DA2E5587"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/ATTRIBUTES.MWPS",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 21086,
+    "sha256": "3BE53CF93B914DDEBF65EFC1CC22FB1594C74BE74B8482E288954280C9B40617"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/CAR.INI",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 95,
+    "sha256": "C14499DAA0AA6A154A6C32C38824801A8A60227417C06BD8588DCA2A5CE5457B"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/FE.MWPS",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 567,
+    "sha256": "29495D5C615A85637EADC2B9C38146A4FBBD82C2100BD0B044E8B930F3031608"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/GEOMETRY.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 47009792,
+    "sha256": "C6506D3FA563EC05926315CCC994DE5DC3150DC281F460139BCEE2C16B706F01"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/PREVINYL.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 9984,
+    "sha256": "545CDA9F1B997C69F67A0C064E097279435E4D6AFE0A6DBFE922BF09EC66170B"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/SECONDARYLOGO.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 17152,
+    "sha256": "E4721014333A5B21C01BE881F917909157B843CEF04790D086AFF9EEB0914AD8"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/TEXTURES.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 4819968,
+    "sha256": "8DF768ED4BCB4BF933FC4F686FDDF1B13FA203BCB21A656986132008A617F8EF"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/VINYLS.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1986560,
+    "sha256": "1A721ACEE2D5D68F7CACBEAEDB037C761FA178AFFA3072C34C18D12B703BF342"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/FRONTEND/MANUFACTURERS/27-FORD_HD.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 131840,
+    "sha256": "094B4B6B0C299AF1735833CC481693057DEBA3AE014D14ECB4B3A8EE8919C848"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/CARS/MUSTANGGT/GEOMETRY.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 47009792,
+    "sha256": "C6506D3FA563EC05926315CCC994DE5DC3150DC281F460139BCEE2C16B706F01"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/CARS/MUSTANGGT/TEXTURES.BIN",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 4819968,
+    "sha256": "8DF768ED4BCB4BF933FC4F686FDDF1B13FA203BCB21A656986132008A617F8EF"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/CREDITOS/donor-readme.txt",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 254,
+    "sha256": "3DC92F408A88823401C9A1342D2DBC0541F638F178F8904181E13C67BBB70B80"
+  },
+  {
+    "path": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/CREDITOS/source-readme.txt",
+    "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\release\\Fusion2018_AWD_MW2005.zip",
+    "role": "mw-v2.8",
+    "bytes": 1360,
+    "sha256": "7BC1C1EB4F8F8113DB0871C0FA834A1A24A3FBE38948E99BF24AAC87F9ACBC84"
+  },
+  {
+    "path": "reference/carbon-stock/CAMARO/GEOMETRY.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\CAMARO\\GEOMETRY.BIN",
+    "role": "carbon-installed-donor-unverified-stock",
+    "bytes": 20752832,
+    "sha256": "34A2C24589DEB8454364C72F6399D4C8AA4476523A614275E9DDF7FA9E610438"
+  },
+  {
+    "path": "reference/carbon-stock/CAMARO/TEXTURES.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\CAMARO\\TEXTURES.BIN",
+    "role": "carbon-installed-donor-unverified-stock",
+    "bytes": 292992,
+    "sha256": "EF8786D6BCBD0513750230B07B83ADDD93B445D22CBF94B3C34D60BEF5392556"
+  },
+  {
+    "path": "reference/carbon-stock/CAMARO/VINYLS.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\CAMARO\\VINYLS.BIN",
+    "role": "carbon-installed-donor-unverified-stock",
+    "bytes": 55232,
+    "sha256": "09BB265E71A2F87F3FC21F1E8AF1438732FDE03A0E0725B78213B5524984F5F6"
+  },
+  {
+    "path": "reference/carbon-stock/MUSTANGGT/GEOMETRY.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\MUSTANGGT\\GEOMETRY.BIN",
+    "role": "carbon-installed-donor-unverified-stock",
+    "bytes": 22092416,
+    "sha256": "55957752A35ADED8EC03D8BDBF28A06173B03A297EA72F58587D4D34EE95E6B1"
+  },
+  {
+    "path": "reference/carbon-stock/MUSTANGGT/TEXTURES.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\MUSTANGGT\\TEXTURES.BIN",
+    "role": "carbon-installed-donor-unverified-stock",
+    "bytes": 282432,
+    "sha256": "8A0C38FEF92FD908C23302CE69F07D67EC90BCEA10591B305C9EA07238B7A928"
+  },
+  {
+    "path": "reference/carbon-stock/MUSTANGGT/VINYLS.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\MUSTANGGT\\VINYLS.BIN",
+    "role": "carbon-installed-donor-unverified-stock",
+    "bytes": 38400,
+    "sha256": "FE3FD7261749E766E20B4B2451FA49DD18CE9220383CC28967F3DA83848292CF"
+  },
+  {
+    "path": "reference/carbon-global-before/attributes.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\attributes.bin",
+    "role": "carbon-global-before",
+    "bytes": 1035584,
+    "sha256": "D64234661F8226FE24ABD45EAE7F5C24CE400A214526A4D23D6B421E75D820E4"
+  },
+  {
+    "path": "reference/carbon-global-before/CarHeadersMemoryFile.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\CarHeadersMemoryFile.bin",
+    "role": "carbon-global-before",
+    "bytes": 362736,
+    "sha256": "BEC188B2066D5CC777E0F825C1F181D5E3946F100A362A1388C5DBC5E4EBE296"
+  },
+  {
+    "path": "reference/carbon-global-before/DEMO_GLOBAL.BUN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\DEMO_GLOBAL.BUN",
+    "role": "carbon-global-before",
+    "bytes": 47328,
+    "sha256": "C9547E0D169F1C35B3B4C06B121055DC4888BA9B2313C26B68FE162B4F9B30E3"
+  },
+  {
+    "path": "reference/carbon-global-before/DEMO_MARKETING.BUN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\DEMO_MARKETING.BUN",
+    "role": "carbon-global-before",
+    "bytes": 874752,
+    "sha256": "8E551F33E559AA8C465DD5F689569E84BF0BB767713A0EDC4AF9F5329DB88E05"
+  },
+  {
+    "path": "reference/carbon-global-before/DEMOGLOBALTEXTURES.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\DEMOGLOBALTEXTURES.BIN",
+    "role": "carbon-global-before",
+    "bytes": 0,
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "path": "reference/carbon-global-before/DYNTEX.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\DYNTEX.BIN",
+    "role": "carbon-global-before",
+    "bytes": 10734144,
+    "sha256": "4A20A123A3090003F2E4A695A7C7B9B2F9EB98C26AAAEF2EB93CD42E9A0CC415"
+  },
+  {
+    "path": "reference/carbon-global-before/FE_ATTRIB.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\FE_ATTRIB.bin",
+    "role": "carbon-global-before",
+    "bytes": 132736,
+    "sha256": "3BA61E5A1F025BD4E8376B82A7480B86CF5DBB5EEDAAC095C6F02A5AD1F4FAC4"
+  },
+  {
+    "path": "reference/carbon-global-before/FrontEndMemoryFile.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\FrontEndMemoryFile.bin",
+    "role": "carbon-global-before",
+    "bytes": 16,
+    "sha256": "89582E81E15085261454B65C024A4E558E72B8E6D4095BB7A8EFDF71149104DF"
+  },
+  {
+    "path": "reference/carbon-global-before/gameplay.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\gameplay.bin",
+    "role": "carbon-global-before",
+    "bytes": 1638336,
+    "sha256": "C8314ED74D75A2FA07F39DFCC289570098F795879B497D50B3EAF5F60B5A99DE"
+  },
+  {
+    "path": "reference/carbon-global-before/gameplay.lzc",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\gameplay.lzc",
+    "role": "carbon-global-before",
+    "bytes": 645751,
+    "sha256": "937EA56990CBC5CF7A6ACEE8B4E1ACD0C0CAED276CCBF006FBD1BF2024239BFE"
+  },
+  {
+    "path": "reference/carbon-global-before/GLOBALA.BUN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\GLOBALA.BUN",
+    "role": "carbon-global-before",
+    "bytes": 298980,
+    "sha256": "9312772DE380833E1DF957352F2435936F4F50B70B224FF91CF50643C438E933"
+  },
+  {
+    "path": "reference/carbon-global-before/GLOBALB.BUN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\GLOBALB.BUN",
+    "role": "carbon-global-before",
+    "bytes": 14278292,
+    "sha256": "222555284017CEE87BB4AD51314D59BFF003F1B291E82C940A481D0C4046CC14"
+  },
+  {
+    "path": "reference/carbon-global-before/GlobalB.lzc",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\GlobalB.lzc",
+    "role": "carbon-global-before",
+    "bytes": 7938901,
+    "sha256": "22A91B8CB1F643EEA4E6CE2C7EEAFBC941FE9291D0BF38E8514210F1271C1053"
+  },
+  {
+    "path": "reference/carbon-global-before/GlobalMemoryFile.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\GlobalMemoryFile.bin",
+    "role": "carbon-global-before",
+    "bytes": 9381040,
+    "sha256": "FF2202E3DA2C98478B84901D85820D385C684DD5AEB3791B04C48395C7BA70F0"
+  },
+  {
+    "path": "reference/carbon-global-before/HUDTEXRACE.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\HUDTEXRACE.BIN",
+    "role": "carbon-global-before",
+    "bytes": 5888,
+    "sha256": "AAF70C1B0FCA9830C081694A727E20C61FB72BC60AA133EE6E500F0AEA3765BD"
+  },
+  {
+    "path": "reference/carbon-global-before/HUDTEXSPLIT.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\HUDTEXSPLIT.BIN",
+    "role": "carbon-global-before",
+    "bytes": 19328,
+    "sha256": "C5E534959C7616C342A2DCC5BE0E1589442469106B4D2380E1A2BC14C9BBA050"
+  },
+  {
+    "path": "reference/carbon-global-before/HUDTEXTURESPHOTOFINISH.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\HUDTEXTURESPHOTOFINISH.BIN",
+    "role": "carbon-global-before",
+    "bytes": 1071104,
+    "sha256": "E94BAC3EF9A79C8D6A9592D44F58CA4880597E9DE166F52062770E9F0E07CDFD"
+  },
+  {
+    "path": "reference/carbon-global-before/ICE.BUN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\ICE.BUN",
+    "role": "carbon-global-before",
+    "bytes": 64128,
+    "sha256": "9E945CBDA70698CCD0CF62B1846B0C990977402E5AFA0302A0EDE7B74395DEFF"
+  },
+  {
+    "path": "reference/carbon-global-before/InGameA.bun",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\InGameA.bun",
+    "role": "carbon-global-before",
+    "bytes": 1388032,
+    "sha256": "99B3E0BD722F9ADEB5D9009A51A3271FA59B84E0480C190986BFB8CCA60AB307"
+  },
+  {
+    "path": "reference/carbon-global-before/InGameB.bun",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\InGameB.bun",
+    "role": "carbon-global-before",
+    "bytes": 1137756,
+    "sha256": "8D733984FE695DB00C5654D8F273751DF5DDE808FEB4F12836DBDC8A3DC5E822"
+  },
+  {
+    "path": "reference/carbon-global-before/InGameB.lzc",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\InGameB.lzc",
+    "role": "carbon-global-before",
+    "bytes": 591513,
+    "sha256": "3AF3D62827F4215C80744B4ABC08B50BCCF86AE4E35AFC532933F69DA4BBD1A0"
+  },
+  {
+    "path": "reference/carbon-global-before/InGameMemoryFile.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\InGameMemoryFile.bin",
+    "role": "carbon-global-before",
+    "bytes": 179290,
+    "sha256": "B2F3EE8B0F456A0970C9CAE0171CA914AF194629E0C27EFB83F3C5077A2409B5"
+  },
+  {
+    "path": "reference/carbon-global-before/InGameSplitScreen.bun",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\InGameSplitScreen.bun",
+    "role": "carbon-global-before",
+    "bytes": 28216,
+    "sha256": "9834C4A33D923BA58DF8DE4C21A97D9543E0C8F5E4F649DFA6B7D73AE804CAE0"
+  },
+  {
+    "path": "reference/carbon-global-before/PermanentMemoryFile.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\PermanentMemoryFile.bin",
+    "role": "carbon-global-before",
+    "bytes": 5064,
+    "sha256": "6F7ED7897D3D9C91FF4EB3764A2B300C5396C5A6B234BA2EE6F2AE0E5A00A98E"
+  },
+  {
+    "path": "reference/carbon-global-before/SmokeTest.hoo",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\SmokeTest.hoo",
+    "role": "carbon-global-before",
+    "bytes": 1483,
+    "sha256": "5B688A635A376F0572F779C7067A10C5FFA3CA97BF98D03A8212DC22362A1FD1"
+  },
+  {
+    "path": "reference/carbon-global-before/SmokeTestFreeRoam.hoo",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\SmokeTestFreeRoam.hoo",
+    "role": "carbon-global-before",
+    "bytes": 21447,
+    "sha256": "2CB75CDF91CFC17F56EEE72E13288D1B651DF28028488F02E6D2E960B5D41C4A"
+  },
+  {
+    "path": "reference/carbon-global-before/SmokeTestQuickRace.hoo",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\SmokeTestQuickRace.hoo",
+    "role": "carbon-global-before",
+    "bytes": 27338,
+    "sha256": "CC243EE847783CFA80A20D9509323340EAEBFD28DDB35E6CB908ECB32F93799C"
+  },
+  {
+    "path": "reference/carbon-global-before/SmokeTestVinyls.hoo",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\SmokeTestVinyls.hoo",
+    "role": "carbon-global-before",
+    "bytes": 18610,
+    "sha256": "8B5CAF36E759DE30CDCCEC2F720D85F0432C1D07C0F08A6AB37170F93B03CAC2"
+  },
+  {
+    "path": "reference/carbon-global-before/UniqueBootTextures.bin",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\UniqueBootTextures.bin",
+    "role": "carbon-global-before",
+    "bytes": 699136,
+    "sha256": "61721DCFE540EE1804D4D7392365E851EC06D3693A2F387986423B7D5ECBA3BB"
+  },
+  {
+    "path": "reference/carbon-global-before/WMDYNTEX.BIN",
+    "origin": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\WMDYNTEX.BIN",
+    "role": "carbon-global-before",
+    "bytes": 2703488,
+    "sha256": "00EDA9B7D77D1C358F7384D52528371C86A29C2336E2233C9889123B7FC133D9"
+  }
+]

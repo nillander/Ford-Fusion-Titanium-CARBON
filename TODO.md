@@ -19,6 +19,15 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 
 > No Carbon existem `CAMARO` e `CAMARON`. O alvo do 2012 é **`CAMARO`** (carro inicial). Não tocar em `CAMARON` salvo necessidade futura.
 
+### Regra obrigatória dos doadores (instrução do usuário)
+
+Usar como doadores **os veículos oficiais do Carbon que serão substituídos**:
+**CAMARO oficial → Fusion 2012 FWD** e **MUSTANGGT oficial → Fusion 2018**.
+Preservar deles a estrutura e os recursos exigidos pelo slot (peças, LODs, kits,
+AutoSculpt, damage, materiais e pontos de montagem), adaptando a malha Fusion MW.
+Não usar outro veículo/mod como base Carbon. Confirmar a origem limpa dos BIN
+antes de considerar o doador validado; a cópia da instalação atual não comprova isso.
+
 Tração alvo (herdada do MW):
 
 | Carro | Tração |
@@ -67,19 +76,20 @@ Fontes principais (úteis mesmo em replace):
 - [ ] **NFS-VltEd** ≥ 4.6 (FE + performance nos slots)
 - [ ] **NFS-CarToolkit** e/ou **Carbon ModTools** (geometry + textures)
 - [ ] Backup limpo do Carbon (já há pasta `Backup` no jogo)
-- [ ] Copiar/espelhar toolchain útil de `fusion-mw2005/tools` e scripts de retarget (`RetargetSlot` / equivalentes)
+- [x] Espelhar utilitários MW selecionados e RetargetSlot em `tools/vendor/mw`; manifesto em `tools/toolchain-manifest.json` (não convertem formato para Carbon)
 - [ ] Unlimiter **não** é requisito para este replace; só se o jogo já estiver modado com add-ons
 
 ---
 
 ## Fase 0 — Setup do repositório
 
-- [ ] Espelhar estrutura mínima do MW: `source/`, `tools/`, `scripts/`, `versions/`, `release/`, `docs/`, `capturas/`, `work/`
-- [ ] Documentar em `README.md` os caminhos do jogo e a origem `../fusion-mw2005`
-- [ ] Extrair v2.8 MW para `reference/mw-v28/`:
-  - [ ] `MUSTANGGT` → Fusion 2018 (destino Carbon: `MUSTANGGT`)
-  - [ ] `COBALTSS` → Fusion 2012 (destino Carbon: `CAMARO`)
-- [ ] Dump de referência stock Carbon: `CARS/CAMARO` e `CARS/MUSTANGGT` → `reference/carbon-stock/`
+- [x] Espelhar estrutura mínima do MW: `source/`, `tools/`, `scripts/`, `versions/`, `release/`, `docs/`, `capturas/`, `work/`
+- [x] Documentar em `README.md` os caminhos do jogo e a origem `../fusion-mw2005`
+- [x] Extrair v2.8 MW para `reference/mw-v28/` (SHA-256 dos ZIPs conferidos):
+  - [x] `MUSTANGGT` → Fusion 2018 (destino Carbon: `MUSTANGGT`)
+  - [x] `COBALTSS` → Fusion 2012 (destino Carbon: `CAMARO`)
+- [x] Copiar referência instalada Carbon: `CARS/CAMARO` e `CARS/MUSTANGGT` → `reference/carbon-stock/`; backup GLOBAL em `reference/carbon-global-before/`
+- [ ] Confirmar origem oficial/vanilla dos doadores copiados (Backup do jogo só contém localização)
 - [ ] Inventariar peças/sólidos do MW e do stock Carbon (kits, AutoSculpt, spoiler AS, damage) e mapear o que falta no port
 
 ---
@@ -216,4 +226,20 @@ Decisão:
 | Performance MW→Carbon (VLT) | https://nfsmods.xyz/mod/520 |
 
 Estado do código-fonte MW e aprendizados: `../fusion-mw2005/README.md`, `docs/APRENDIZADOS.md`, `docs/CONTINUACAO.md`.
-)
+
+---
+
+## Passagem para Claude — 07/10/2026, 02:31 (America/Sao_Paulo)
+
+Leia **`docs/CONTINUACAO-CLAUDE.md`** para assumir a partir deste commit.
+Preparação concluída por Codex: referências v2.8, cópias dos doadores instalados,
+backup GLOBAL e manifestos de hashes. Nenhum arquivo do jogo foi alterado.
+
+Inventário preliminar em `docs/geometry-inventory.json`: Fusion 2012 com 202 sólidos,
+2018 com 186; CAMARO instalado com 848 entradas e MUSTANGGT com 997, todas
+comprimidas. Descompressão CIP e mapa de peças oficiais ainda pendentes.
+Não marcar geometria/QA como concluídos: não há exportação Carbon nem teste em jogo.
+
+Próximo passo: confirmar os doadores oficiais, preparar leitura CIP/exportação Carbon
+e comparar kits, LODs, AutoSculpt, damage e marcadores; então iniciar 2018 → MUSTANGGT.
+O horário acima é a retomada informada pelo usuário, não uma automação criada aqui.
