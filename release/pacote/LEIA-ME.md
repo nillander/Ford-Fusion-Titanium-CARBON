@@ -1,15 +1,15 @@
 # Ford Fusion Titanium 2018 AWD — Need for Speed Carbon
 
-Substitui o **Ford Mustang GT** (slot `MUSTANGGT`). Release v1.0 de 07/10/2026.
+Substitui o **Ford Mustang GT** (slot `MUSTANGGT`). Release v1.1 de 07/10/2026.
 
-Port da carroceria do Fusion 2018 da release MW2005 v2.8 para o Carbon. Esta é a
-primeira versão para o Carbon: o visual está pronto, mas o carro ainda usa o nome,
+Port da carroceria do Fusion 2018 da release MW2005 v2.8 para o Carbon. O visual
+está pronto (incluindo a entrada de ar do teto), mas o carro ainda usa o nome,
 o logotipo e a performance do Mustang GT.
 
 ## O que vem no pacote
 - **Visual**: carroceria do Fusion Titanium 2018 com rodas, vidros, emblemas e os
-  cinco níveis de detalhe, convertida para o Carbon (186 peças, orientação e pontos
-  de montagem do Carbon).
+  cinco níveis de detalhe, convertida para o Carbon (190 peças, orientação e pontos
+  de montagem do Carbon), com entrada de ar do teto (comum e AutoSculpt).
 - **Luzes**: faróis, farol de milha, lanternas e refletores traseiros usando as
   luzes dinâmicas do Carbon, com os materiais do Mustang GT original.
 - **Aerofólios da loja**: pontos de montagem ajustados à tampa do porta-malas do
@@ -18,7 +18,6 @@ o logotipo e a performance do Mustang GT.
 ## Limitações conhecidas
 - Nome, logotipo e preço continuam os do **Mustang GT**.
 - Performance e tração são as do **Mustang GT** (traseira). Ainda não há AWD.
-- A **entrada de ar do teto** não aparece.
 - A lanterna não acende mais forte ao frear.
 - Adesivos de fábrica do Mustang podem aparecer fora do lugar.
 - Ainda não testados: corrida completa, dano, rivais e IA que usam o Mustang GT.

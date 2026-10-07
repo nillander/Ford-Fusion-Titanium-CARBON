@@ -1,11 +1,12 @@
-# v1.0 — Fusion 2018 no Carbon (07/10/2026)
+# v1.1 — Fusion 2018 no Carbon (07/10/2026)
 
 - [x] Lanternas e refletores com light material `BRAKELIGHT` + textura dinâmica `BRAKELIGHT_RIGHT` (aprovado no jogo)
 - [x] Aerofólios: `SPOILER` −2,3 cm e `SPOILER2` −8,7 cm nas BASE_A..E (aprovado no jogo)
 - [x] Regravação de BIN sem GUI: `scripts/jdlz.py` (`compress_optimal` menor que o CarToolkit)
 - [x] Pacote v1.0 publicado (`local/release-v0.1/`, `release/notes-v1.0.md`, tag/release GitHub v1.0)
-- [x] Entrada de ar do teto: KIT00_ROOF_A..D e ROOF_SCOOP recompilados; 190 malhas auditadas. Com JDLZ corrigido, o usuário confirmou que o Fusion carrega e as entradas aparecem (07/10). Candidata à próxima release; v1.0 publicada permanece anterior.
+- [x] Entrada de ar do teto: KIT00_ROOF_A..D e ROOF_SCOOP recompilados; 190 malhas auditadas. Com JDLZ corrigido, o usuário confirmou que o Fusion carrega e as entradas aparecem (07/10).
 - [x] Compressor JDLZ: preservar flags terminais exigidas pelo Carbon; regressões para grupos de literais e matches; normalizar streams antigos antes de instalar.
+- [x] Pacote v1.1 publicado (`local/release-v1.1/`, `release/notes-v1.1.md`, tag/release GitHub v1.1)
 - [ ] Estado ON das luzes (freio) com textura própria; hoje ON = OFF
 - [ ] Nome/logo/preço Fusion e performance (VltEd), decisão RWD×AWD; faixas Mustang de fábrica
 - [ ] Fusion 2012 → CAMARO

@@ -1,25 +1,26 @@
 # Ford Fusion — Need for Speed Carbon
 
-> **Release v1.0 (07/10/2026):** Fusion 2018 no lugar do Ford Mustang GT.
-> Visual, luzes e aerofólios aprovados no jogo; nome, logotipo e performance ainda
-> são os do Mustang GT. O Fusion 2012 ainda não foi portado.
+> **Release v1.1 (07/10/2026):** Fusion 2018 no lugar do Ford Mustang GT.
+> Visual, luzes, aerofólios e entrada de ar do teto aprovados no jogo; nome,
+> logotipo e performance ainda são os do Mustang GT. O Fusion 2012 ainda não foi
+> portado.
 
-## Downloads — v1.0
+## Downloads — v1.1
 
 | Pacote | Carro | Estado |
 | --- | --- | --- |
-| [`Fusion2018_AWD_NFSC.zip`](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/download/v1.0/Fusion2018_AWD_NFSC.zip) | Ford Fusion Titanium 2018 (slot MUSTANGGT) | visual, luzes e aerofólios; sem nome/performance próprios |
+| [`Fusion2018_AWD_NFSC.zip`](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/download/v1.1/Fusion2018_AWD_NFSC.zip) | Ford Fusion Titanium 2018 (slot MUSTANGGT) | visual, luzes, aerofólios e teto; sem nome/performance próprios |
 
-Notas: [release v1.0](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.0)
-· [`release/notes-v1.0.md`](release/notes-v1.0.md). Baixe o ZIP na release v1.0,
+Notas: [release v1.1](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.1)
+· [`release/notes-v1.1.md`](release/notes-v1.1.md). Baixe o ZIP na release v1.1,
 extraia e execute `instalar.bat` com o jogo fechado.
 
 | Arquivo publicado | SHA-256 |
 | --- | --- |
-| `CARS/MUSTANGGT/GEOMETRY.BIN` | `AE4BB255576689D0668AAB54B677F8D3393AE74C5A15700AB2176FDC89B647B2` |
+| `CARS/MUSTANGGT/GEOMETRY.BIN` | `DE8EE10F8DDA430076D15CAD4DA796398B5BC85DC2EC9D33B4B6B1F94967680E` |
 | `CARS/MUSTANGGT/TEXTURES.BIN` | `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC` |
 
-O pacote é gerado por `python scripts/package_release.py v1.0 local/release-v1.0`
+O pacote é gerado por `python scripts/package_release.py v1.1 local/release-v1.1`
 a partir dos BIN aprovados (fora do Git, em `work/`). Instalador, LEIA-ME e créditos
 ficam em `release/pacote/`.
 
@@ -415,5 +416,4 @@ O novo teste está em `work/carbon2018-stage-roof` e sua auditoria em
 `docs/carbon2018-stage-roof-verification.json`: 31.841.920 bytes, menor que a v1.0,
 texturas idênticas e 186 peças existentes idênticas após descompressão.
 **O usuário confirmou: “teto resolvido”; o Fusion carregou e as entradas de ar
-apareceram**, após conferir as opções comum e AutoSculpt. A correção está instalada
-e é candidata à próxima release; a v1.0 publicada permanece com os BIN anteriores.
+apareceram**, após conferir as opções comum e AutoSculpt. Publicado na **v1.1**.

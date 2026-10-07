@@ -1,6 +1,6 @@
 """Empacota a release do Fusion Carbon a partir dos BIN aprovados no jogo.
 
-Uso: python scripts/package_release.py v1.0 local/release-v1.0
+Uso: python scripts/package_release.py v1.1 local/release-v1.1
 Confere os BIN contra os hashes aprovados e contra os instalados no jogo (se a
 pasta do jogo estiver acessível), monta Fusion2018_AWD_NFSC.zip e os SHA256SUMS.
 """
@@ -8,10 +8,10 @@ import datetime, hashlib, sys, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-APPROVED = {  # aprovados pelo usuário no jogo em 07/10/2026 11:51
-    'GEOMETRY.BIN': ('work/carbon2018-stage-spoiler/GEOMETRY.BIN',
-                     'AE4BB255576689D0668AAB54B677F8D3393AE74C5A15700AB2176FDC89B647B2'),
-    'TEXTURES.BIN': ('work/carbon2018-stage-spoiler/TEXTURES.BIN',
+APPROVED = {  # aprovados pelo usuário no jogo em 07/10/2026 (teto)
+    'GEOMETRY.BIN': ('work/carbon2018-stage-roof/GEOMETRY.BIN',
+                     'DE8EE10F8DDA430076D15CAD4DA796398B5BC85DC2EC9D33B4B6B1F94967680E'),
+    'TEXTURES.BIN': ('work/carbon2018-stage-roof/TEXTURES.BIN',
                      '8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC'),
 }
 GAME = Path.home() / 'mnt/Need for Speed Carbon/CARS/MUSTANGGT'
