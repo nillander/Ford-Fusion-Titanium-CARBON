@@ -1,5 +1,10 @@
 # Passagem para Claude — atualização de 07/10/2026, 11:07
 
+> **Atualização 07/10 11:55 (Claude):** instalado e aprovado `stage-spoiler`
+> (GEOMETRY `AE4BB255…`): lanternas/refletores corretos e aerofólios assentados.
+> Release v0.1 preparada. Leia [SESSAO-CLAUDE-2026-10-07-tarde.md](SESSAO-CLAUDE-2026-10-07-tarde.md)
+> antes de regravar BIN (limite de tamanho; pares light material × textura dinâmica).
+
 ## Estado atual confirmado pelo usuário
 
 O Fusion 2018 aparece no Carbon. A carroceria foi considerada boa pelo usuário.

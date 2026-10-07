@@ -1,5 +1,28 @@
 # Ford Fusion — Need for Speed Carbon
 
+> **Release v0.1 (07/10/2026, prévia):** Fusion 2018 no lugar do Ford Mustang GT.
+> Visual, luzes e aerofólios aprovados no jogo; nome, logotipo e performance ainda
+> são os do Mustang GT. O Fusion 2012 ainda não foi portado.
+
+## Downloads — v0.1
+
+| Pacote | Carro | Estado |
+| --- | --- | --- |
+| [`Fusion2018_AWD_NFSC.zip`](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/download/v0.1/Fusion2018_AWD_NFSC.zip) | Ford Fusion Titanium 2018 (slot MUSTANGGT) | prévia: visual, luzes e aerofólios; sem nome/performance próprios |
+
+Notas: [release v0.1](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v0.1)
+· [`release/notes-v0.1.md`](release/notes-v0.1.md). Baixe o ZIP na release v0.1,
+extraia e execute `instalar.bat` com o jogo fechado.
+
+| Arquivo publicado | SHA-256 |
+| --- | --- |
+| `CARS/MUSTANGGT/GEOMETRY.BIN` | `AE4BB255576689D0668AAB54B677F8D3393AE74C5A15700AB2176FDC89B647B2` |
+| `CARS/MUSTANGGT/TEXTURES.BIN` | `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC` |
+
+O pacote é gerado por `python scripts/package_release.py v0.1 local/release-v0.1`
+a partir dos BIN aprovados (fora do Git, em `work/`). Instalador, LEIA-ME e créditos
+ficam em `release/pacote/`.
+
 Port dos Fusion 2012 FWD e 2018 da release MW2005 v2.8, por substituição de slots.
 
 | Fusion | Fonte MW | Slot/doador oficial Carbon |

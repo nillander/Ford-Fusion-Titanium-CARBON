@@ -4,3 +4,4 @@ tools/vendor/
 **/__pycache__/
 **/bin/
 **/obj/
+local/
