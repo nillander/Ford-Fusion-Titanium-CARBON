@@ -203,3 +203,5 @@ O Fusion 2012 → CAMARO, o QA em jogo e a release continuam pendentes.
 
 [TODO.md](TODO.md) contém o acompanhamento por fase. A sessão Claude de 07/10
 complementa a passagem das 02:31 e deve ser lida antes de continuar.
+
+Próxima sessão do Codex: [docs/CONTINUACAO-CODEX.md](docs/CONTINUACAO-CODEX.md).
