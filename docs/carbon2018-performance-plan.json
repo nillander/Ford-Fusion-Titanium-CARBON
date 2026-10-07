@@ -3,6 +3,24 @@
   "source_sha256": "3be53cf93b914ddebf65efc1cc22fb1594c74be74b8482e288954280c9b40617",
   "traction": "AWD, TORQUE_SPLIT=0.5 at base and top, user confirmed 2026-10-07",
   "cost": "preserve Carbon MUSTANGGT 50000, user confirmed 2026-10-07",
+  "power_reference": {
+    "engine": "bmwm3gtre46",
+    "factor": 1.2,
+    "reference_torque": [
+      111,
+      163,
+      221,
+      278,
+      304,
+      294,
+      267,
+      244,
+      228
+    ],
+    "MAX_RPM": 9500,
+    "RED_LINE": 8500,
+    "scope": "mustanggt and mustanggt_top; engine curve, without induction/nitrous"
+  },
   "steering_revision": {
     "STEERING": 1.1,
     "STEERING_RANGE_scale": 1.15,
@@ -14,7 +32,7 @@
       0.5
     ],
     "grip": "equal front/rear, MW front value",
-    "reason": "Angle-only comparison failed even at low speed. Third candidate; game QA pending."
+    "reason": "Third handling candidate confirmed good by user 2026-10-07; retained for power adjustment."
   },
   "excluded": [
     "frontend cost/unlock",
@@ -456,15 +474,15 @@
       "after": {
         "Capacity": 9,
         "Data": [
-          160.0,
-          220.0,
-          320.0,
-          477.0,
-          523.0,
-          473.0,
-          409.0,
-          364.0,
-          341.0
+          133.1999969482422,
+          195.60000610351562,
+          265.20001220703125,
+          333.6000061035156,
+          364.79998779296875,
+          352.79998779296875,
+          320.3999938964844,
+          292.79998779296875,
+          273.6000061035156
         ]
       }
     },
@@ -473,7 +491,7 @@
       "node": "mustanggt",
       "field": "MAX_RPM",
       "before": 7250,
-      "after": 8000.0
+      "after": 9500.0
     },
     {
       "class": "engine",
@@ -487,7 +505,7 @@
       "node": "mustanggt",
       "field": "RED_LINE",
       "before": 6250,
-      "after": 7000.0
+      "after": 8500.0
     },
     {
       "class": "engine",
@@ -510,15 +528,15 @@
       "after": {
         "Capacity": 9,
         "Data": [
-          165.0,
-          250.0,
-          400.0,
-          575.0,
-          621.0,
-          555.0,
-          490.0,
-          430.0,
-          390.0
+          133.1999969482422,
+          195.60000610351562,
+          265.20001220703125,
+          333.6000061035156,
+          364.79998779296875,
+          352.79998779296875,
+          320.3999938964844,
+          292.79998779296875,
+          273.6000061035156
         ]
       }
     },
@@ -527,7 +545,7 @@
       "node": "mustanggt_top",
       "field": "MAX_RPM",
       "before": 7250,
-      "after": 8000.0
+      "after": 9500.0
     },
     {
       "class": "engine",
@@ -541,7 +559,7 @@
       "node": "mustanggt_top",
       "field": "RED_LINE",
       "before": 6250,
-      "after": 7000.0
+      "after": 8500.0
     },
     {
       "class": "tires",

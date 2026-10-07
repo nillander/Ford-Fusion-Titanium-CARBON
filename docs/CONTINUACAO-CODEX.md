@@ -1,6 +1,38 @@
 # Passagem para o Codex — integração AWD do 2018 (07/10/2026)
 
-## Prioridade atual — terceira candidata instalada (07/10, 17:18)
+## Prioridade atual — v1.2 e motor BMW +20%
+
+Usuário confirmou "tudo certo": direção, logotipo e fogo aprovados. Autorizou
+explicitamente **commit, push, tag e release** nesta rodada, substituindo a
+restrição antiga de publicação dos históricos abaixo. Preparada v1.2.
+
+Pedido posterior: motor do Fusion 20% acima da BMW M3 GTR jogável. Referência
+correta pvehicle bmwm3gtre46 → engine bmwm3gtre46, não o engine bmwm3gtr solto.
+TORQUE da BMW ×1,20 e MAX_RPM 9500/RED_LINE 8500/IDLE 800 iguais à referência,
+nos nós engine/mustanggt e mustanggt_top. Base/top têm o mesmo alvo de curva;
+indução/nitro do slot continuam independentes. Não prometer aceleração 20% maior.
+Somente esses seis campos de motor mudaram em relação ao acerto aprovado.
+
+GLOBAL/attributes.bin atual **D58BEA8A066735CC07A36D2D77107254C85523B89369541C481C166A66FF853D**.
+Instalado com NFSC/VltEd fechados; auditados 10.180 nós/312 blobs, importação
+sobre versão anterior e rollback exato. Direção/AWD/preço 50.000 mantidos.
+Backup do acerto aprovado anterior em work/global2018-performance-approved;
+gate docs/carbon2018-performance-approved-verification.json. O motor novo
+ainda precisa de QA em corrida; publicação autorizada pelo usuário mesmo assim.
+
+Geometria/logo/idiomas são os aprovados abaixo. Release local/release-v1.2:
+ZIP, SHA256SUMS e hashes de conteúdo. Instalador portátil verifica 22 destinos,
+recusa hashes desconhecidos e preserva estado anterior em Fusion2018_v1.2_backup;
+desinstalar restaura também GLOBAL/frontend/idiomas. Manifesto compilado em
+release/pacote/arquivos-v1.2.json. Não sobrescrever outros mods manualmente.
+scripts/test-release-package.py verificou ZIP, instalar/reinstalar/restaurar e
+preflight sem alterações diante de destino desconhecido/pacote corrompido.
+
+Próximos: QA do novo motor; Fusion 2012 FWD usando **CAMARO oficial**, preservar
+CAMARON. ON de freio/faixas de fábrica e QA ampliado damage/IA continuam pendentes.
+Consultar README/download v1.2 para publicação; não confundir histórico com estado atual.
+
+## Histórico — terceira candidata instalada (07/10, 17:18), posteriormente aprovada
 
 Usuário confirmou o **nome Fusion**, mas a segunda candidata continuou difícil
 de virar. Também relatou fogo abaixo das ponteiras e logotipo Mustang GT no menu.

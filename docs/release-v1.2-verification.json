@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "archive_sha256": "D7AB7614E0A252F583C7AF79D80E1F5F2BC3546BB600D5DCD07F1C9CEFC2F992",
+  "files_checked": 22,
+  "windows_powershell_5_1": true,
+  "zip_checksums_passed": true,
+  "install_reinstall_restore_passed": true,
+  "unknown_mod_preflight_no_changes": true,
+  "corrupt_package_preflight_no_changes": true,
+  "mock_directory": "C:\\Users\\nillander\\NoDocuments\\fusion-carbon\\work\\release-v12-check-28ab211dbc3d41b5ae21b3fe683ef3bf"
+}

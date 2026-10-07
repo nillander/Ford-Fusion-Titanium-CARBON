@@ -151,14 +151,10 @@
     "UnlockedAt": 11
   },
   "camaro_camaron_other_nodes_unchanged": true,
-  "game_validation": "pending",
-  "power_reference_checked": "bmwm3gtre46 torque x1.20; same MAX_RPM/RED_LINE; base/top",
-  "approved_handling_attributes_sha256": "547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06",
+  "game_validation": "user confirmed all correct 2026-10-07, before BMW +20% power adjustment",
   "import_over_second_candidate_semantically_identical": true,
-  "attributes_sha256": "D58BEA8A066735CC07A36D2D77107254C85523B89369541C481C166A66FF853D",
+  "attributes_sha256": "547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06",
   "backup_attributes_sha256": "D64234661F8226FE24ABD45EAE7F5C24CE400A214526A4D23D6B421E75D820E4",
   "previous_candidate_attributes_sha256": "1F6913AB3B44960699DAC112A762002F14DAEB95B304F16745851B83876DF62A",
-  "second_candidate_attributes_sha256": "9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C",
-  "approved_handling_preserved": true,
-  "power_game_validation": "not retested in game; release authorized explicitly by user after power request"
+  "second_candidate_attributes_sha256": "9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C"
 }

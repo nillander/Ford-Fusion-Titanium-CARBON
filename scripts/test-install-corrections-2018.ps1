@@ -25,7 +25,9 @@ foreach ($op in $operations) {
     if ((Get-FileHash -LiteralPath $op.candidate).Hash -ne $op.expected) { throw 'Candidata mudou após auditoria.' }
     if ((Get-FileHash -LiteralPath $op.backup).Hash -ne $op.before) { throw 'Backup mudou.' }
     $current = (Get-FileHash -LiteralPath $op.destination).Hash
-    if ($current -notin @($op.expected,$op.before)) { throw "Destino alterado por outro processo: $($op.destination)" }
+    $known = @($op.expected,$op.before)
+    if ($op.destination -eq (Join-Path $GamePath 'GLOBAL/attributes.bin')) { $known += $performance.approved_handling_attributes_sha256 }
+    if ($current -notin $known) { throw "Destino alterado por outro processo: $($op.destination)" }
 }
 $transaction = Join-Path $projectPath ('work/corrections-install-transaction-'+(Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
 New-Item -ItemType Directory -Path $transaction | Out-Null

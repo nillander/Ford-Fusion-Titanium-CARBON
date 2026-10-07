@@ -1,28 +1,37 @@
 # Ford Fusion — Need for Speed Carbon
 
-> **Release v1.1 (07/10/2026):** Fusion 2018 no lugar do Ford Mustang GT.
-> Visual, luzes, aerofólios e entrada de ar do teto aprovados no jogo; nome,
-> logotipo e performance ainda são os do Mustang GT. O Fusion 2012 ainda não foi
-> portado.
+> **Release v1.2 (07/10/2026):** Fusion Titanium AWD 2018 no lugar do Mustang GT.
+> Visual, direção AWD, nome, logotipo e fogo do escapamento aprovados no jogo.
+> Motor ajustado para a curva da BMW M3 GTR × 1,20, por pedido posterior do usuário;
+> esse novo ajuste de potência foi auditado e instalado, sem novo teste em corrida.
+> Preço original 50.000. Fusion 2012 ainda não portado.
 
-## Downloads — v1.1
+## Downloads — v1.2
 
 | Pacote | Carro | Estado |
 | --- | --- | --- |
-| [`Fusion2018_AWD_NFSC.zip`](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/download/v1.1/Fusion2018_AWD_NFSC.zip) | Ford Fusion Titanium 2018 (slot MUSTANGGT) | visual, luzes, aerofólios e teto; sem nome/performance próprios |
+| [`Fusion2018_AWD_NFSC.zip`](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/download/v1.2/Fusion2018_AWD_NFSC.zip) | Ford Fusion Titanium AWD 2018 (MUSTANGGT) | visual, nome/logo, AWD e motor BMW +20% |
 
-Notas: [release v1.1](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.1)
-· [`release/notes-v1.1.md`](release/notes-v1.1.md). Baixe o ZIP na release v1.1,
+Notas: [release v1.2](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.2)
+· [`release/notes-v1.2.md`](release/notes-v1.2.md). Baixe o ZIP na release v1.2,
 extraia e execute `instalar.bat` com o jogo fechado.
 
 | Arquivo publicado | SHA-256 |
 | --- | --- |
-| `CARS/MUSTANGGT/GEOMETRY.BIN` | `DE8EE10F8DDA430076D15CAD4DA796398B5BC85DC2EC9D33B4B6B1F94967680E` |
+| `CARS/MUSTANGGT/GEOMETRY.BIN` | `4C8CFDF9CEAC10DB58278A2CCA0243C43F4E0A560239AFCA821D36A898E9F65C` |
 | `CARS/MUSTANGGT/TEXTURES.BIN` | `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC` |
+| `GLOBAL/attributes.bin` | `D58BEA8A066735CC07A36D2D77107254C85523B89369541C481C166A66FF853D` |
 
-O pacote é gerado por `python scripts/package_release.py v1.1 local/release-v1.1`
+O pacote é gerado por `python scripts/package_release.py v1.2 local/release-v1.2`
 a partir dos BIN aprovados (fora do Git, em `work/`). Instalador, LEIA-ME e créditos
 ficam em `release/pacote/`.
+
+A v1.2 instala 22 arquivos com hashes conferidos antes de qualquer cópia e
+backup/restauração do estado anterior. GLOBAL/frontend/idiomas de outra
+versão ou mod são recusados; o pacote traz ModScript para integração manual
+da performance. ZIP/instalar/reinstalar/restaurar e rejeição sem alterações de
+mod desconhecido/pacote corrompido passaram no Windows PowerShell 5.1.
+Auditoria: `docs/release-v1.2-verification.json`.
 
 Port dos Fusion 2012 FWD e 2018 da release MW2005 v2.8, por substituição de slots.
 
@@ -517,5 +526,22 @@ dois FRONTB1. O instalador verifica todos os destinos antes de escrever,
 guarda backup transacional e restaura o estado anterior se a cópia falhar.
 `-Action Restore` volta à segunda comparação de direção, geometria v1.1 e
 logotipo original. Não volta o nome nem altera TEXTURES/VINYLS ou CAMARO/CAMARON.
-Instalado e auditado; **direção, fogo e logotipo aguardam QA no jogo**.
-A release v1.1 publicada permanece a entrega visual anterior.
+O usuário confirmou **direção, fogo e logotipo corretos**. Incluídos na v1.2.
+A v1.1 permanece disponível como entrega visual anterior.
+
+## Motor BMW M3 GTR +20% (07/10/2026)
+
+O pvehicle BMW jogável referencia `engine/bmwm3gtre46`. O nó `bmwm3gtr`
+também existe, mas não é usado por esse pvehicle. A curva original tem os
+pontos `[111, 163, 221, 278, 304, 294, 267, 244, 228]`. A base e o motor `_top`
+do Fusion passam a usar cada ponto × 1,20 (float32), com MAX_RPM=9500,
+RED_LINE=8500 e IDLE=800 iguais à BMW, preservando o mesmo domínio de RPM.
+Isso escala a curva de potência do motor em 20%; não mede potência nas rodas
+nem garante aceleração/velocidade final 20% maiores. Indução/nitro continuam
+do slot Carbon. Direção, tração e preço aprovados não mudam.
+
+Apenas TORQUE/MAX_RPM/RED_LINE dos dois nós de motor diferem da versão
+aprovada anterior. BMW e outros carros não são alterados; os 10.180 nós e
+312 blobs, importação sobre a candidata anterior e rollback foram auditados.
+Novo attributes.bin instalado. Usuário autorizou commit/push/tag/release;
+o novo motor ainda precisa de teste em corrida.

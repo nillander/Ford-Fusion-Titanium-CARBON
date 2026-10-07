@@ -53,6 +53,8 @@ def main():
     args = parser.parse_args()
     source = next(Path("reference/mw-v28/Fusion2018_AWD_MW2005").rglob("ATTRIBUTES.MWPS"))
     parsed = parse_mwps(source)
+    engine_rows = yaml.safe_load((args.baseline / 'main/attributes/db/engine.yml').read_text())
+    bmw = next(row for row in engine_rows if row['Name'] == 'bmwm3gtre46')['Data']
     changed = []
     commands = ["game C", "# Fusion 2018: MW v2.8 handling, AWD; preserve Carbon price/unlock/visual mounts."]
     rollback = ["game C", "# Restore only the fields changed by Fusion2018-performance.nfsms."]
@@ -63,6 +65,13 @@ def main():
         assert node in {"mustanggt", "mustanggt_top"}, (cls, node)
         rows = yaml.safe_load((args.baseline / "main/attributes/db" / f"{cls}.yml").read_text(encoding='utf-8'))
         row = next(item for item in rows if item["Name"] == node)
+        if cls == 'engine':
+            # BMW playable pvehicle points to bmwm3gtre46, not unused bmwm3gtr.
+            # Same RPM domain + every torque control point x1.20 scales the
+            # engine power curve by 20%; does not promise 20% vehicle speed.
+            fields['TORQUE'] = [v * 1.2 for v in bmw['TORQUE']['Data']]
+            for field in ('MAX_RPM', 'RED_LINE', 'IDLE'):
+                fields[field] = [bmw[field]]
         if cls == "tires":
             # Angle-only revision failed in game, including at low speed.
             # Compare less axle locking and neutral grip, retaining the donor's
@@ -113,10 +122,14 @@ def main():
         "source": source.as_posix(), "source_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
         "traction": "AWD, TORQUE_SPLIT=0.5 at base and top, user confirmed 2026-10-07",
         "cost": "preserve Carbon MUSTANGGT 50000, user confirmed 2026-10-07",
+        "power_reference": {"engine": "bmwm3gtre46", "factor": 1.2,
+                            "reference_torque": bmw['TORQUE']['Data'],
+                            "MAX_RPM": bmw['MAX_RPM'], "RED_LINE": bmw['RED_LINE'],
+                            "scope": "mustanggt and mustanggt_top; engine curve, without induction/nitrous"},
         "steering_revision": {"STEERING": 1.1, "STEERING_RANGE_scale": args.steering_range_scale,
                               "YAW_CONTROL": "original Carbon MUSTANGGT base/top", "YAW_SPEED": 0.3,
                               "DIFFERENTIAL": [0.35, 0.5, 0.5], "grip": "equal front/rear, MW front value",
-                              "reason": "Angle-only comparison failed even at low speed. Third candidate; game QA pending."},
+                              "reason": "Third handling candidate confirmed good by user 2026-10-07; retained for power adjustment."},
         "excluded": ["frontend cost/unlock", "ecar visual mounts", "chassis RIDE_HEIGHT", "audio", "induction", "nos", "Carbon-only drift fields"],
         "changes": changed,
     }

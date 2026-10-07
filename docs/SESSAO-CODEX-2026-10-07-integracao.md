@@ -93,3 +93,25 @@ TEXTURES/VINYLS, FE_ATTRIB e outros slots não tocados nessa rodada.
 Pergunta de QA enviada: curvas em baixa velocidade/corrida, fogo e logo no menu.
 Ainda sem resposta. Não marcar essas três correções como aprovadas no jogo.
 Nova release não publicada; próxima fase 2012 continua aguardando essa aprovação.
+
+## Aprovação, motor e release v1.2
+
+Usuário: "tudo certo" para direção, logo e fogo; autorizou commit/push/tag/release.
+Também pediu potência 20% acima da BMW M3 GTR. Identificada a referência pelo
+pvehicle jogável bmwm3gtre46; engine bmwm3gtr existe mas não é referenciado ali.
+Base/top do Fusion usam TORQUE original BMW ×1,20 e limites BMW 9500/8500 RPM.
+Indução/nitro preservados; declarar curva do motor +20%, não velocidade +20%.
+
+Novo attributes D58BEA8A… instalado. Direção/tração/preço mantidos; plano novo
+difere do aprovado somente em TORQUE/MAX_RPM/RED_LINE dos dois nós de motor.
+Todos os 10.180 nós/312 blobs conferidos; importação sobre segunda candidata
+equivalente e rollback validado. Novo motor ainda não foi retestado em corrida.
+Backup da aprovação anterior e gate preservados.
+
+Pacote v1.2 incorpora todos os 22 arquivos necessários à instalação completa,
+com ModScripts para integração manual de performance. Guarda o estado anterior
+e recusa outras versões/mods por hash antes de escrever; cópia é transacional.
+Testes reais do script no Windows PowerShell 5.1: ZIP/checksums, instalação,
+reinstalação, restauração e rejeição sem alterações de pacote/destino modificado.
+SHA-256 ZIP em local/release-v1.2/SHA256SUMS.txt; gate docs/release-v1.2-verification.json.
+README, TODO, handoff e notas de release atualizados; publicação autorizada.

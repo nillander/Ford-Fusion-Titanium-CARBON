@@ -61,6 +61,11 @@ def main():
             differences.append({'file': key[0], 'node': key[1], 'fields': list(expected[key])})
     fe = candidate[('main/fe_attrib/frontend/frontend.yml', 'mustanggt')]['Data']
     assert fe['Cost'] == 50000 and fe['manufacturer'] == 2 and fe['UnlockedAt'] == 11
+    bmw = baseline[('main/attributes/db/engine.yml','bmwm3gtre46')]['Data']
+    for node in ('mustanggt','mustanggt_top'):
+        engine = candidate[('main/attributes/db/engine.yml',node)]['Data']
+        assert engine['TORQUE']['Data'] == [normalized(v*1.2) for v in bmw['TORQUE']['Data']]
+        assert engine['MAX_RPM'] == bmw['MAX_RPM'] and engine['RED_LINE'] == bmw['RED_LINE']
     first_candidate = Path('work/global2018-performance-first/main/attributes.bin')
     previous_hash = None
     if first_candidate.exists():
@@ -79,6 +84,8 @@ def main():
         'frontend': {'Cost': 50000, 'manufacturer': 2, 'UnlockedAt': 11},
         'camaro_camaron_other_nodes_unchanged': True,
         'game_validation': 'pending',
+        'power_reference_checked': 'bmwm3gtre46 torque x1.20; same MAX_RPM/RED_LINE; base/top',
+        'approved_handling_attributes_sha256': '547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06',
         'import_over_second_candidate_semantically_identical': upgrade_checked,
         'attributes_sha256': hashlib.sha256(Path('work/global2018-performance/main/attributes.bin').read_bytes()).hexdigest().upper(),
         'backup_attributes_sha256': hashlib.sha256(Path('work/global-before-integration-2018/attributes.bin').read_bytes()).hexdigest().upper(),

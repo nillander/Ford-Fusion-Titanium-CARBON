@@ -1,4 +1,4 @@
-# v1.1 — Fusion 2018 no Carbon (07/10/2026)
+# v1.2 — Fusion 2018 no Carbon (07/10/2026)
 
 - [x] Lanternas e refletores com light material `BRAKELIGHT` + textura dinâmica `BRAKELIGHT_RIGHT` (aprovado no jogo)
 - [x] Aerofólios: `SPOILER` −2,3 cm e `SPOILER2` −8,7 cm nas BASE_A..E (aprovado no jogo)
@@ -11,12 +11,15 @@
 - [x] Visual do Fusion 2018 considerado finalizado pelo usuário (07/10); seguir para integração e 2012
 - [x] Decisão do usuário: AWD real; manter preço original do Carbon (50.000)
 - [x] Converter performance MW v2.8 para `.nfsms` Carbon; revisão atual: 11 nós/74 campos auditados, rollback validado
-- [ ] Validar no jogo a candidata de performance AWD (base e upgrades)
+- [x] Validar direção AWD: usuário confirmou "tudo certo" após a terceira candidata
 - [x] Nome Fusion preparado, auditado em 17 idiomas e instalado para teste
 - [x] Nome Fusion confirmado no jogo pelo usuário (07/10)
 - [x] Preparar, auditar e instalar logotipo Fusion no frontend (264 texturas lidas; só pixels do logotipo do slot alterados)
 - [x] Corrigir altura do fogo: 60 marcadores EXHAUST em 30 sólidos, Z 0,135 → 0,177339 m
-- [ ] Confirmar no jogo logotipo e alinhamento do fogo
+- [x] Confirmar no jogo logotipo e alinhamento do fogo (usuário: "tudo certo")
+- [x] Motor base/top: curva BMW M3 GTR jogável ×1,20, mesmos RPM; auditado e instalado
+- [x] Pacote v1.2 com 22 arquivos; instalador/restauração testados em Windows PowerShell 5.1
+- [ ] QA em corrida após o ajuste posterior de potência BMW +20%
 - [ ] Faixas Mustang de fábrica
 - [ ] Fusion 2012 → CAMARO
 
@@ -30,23 +33,23 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 | --- | --- | --- |
 | Referências | ZIPs v2.8, backup CARS/GLOBAL, 73 hashes; investigação dos doadores | Comprovação da origem limpa dos BIN |
 | Inventário | 1845 sólidos Carbon lidos; mapa inicial 2018 e marcadores dos dois slots/Fusion | Mapa funcional de kits, LODs, damage e AutoSculpt |
-| Visual 2018 | v1.1: carroceria, lentes, aerofólios e teto aprovados; ajuste posterior de 60 EXHAUST auditado e instalado | Confirmar fogo no escapamento; QA de corrida/damage/IA |
-| VLT 2018 | Dados completos extraídos com Attribulator 2.0; base e `_top` reconhecidos; terceira candidata AWD e rollback auditados | Aprovar dirigibilidade no jogo |
-| Frontend | Ford (2), preço 50.000 e desbloqueio 11 preservados; nome confirmado; logotipo Fusion auditado e instalado | Confirmar logotipo no menu; revisar vinil de fábrica |
+| Visual 2018 | Carroceria, lentes, aerofólios, teto e fogo do escapamento aprovados | QA ampliado de corrida/damage/IA |
+| VLT 2018 | Direção AWD aprovada; motor BMW +20% auditado/instalado, rollback validado | QA em corrida do motor posterior |
+| Frontend | Ford (2), preço 50.000 e desbloqueio 11 preservados; nome e logotipo confirmados | Revisar vinil de fábrica |
 | 2012 / entrega | Referências e marcadores oficiais CAMARO disponíveis; v1.1 visual 2018 entregue | Port CAMARO, VLT FWD, instalação, QA e nova release |
 
-**Próxima ação:** validar a revisão de direção AWD do 2018 no jogo e
-concluir nome/logotipo no frontend. A aparência do 2018 está aprovada pelo usuário;
+**Próxima ação:** QA do novo motor BMW +20% e port do Fusion 2012 no CAMARO.
+Direção, nome, logotipo e fogo do 2018 estão aprovados pelo usuário;
 não retomar os testes antigos de lentes/teto. Usar `release/vlt/Fusion2018-performance.nfsms`
 para performance; relatório `docs/carbon2018-performance-verification.json`.
 Nome instalado de `work/languages2018-name`; confirmado no jogo.
 Primeiro teste: condução geral boa, dificuldade para virar em baixa velocidade.
 Segunda revisão (STEERING 1,1 e STEERING_RANGE +15%) também ficou ruim para virar.
-Terceira candidata instalada: diferencial 0,35/0,5/0,5, aderência dianteira/traseira
-equilibrada, YAW_CONTROL do MUSTANGGT oficial e YAW_SPEED 0,3; teste pendente.
+Terceira candidata aprovada: diferencial 0,35/0,5/0,5, aderência dianteira/traseira
+equilibrada, YAW_CONTROL do MUSTANGGT oficial e YAW_SPEED 0,3.
 Fogo: centro das ponteiras medido na malha, altura corrigida em todos os kits/LODs.
 Logotipo: arte Fusion MW convertida para ARGB8888 original do Carbon, no slot
-SECONDARY_LOGO_MUSTANGGT; teste visual pendente. Reprodução/rollback conjunto:
+SECONDARY_LOGO_MUSTANGGT; teste visual aprovado. Reprodução/rollback conjunto:
 `scripts/test-install-corrections-2018.ps1 -Action Install/Restore`.
 Preço de compra continua 50.000 por instrução do usuário. Base e upgrades usam
 `TORQUE_SPLIT=0.5`; montagem visual `ecar` e altura de suspensão permanecem aprovadas.

@@ -1,8 +1,8 @@
-# Fusion 2018 — candidata de performance Carbon
+# Fusion 2018 — performance Carbon v1.2
 
 Acerto MW v2.8 convertido para o Carbon, com AWD por escolha do usuário.
 Preço original do Mustang (50.000), desbloqueio, fabricante Ford e montagem
-visual preservados. Este script não muda nome/logotipo e não faz parte da v1.1.
+visual preservados. Este script não muda nome/logotipo; incluído na v1.2.
 
 Primeiro teste: o carro carregou, condução geral boa, dificuldade para virar
 mesmo em baixa velocidade. A candidata atual restaura a escala de direção
@@ -11,7 +11,13 @@ Essa segunda comparação também ficou ruim para virar, segundo o usuário.
 A terceira candidata reduz DIFFERENTIAL de 0,8/0,8/0,75 para 0,35/0,5/0,5,
 equilibra aderência dianteira/traseira, restaura YAW_CONTROL do Mustang oficial
 e usa YAW_SPEED 0,3, mantendo a curva de ângulo +15%. Ainda depende de teste no
-jogo; não tratar esses ajustes como uma causa comprovada ou acerto final.
+jogo; o usuário posteriormente confirmou "tudo certo". Direção aprovada.
+
+Pedido posterior: motor base/top passa à curva do engine bmwm3gtre46 (referência
+da BMW M3 GTR jogável) ×1,20, com MAX_RPM 9500 e RED_LINE 8500 iguais à BMW.
+A curva de potência do motor é escalada em 20% no mesmo domínio RPM; nitro e
+indução são independentes e aceleração/velocidade final não escalam nessa mesma
+proporção. Direção/AWD/preço não mudaram. Novo motor auditado, ainda sem QA em corrida.
 
 Com jogo fechado, faça backup de GLOBAL. Abra a pasta do Carbon no NFS-VltEd 4.6,
 importe `Fusion2018-performance.nfsms` em File → Import → ModScript, confira

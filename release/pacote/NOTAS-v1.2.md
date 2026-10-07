@@ -39,14 +39,3 @@ Confira o ZIP e seu conteúdo com os arquivos SHA256SUMS.
 
 Pendentes: iluminação de freio ON distinta de OFF, faixas Mustang de fábrica,
 QA ampliado de damage/IA e o port do Fusion 2012 FWD no CAMARO oficial.
-
-## Créditos
-Modelo GTA V: AND1V79; conversão e texturas para o GTA V pelo autor do pacote
-original, disponibilizado por Gabriel Lima (ver `CREDITOS/source-readme.txt`).
-Base MW (Fusion 2010): Marcelo Castro (AJM3899), com peças de FOX, Porsche4ever e
-AJ Lethal (ver `CREDITOS/donor-readme.txt`).
-Ferramentas Carbon: NFS-CarToolkit 3.1 e NFS Carbon ModTools 1.1 (nfsu360),
-compressor JDLZ de OpenNFSTools (zombie28), meshoptimizer.
-Estrutura, materiais e pontos de montagem de referência: Ford Mustang GT original
-do Need for Speed Carbon.
-Conversão para o Carbon: Nillander Alarcão, com Codex e Claude.
