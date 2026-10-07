@@ -253,6 +253,35 @@ e lacunas de peças, testar corrida/garagem e depois preparar VLT. Fusion 2012,
 QA completo e release continuam pendentes. Detalhes da execução em
 [docs/SESSAO-CODEX-2026-10-07.md](docs/SESSAO-CODEX-2026-10-07.md).
 
+**Revisão do usuário e teste de lentes — 10:28:** a carroceria foi considerada boa,
+sem outras deformações percebidas. As faltas relatadas são as lentes vermelhas e
+brancas das lanternas, refletores vermelhos acima dos escapamentos, faróis e
+faróis de milha. Também há adesivos “Mustang” deslocados. Esse relato refina a
+interpretação anterior da captura: não considerar as marcas prova de deformação.
+
+As malhas GLASS existem. A conversão deixou suas configurações em `0x4180`, enquanto
+as lentes do doador oficial usam `0x14180`. `prepare-carbon-lenses.py` recupera as
+configurações de material e shader do doador para os oito sólidos de lentes; usa
+o LOD A da mesma família quando o doador não contém aquele LOD. Também oculta as
+26 superfícies DECAL herdadas por índices degenerados, preservando seus nomes no
+catálogo. Não remove emblemas/badging. Essa técnica retira a superfície de adesivo
+original e também suspende sua personalização até uma adaptação futura.
+
+O staging **atualmente instalado** é `work/carbon2018-stage-lenses`. Auditoria de
+186 sólidos e comparação dos bytes confirmaram 152 sólidos intactos, inclusive a
+carroceria, e texturas intactas. CarToolkit normalizou o flag de cabeçalho `0x40`
+para zero; os flags dos materiais sobreviveram. VINYLS/VLT/FE continuam intactos.
+Ainda não foi confirmado visualmente que todas as lentes apareceram ou que as
+faixas sumiram: o usuário interrompeu Computer Use com Esc antes da observação.
+
+```powershell
+pwsh -NoProfile -File scripts/test-install-2018.ps1 -Action Install -VerificationFile docs/carbon2018-stage-lenses-verification.json
+```
+
+Se as faixas persistirem, investigar o vinil aplicado à pintura/save: ocultar
+DECAL não remove vinil de carroceria. Leitura do VINYLS oficial encontrou dois
+atlases DEBUG/MASK; não alterados neste teste.
+
 [TODO.md](TODO.md) contém o acompanhamento por fase. A sessão Claude de 07/10
 complementa a passagem das 02:31 e deve ser lida antes de continuar.
 

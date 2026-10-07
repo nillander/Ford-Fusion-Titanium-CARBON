@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "solids": 186,
+  "lens_settings_from_official_donor": 8,
+  "hidden_decal_solids": 26,
+  "other_solids_byte_identical": 152,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-lenses/GEOMETRY.BIN",
+      "bytes": 31699328,
+      "sha256": "CCF9181ED049114621BA680AC2F6C07DB7DF8C97715B591A669911FD6CED33ED"
+    },
+    {
+      "path": "work/carbon2018-stage-lenses/TEXTURES.BIN",
+      "bytes": 484123,
+      "sha256": "59BD3711E7E26B70C3C4C11F3CAF7FE99FDBEC95FC3C8CAF3CEEE815AF06F76F"
+    }
+  ],
+  "status": "experimental lens test; all four lens categories require in-game confirmation"
+}

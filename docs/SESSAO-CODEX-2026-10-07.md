@@ -136,3 +136,41 @@ Escape. Encerradas as ações Computer Use. Sem corrida, kit ou damage testados.
 Próxima etapa: adaptar adesivos e materiais ao MUSTANGGT oficial, isolar possível
 proximidade entre malhas/simplificação, depois testar stock/kit00 e corrida. Não
 usar outro mod como doador. Documentação preserva limites da conclusão.
+
+## Lentes e adesivos após revisão do usuário — 10:22–10:29
+
+Usuário informou carroceria boa, sem outras deformações percebidas. Faltam lentes
+vermelhas/brancas das lanternas, refletores vermelhos acima dos escapamentos,
+faróis e milha; adesivos Mustang deslocados. Preservar a geometria da carroceria.
+
+Comparação local: os oito sólidos GLASS já existem, mas seus materiais compilados
+usam flags 0x4180, contra 0x14180 do MUSTANGGT oficial. Shader dianteiro já coincide;
+traseiro veio como DULLPLASTIC da fonte e passa a usar BRAKELIGHTGLASS do doador.
+Não atribuir causalidade visual até observar o jogo.
+
+prepare-carbon-lenses.py parte do stage-colors e recupera flags dos materiais e
+light material hash dos sólidos GLASS; fallback LOD A da mesma família quando
+falta D no doador. Não troca malhas/UV/texturas Fusion por malhas Mustang. Também
+oculta 26 sólidos DECAL por índices degenerados; nomes preservados. Isso suspende
+personalização dessas superfícies até adaptação futura. Não mexe em BADGING.
+
+CarToolkit reexportou em work/carbon2018-stage-lenses. Primeira auditoria recusou
+comparação exata porque Toolkit limpa o header flag 0x40; foi permitido somente
+essa normalização documentada para os 8 sólidos. Flags dos materiais permanecem.
+Nova auditoria aprovou: 186 sólidos, 8 lentes adaptadas, 26 DECAL ocultos, demais
+152 idênticos byte a byte (carroceria inclusive); TEXTURES idêntico.
+
+Um comando de lançamento abriu o jogo apesar da primeira auditoria ter falhado;
+script de instalação recusou a instalação não auditada, então aquela abertura
+usou stage-colors. Usuário fechou o jogo; instalado stage-lenses às 10:28:22 com
+VerificationFile docs/carbon2018-stage-lenses-verification.json. Hashes no registro.
+Usuário confirmou Jogo fechado. Carbon reaberto; ao observar, helper informou
+Escape físico e encerrou Computer Use. Nenhuma confirmação visual desta versão.
+
+VINYLS preservado. Leitura independente do VINYLS original encontrou 2 texturas
+MUSTANGGT_DEBUG e MUSTANGGT_DEBUG_MASK (512x512 DXT1). As faixas Mustang podem ser
+vinil na pintura/save, hipótese ainda não confirmada. Se DECAL ocultos não bastam,
+isolar vinil no menu antes de modificar arquivos globais ou deformar a carroceria.
+
+Próximo teste: lanternas vermelhas/brancas, refletores acima dos escapes, lentes
+dos faróis e milha; confirmar adesivos removidos. Depois corrida/kit e restante TODO.

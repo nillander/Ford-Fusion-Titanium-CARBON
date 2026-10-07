@@ -1,0 +1,315 @@
+{
+  "input_sha256": "978936EE550E21AE03E5AEC47EE720C05EF614D6F3D68D727778101C44A084F8",
+  "output_sha256": "E74E06713042E9B56A0EF4440C118BFE4374559B21A1B7C65F8F8A17590C3B7F",
+  "lens_solids": 8,
+  "hidden_decal_solids": 26,
+  "parts": [
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_A",
+      "hash": "004E5A32",
+      "before_sha256": "C42D5863D859E0C0D09CD7FC224EB1D1E5298327261648B658119052E36AC75B",
+      "after_sha256": "F7C62F138B13BA362158044A31080BAA87AF4ABE933CC1CBB5FC93EAFEC53579",
+      "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_A",
+      "flags": "00014180",
+      "light_material": "D79597D6"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_B",
+      "hash": "004E5A33",
+      "before_sha256": "D18BF8341FD6962AC5138E8D4311FD43E669502C85AF97084E7EF3BB4314A0B0",
+      "after_sha256": "FE71AEE9C1F1BE956ECCA75DA6C0380746A9A76E570B0AF49CECF39F1396D398",
+      "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_B",
+      "flags": "00014180",
+      "light_material": "D79597D6"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_C",
+      "hash": "004E5A34",
+      "before_sha256": "7DCF2891606C4CA7A73E44FE5C3E4DD8EE130D50EFF3EA41CD61B25381A1F375",
+      "after_sha256": "D37A73675C78DA5219796D2316B1DC603BD5BC3E48B6C5EB694566C25B884E19",
+      "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_C",
+      "flags": "00014180",
+      "light_material": "D79597D6"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_D",
+      "hash": "004E5A35",
+      "before_sha256": "E4776124EF8994C43EA7211D838AAE13A382CE35606C06F190D52F161392946D",
+      "after_sha256": "BBCF9F6EC0BAF0686076CB143DBB0B0560388AC990C05E27563FB3974241EC5C",
+      "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_A",
+      "flags": "00014180",
+      "light_material": "D79597D6"
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "hash": "017FEE95",
+      "before_sha256": "235307CF3C1F8FCD629832AB69B49A2D9FE8B593D2CBFF87237BDFED3BD7F96D",
+      "after_sha256": "A99458F049A75D6A00A6D317BD27DEE99405BCE7DC01E53B06A4E9146C74B341",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "hash": "046E5F08",
+      "before_sha256": "DAFAF5C4DB4FCE508B7AA6FB3FBC1AF4BEC8BBB387923088DEAAC93BD8CAC5AA",
+      "after_sha256": "6CB2C8C47587E71631FDA4B4FF3852E6E9F289C2177EA79E700E2CDABD969B7C",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "hash": "07BEA8C4",
+      "before_sha256": "9EFB7F2E718DA600D7AE56DA9327941441A9F946F0C35675FA495C7FF4884629",
+      "after_sha256": "A77994E11C7229600A268E38AAEECE1F7D75050C96E4426D29BB6BADC463E4E3",
+      "decal_hidden": true,
+      "triangles": 65,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_DECAL_REAR_WINDOW_WIDE_MEDIUM_A",
+      "hash": "0C0E19B9",
+      "before_sha256": "018C02F9C8326135D987FC3B8EADF54998602C946F491FCBFCD22F29831FE326",
+      "after_sha256": "EBD931DFE8A4CB16891910207060FA10C6730A280683DCD0EFFC434D3BB07C8A",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "hash": "0EC4BDF7",
+      "before_sha256": "52E39CFB30F869D4BFAB386DE32F107ED7820E379D75939B9B6B3369559AD5CF",
+      "after_sha256": "7CE02C7E2F7E43CBFE5E82F25904C037E057D3DA4A9E231A6DA11ABD08C0F935",
+      "decal_hidden": true,
+      "triangles": 65,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_DECAL_FRONT_WINDOW_WIDE_MEDIUM_A",
+      "hash": "22A80498",
+      "before_sha256": "DC701E46D0E1E1C8A9F9019EFA27A0BC8F03B7A11EF6F1420DE257B11D203BDC",
+      "after_sha256": "3878E5D73473B901B824C42F7B411274382FCC351F8FA65A2B2C9E849B4ACA6B",
+      "decal_hidden": true,
+      "triangles": 13,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_A",
+      "hash": "35D9DA7F",
+      "before_sha256": "2ED368C17C0098FBFC07B8CA78580814505F04CF0ED95AFEB7E322C2DD7CC4CA",
+      "after_sha256": "C8309DCDD7A1ADAD9D6DA0DD997124DE61A875FD09F21FC76D464A90A384A38F",
+      "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_A",
+      "flags": "00014180",
+      "light_material": "A6348EE3"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_B",
+      "hash": "35D9DA80",
+      "before_sha256": "422489B72AA9DFB4D8BD91C2E369101F983212C3B3EAD9BF8AD842750502D7F5",
+      "after_sha256": "A6F9501D527D6F1C08361D5D70F1FF0CB8CB8FCF061594C5D4FEC58D593697E7",
+      "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_B",
+      "flags": "00014180",
+      "light_material": "A6348EE3"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_C",
+      "hash": "35D9DA81",
+      "before_sha256": "8F56E730B83049B94B37CC20BFABE114F43D0EBA52DF51E448872189C4B3B15A",
+      "after_sha256": "87138F3E005F162DE99C51ED18A5A5022801BD2B4C42D11E35C33C6204FC126E",
+      "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_C",
+      "flags": "00014180",
+      "light_material": "A6348EE3"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_D",
+      "hash": "35D9DA82",
+      "before_sha256": "28C4079F1F51DB481F533B0E6A740C45158EAC955058862D221AE5A0B4FC0774",
+      "after_sha256": "E9E939C3A1011DB7CA79A1C2C98BAB2C86914FF8DCA7768BAB7DC179AEB74659",
+      "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_A",
+      "flags": "00014180",
+      "light_material": "A6348EE3"
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "hash": "39B032B6",
+      "before_sha256": "65BC7098981DB7D2B972DAFB9DCD019585D5B7EB992FC16EB2CB67C84BA2B590",
+      "after_sha256": "3DA9A2850865A8EAFE859C5F014EA754E88A186D4C031E6137536C6B0AD4AF9D",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "hash": "3AF9D903",
+      "before_sha256": "904386C7D5F502137523E0566805816A709E61AD4517F9011FA4E393CB7C57E3",
+      "after_sha256": "B86BF9F8800BB9EA10FB07BF8128AD91A18DC6F2F4DA6D72B4A365EF1EE260BD",
+      "decal_hidden": true,
+      "triangles": 65,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "hash": "3EE1159A",
+      "before_sha256": "F2B9A3D29DEF099333E85E575732671EC8C1E52F48166E58C08943771B625811",
+      "after_sha256": "282C653511507FFB39990D90A5BAECAA89593F41969E9E2611CC3B4FA2AB5669",
+      "decal_hidden": true,
+      "triangles": 64,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "hash": "42A72749",
+      "before_sha256": "F628F79ABD9D0D4EB5806955722EB5DD3150CC466B8FA1FD3DEBDD2AC8F1B6B4",
+      "after_sha256": "5063F7D2C45A984028938638B3F3B4C6FC3B52D81E5481EDBF9DA2F22D2A6B99",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "hash": "44072E35",
+      "before_sha256": "BDBC6F2B5794C866398BAFFDB3F960D139C3A1EE76CD88FA5BD6A89ABB9239F8",
+      "after_sha256": "24E63D6A336E27291B6DB67807EC13213B61D8A28B78E1876896A7EBB8FDC953",
+      "decal_hidden": true,
+      "triangles": 65,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "hash": "49C40645",
+      "before_sha256": "357F0B8BC26540D5F91071EF864FB78960361682DF1915019F55BB3A51656EC8",
+      "after_sha256": "D8CE08234CB17D1877E6D47CCE1B980394A3EE33487D3E22C292F31BA95C41EB",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "hash": "58EF2232",
+      "before_sha256": "E37EFA22F0094EE01833AE5DBB86688E94C208B1E4A171D1004665474B2553E4",
+      "after_sha256": "FD1BB7E07C15B7F748B6F2DFC98F7732DA44D6ADD203A6E24138FDD7D20C04A1",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "hash": "6E0D1807",
+      "before_sha256": "39DFF4AEC7D0473D2D21F0DF7911CFA438422CD1690385FA887153613EB58DB1",
+      "after_sha256": "F3DBB6D27B488BA3C530184C9D45CB8E4339985147EC2E103D7409C974979529",
+      "decal_hidden": true,
+      "triangles": 64,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "hash": "6E350942",
+      "before_sha256": "D36EE100EB9BA0B66912C59F7A4D42AD6C5D019232E3C2FA55B4DC4DA9AF8499",
+      "after_sha256": "92674A3B9E2C008D26CB0A732833B2F08A5BE867F56760D74443CB1455A2C2F6",
+      "decal_hidden": true,
+      "triangles": 65,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "hash": "71E076D7",
+      "before_sha256": "C0ED5D4E222BB15F847270A62D015E431E68269DA1EE7646D7201B736E3AC5A8",
+      "after_sha256": "930031E1D1076E8797A6CA94BC6606044B80F069CCFDE1142285BBFB960433D1",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "hash": "742385D8",
+      "before_sha256": "5226E36801D580B6015B2F66AF55F091815FD2C6CD695AEA4B0A337CB16333E9",
+      "after_sha256": "BF76B13DBB9D22014E40C5E28AC17DBA2327D7D2FA25BAEBDD99C713B4CC78BB",
+      "decal_hidden": true,
+      "triangles": 64,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "hash": "80DFEF8A",
+      "before_sha256": "A64BE0F3391081AC5B5414F2928A4FD6A689D79656CE83C4DB0D57D2B78F9E3E",
+      "after_sha256": "5F6B34C305E6FAB2D47C0F550D474A00D32FD93D7C1AA87CB661A1F56B30E1F3",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "hash": "87FCCE86",
+      "before_sha256": "2087DC2117A407381DDFEC0B4A2C2C788B17D637DF8B4FF8EC5759DC56D0E94B",
+      "after_sha256": "2E6F81F0E285EF3480DC110BCEC82618E6D2A4501EEC5B0762A39BB6E13137B8",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "hash": "911F6653",
+      "before_sha256": "5544071F973C3DC6D7B762C0A9551359666F7E9F31774EEE42288E3E44325652",
+      "after_sha256": "43E0197BBA4CA367294AA9C42D3FC49B82A27AD3089B141D932C05EB93E4D324",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "hash": "A1484846",
+      "before_sha256": "932BBD698F05CEF869C297A8D37AA2BBBD4E2BF40B618993429C07A47E5D48BB",
+      "after_sha256": "D18BE90334ECB3ACDF58F7BBD3547424FA931D8007843A2562AB894D5E6C834D",
+      "decal_hidden": true,
+      "triangles": 64,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "hash": "A965F616",
+      "before_sha256": "4C16C97A2541EF56E72ECBF0B43FCF75DEC52142EF92C5BB10A20CC45DB561E3",
+      "after_sha256": "0AF4A9764218FB58C5ADF4DCA82C636A0890A0DACC0A088914E7E4739E62C784",
+      "decal_hidden": true,
+      "triangles": 65,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "hash": "C63596C7",
+      "before_sha256": "2E676ADE2DACF95FCD655DDE1D18BE30B32D39AC930175CB445E0661386558FB",
+      "after_sha256": "EE57B749F0D0472E7AF1B909D8D3FADF8F140C968229D48CCB3D0F4223BC00F7",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "hash": "C94FAA74",
+      "before_sha256": "13DB1E75492D5A8AAB4FF9BA0A64FF8F86C2154793F4BCC336CB9B4E5EE9C34C",
+      "after_sha256": "45ED2D21C4025102F87086389AE5CB4DD734E4AC57722EA42D5B0CF873387BC6",
+      "decal_hidden": true,
+      "triangles": 16,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "hash": "D4837885",
+      "before_sha256": "C47B270B83B3E857A2903A1B7657C295EBA209781789BCC83C1907377DFCE191",
+      "after_sha256": "A911B9BA9EBAC0C28D6AEDC5E265DA1A4D1D474C43FD91B8B3AB29C983FDA05E",
+      "decal_hidden": true,
+      "triangles": 64,
+      "method": "degenerate indices; solid retained"
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "hash": "D9824DB9",
+      "before_sha256": "09EE40F718D669ED6C61C5C0981F6950AFC77F6B0410A8BD15B6E7F853B5D84A",
+      "after_sha256": "51D4ED148B39DED088D40976A71F466CAAC5EAE12B7A187F87677B0C7E339E8C",
+      "decal_hidden": true,
+      "triangles": 64,
+      "method": "degenerate indices; solid retained"
+    }
+  ],
+  "status": "official material settings applied; visual test pending"
+}

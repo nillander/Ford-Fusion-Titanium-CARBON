@@ -13,11 +13,13 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 | Primeiro teste / documentação | Instalação reversível; Fusion 2018 visível com rodas; captura em jogo e galeria de ferramenta | Corrida, kits, acabamento e QA completo |
 | 2012 / entrega | Referências e marcadores disponíveis | Port CAMARO, VLT FWD, instalação, QA e release |
 
-**Próxima ação:** investigar os defeitos de superfícies/vidros/adesivos observados
-no primeiro teste e completar a compatibilidade com MUSTANGGT. O staging corrigido
-`work/carbon2018-stage-colors` está instalado experimentalmente desde 10:18,
-com 552 cores de vértice recuperadas; `stage-axes` é a comparação anterior.
-As faixas e os artefatos continuam visíveis: a recuperação não resolve o acabamento.
+**Próxima ação:** confirmar o teste das lentes e adesivos em `work/carbon2018-stage-lenses`,
+instalado experimentalmente às 10:28. O usuário considera a carroceria boa, sem
+outras deformações percebidas; o foco passa para lentes e adesivos originais deslocados.
+O novo staging adapta 8 materiais de lentes ao MUSTANGGT oficial e oculta 26
+superfícies DECAL herdadas. 152 sólidos, incluindo carroceria, permanecem idênticos.
+`stage-colors` e `stage-axes` são comparações anteriores. A exibição das lentes e
+a remoção das faixas ainda precisam de confirmação no jogo; VINYLS continua original.
 Reversão: fechar o jogo e executar `scripts/test-install-2018.ps1 -Action Restore`.
 Ler [README.md](README.md) e [sessão Claude](docs/SESSAO-CLAUDE-2026-10-07.md).
 
@@ -172,6 +174,12 @@ Decisão:
 - [ ] Smoke-test: início da carreira com Fusion 2012; Mustang slot com Fusion 2018
   - [x] 2018: carregamento visual com carroceria/rodas no jogo, captura preservada; teste experimental ativo
   - [ ] 2018: corrida e seleção de kits; corrigir artefatos visuais observados
+  - [x] Usuário considera carroceria 2018 satisfatória, sem outras deformações percebidas (avaliação visual, não QA completo)
+  - [x] Adaptar configurações de material de 8 sólidos de lentes ao doador oficial; ocultar 26 superfícies de adesivos herdadas; preservar carroceria e texturas
+  - [ ] Confirmar lentes vermelhas/brancas das lanternas no teste `stage-lenses`
+  - [ ] Confirmar lentes vermelhas dos refletores acima dos escapamentos
+  - [ ] Confirmar lentes dos faróis e dos faróis de milha
+  - [ ] Confirmar remoção dos adesivos “Mustang”; se persistirem, investigar vinil de fábrica/pintura do save separadamente dos sólidos DECAL
   - [ ] 2012: início da carreira
 
 ---

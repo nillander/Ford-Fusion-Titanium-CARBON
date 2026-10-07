@@ -6,6 +6,11 @@
 > **10:18, continuação:** `stage-colors` instalado com 552 cores recuperadas;
 > faixas/artefatos persistem. Usuário interrompeu Computer Use com Esc. Fechar
 > o jogo antes de nova instalação; corrida e kits ainda não testados.
+> **10:28:** `stage-lenses` instalado. Usuário considera carroceria boa; faltam
+> lentes de lanternas/refletores/faróis/milha e adesivos Mustang estão deslocados.
+> Oito configurações de lentes do doador recuperadas e 26 DECAL ocultos, com
+> 152 sólidos intactos. Confirmar resultado visual; Computer Use interrompido
+> com Esc antes da observação. VINYLS não mudou e pode explicar faixas persistentes.
 > Os passos abaixo registram a passagem original. Próximo trabalho: artefatos
 > visuais e compatibilidade de peças; o primeiro teste não aprova a release.
 
