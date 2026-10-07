@@ -1,0 +1,24 @@
+{
+  "action": "Install",
+  "installed_at": "2026-10-07T17:18:12.4576906-03:00",
+  "game_validation": "pending",
+  "transaction_backup": "C:\\Users\\nillander\\NoDocuments\\fusion-carbon\\work\\corrections-install-transaction-20261007-171812-323",
+  "files": [
+    {
+      "path": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\GLOBAL\\attributes.bin",
+      "sha256": "547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06"
+    },
+    {
+      "path": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\MUSTANGGT\\GEOMETRY.BIN",
+      "sha256": "4C8CFDF9CEAC10DB58278A2CCA0243C43F4E0A560239AFCA821D36A898E9F65C"
+    },
+    {
+      "path": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\FRONTEND\\FRONTB1.BUN",
+      "sha256": "D36FA8AC87945B898C5AEB4425EA2A723CE26620B15BA47CCBB50087373D82AB"
+    },
+    {
+      "path": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\FRONTEND\\FrontB1.lzc",
+      "sha256": "5EAC022D3EF04A4FFDAC1B3BA4D02FE0C3FA0081C5113BD4E94BE257E840FF2D"
+    }
+  ]
+}

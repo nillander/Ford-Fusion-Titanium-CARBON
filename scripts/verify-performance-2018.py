@@ -38,6 +38,12 @@ def main():
     baseline, blobs = database(Path('work/vlt-baseline-yaml'))
     candidate, candidate_blobs = database(Path('work/vlt-performance-yaml'))
     rollback, rollback_blobs = database(Path('work/vlt-rollback-yaml'))
+    upgrade_path = Path('work/vlt-performance-upgrade-check-yaml')
+    upgrade_checked = False
+    if upgrade_path.exists():
+        upgraded, upgraded_blobs = database(upgrade_path)
+        assert upgraded == candidate and upgraded_blobs == candidate_blobs, 'Import over previous candidate differs'
+        upgrade_checked = True
     assert baseline.keys() == candidate.keys() == rollback.keys(), 'Node set changed'
     assert blobs == candidate_blobs == rollback_blobs, 'Blob content changed'
     plan = json.loads(Path('docs/carbon2018-performance-plan.json').read_text(encoding='utf-8'))
@@ -61,15 +67,23 @@ def main():
         previous_hash = hashlib.sha256(first_candidate.read_bytes()).hexdigest().upper()
         first_gate = json.loads(Path('docs/carbon2018-performance-first-verification.json').read_text(encoding='utf-8'))
         assert previous_hash == first_gate['attributes_sha256'] and first_gate['status'] == 'passed'
+    second_candidate = Path('work/global2018-performance-second/main/attributes.bin')
+    second_hash = None
+    if second_candidate.exists():
+        second_hash = hashlib.sha256(second_candidate.read_bytes()).hexdigest().upper()
+        second_gate = json.loads(Path('docs/carbon2018-performance-second-verification.json').read_text())
+        assert second_hash == second_gate['attributes_sha256'] and second_gate['status'] == 'passed'
     report = {
         'status': 'passed', 'nodes_checked': len(baseline), 'blobs_checked': len(blobs),
         'changed_nodes': differences, 'rollback_semantically_identical': True,
         'frontend': {'Cost': 50000, 'manufacturer': 2, 'UnlockedAt': 11},
         'camaro_camaron_other_nodes_unchanged': True,
         'game_validation': 'pending',
+        'import_over_second_candidate_semantically_identical': upgrade_checked,
         'attributes_sha256': hashlib.sha256(Path('work/global2018-performance/main/attributes.bin').read_bytes()).hexdigest().upper(),
         'backup_attributes_sha256': hashlib.sha256(Path('work/global-before-integration-2018/attributes.bin').read_bytes()).hexdigest().upper(),
         'previous_candidate_attributes_sha256': previous_hash,
+        'second_candidate_attributes_sha256': second_hash,
     }
     Path('docs/carbon2018-performance-verification.json').write_text(json.dumps(report, indent=2)+'\n')
     print(f"PASS: {len(baseline)} nodes, {len(blobs)} blobs; {len(differences)} scoped nodes changed; rollback exact.")

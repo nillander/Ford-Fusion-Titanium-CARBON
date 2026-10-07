@@ -15,7 +15,7 @@ $installedPath = Join-Path $GamePath 'GLOBAL/attributes.bin'
 if ((Get-FileHash -LiteralPath $backupPath).Hash -ne $gate.backup_attributes_sha256) { throw 'Backup divergente.' }
 if ((Get-FileHash -LiteralPath $candidatePath).Hash -ne $gate.attributes_sha256) { throw 'Candidata divergente.' }
 $currentHash = (Get-FileHash -LiteralPath $installedPath).Hash
-if ($currentHash -notin @($gate.backup_attributes_sha256, $gate.attributes_sha256, $gate.previous_candidate_attributes_sha256)) { throw 'GLOBAL foi alterado depois do backup. Não sobrescrever.' }
+if ($currentHash -notin @($gate.backup_attributes_sha256, $gate.attributes_sha256, $gate.previous_candidate_attributes_sha256, $gate.second_candidate_attributes_sha256)) { throw 'GLOBAL foi alterado depois do backup. Não sobrescrever.' }
 $sourcePath = if ($Action -eq 'Install') { $candidatePath } else { $backupPath }
 $expectedHash = (Get-FileHash -LiteralPath $sourcePath).Hash
 Copy-Item -LiteralPath $sourcePath -Destination $installedPath -Force

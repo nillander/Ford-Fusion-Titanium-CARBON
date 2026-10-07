@@ -6,7 +6,15 @@
   "steering_revision": {
     "STEERING": 1.1,
     "STEERING_RANGE_scale": 1.15,
-    "reason": "First game test: generally good handling, too hard to turn. Comparison pending."
+    "YAW_CONTROL": "original Carbon MUSTANGGT base/top",
+    "YAW_SPEED": 0.3,
+    "DIFFERENTIAL": [
+      0.35,
+      0.5,
+      0.5
+    ],
+    "grip": "equal front/rear, MW front value",
+    "reason": "Angle-only comparison failed even at low speed. Third candidate; game QA pending."
   },
   "excluded": [
     "frontend cost/unlock",
@@ -551,29 +559,6 @@
     {
       "class": "tires",
       "node": "mustanggt",
-      "field": "YAW_CONTROL",
-      "before": {
-        "Capacity": 4,
-        "Data": [
-          0.05000000074505806,
-          0.07000000029802322,
-          0.125,
-          0.20000000298023224
-        ]
-      },
-      "after": {
-        "Capacity": 4,
-        "Data": [
-          0.20000000298023224,
-          0.6000000238418579,
-          0.75,
-          1.0
-        ]
-      }
-    },
-    {
-      "class": "tires",
-      "node": "mustanggt",
       "field": "DYNAMIC_GRIP",
       "before": {
         "Front": 1.4500000476837158,
@@ -581,7 +566,7 @@
       },
       "after": {
         "Front": 1.5499999523162842,
-        "Rear": 1.649999976158142
+        "Rear": 1.5499999523162842
       }
     },
     {
@@ -602,7 +587,7 @@
       "node": "mustanggt",
       "field": "YAW_SPEED",
       "before": 0.42500001192092896,
-      "after": 0.4000000059604645
+      "after": 0.30000001192092896
     },
     {
       "class": "tires",
@@ -627,7 +612,7 @@
       },
       "after": {
         "Front": 1.75,
-        "Rear": 1.850000023841858
+        "Rear": 1.75
       }
     },
     {
@@ -681,29 +666,6 @@
     {
       "class": "tires",
       "node": "mustanggt_top",
-      "field": "YAW_CONTROL",
-      "before": {
-        "Capacity": 4,
-        "Data": [
-          0,
-          0.10000000149011612,
-          0.20000000298023224,
-          0.44999998807907104
-        ]
-      },
-      "after": {
-        "Capacity": 4,
-        "Data": [
-          0.30000001192092896,
-          0.800000011920929,
-          0.8999999761581421,
-          1.100000023841858
-        ]
-      }
-    },
-    {
-      "class": "tires",
-      "node": "mustanggt_top",
       "field": "DYNAMIC_GRIP",
       "before": {
         "Front": 1.600000023841858,
@@ -711,7 +673,7 @@
       },
       "after": {
         "Front": 1.7999999523162842,
-        "Rear": 1.899999976158142
+        "Rear": 1.7999999523162842
       }
     },
     {
@@ -732,7 +694,7 @@
       "node": "mustanggt_top",
       "field": "YAW_SPEED",
       "before": 0.38499999046325684,
-      "after": 0.3799999952316284
+      "after": 0.30000001192092896
     },
     {
       "class": "tires",
@@ -757,7 +719,7 @@
       },
       "after": {
         "Front": 2.0250000953674316,
-        "Rear": 2.0999999046325684
+        "Rear": 2.0250000953674316
       }
     },
     {
@@ -852,9 +814,9 @@
       "after": {
         "Capacity": 3,
         "Data": [
-          0.800000011920929,
-          0.800000011920929,
-          0.75
+          0.3499999940395355,
+          0.5,
+          0.5
         ]
       }
     },
@@ -925,9 +887,9 @@
       "after": {
         "Capacity": 3,
         "Data": [
-          0.800000011920929,
-          0.800000011920929,
-          0.75
+          0.3499999940395355,
+          0.5,
+          0.5
         ]
       }
     },

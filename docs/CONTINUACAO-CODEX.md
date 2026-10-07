@@ -1,6 +1,50 @@
 # Passagem para o Codex — integração AWD do 2018 (07/10/2026)
 
-## Prioridade atual — substitui os próximos passos históricos abaixo
+## Prioridade atual — terceira candidata instalada (07/10, 17:18)
+
+Usuário confirmou o **nome Fusion**, mas a segunda candidata continuou difícil
+de virar. Também relatou fogo abaixo das ponteiras e logotipo Mustang GT no menu.
+Esses relatos reabrem apenas esses ajustes do 2018; lentes/teto continuam aprovados.
+
+**Instalado, ainda sem confirmação no jogo:**
+
+- attributes.bin `547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06`.
+  AWD 0,5, preço 50.000; diferencial 0,35/0,5/0,5; grip dianteiro/traseiro
+  igual ao valor dianteiro MW; YAW_CONTROL do Mustang oficial, YAW_SPEED 0,3.
+  STEERING 1,1 e ângulo +15% mantidos. É comparação, sem causa comprovada.
+- GEOMETRY `4C8CFDF9CEAC10DB58278A2CCA0243C43F4E0A560239AFCA821D36A898E9F65C`.
+  60 EXHAUST em 30 BODY (6 kits × 5 LODs), só Z 0,135→0,177339 m, medido nas
+  ponteiras cromadas. 160 outros sólidos intactos; 190 passaram no leitor.
+  EXHAUST Carbon usa hash explícito `66A4A9DE` de `mp.txt`, não bin_hash('EXHAUST').
+- FRONTB1.BUN `D36FA8AC87945B898C5AEB4425EA2A723CE26620B15BA47CCBB50087373D82AB`;
+  FrontB1.lzc `5EAC022D3EF04A4FFDAC1B3BA4D02FE0C3FA0081C5113BD4E94BE257E840FF2D`.
+  SECONDARY_LOGO_MUSTANGGT (710ABB50), pixels Fusion da referência MW convertidos
+  DXT3→ARGB8888/BGRA do doador oficial Carbon; hash/header 256×64/1 mip intactos.
+  Só 65.536 bytes de pixels mudam no BUN; resto byte-idêntico. LZC espelha BUN.
+  Leitor independente passou nas 264 texturas da primeira TPK.
+
+TEXTURES/VINYLS, idiomas/nome aprovado, FE_ATTRIB e CAMARO/CAMARON não mudaram
+nesta correção. Não atualizar a release v1.1 sem aprovação do novo QA.
+
+**Próxima ação:** receber teste de curvas em baixa velocidade/corrida/base/upgrades,
+fogo e logotipo no menu. Se direção continuar ruim, investigar com uma comparação
+controlada; não aumentar novamente o ângulo às cegas nem declarar o diferencial
+como causa certa. Só avançar ao 2012 depois dessa validação.
+
+Reprodução: `prepare-performance-2018.py` + CLI Attribulator + auditoria VLT;
+`prepare-exhaust-2018.py`; `prepare-frontend-logo-2018.py`;
+`verify-corrections-2018.py` executa leitores e aprova gates.
+Instalar/restaurar conjunto: `test-install-corrections-2018.ps1 -Action Install/Restore`,
+com NFSC/VltEd fechados. Restore volta **ao segundo teste**, geometria v1.1 e
+logo original; mantém nome Fusion. Backup transacional listado em
+`docs/carbon2018-corrections-install.json`. Originais Frontend em
+`work/frontend-before-logo-2018`, segundo VLT em `work/global2018-performance-second`.
+As duas primeiras candidatas e seus gates ficam preservados.
+
+Ao parar: atualizar documentos e commit com `Co-authored-by: Codex <codex@openai.com>`.
+Não push/tag/release. Doador 2018 MUSTANGGT oficial; 2012 CAMARO oficial, preservar CAMARON.
+
+## Histórico da integração anterior — substituído pela prioridade acima
 
 O usuário considera o visual 2018 finalizado. Escolheu **AWD** e **preço original
 Carbon 50.000**. Não retomar testes antigos de lentes/teto já aprovados.

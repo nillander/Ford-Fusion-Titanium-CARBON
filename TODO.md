@@ -10,10 +10,14 @@
 - [ ] Estado ON das luzes (freio) com textura própria; hoje ON = OFF
 - [x] Visual do Fusion 2018 considerado finalizado pelo usuário (07/10); seguir para integração e 2012
 - [x] Decisão do usuário: AWD real; manter preço original do Carbon (50.000)
-- [x] Converter performance MW v2.8 para `.nfsms` Carbon; 11 nós/76 campos auditados, rollback validado
+- [x] Converter performance MW v2.8 para `.nfsms` Carbon; revisão atual: 11 nós/74 campos auditados, rollback validado
 - [ ] Validar no jogo a candidata de performance AWD (base e upgrades)
 - [x] Nome Fusion preparado, auditado em 17 idiomas e instalado para teste
-- [ ] Confirmar nome no jogo e adaptar logotipo Fusion; faixas Mustang de fábrica
+- [x] Nome Fusion confirmado no jogo pelo usuário (07/10)
+- [x] Preparar, auditar e instalar logotipo Fusion no frontend (264 texturas lidas; só pixels do logotipo do slot alterados)
+- [x] Corrigir altura do fogo: 60 marcadores EXHAUST em 30 sólidos, Z 0,135 → 0,177339 m
+- [ ] Confirmar no jogo logotipo e alinhamento do fogo
+- [ ] Faixas Mustang de fábrica
 - [ ] Fusion 2012 → CAMARO
 
 # TODO — Portar Ford Fusion (MW2005) → Need for Speed Carbon
@@ -26,19 +30,24 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 | --- | --- | --- |
 | Referências | ZIPs v2.8, backup CARS/GLOBAL, 73 hashes; investigação dos doadores | Comprovação da origem limpa dos BIN |
 | Inventário | 1845 sólidos Carbon lidos; mapa inicial 2018 e marcadores dos dois slots/Fusion | Mapa funcional de kits, LODs, damage e AutoSculpt |
-| Visual 2018 | v1.1: 190 sólidos, 18 texturas; carroceria, lentes, aerofólios e teto aprovados; usuário considera carro finalizado | QA de corrida/damage/IA separado do acabamento aprovado |
-| VLT 2018 | Dados completos extraídos com Attribulator 2.0; base e `_top` reconhecidos; performance MW convertida, AWD escolhido e rollback auditado | Teste de dirigibilidade no jogo; nome/logo em strings/texturas frontend |
-| Frontend | Fabricante Ford (2), preço original 50.000 e desbloqueio 11 preservados | Nome e logotipo Fusion; revisar vinil de fábrica se necessário |
+| Visual 2018 | v1.1: carroceria, lentes, aerofólios e teto aprovados; ajuste posterior de 60 EXHAUST auditado e instalado | Confirmar fogo no escapamento; QA de corrida/damage/IA |
+| VLT 2018 | Dados completos extraídos com Attribulator 2.0; base e `_top` reconhecidos; terceira candidata AWD e rollback auditados | Aprovar dirigibilidade no jogo |
+| Frontend | Ford (2), preço 50.000 e desbloqueio 11 preservados; nome confirmado; logotipo Fusion auditado e instalado | Confirmar logotipo no menu; revisar vinil de fábrica |
 | 2012 / entrega | Referências e marcadores oficiais CAMARO disponíveis; v1.1 visual 2018 entregue | Port CAMARO, VLT FWD, instalação, QA e nova release |
 
 **Próxima ação:** validar a revisão de direção AWD do 2018 no jogo e
 concluir nome/logotipo no frontend. A aparência do 2018 está aprovada pelo usuário;
 não retomar os testes antigos de lentes/teto. Usar `release/vlt/Fusion2018-performance.nfsms`
 para performance; relatório `docs/carbon2018-performance-verification.json`.
-Nome instalado de `work/languages2018-name`; confirmação no jogo pendente.
+Nome instalado de `work/languages2018-name`; confirmado no jogo.
 Primeiro teste: condução geral boa, dificuldade para virar em baixa velocidade.
-Revisão instalada: STEERING 1,1 e STEERING_RANGE +15%, base/upgrades.
-Logotipo pendente.
+Segunda revisão (STEERING 1,1 e STEERING_RANGE +15%) também ficou ruim para virar.
+Terceira candidata instalada: diferencial 0,35/0,5/0,5, aderência dianteira/traseira
+equilibrada, YAW_CONTROL do MUSTANGGT oficial e YAW_SPEED 0,3; teste pendente.
+Fogo: centro das ponteiras medido na malha, altura corrigida em todos os kits/LODs.
+Logotipo: arte Fusion MW convertida para ARGB8888 original do Carbon, no slot
+SECONDARY_LOGO_MUSTANGGT; teste visual pendente. Reprodução/rollback conjunto:
+`scripts/test-install-corrections-2018.ps1 -Action Install/Restore`.
 Preço de compra continua 50.000 por instrução do usuário. Base e upgrades usam
 `TORQUE_SPLIT=0.5`; montagem visual `ecar` e altura de suspensão permanecem aprovadas.
 Depois portar o Fusion 2012 usando **CAMARO oficial**, preservando CAMARON.

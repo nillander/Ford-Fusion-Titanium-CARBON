@@ -2,7 +2,8 @@ param([string]$ReaderAssembly = 'C:\Users\nillander\NoDocuments\fusion-mw2005\sc
       [string]$InputFile = 'work/carbon2018-stage/TEXTURES.BIN',
       [string]$OutputFile = 'docs/carbon2018-texture-audit.json',
       [string]$ExportDirectory = '',
-      [int]$MaxNameLength = 23)
+      [int]$MaxNameLength = 23,
+      [switch]$AllowArgb8888)
 $ErrorActionPreference = 'Stop'
 Add-Type -Path $ReaderAssembly
 . (Join-Path $PSScriptRoot 'extract-carbon-solids.ps1') -LibraryOnly
@@ -26,7 +27,7 @@ public static class CarbonTextureCip {
  }
 }
 public static class CarbonTextureAudit {
- public static void Run(string file, string destination, string exportDirectory, int maxNameLength) {
+ public static void Run(string file, string destination, string exportDirectory, int maxNameLength, bool allowArgb8888) {
   using var br=new BinaryReader(File.OpenRead(file));
   if(br.ReadUInt32()!=0xB3300000)throw new Exception("Unexpected TPK container");
   var textures=new CarbonValidation.Version3Tpk().ReadTexturePack(br,br.ReadUInt32()).Textures;
@@ -40,11 +41,11 @@ public static class CarbonTextureAudit {
    }
    if(t.Name.Length>maxNameLength)throw new Exception("Texture name exceeds selected limit: "+t.Name);
    if(t.Width==0||t.Height==0||t.Data.Length!=t.DataSize)throw new Exception("Invalid texture dimensions/data");
-   if(t.Format!=0x31545844&&t.Format!=0x33545844&&t.Format!=0x35545844)throw new Exception("Unsupported DXT format");
+   if(t.Format!=0x31545844&&t.Format!=0x33545844&&t.Format!=0x35545844&&!(allowArgb8888&&t.Format==21))throw new Exception("Unsupported texture format: "+t.Name+" "+t.Format);
    long required=0; long w=t.Width,h=t.Height;
    if(t.MipMapCount==0)throw new Exception("No mip levels");
    for(int i=0;i<t.MipMapCount;i++) {
-    required+=(long)((w+3)/4)*((h+3)/4)*(t.Format==0x31545844?8:16);
+    required+=t.Format==21 ? w*h*4 : (long)((w+3)/4)*((h+3)/4)*(t.Format==0x31545844?8:16);
     w=Math.Max(1,w/2); h=Math.Max(1,h/2);
    }
    if(t.DataSize<required)throw new Exception("Incomplete mip chain: "+t.Name);
@@ -68,4 +69,4 @@ Add-Type -ReferencedAssemblies $references -IgnoreWarnings -WarningAction Silent
     }
     return ,[CarbonCip]::Extract($packed,0,$packed.Length,$size,$decoder)
 }
-[CarbonTextureAudit]::Run((Resolve-Path $InputFile).Path, [IO.Path]::GetFullPath($OutputFile), $(if ($ExportDirectory) { [IO.Path]::GetFullPath($ExportDirectory) } else { '' }), $MaxNameLength)
+[CarbonTextureAudit]::Run((Resolve-Path $InputFile).Path, [IO.Path]::GetFullPath($OutputFile), $(if ($ExportDirectory) { [IO.Path]::GetFullPath($ExportDirectory) } else { '' }), $MaxNameLength, $AllowArgb8888.IsPresent)

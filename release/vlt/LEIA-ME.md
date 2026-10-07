@@ -7,7 +7,11 @@ visual preservados. Este script não muda nome/logotipo e não faz parte da v1.1
 Primeiro teste: o carro carregou, condução geral boa, dificuldade para virar
 mesmo em baixa velocidade. A candidata atual restaura a escala de direção
 original do Carbon e amplia em 15% sua curva de ângulo, na base e nos upgrades.
-Essa comparação ainda aguarda aprovação no jogo.
+Essa segunda comparação também ficou ruim para virar, segundo o usuário.
+A terceira candidata reduz DIFFERENTIAL de 0,8/0,8/0,75 para 0,35/0,5/0,5,
+equilibra aderência dianteira/traseira, restaura YAW_CONTROL do Mustang oficial
+e usa YAW_SPEED 0,3, mantendo a curva de ângulo +15%. Ainda depende de teste no
+jogo; não tratar esses ajustes como uma causa comprovada ou acerto final.
 
 Com jogo fechado, faça backup de GLOBAL. Abra a pasta do Carbon no NFS-VltEd 4.6,
 importe `Fusion2018-performance.nfsms` em File → Import → ModScript, confira

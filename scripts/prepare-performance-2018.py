@@ -64,10 +64,16 @@ def main():
         rows = yaml.safe_load((args.baseline / "main/attributes/db" / f"{cls}.yml").read_text(encoding='utf-8'))
         row = next(item for item in rows if item["Name"] == node)
         if cls == "tires":
-            # First game test: good drivetrain, but steering felt too difficult.
-            # Restore stock steering ratio and widen stock angle curve modestly.
+            # Angle-only revision failed in game, including at low speed.
+            # Compare less axle locking and neutral grip, retaining the donor's
+            # yaw-control curve rather than assuming MW's curve transfers well.
             fields["STEERING"] = [1.1]
             fields["STEERING_RANGE"] = [v * args.steering_range_scale for v in row["Data"]["STEERING_RANGE"]["Data"]]
+            fields["YAW_CONTROL"] = row["Data"]["YAW_CONTROL"]["Data"][:]
+            fields["YAW_SPEED"] = [0.3]
+            for grip in ("STATIC_GRIP", "DYNAMIC_GRIP"):
+                front = fields[grip][0]
+                fields[grip] = [front, front]
         for field, values in fields.items():
             # MW's count is the GEAR_RATIO array count, not a Carbon field.
             # Keep approved visual height and all ecar mount/body settings.
@@ -78,7 +84,7 @@ def main():
             if cls == "transmission" and field == "TORQUE_SPLIT":
                 values = [0.5]  # User decision: symmetric AWD.
             if cls == "transmission" and field == "DIFFERENTIAL":
-                values = [0.8, 0.8, 0.75]  # MW axle locks, active centre lock for AWD.
+                values = [0.35, 0.5, 0.5]  # Comparison: less front/rear/centre locking.
             if isinstance(old, dict) and "Capacity" in old:
                 if field == "GEAR_RATIO":
                     values = values[:int(fields["GEAR_COUNT"][0])]
@@ -93,8 +99,8 @@ def main():
             old_leaves = dict(leaves(old, field))
             for path, value in leaves(target, field):
                 previous = old_leaves[path]
-                if value == previous:
-                    continue
+                # Explicitly write even baseline-equal values: importing over
+                # earlier candidates must reset STEERING/YAW_CONTROL as well.
                 commands.append(f"update_field {cls} {node} {path} {value:.9g}")
                 rollback.append(f"update_field {cls} {node} {path} {previous:.9g}")
             if old != target:
@@ -108,7 +114,9 @@ def main():
         "traction": "AWD, TORQUE_SPLIT=0.5 at base and top, user confirmed 2026-10-07",
         "cost": "preserve Carbon MUSTANGGT 50000, user confirmed 2026-10-07",
         "steering_revision": {"STEERING": 1.1, "STEERING_RANGE_scale": args.steering_range_scale,
-                              "reason": "First game test: generally good handling, too hard to turn. Comparison pending."},
+                              "YAW_CONTROL": "original Carbon MUSTANGGT base/top", "YAW_SPEED": 0.3,
+                              "DIFFERENTIAL": [0.35, 0.5, 0.5], "grip": "equal front/rear, MW front value",
+                              "reason": "Angle-only comparison failed even at low speed. Third candidate; game QA pending."},
         "excluded": ["frontend cost/unlock", "ecar visual mounts", "chassis RIDE_HEIGHT", "audio", "induction", "nos", "Carbon-only drift fields"],
         "changes": changed,
     }

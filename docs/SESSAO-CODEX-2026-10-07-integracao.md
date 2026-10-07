@@ -1,5 +1,7 @@
 # Integração do Fusion 2018 — 07/10/2026
 
+## Histórico das duas primeiras candidatas
+
 O usuário considera o visual 2018 finalizado e pediu avançar no TODO.
 Decisões confirmadas: AWD real no Carbon e manter preço original de compra 50.000.
 Geometria/texturas aprovadas da v1.1 preservadas. Doador Carbon continua MUSTANGGT
@@ -48,3 +50,46 @@ melhorias pendentes no TODO, sem reabrir o acabamento visual aprovado.
 Fontes: [Attribulator 2.0](https://github.com/NFSTools/Attribulator/releases/tag/v2.0.0),
 [ModScript](https://nfs-tools.blogspot.com/2018/02/nfs-vlted-usage-2-modscript-format.html),
 [Labrune, formato de idiomas](https://github.com/nlgxzef/Labrune).
+
+## Continuação: direção, fogo e logotipo (17:18)
+
+Usuário confirmou o nome, rejeitou a segunda direção e enviou imagem do fogo
+abaixo das ponteiras; logotipo ainda Mustang GT. Nome agora concluído no TODO.
+
+Terceira direção: DIFFERENTIAL 0,35/0,5/0,5, grip dianteiro/traseiro equilibrado,
+YAW_CONTROL original do doador, YAW_SPEED 0,3. Mantém AWD 0,5, preço 50.000 e
+curva de ângulo +15%. Isso é hipótese de acerto, não diagnóstico conclusivo.
+Segunda candidata preservada em work/global2018-performance-second e gate
+carbon2018-performance-second-verification.json. Nova conversão: 74 campos,
+11 nós; 10.180 nós/312 blobs auditados; rollback compilado de novo e comparado
+semanticamente com os originais. SHA atual 547C601A….
+
+ModScript agora escreve também valores iguais à base original, para restaurar
+STEERING/YAW_CONTROL ao importar sobre versões anteriores. Aplicação sobre a
+segunda candidata produziu hash binário diferente, mas a auditoria completa
+confirmou todos os nós/blobs semanticamente idênticos à terceira candidata.
+Rollback novo foi aplicado sobre esse resultado e novamente validado.
+
+Fogo: medição BASE_A/material cromado nas saídas traseiras: Z 0,114224..0,240455 m,
+centro 0,177339 m. EXHAUST estava em 0,135 m. Hash oficial explícito 66A4A9DE;
+o hash calculado de EXHAUST não o encontra. Somente quatro bytes de translação
+Z por marcador: 60 pontos em 30 BODY; outras 160 peças exatas. 190 malhas
+validadas e streams JDLZ com flags finais conferidos. GEOMETRY 4C8CFDF9….
+
+Logo: FRONTB1.BUN primeira TPK inclui SECONDARY_LOGO_MUSTANGGT, hash 710ABB50,
+256×64, formato D3D 21 ARGB8888 (um mip), 65.536 bytes. FrontB1.lzc originalmente
+descomprime para BUN idêntico. Arte Fusion existente no SECONDARYLOGO.BIN MW
+é DXT3; pixels decodificados/convertidos para BGRA, mantendo o header Carbon.
+Outros bytes do BUN idênticos e LZC recompresso equivalente. Leitor independente
+valida 264 texturas; opção AllowArgb8888 adicionada sem afrouxar o padrão DXT.
+Prévia de conversão e imagem do problema preservadas em docs/imagens/integracao-2018.
+
+Verificador reproduzível verify-corrections-2018.py exige o escopo das diferenças
+e executa leitores independentes antes de marcar os gates aprovados. Novo
+instalador de quatro arquivos com preflight/hashes/backup transacional/rollback
+automático em falha. Instalado às 17:18 com NFSC/VltEd fechados. Nome/idiomas,
+TEXTURES/VINYLS, FE_ATTRIB e outros slots não tocados nessa rodada.
+
+Pergunta de QA enviada: curvas em baixa velocidade/corrida, fogo e logo no menu.
+Ainda sem resposta. Não marcar essas três correções como aprovadas no jogo.
+Nova release não publicada; próxima fase 2012 continua aguardando essa aprovação.

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "binary_scope_passed": true,
+  "texture": "SECONDARY_LOGO_MUSTANGGT",
+  "hash": "710ABB50",
+  "dimensions": [
+    256,
+    64
+  ],
+  "format": "ARGB8888 (21)",
+  "source": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/SECONDARYLOGO.BIN",
+  "source_sha256": "E4721014333A5B21C01BE881F917909157B843CEF04790D086AFF9EEB0914AD8",
+  "only_changed_bun_range": [
+    5554432,
+    5619968
+  ],
+  "other_frontend_bytes_identical": true,
+  "game_validation": "pending",
+  "files": [
+    {
+      "name": "FRONTB1.BUN",
+      "path": "work/frontend2018-logo/FRONTB1.BUN",
+      "sha256": "D36FA8AC87945B898C5AEB4425EA2A723CE26620B15BA47CCBB50087373D82AB",
+      "backup_sha256": "A9E6CC5DF8891019E1182E2F35A1C6CD9A6F10188C69E1A8A814C136CA53F194"
+    },
+    {
+      "name": "FrontB1.lzc",
+      "path": "work/frontend2018-logo/FrontB1.lzc",
+      "sha256": "5EAC022D3EF04A4FFDAC1B3BA4D02FE0C3FA0081C5113BD4E94BE257E840FF2D",
+      "backup_sha256": "126D4B80B378320B1D70EB6A1267E3FCCABE144F495C13E1032FDDF55BB00EED"
+    }
+  ],
+  "independent_audit": {
+    "passed": true,
+    "file": "docs/carbon2018-frontend-logo-texture-audit.json"
+  }
+}

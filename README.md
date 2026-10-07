@@ -423,7 +423,7 @@ apareceram**, após conferir as opções comum e AutoSculpt. Publicado na **v1.1
 
 O usuário considera a aparência do 2018 finalizada. A próxima fase converte o
 acerto MW v2.8 para os dados do Carbon, incluindo a transmissão melhorada.
-A candidata em `release/vlt/Fusion2018-performance.nfsms` altera 76 campos de
+A candidata em `release/vlt/Fusion2018-performance.nfsms` altera 74 campos de
 11 nós: massa/inércia, motor, transmissão, suspensão, pneus e freios.
 AWD usa divisão 0,5 e diferencial central ativo; o acerto é adaptação de jogo,
 não uma simulação de especificações de fábrica. O preço permanece 50.000,
@@ -432,7 +432,12 @@ Montagem `ecar`, altura visual, áudio, indução/nitro e campos de drift exclus
 do Carbon ficam preservados. O primeiro teste carregou e teve condução geral boa, mas virou com dificuldade
 mesmo em baixa velocidade. A comparação instalada restaura STEERING=1,1
 e amplia a curva STEERING_RANGE em 15% na base e nos upgrades; demais ajustes
-ficam iguais. Aprovação dessa revisão ainda pendente.
+ficaram iguais. O usuário também rejeitou essa segunda revisão: continuou ruim
+para virar. A terceira candidata mantém o ângulo +15%, reduz o diferencial de
+0,8/0,8/0,75 para 0,35/0,5/0,5, equilibra a aderência dianteira/traseira,
+restaura YAW_CONTROL do Mustang oficial e usa YAW_SPEED 0,3. Foi instalada;
+a melhora ainda exige teste no jogo. Não atribuir a causa a um desses campos
+sem confirmação: a revisão é uma comparação de dirigibilidade.
 
 O inventário inicial não resolvia vários nomes `_top`. A extração completa com
 [Attribulator 2.0](https://github.com/NFSTools/Attribulator/releases/tag/v2.0.0)
@@ -449,6 +454,12 @@ Relatórios: `docs/carbon2018-performance-plan.json` e
 `docs/carbon2018-performance-verification.json`.
 Ferramenta externa extraída em `tools/vendor/attribulator/v2/release_windows`.
 
+O ModScript escreve explicitamente também valores iguais à base original:
+assim STEERING e YAW_CONTROL são restaurados ao importar sobre candidatas
+anteriores. O teste de importação sobre a segunda candidata exige igualdade
+semântica com os BIN instalados; hashes binários podem diferir pela organização
+do arquivo regravado, portanto a comparação usa todos os nós/blobs extraídos.
+
 Instalação local com jogo e VltEd fechados:
 `pwsh -File scripts/test-install-performance-2018.ps1 -Action Install`.
 Reversão: mesmo comando com `-Action Restore`.
@@ -464,6 +475,47 @@ chunks preservados. O texto é acrescentado ao chunk e só seu ponteiro é
 atualizado. A leitura segue o formato descrito pelo código de
 [Labrune](https://github.com/nlgxzef/Labrune).
 Verificação em `docs/carbon2018-frontend-name-verification.json`.
-Nome instalado junto da comparação de direção; confirmação visual pendente.
+Nome instalado junto da comparação de direção; **confirmado pelo usuário**.
 Com o jogo fechado: `pwsh -File scripts/test-install-frontend-name-2018.ps1 -Action Install`.
-`-Action Restore` recupera o backup. Logotipo Fusion ainda pendente.
+`-Action Restore` recupera o backup dos idiomas.
+
+## Fogo do escapamento e logotipo Fusion (07/10/2026)
+
+O usuário relatou fogo abaixo das ponteiras. Os marcadores Carbon EXHAUST
+(hash explícito `66A4A9DE` em `mp.txt`, não o hash calculado da palavra) estavam
+em Z=0,135 m, herdado da fonte MW. O centro vertical das ponteiras cromadas da
+malha Fusion está em Z=0,177339 m. `prepare-exhaust-2018.py` ajusta só essa
+translação: 60 marcadores, 30 peças KIT00..05_BODY_A..E. Os outros 160 sólidos,
+malhas, materiais, matrizes e coordenadas X/Y permanecem idênticos. Os 190
+sólidos passaram no leitor independente; alinhamento visual ainda pendente.
+
+![Fogo abaixo das ponteiras, antes do ajuste](docs/imagens/integracao-2018/fogo-abaixo-antes.png)
+
+O nome não substitui o logotipo: a imagem está em `FRONTEND/FRONTB1.BUN`,
+textura `SECONDARY_LOGO_MUSTANGGT` (710ABB50), 256×64, ARGB8888 e um mip.
+`FrontB1.lzc` descomprime para esse mesmo BUN. A arte Fusion da referência MW
+v2.8 é DXT3; copiar seu BIN/formato diretamente não preservaria o recurso
+Carbon. `prepare-frontend-logo-2018.py` converte apenas os pixels para BGRA,
+preserva cabeçalho/hash/dimensões do Mustang oficial e regrava BUN e LZC.
+Todos os bytes fora desses 65.536 bytes de pixels ficam idênticos. O leitor
+independente validou as 264 texturas da primeira TPK. A opção ARGB8888 do
+validador é explícita; a validação DXT de texturas dos carros continua padrão.
+
+| Mustang original | Fusion preparado |
+| --- | --- |
+| ![Mustang original](docs/imagens/integracao-2018/logotipo-mustang-antes.png) | ![Fusion preparado](docs/imagens/integracao-2018/logotipo-fusion-previa.png) |
+
+Reprodução: `python scripts/prepare-exhaust-2018.py`,
+`python scripts/prepare-frontend-logo-2018.py` e
+`python scripts/verify-corrections-2018.py`. Essa última etapa verifica o
+escopo exato das diferenças e executa os leitores independentes antes de
+aprovar os gates. Performance usa o fluxo Attribulator descrito acima.
+
+Com NFSC/VltEd fechados, `pwsh -File scripts/test-install-corrections-2018.ps1
+-Action Install` instala quatro arquivos: attributes.bin, GEOMETRY.BIN e os
+dois FRONTB1. O instalador verifica todos os destinos antes de escrever,
+guarda backup transacional e restaura o estado anterior se a cópia falhar.
+`-Action Restore` volta à segunda comparação de direção, geometria v1.1 e
+logotipo original. Não volta o nome nem altera TEXTURES/VINYLS ou CAMARO/CAMARON.
+Instalado e auditado; **direção, fogo e logotipo aguardam QA no jogo**.
+A release v1.1 publicada permanece a entrega visual anterior.

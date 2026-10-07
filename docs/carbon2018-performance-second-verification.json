@@ -97,6 +97,7 @@
       "node": "mustanggt",
       "fields": [
         "SECTION_WIDTH",
+        "YAW_CONTROL",
         "DYNAMIC_GRIP",
         "RIM_SIZE",
         "YAW_SPEED",
@@ -110,6 +111,7 @@
       "node": "mustanggt_top",
       "fields": [
         "SECTION_WIDTH",
+        "YAW_CONTROL",
         "DYNAMIC_GRIP",
         "RIM_SIZE",
         "YAW_SPEED",
@@ -152,9 +154,7 @@
   },
   "camaro_camaron_other_nodes_unchanged": true,
   "game_validation": "pending",
-  "import_over_second_candidate_semantically_identical": true,
-  "attributes_sha256": "547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06",
+  "attributes_sha256": "9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C",
   "backup_attributes_sha256": "D64234661F8226FE24ABD45EAE7F5C24CE400A214526A4D23D6B421E75D820E4",
-  "previous_candidate_attributes_sha256": "1F6913AB3B44960699DAC112A762002F14DAEB95B304F16745851B83876DF62A",
-  "second_candidate_attributes_sha256": "9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C"
+  "previous_candidate_attributes_sha256": "1F6913AB3B44960699DAC112A762002F14DAEB95B304F16745851B83876DF62A"
 }

@@ -1,21 +1,31 @@
 game C
 # Fusion 2018: MW v2.8 handling, AWD; preserve Carbon price/unlock/visual mounts.
 update_field pvehicle mustanggt MASS 1600
+update_field pvehicle mustanggt TENSOR_SCALE X 1
 update_field pvehicle mustanggt TENSOR_SCALE Y 2
+update_field pvehicle mustanggt TENSOR_SCALE Z 1
+update_field pvehicle mustanggt TENSOR_SCALE W 0
 update_field pvehicle mustanggt HandlingRating[0] 55
 update_field pvehicle mustanggt HandlingRating[1] 97
 update_field brakes mustanggt BRAKES Front 375
 update_field brakes mustanggt BRAKES Rear 500
 update_field brakes mustanggt EBRAKE 850
+update_field brakes mustanggt BRAKE_LOCK Front 1
+update_field brakes mustanggt BRAKE_LOCK Rear 3.5
 update_field brakes mustanggt_top BRAKES Front 375
 update_field brakes mustanggt_top BRAKES Rear 500
+update_field brakes mustanggt_top EBRAKE 850
+update_field brakes mustanggt_top BRAKE_LOCK Front 1
 update_field brakes mustanggt_top BRAKE_LOCK Rear 3.5
 update_field chassis mustanggt WHEEL_BASE 2.7249999
 update_field chassis mustanggt DRAG_COEFFICIENT 0.319999993
 update_field chassis mustanggt SHOCK_VALVING Front 17
 update_field chassis mustanggt SHOCK_VALVING Rear 17
 update_field chassis mustanggt SHOCK_STIFFNESS Front 45
+update_field chassis mustanggt SHOCK_STIFFNESS Rear 45
 update_field chassis mustanggt SHOCK_BLOWOUT 5
+update_field chassis mustanggt SHOCK_EXT_STIFFNESS Front 60
+update_field chassis mustanggt SHOCK_EXT_STIFFNESS Rear 60
 update_field chassis mustanggt SWAYBAR_STIFFNESS Front 250
 update_field chassis mustanggt SWAYBAR_STIFFNESS Rear 250
 update_field chassis mustanggt ROLL_CENTER 9
@@ -30,19 +40,24 @@ update_field chassis mustanggt TRACK_WIDTH Front 1.60800004
 update_field chassis mustanggt TRACK_WIDTH Rear 1.60300004
 update_field chassis mustanggt SHOCK_DIGRESSION Front 0.300000012
 update_field chassis mustanggt SHOCK_DIGRESSION Rear 0.300000012
+update_field chassis mustanggt RENDER_MOTION 1
 update_field chassis mustanggt AERO_COEFFICIENT 0.239999995
 update_field chassis mustanggt FRONT_AXLE 1.5
+update_field chassis mustanggt FRONT_WEIGHT_BIAS 53
 update_field chassis mustanggt_top WHEEL_BASE 2.7249999
 update_field chassis mustanggt_top DRAG_COEFFICIENT 0.319999993
 update_field chassis mustanggt_top SHOCK_VALVING Front 17
 update_field chassis mustanggt_top SHOCK_VALVING Rear 17
 update_field chassis mustanggt_top SHOCK_STIFFNESS Front 65
+update_field chassis mustanggt_top SHOCK_STIFFNESS Rear 65
 update_field chassis mustanggt_top SHOCK_BLOWOUT 5
 update_field chassis mustanggt_top SHOCK_EXT_STIFFNESS Front 90
 update_field chassis mustanggt_top SHOCK_EXT_STIFFNESS Rear 90
 update_field chassis mustanggt_top SWAYBAR_STIFFNESS Front 300
 update_field chassis mustanggt_top SWAYBAR_STIFFNESS Rear 325
 update_field chassis mustanggt_top ROLL_CENTER 8.5
+update_field chassis mustanggt_top TRAVEL Front 7
+update_field chassis mustanggt_top TRAVEL Rear 7
 update_field chassis mustanggt_top SPRING_STIFFNESS Front 600
 update_field chassis mustanggt_top SPRING_STIFFNESS Rear 700
 update_field chassis mustanggt_top AERO_CG 48
@@ -56,6 +71,10 @@ update_field chassis mustanggt_top RENDER_MOTION 1
 update_field chassis mustanggt_top AERO_COEFFICIENT 0.239999995
 update_field chassis mustanggt_top FRONT_AXLE 1.5
 update_field chassis mustanggt_top FRONT_WEIGHT_BIAS 53.5
+update_field engine mustanggt ENGINE_BRAKING[0] 0.699999988
+update_field engine mustanggt ENGINE_BRAKING[1] 0.800000012
+update_field engine mustanggt ENGINE_BRAKING[2] 0.899999976
+update_field engine mustanggt IDLE 800
 update_field engine mustanggt TORQUE[0] 160
 update_field engine mustanggt TORQUE[1] 220
 update_field engine mustanggt TORQUE[2] 320
@@ -68,6 +87,10 @@ update_field engine mustanggt TORQUE[8] 341
 update_field engine mustanggt MAX_RPM 8000
 update_field engine mustanggt FLYWHEEL_MASS 12
 update_field engine mustanggt RED_LINE 7000
+update_field engine mustanggt_top ENGINE_BRAKING[0] 0.699999988
+update_field engine mustanggt_top ENGINE_BRAKING[1] 0.800000012
+update_field engine mustanggt_top ENGINE_BRAKING[2] 0.899999976
+update_field engine mustanggt_top IDLE 800
 update_field engine mustanggt_top TORQUE[0] 165
 update_field engine mustanggt_top TORQUE[1] 250
 update_field engine mustanggt_top TORQUE[2] 400
@@ -82,19 +105,22 @@ update_field engine mustanggt_top FLYWHEEL_MASS 9
 update_field engine mustanggt_top RED_LINE 7000
 update_field tires mustanggt SECTION_WIDTH Front 255
 update_field tires mustanggt SECTION_WIDTH Rear 255
-update_field tires mustanggt YAW_CONTROL[0] 0.200000003
-update_field tires mustanggt YAW_CONTROL[1] 0.600000024
-update_field tires mustanggt YAW_CONTROL[2] 0.75
-update_field tires mustanggt YAW_CONTROL[3] 1
+update_field tires mustanggt YAW_CONTROL[0] 0.0500000007
+update_field tires mustanggt YAW_CONTROL[1] 0.0700000003
+update_field tires mustanggt YAW_CONTROL[2] 0.125
+update_field tires mustanggt YAW_CONTROL[3] 0.200000003
 update_field tires mustanggt DYNAMIC_GRIP Front 1.54999995
-update_field tires mustanggt DYNAMIC_GRIP Rear 1.64999998
+update_field tires mustanggt DYNAMIC_GRIP Rear 1.54999995
 update_field tires mustanggt RIM_SIZE Front 18
 update_field tires mustanggt RIM_SIZE Rear 18
-update_field tires mustanggt YAW_SPEED 0.400000006
+update_field tires mustanggt YAW_SPEED 0.300000012
 update_field tires mustanggt ASPECT_RATIO Front 40
 update_field tires mustanggt ASPECT_RATIO Rear 40
 update_field tires mustanggt STATIC_GRIP Front 1.75
-update_field tires mustanggt STATIC_GRIP Rear 1.85000002
+update_field tires mustanggt STATIC_GRIP Rear 1.75
+update_field tires mustanggt GRIP_SCALE Front 1
+update_field tires mustanggt GRIP_SCALE Rear 1
+update_field tires mustanggt STEERING 1.10000002
 update_field tires mustanggt STEERING_RANGE[0] 53.0437508
 update_field tires mustanggt STEERING_RANGE[1] 17.6812496
 update_field tires mustanggt STEERING_RANGE[2] 12.9662495
@@ -107,20 +133,22 @@ update_field tires mustanggt STEERING_RANGE[8] 8.25125027
 update_field tires mustanggt STEERING_RANGE[9] 8.25125027
 update_field tires mustanggt_top SECTION_WIDTH Front 255
 update_field tires mustanggt_top SECTION_WIDTH Rear 255
-update_field tires mustanggt_top YAW_CONTROL[0] 0.300000012
-update_field tires mustanggt_top YAW_CONTROL[1] 0.800000012
-update_field tires mustanggt_top YAW_CONTROL[2] 0.899999976
-update_field tires mustanggt_top YAW_CONTROL[3] 1.10000002
+update_field tires mustanggt_top YAW_CONTROL[0] 0
+update_field tires mustanggt_top YAW_CONTROL[1] 0.100000001
+update_field tires mustanggt_top YAW_CONTROL[2] 0.200000003
+update_field tires mustanggt_top YAW_CONTROL[3] 0.449999988
 update_field tires mustanggt_top DYNAMIC_GRIP Front 1.79999995
-update_field tires mustanggt_top DYNAMIC_GRIP Rear 1.89999998
+update_field tires mustanggt_top DYNAMIC_GRIP Rear 1.79999995
 update_field tires mustanggt_top RIM_SIZE Front 18
 update_field tires mustanggt_top RIM_SIZE Rear 18
-update_field tires mustanggt_top YAW_SPEED 0.379999995
+update_field tires mustanggt_top YAW_SPEED 0.300000012
 update_field tires mustanggt_top ASPECT_RATIO Front 40
 update_field tires mustanggt_top ASPECT_RATIO Rear 40
 update_field tires mustanggt_top STATIC_GRIP Front 2.0250001
+update_field tires mustanggt_top STATIC_GRIP Rear 2.0250001
 update_field tires mustanggt_top GRIP_SCALE Front 1.10000002
 update_field tires mustanggt_top GRIP_SCALE Rear 1.10000002
+update_field tires mustanggt_top STEERING 1.10000002
 update_field tires mustanggt_top STEERING_RANGE[0] 55.6312485
 update_field tires mustanggt_top STEERING_RANGE[1] 18.5437508
 update_field tires mustanggt_top STEERING_RANGE[2] 13.5987501
@@ -132,25 +160,49 @@ update_field tires mustanggt_top STEERING_RANGE[7] 8.65375042
 update_field tires mustanggt_top STEERING_RANGE[8] 8.65375042
 update_field tires mustanggt_top STEERING_RANGE[9] 8.65375042
 update_field transmission mustanggt GEAR_RATIO[0] 3.17000008
+update_field transmission mustanggt GEAR_RATIO[1] 0
 update_field transmission mustanggt GEAR_RATIO[2] 3.4000001
 update_field transmission mustanggt GEAR_RATIO[3] 2.19000006
 update_field transmission mustanggt GEAR_RATIO[4] 1.40999997
+update_field transmission mustanggt GEAR_RATIO[5] 1
 update_field transmission mustanggt GEAR_RATIO[6] 0.83099997
-update_field transmission mustanggt DIFFERENTIAL[0] 0.800000012
-update_field transmission mustanggt DIFFERENTIAL[1] 0.800000012
-update_field transmission mustanggt DIFFERENTIAL[2] 0.75
+update_field transmission mustanggt DIFFERENTIAL[0] 0.349999994
+update_field transmission mustanggt DIFFERENTIAL[1] 0.5
+update_field transmission mustanggt DIFFERENTIAL[2] 0.5
+update_field transmission mustanggt GEAR_EFFICIENCY[0] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[1] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[2] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[3] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[4] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[5] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[6] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[7] 1
+update_field transmission mustanggt GEAR_EFFICIENCY[8] 1
 update_field transmission mustanggt TORQUE_CONVERTER 0.300000012
 update_field transmission mustanggt TORQUE_SPLIT 0.5
+update_field transmission mustanggt CLUTCH_SLIP 0.800000012
+update_field transmission mustanggt SHIFT_SPEED 0.25
 update_field transmission mustanggt FINAL_GEAR 3.05999994
 update_field transmission mustanggt_top GEAR_RATIO[0] 2.5
+update_field transmission mustanggt_top GEAR_RATIO[1] 0
+update_field transmission mustanggt_top GEAR_RATIO[2] 3.4000001
 update_field transmission mustanggt_top GEAR_RATIO[3] 2.19000006
 update_field transmission mustanggt_top GEAR_RATIO[4] 1.5
 update_field transmission mustanggt_top GEAR_RATIO[5] 1.10000002
 update_field transmission mustanggt_top GEAR_RATIO[6] 0.83099997
 update_field transmission mustanggt_top GEAR_RATIO[7] 0.680000007
-update_field transmission mustanggt_top DIFFERENTIAL[0] 0.800000012
-update_field transmission mustanggt_top DIFFERENTIAL[1] 0.800000012
-update_field transmission mustanggt_top DIFFERENTIAL[2] 0.75
+update_field transmission mustanggt_top DIFFERENTIAL[0] 0.349999994
+update_field transmission mustanggt_top DIFFERENTIAL[1] 0.5
+update_field transmission mustanggt_top DIFFERENTIAL[2] 0.5
+update_field transmission mustanggt_top GEAR_EFFICIENCY[0] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[1] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[2] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[3] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[4] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[5] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[6] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[7] 1
+update_field transmission mustanggt_top GEAR_EFFICIENCY[8] 1
 update_field transmission mustanggt_top TORQUE_CONVERTER 0.300000012
 update_field transmission mustanggt_top TORQUE_SPLIT 0.5
 update_field transmission mustanggt_top CLUTCH_SLIP 0.800000012
