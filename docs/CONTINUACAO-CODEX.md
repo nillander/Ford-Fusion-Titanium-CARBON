@@ -3,6 +3,9 @@
 > **Atualização após execução pelo Codex:** recompilação e auditoria concluídas;
 > instalação experimental ativa e Fusion 2018 com rodas observado no jogo.
 > Ler `docs/SESSAO-CODEX-2026-10-07.md` e o TODO atualizado para o estado atual.
+> **10:18, continuação:** `stage-colors` instalado com 552 cores recuperadas;
+> faixas/artefatos persistem. Usuário interrompeu Computer Use com Esc. Fechar
+> o jogo antes de nova instalação; corrida e kits ainda não testados.
 > Os passos abaixo registram a passagem original. Próximo trabalho: artefatos
 > visuais e compatibilidade de peças; o primeiro teste não aprova a release.
 

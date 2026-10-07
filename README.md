@@ -225,7 +225,29 @@ Para restaurar os BIN originais, fechar o jogo e executar na raiz:
 pwsh -NoProfile -File scripts/test-install-2018.ps1 -Action Restore
 ```
 
-Para repetir a instalação auditada, usar `-Action Install`. Registro em
+Após confirmação do usuário de que o 2018 apareceu, a comparação identificou
+uma perda do OBJ: a saída tinha cor de vértice `FFFFFFFF` em todos os vértices,
+enquanto a fonte contém cores diferentes nos adesivos e freios. Recuperamos 552
+valores em 14 sólidos por correspondência de posição/UV, recusando correspondências
+ambíguas. O CarToolkit preservou byte a byte os sólidos corrigidos; as malhas,
+materiais, marcadores e texturas permaneceram iguais. A nova versão passou na leitura
+independente dos 186 sólidos e está instalada em `work/carbon2018-stage-colors`.
+
+**Aprendizado:** a correção dos atributos não eliminou as faixas e os pequenos
+artefatos vistos na segunda observação. Ainda precisamos verificar a compatibilidade
+dos oito hashes de adesivos compartilhados sem nome, os materiais e a simplificação.
+O comparativo de triângulos da fonte não encontrou sobreposição exata entre
+BASE/BODY/HOOD; isso não exclui superfícies próximas ou sobreposição após simplificar.
+Normais/tangentes também têm diferenças em relação ao doador, sem causa visual
+estabelecida. O usuário encerrou Computer Use com Esc; não houve teste de corrida.
+
+Para repetir **a versão com cores recuperadas**, fechar o jogo e executar:
+
+```powershell
+pwsh -NoProfile -File scripts/test-install-2018.ps1 -Action Install -VerificationFile docs/carbon2018-stage-colors-verification.json
+```
+
+`-Action Install` sem o parâmetro reaplica a comparação anterior `stage-axes`. Registro em
 `docs/carbon2018-test-install.json`. Próxima etapa: investigar os artefatos visuais
 e lacunas de peças, testar corrida/garagem e depois preparar VLT. Fusion 2012,
 QA completo e release continuam pendentes. Detalhes da execução em

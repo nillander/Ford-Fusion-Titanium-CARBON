@@ -1,0 +1,9674 @@
+[
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1292
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1292,
+    "samples": [
+      {
+        "p": [
+          -2.0955799,
+          0.7649216,
+          0.6869773
+        ],
+        "uv": [
+          0.99469376,
+          0.12141741
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.0525572,
+          0.77826184,
+          0.66881585
+        ],
+        "uv": [
+          0.9903619,
+          0.12630382
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.0803857,
+          0.7619299,
+          0.6415492
+        ],
+        "uv": [
+          0.9936932,
+          0.14573213
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 825
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 825,
+    "samples": [
+      {
+        "p": [
+          -2.0758812,
+          0.7638537,
+          0.64198965
+        ],
+        "uv": [
+          0.9929928,
+          0.14526922
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1172678,
+          0.7386259,
+          0.63999885
+        ],
+        "uv": [
+          0.6689453,
+          0.14902036
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1005158,
+          0.7615735,
+          0.68232924
+        ],
+        "uv": [
+          0.9953085,
+          0.12440849
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 470
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 6,
+    "nonunitNormals": 6,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 470,
+    "samples": [
+      {
+        "p": [
+          -2.1058621,
+          0.7593982,
+          0.6774662
+        ],
+        "uv": [
+          0.67150277,
+          0.12890339
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.0950706,
+          0.75750923,
+          0.64057356
+        ],
+        "uv": [
+          0.6761853,
+          0.14870077
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1788616,
+          0.67133856,
+          0.63795763
+        ],
+        "uv": [
+          0.6928676,
+          0.14872383
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 470
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 6,
+    "nonunitNormals": 6,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 470,
+    "samples": [
+      {
+        "p": [
+          -2.1058621,
+          0.7593982,
+          0.6774662
+        ],
+        "uv": [
+          0.67150277,
+          0.12890339
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.0950706,
+          0.75750923,
+          0.64057356
+        ],
+        "uv": [
+          0.6761853,
+          0.14870077
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1788616,
+          0.67133856,
+          0.63795763
+        ],
+        "uv": [
+          0.6928676,
+          0.14872383
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.5270079,
+          0.8440217,
+          0.7510549
+        ],
+        "uv": [
+          0.25390625,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5243382,
+          0.8498897,
+          0.6885746
+        ],
+        "uv": [
+          0.2421875,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.6432341,
+          0.838589,
+          0.6924576
+        ],
+        "uv": [
+          0.47851562,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.6431781,
+          -0.8385913,
+          0.6924419
+        ],
+        "uv": [
+          0.515625,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.524347,
+          -0.8509709,
+          0.68910253
+        ],
+        "uv": [
+          0.7519531,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5270302,
+          -0.8439125,
+          0.75091004
+        ],
+        "uv": [
+          0.7402344,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 81
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 81,
+    "samples": [
+      {
+        "p": [
+          0.15775648,
+          0.9023381,
+          0.39259422
+        ],
+        "uv": [
+          0.9863281,
+          0.7109375
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1577628,
+          0.90561026,
+          0.4433332
+        ],
+        "uv": [
+          0.9863281,
+          0.5546875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.3214825,
+          0.90433466,
+          0.43906653
+        ],
+        "uv": [
+          0.021484375,
+          0.56640625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DRIVER_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1044
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1044,
+    "samples": [
+      {
+        "p": [
+          0.267989,
+          0.15614145,
+          0.5243694
+        ],
+        "uv": [
+          0.8144226,
+          0.91207886
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.3048415,
+          0.16550672,
+          0.5298626
+        ],
+        "uv": [
+          0.84762573,
+          0.914032
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.30467966,
+          0.14776509,
+          0.527116
+        ],
+        "uv": [
+          0.8271179,
+          0.9194031
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DRIVER_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 797
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 797,
+    "samples": [
+      {
+        "p": [
+          0.2872294,
+          0.1399916,
+          0.18318291
+        ],
+        "uv": [
+          0.10498047,
+          0.77633667
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.7208842,
+          0.123512134,
+          0.06904717
+        ],
+        "uv": [
+          0.091308594,
+          0.99264526
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.31316933,
+          0.17661269,
+          0.2713787
+        ],
+        "uv": [
+          0.14746094,
+          0.7812195
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DRIVER_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 326
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 326,
+    "samples": [
+      {
+        "p": [
+          -0.08233848,
+          0.11283094,
+          0.51033133
+        ],
+        "uv": [
+          0.80758667,
+          0.5854187
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06799523,
+          0.11984998,
+          0.56312674
+        ],
+        "uv": [
+          0.84420776,
+          0.5854187
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.2697164,
+          0.18790418,
+          0.5487835
+        ],
+        "uv": [
+          0.79537964,
+          0.46679688
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_DECAL_REAR_WINDOW_WIDE_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 18
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 18,
+    "samples": [
+      {
+        "p": [
+          -1.166984,
+          -0.19403842,
+          1.1477205
+        ],
+        "uv": [
+          0.703125,
+          0.001953125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.1700667,
+          -4.4213168E-05,
+          1.1624862
+        ],
+        "uv": [
+          0.5,
+          0.001953125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.3008267,
+          -4.6666322E-05,
+          1.1278714
+        ],
+        "uv": [
+          0.5,
+          0.9980469
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 81
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 81,
+    "samples": [
+      {
+        "p": [
+          0.48537716,
+          -0.8981933,
+          0.37079388
+        ],
+        "uv": [
+          0.9863281,
+          0.7792969
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32144573,
+          -0.89944005,
+          0.37441763
+        ],
+        "uv": [
+          0.021484375,
+          0.7675781
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32141244,
+          -0.893104,
+          0.3015187
+        ],
+        "uv": [
+          0.021484375,
+          0.9941406
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6070
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6070,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1912
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1912,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 407
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 407,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 206
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 206,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6149
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6149,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1936
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1936,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 434
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 434,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 219
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 219,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1109
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1109,
+    "samples": [
+      {
+        "p": [
+          -2.1999416,
+          0.55004275,
+          0.75428724
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884184,
+          0.5771284,
+          0.7703871
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884186,
+          0.57712847,
+          0.75581646
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 607
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 607,
+    "samples": [
+      {
+        "p": [
+          -2.1999416,
+          0.55004275,
+          0.75428724
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884184,
+          0.5771284,
+          0.7703871
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884186,
+          0.57712847,
+          0.75581646
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 309
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 309,
+    "samples": [
+      {
+        "p": [
+          -2.1999416,
+          0.55004275,
+          0.75428724
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884184,
+          0.5771284,
+          0.7703871
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884186,
+          0.57712847,
+          0.75581646
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 309
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 309,
+    "samples": [
+      {
+        "p": [
+          -2.1999416,
+          0.55004275,
+          0.75428724
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884184,
+          0.5771284,
+          0.7703871
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.1884186,
+          0.57712847,
+          0.75581646
+        ],
+        "uv": [
+          0.3359375,
+          0.0029296875
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1256
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1256,
+    "samples": [
+      {
+        "p": [
+          0.9356596,
+          0.76377547,
+          0.8038504
+        ],
+        "uv": [
+          0.5,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.8073817,
+          -0.5185345,
+          0.90789443
+        ],
+        "uv": [
+          0.93730897,
+          0.8851083
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.7960598,
+          -0.5338355,
+          0.91016346
+        ],
+        "uv": [
+          0.95021147,
+          0.87141156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1256
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1256,
+    "samples": [
+      {
+        "p": [
+          0.9356596,
+          0.76377547,
+          0.8038504
+        ],
+        "uv": [
+          0.5,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.8073817,
+          -0.5185345,
+          0.90789443
+        ],
+        "uv": [
+          0.93730897,
+          0.8851083
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.7960598,
+          -0.5338355,
+          0.91016346
+        ],
+        "uv": [
+          0.95021147,
+          0.87141156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1256
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1256,
+    "samples": [
+      {
+        "p": [
+          0.9356596,
+          0.76377547,
+          0.8038504
+        ],
+        "uv": [
+          0.5,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.8073817,
+          -0.5185345,
+          0.90789443
+        ],
+        "uv": [
+          0.93730897,
+          0.8851083
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.7960598,
+          -0.5338355,
+          0.91016346
+        ],
+        "uv": [
+          0.95021147,
+          0.87141156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1256
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1256,
+    "samples": [
+      {
+        "p": [
+          0.9356596,
+          0.76377547,
+          0.8038504
+        ],
+        "uv": [
+          0.5,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.8073817,
+          -0.5185345,
+          0.90789443
+        ],
+        "uv": [
+          0.93730897,
+          0.8851083
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.7960598,
+          -0.5338355,
+          0.91016346
+        ],
+        "uv": [
+          0.95021147,
+          0.87141156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_DECAL_FRONT_WINDOW_WIDE_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 17
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 17,
+    "samples": [
+      {
+        "p": [
+          0.43192333,
+          0.21782586,
+          1.1703345
+        ],
+        "uv": [
+          0.7109375,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.43650627,
+          -0.00053928304,
+          1.1728709
+        ],
+        "uv": [
+          0.49609375,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.5501697,
+          -0.00053896016,
+          1.1292535
+        ],
+        "uv": [
+          0.49609375,
+          0.9980469
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6163
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6163,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1979
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1979,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 478
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 478,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 225
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 225,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6007
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6007,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1863
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1863,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 383
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 383,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 202
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 202,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_BRAKE_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 174
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 174,
+    "samples": [
+      {
+        "p": [
+          -0.17476,
+          0.0042537544,
+          0.056181453
+        ],
+        "uv": [
+          0.107421875,
+          0.5449219
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.1851213,
+          0.004253747,
+          2.7418137E-09
+        ],
+        "uv": [
+          0.1953125,
+          0.5332031
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.12721533,
+          0.013255997,
+          2.7418137E-09
+        ],
+        "uv": [
+          0.1953125,
+          0.62890625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_BRAKE_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 114
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 114,
+    "samples": [
+      {
+        "p": [
+          -0.12721533,
+          0.013255997,
+          2.7418137E-09
+        ],
+        "uv": [
+          0.203125,
+          0.625
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.121734895,
+          0.013256006,
+          0.040180888
+        ],
+        "uv": [
+          0.26171875,
+          0.6308594
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.17476,
+          0.0042537544,
+          0.056181453
+        ],
+        "uv": [
+          0.28710938,
+          0.55078125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_BRAKE_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 9
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 9,
+    "samples": [
+      {
+        "p": [
+          -0.20329832,
+          -0.0036470145,
+          5.4836273E-09
+        ],
+        "uv": [
+          0.19140625,
+          0.4921875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.1054657,
+          0.01274143,
+          -0.080361776
+        ],
+        "uv": [
+          0.31445312,
+          0.64453125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.1054657,
+          0.012741445,
+          0.08036178
+        ],
+        "uv": [
+          0.068359375,
+          0.64453125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1651
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1651,
+    "samples": [
+      {
+        "p": [
+          2.035197,
+          -0.65736336,
+          0.51515555
+        ],
+        "uv": [
+          0.3298376,
+          0.44863018
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.031263,
+          -0.6489957,
+          0.51051056
+        ],
+        "uv": [
+          0.312942,
+          0.4958168
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0249622,
+          -0.6489831,
+          0.52177125
+        ],
+        "uv": [
+          0.29564607,
+          0.3852099
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 929
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 929,
+    "samples": [
+      {
+        "p": [
+          2.0353088,
+          -0.6559809,
+          0.51360285
+        ],
+        "uv": [
+          0.32916978,
+          0.46443987
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.031263,
+          -0.6489957,
+          0.51051056
+        ],
+        "uv": [
+          0.312942,
+          0.4958168
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0216737,
+          -0.6490647,
+          0.5295611
+        ],
+        "uv": [
+          0.28794667,
+          0.30551508
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 459
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 459,
+    "samples": [
+      {
+        "p": [
+          2.0353088,
+          -0.6559809,
+          0.51360285
+        ],
+        "uv": [
+          0.32916978,
+          0.46443987
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0306778,
+          -0.6450938,
+          0.50933725
+        ],
+        "uv": [
+          0.30698603,
+          0.49630412
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0218613,
+          -0.648314,
+          0.5358738
+        ],
+        "uv": [
+          0.28468004,
+          0.25691184
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 459
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 459,
+    "samples": [
+      {
+        "p": [
+          2.0353088,
+          -0.6559809,
+          0.51360285
+        ],
+        "uv": [
+          0.32916978,
+          0.46443987
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0306778,
+          -0.6450938,
+          0.50933725
+        ],
+        "uv": [
+          0.30698603,
+          0.49630412
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0218613,
+          -0.648314,
+          0.5358738
+        ],
+        "uv": [
+          0.28468004,
+          0.25691184
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1330
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1330,
+    "samples": [
+      {
+        "p": [
+          1.7318336,
+          0.84577847,
+          0.58745575
+        ],
+        "uv": [
+          0.37644047,
+          0.5814692
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7406136,
+          0.8463868,
+          0.5792284
+        ],
+        "uv": [
+          0.37537822,
+          0.58745176
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7328224,
+          0.8471149,
+          0.58343846
+        ],
+        "uv": [
+          0.3759254,
+          0.58678186
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 776
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 776,
+    "samples": [
+      {
+        "p": [
+          1.739216,
+          0.8463947,
+          0.5799372
+        ],
+        "uv": [
+          0.37532693,
+          0.5851761
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7233512,
+          0.84720993,
+          0.5890106
+        ],
+        "uv": [
+          0.37686592,
+          0.58176017
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7219396,
+          0.84478295,
+          0.59441465
+        ],
+        "uv": [
+          0.37728572,
+          0.57471174
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 378
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 378,
+    "samples": [
+      {
+        "p": [
+          1.7341235,
+          0.8366733,
+          0.60766584
+        ],
+        "uv": [
+          0.37649187,
+          0.55961674
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7655954,
+          0.82796216,
+          0.6225039
+        ],
+        "uv": [
+          0.37481132,
+          0.5458489
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7209724,
+          0.8465568,
+          0.59050435
+        ],
+        "uv": [
+          0.377039,
+          0.5791986
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 378
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 378,
+    "samples": [
+      {
+        "p": [
+          1.7341235,
+          0.8366733,
+          0.60766584
+        ],
+        "uv": [
+          0.37649187,
+          0.55961674
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7655954,
+          0.82796216,
+          0.6225039
+        ],
+        "uv": [
+          0.37481132,
+          0.5458489
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.7209724,
+          0.8465568,
+          0.59050435
+        ],
+        "uv": [
+          0.377039,
+          0.5791986
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6001
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6001,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1861
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1861,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 387
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 387,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 200
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 200,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.5270079,
+          0.8440217,
+          0.7510549
+        ],
+        "uv": [
+          0.25390625,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5243382,
+          0.8498897,
+          0.6885746
+        ],
+        "uv": [
+          0.2421875,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.6432341,
+          0.838589,
+          0.6924576
+        ],
+        "uv": [
+          0.47851562,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 81
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 81,
+    "samples": [
+      {
+        "p": [
+          0.15775648,
+          0.9023381,
+          0.39259422
+        ],
+        "uv": [
+          0.9863281,
+          0.7109375
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1577628,
+          0.90561026,
+          0.4433332
+        ],
+        "uv": [
+          0.9863281,
+          0.5546875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.3214825,
+          0.90433466,
+          0.43906653
+        ],
+        "uv": [
+          0.021484375,
+          0.56640625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 24936
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 24936,
+    "samples": [
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 23527
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 23527,
+    "samples": [
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 17858
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 17858,
+    "samples": [
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 4941
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 4941,
+    "samples": [
+      {
+        "p": [
+          0.0033846172,
+          0.8274993,
+          0.26589236
+        ],
+        "uv": [
+          0.90575963,
+          0.073766954
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2768
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2768,
+    "samples": [
+      {
+        "p": [
+          0.06895664,
+          0.8308032,
+          0.20643571
+        ],
+        "uv": [
+          0.90403026,
+          0.07466837
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 80
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 80,
+    "samples": [
+      {
+        "p": [
+          0.48537716,
+          -0.8981933,
+          0.37079388
+        ],
+        "uv": [
+          0.9863281,
+          0.7792969
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32144573,
+          -0.89944005,
+          0.37441763
+        ],
+        "uv": [
+          0.021484375,
+          0.7675781
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32141244,
+          -0.893104,
+          0.3015187
+        ],
+        "uv": [
+          0.021484375,
+          0.9941406
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.6431781,
+          -0.8385913,
+          0.6924419
+        ],
+        "uv": [
+          0.515625,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.524347,
+          -0.8509709,
+          0.68910253
+        ],
+        "uv": [
+          0.7519531,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5270302,
+          -0.8439125,
+          0.75091004
+        ],
+        "uv": [
+          0.7402344,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 81
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 81,
+    "samples": [
+      {
+        "p": [
+          0.48537716,
+          -0.8981933,
+          0.37079388
+        ],
+        "uv": [
+          0.9863281,
+          0.7792969
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32144573,
+          -0.89944005,
+          0.37441763
+        ],
+        "uv": [
+          0.021484375,
+          0.7675781
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32141244,
+          -0.893104,
+          0.3015187
+        ],
+        "uv": [
+          0.021484375,
+          0.9941406
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.6431781,
+          -0.8385913,
+          0.6924419
+        ],
+        "uv": [
+          0.515625,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.524347,
+          -0.8509709,
+          0.68910253
+        ],
+        "uv": [
+          0.7519531,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5270302,
+          -0.8439125,
+          0.75091004
+        ],
+        "uv": [
+          0.7402344,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 24936
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 24936,
+    "samples": [
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 23527
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 23527,
+    "samples": [
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 17858
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 17858,
+    "samples": [
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 4941
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 4941,
+    "samples": [
+      {
+        "p": [
+          0.0033846172,
+          0.8274993,
+          0.26589236
+        ],
+        "uv": [
+          0.90575963,
+          0.073766954
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2768
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2768,
+    "samples": [
+      {
+        "p": [
+          0.06895664,
+          0.8308032,
+          0.20643571
+        ],
+        "uv": [
+          0.90403026,
+          0.07466837
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.5270079,
+          0.8440217,
+          0.7510549
+        ],
+        "uv": [
+          0.25390625,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5243382,
+          0.8498897,
+          0.6885746
+        ],
+        "uv": [
+          0.2421875,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.6432341,
+          0.838589,
+          0.6924576
+        ],
+        "uv": [
+          0.47851562,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 24936
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 24936,
+    "samples": [
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 23527
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 23527,
+    "samples": [
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 17858
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 17858,
+    "samples": [
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 4941
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 4941,
+    "samples": [
+      {
+        "p": [
+          0.0033846172,
+          0.8274993,
+          0.26589236
+        ],
+        "uv": [
+          0.90575963,
+          0.073766954
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2768
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2768,
+    "samples": [
+      {
+        "p": [
+          0.06895664,
+          0.8308032,
+          0.20643571
+        ],
+        "uv": [
+          0.90403026,
+          0.07466837
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_BRAKE_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 177
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 177,
+    "samples": [
+      {
+        "p": [
+          0.12784496,
+          0.0099577885,
+          0.009463616
+        ],
+        "uv": [
+          0.6484375,
+          0.6171875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1829569,
+          0.0009555352,
+          0.014972836
+        ],
+        "uv": [
+          0.66015625,
+          0.54296875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.17102978,
+          0.000955538,
+          0.070842825
+        ],
+        "uv": [
+          0.5878906,
+          0.53515625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_BRAKE_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 114
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 114,
+    "samples": [
+      {
+        "p": [
+          0.12784496,
+          0.0099577885,
+          0.009463616
+        ],
+        "uv": [
+          0.6328125,
+          0.60546875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1829569,
+          0.0009555352,
+          0.014972836
+        ],
+        "uv": [
+          0.6542969,
+          0.5332031
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.17102978,
+          0.000955538,
+          0.070842825
+        ],
+        "uv": [
+          0.5878906,
+          0.5234375
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_BRAKE_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 9
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 9,
+    "samples": [
+      {
+        "p": [
+          0.19881381,
+          -0.0045727524,
+          0.077708974
+        ],
+        "uv": [
+          0.5878906,
+          0.49609375
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.0666845,
+          0.010568945,
+          0.11460457
+        ],
+        "uv": [
+          0.4765625,
+          0.61328125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.12819073,
+          0.010568935,
+          -0.03388465
+        ],
+        "uv": [
+          0.6953125,
+          0.61328125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 80
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 80,
+    "samples": [
+      {
+        "p": [
+          0.15775648,
+          0.9023381,
+          0.39259422
+        ],
+        "uv": [
+          0.9863281,
+          0.7109375
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1577628,
+          0.90561026,
+          0.4433332
+        ],
+        "uv": [
+          0.9863281,
+          0.5546875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.3214825,
+          0.90433466,
+          0.43906653
+        ],
+        "uv": [
+          0.021484375,
+          0.56640625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 81
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 81,
+    "samples": [
+      {
+        "p": [
+          0.15775648,
+          0.9023381,
+          0.39259422
+        ],
+        "uv": [
+          0.9863281,
+          0.7109375
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1577628,
+          0.90561026,
+          0.4433332
+        ],
+        "uv": [
+          0.9863281,
+          0.5546875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.3214825,
+          0.90433466,
+          0.43906653
+        ],
+        "uv": [
+          0.021484375,
+          0.56640625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6170
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6170,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1967
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1967,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 458
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 458,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 193
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 193,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_LEFT_SIDE_MIRROR_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.5270079,
+          0.8440217,
+          0.7510549
+        ],
+        "uv": [
+          0.25390625,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5243382,
+          0.8498897,
+          0.6885746
+        ],
+        "uv": [
+          0.2421875,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.6432341,
+          0.838589,
+          0.6924576
+        ],
+        "uv": [
+          0.47851562,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6126
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6126,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1964
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1964,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 483
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 483,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 250
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 250,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 80
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 80,
+    "samples": [
+      {
+        "p": [
+          0.48537716,
+          -0.8981933,
+          0.37079388
+        ],
+        "uv": [
+          0.9863281,
+          0.7792969
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32144573,
+          -0.89944005,
+          0.37441763
+        ],
+        "uv": [
+          0.021484375,
+          0.7675781
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32141244,
+          -0.893104,
+          0.3015187
+        ],
+        "uv": [
+          0.021484375,
+          0.9941406
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 24936
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 24936,
+    "samples": [
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 23527
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 23527,
+    "samples": [
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 17858
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 17858,
+    "samples": [
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 4941
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 4941,
+    "samples": [
+      {
+        "p": [
+          0.0033846172,
+          0.8274993,
+          0.26589236
+        ],
+        "uv": [
+          0.90575963,
+          0.073766954
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2768
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2768,
+    "samples": [
+      {
+        "p": [
+          0.06895664,
+          0.8308032,
+          0.20643571
+        ],
+        "uv": [
+          0.90403026,
+          0.07466837
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.6431781,
+          -0.8385913,
+          0.6924419
+        ],
+        "uv": [
+          0.515625,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.524347,
+          -0.8509709,
+          0.68910253
+        ],
+        "uv": [
+          0.7519531,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5270302,
+          -0.8439125,
+          0.75091004
+        ],
+        "uv": [
+          0.7402344,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6112
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6112,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1948
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1948,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 451
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 451,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 220
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 220,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 14574
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 6,
+    "nonunitNormals": 6,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 14574,
+    "samples": [
+      {
+        "p": [
+          2.2586215,
+          0.47305715,
+          0.5520758
+        ],
+        "uv": [
+          0.008578195,
+          0.050038293
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2605853,
+          0.47297737,
+          0.5496159
+        ],
+        "uv": [
+          0.008566842,
+          0.051048532
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.258468,
+          0.47593442,
+          0.5504075
+        ],
+        "uv": [
+          0.008603561,
+          0.051348247
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.6431781,
+          -0.8385913,
+          0.6924419
+        ],
+        "uv": [
+          0.515625,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.524347,
+          -0.8509709,
+          0.68910253
+        ],
+        "uv": [
+          0.7519531,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5270302,
+          -0.8439125,
+          0.75091004
+        ],
+        "uv": [
+          0.7402344,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6187
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6187,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1986
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1986,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 450
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 450,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 230
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 230,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 24936
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 24936,
+    "samples": [
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 23527
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 23527,
+    "samples": [
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 17858
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 17858,
+    "samples": [
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 4941
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 4941,
+    "samples": [
+      {
+        "p": [
+          0.0033846172,
+          0.8274993,
+          0.26589236
+        ],
+        "uv": [
+          0.90575963,
+          0.073766954
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2768
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2768,
+    "samples": [
+      {
+        "p": [
+          0.06895664,
+          0.8308032,
+          0.20643571
+        ],
+        "uv": [
+          0.90403026,
+          0.07466837
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.5270079,
+          0.8440217,
+          0.7510549
+        ],
+        "uv": [
+          0.25390625,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5243382,
+          0.8498897,
+          0.6885746
+        ],
+        "uv": [
+          0.2421875,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.6432341,
+          0.838589,
+          0.6924576
+        ],
+        "uv": [
+          0.47851562,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 24926
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 24926,
+    "samples": [
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 23509
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 23509,
+    "samples": [
+      {
+        "p": [
+          -0.009844296,
+          0.8289783,
+          0.27722728
+        ],
+        "uv": [
+          0.906099,
+          0.07348649
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 17774
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 17774,
+    "samples": [
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.06383542,
+          0.83865756,
+          0.44891873
+        ],
+        "uv": [
+          0.90704197,
+          0.06957767
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.03251477,
+          0.8312266,
+          0.37138334
+        ],
+        "uv": [
+          0.9063892,
+          0.07225258
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 4857
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 4857,
+    "samples": [
+      {
+        "p": [
+          0.0033846172,
+          0.8274993,
+          0.26589236
+        ],
+        "uv": [
+          0.90575963,
+          0.073766954
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2684
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2684,
+    "samples": [
+      {
+        "p": [
+          0.06895664,
+          0.8308032,
+          0.20643571
+        ],
+        "uv": [
+          0.90403026,
+          0.07466837
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.009864476,
+          0.828932,
+          0.27723938
+        ],
+        "uv": [
+          0.9060995,
+          0.07348606
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.05028793,
+          0.8063631,
+          0.365252
+        ],
+        "uv": [
+          0.90682864,
+          0.07164116
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 8802
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 8802,
+    "samples": [
+      {
+        "p": [
+          -0.14491309,
+          0.09988297,
+          -0.022317572
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.14621307,
+          0.10459036,
+          -0.007972172
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.14491309,
+          0.10449311,
+          -0.022335375
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 5386
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 5386,
+    "samples": [
+      {
+        "p": [
+          -0.14491309,
+          0.09988297,
+          -0.022317572
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.14581792,
+          0.10855579,
+          -0.007971262
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.1447384,
+          0.10779218,
+          -0.022324147
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3044
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 13,
+    "nonunitNormals": 13,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3044,
+    "samples": [
+      {
+        "p": [
+          -0.14480828,
+          0.104628496,
+          -0.022321517
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.122605056,
+          0.099991225,
+          -0.0069806892
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.14594963,
+          0.10569722,
+          -0.007965325
+        ],
+        "uv": [
+          0.75,
+          0.5
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 50
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 50,
+    "samples": [
+      {
+        "p": [
+          -0.28439862,
+          -0.0048544407,
+          0.16419762
+        ],
+        "uv": [
+          1,
+          0.2617994
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.28439862,
+          0.22720394,
+          0.16419762
+        ],
+        "uv": [
+          0,
+          0.2617994
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.32839525,
+          0.22720394,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 50
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 50,
+    "samples": [
+      {
+        "p": [
+          -0.28439862,
+          -0.0048544407,
+          0.16419762
+        ],
+        "uv": [
+          1,
+          0.2617994
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.28439862,
+          0.22720394,
+          0.16419762
+        ],
+        "uv": [
+          0,
+          0.2617994
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -0.32839525,
+          0.22720394,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 80
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 80,
+    "samples": [
+      {
+        "p": [
+          0.15775648,
+          0.9023381,
+          0.39259422
+        ],
+        "uv": [
+          0.9863281,
+          0.7109375
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1577628,
+          0.90561026,
+          0.4433332
+        ],
+        "uv": [
+          0.9863281,
+          0.5546875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.3214825,
+          0.90433466,
+          0.43906653
+        ],
+        "uv": [
+          0.021484375,
+          0.56640625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 81
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 81,
+    "samples": [
+      {
+        "p": [
+          0.48537716,
+          -0.8981933,
+          0.37079388
+        ],
+        "uv": [
+          0.9863281,
+          0.7792969
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32144573,
+          -0.89944005,
+          0.37441763
+        ],
+        "uv": [
+          0.021484375,
+          0.7675781
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32141244,
+          -0.893104,
+          0.3015187
+        ],
+        "uv": [
+          0.021484375,
+          0.9941406
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6021
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6021,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1870
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1870,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 396
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 396,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 218
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 218,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 9595
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 9595,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3020
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3020,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 545
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 545,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 224
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 224,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6143
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6143,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1950
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1950,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 428
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 428,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 227
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 227,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6093
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6093,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1942
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1942,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 460
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 460,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 252
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 252,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 21575
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 3,
+    "nonunitNormals": 4,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 21575,
+    "samples": [
+      {
+        "p": [
+          -2.2648337,
+          -0.089313895,
+          0.6802181
+        ],
+        "uv": [
+          0.2352843,
+          0.1349723
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.2645252,
+          -0.089065716,
+          0.67870903
+        ],
+        "uv": [
+          0.23458639,
+          0.15558068
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.265305,
+          -0.090025336,
+          0.6780711
+        ],
+        "uv": [
+          0.25253296,
+          0.17346612
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 22207
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 18,
+    "nonunitNormals": 18,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 22207,
+    "samples": [
+      {
+        "p": [
+          -2.263078,
+          -0.089306384,
+          0.67894346
+        ],
+        "uv": [
+          0.23111375,
+          0.15102895
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.2630107,
+          -0.08477615,
+          0.67672557
+        ],
+        "uv": [
+          0.12266752,
+          0.18807013
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -2.2638352,
+          -0.094203636,
+          0.67204493
+        ],
+        "uv": [
+          0.2915246,
+          0.24140827
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 12227
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 24,
+    "nonunitNormals": 24,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 12227,
+    "samples": [
+      {
+        "p": [
+          2.0627472,
+          0.55759114,
+          0.538377
+        ],
+        "uv": [
+          0.04192272,
+          0.25501847
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0134985,
+          0.5534419,
+          0.5303559
+        ],
+        "uv": [
+          0.03438452,
+          0.49689138
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.0294554,
+          0.66634953,
+          0.5184652
+        ],
+        "uv": [
+          0.31546462,
+          0.36836243
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 5157
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 33,
+    "nonunitNormals": 33,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 5157,
+    "samples": [
+      {
+        "p": [
+          1.9090357,
+          0.68653643,
+          0.5178333
+        ],
+        "uv": [
+          0.01982073,
+          0.49460012
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9349862,
+          0.7335294,
+          0.5142137
+        ],
+        "uv": [
+          0.1701408,
+          0.2568833
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9453485,
+          0.6768138,
+          0.5357035
+        ],
+        "uv": [
+          0.019896045,
+          0.00699701
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 5156
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 33,
+    "nonunitNormals": 33,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 5156,
+    "samples": [
+      {
+        "p": [
+          1.9090357,
+          0.68653643,
+          0.5178333
+        ],
+        "uv": [
+          0.01982073,
+          0.49460012
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9349862,
+          0.7335294,
+          0.5142137
+        ],
+        "uv": [
+          0.1701408,
+          0.2568833
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9453485,
+          0.6768138,
+          0.5357035
+        ],
+        "uv": [
+          0.019896045,
+          0.00699701
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 5997
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 5997,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1869
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1869,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 384
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 384,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 236
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 236,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.6431781,
+          -0.8385913,
+          0.6924419
+        ],
+        "uv": [
+          0.515625,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.524347,
+          -0.8509709,
+          0.68910253
+        ],
+        "uv": [
+          0.7519531,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5270302,
+          -0.8439125,
+          0.75091004
+        ],
+        "uv": [
+          0.7402344,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 15
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 15,
+    "samples": [
+      {
+        "p": [
+          -1.5270079,
+          0.8440217,
+          0.7510549
+        ],
+        "uv": [
+          0.25390625,
+          0.017578125
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.5243382,
+          0.8498897,
+          0.6885746
+        ],
+        "uv": [
+          0.2421875,
+          0.5722656
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          -1.6432341,
+          0.838589,
+          0.6924576
+        ],
+        "uv": [
+          0.47851562,
+          0.5410156
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 80
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 80,
+    "samples": [
+      {
+        "p": [
+          0.15775648,
+          0.9023381,
+          0.39259422
+        ],
+        "uv": [
+          0.9863281,
+          0.7109375
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.1577628,
+          0.90561026,
+          0.4433332
+        ],
+        "uv": [
+          0.9863281,
+          0.5546875
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.3214825,
+          0.90433466,
+          0.43906653
+        ],
+        "uv": [
+          0.021484375,
+          0.56640625
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6204
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6204,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1961
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1961,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 446
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 446,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 238
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 238,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 80
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 80,
+    "samples": [
+      {
+        "p": [
+          0.48537716,
+          -0.8981933,
+          0.37079388
+        ],
+        "uv": [
+          0.9863281,
+          0.7792969
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32144573,
+          -0.89944005,
+          0.37441763
+        ],
+        "uv": [
+          0.021484375,
+          0.7675781
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0.32141244,
+          -0.893104,
+          0.3015187
+        ],
+        "uv": [
+          0.021484375,
+          0.9941406
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_E",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 3
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 3,
+    "samples": [
+      {
+        "p": [
+          0,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1E-05,
+          0,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          0,
+          1E-05,
+          0
+        ],
+        "uv": [
+          0,
+          0
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6041
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6041,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1883
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1883,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 410
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 410,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 242
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 242,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2521
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2521,
+    "samples": [
+      {
+        "p": [
+          1.1467731,
+          0.15722486,
+          0.8356771
+        ],
+        "uv": [
+          0.6055021,
+          0.8950477
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.2220085,
+          0.21594033,
+          0.7882565
+        ],
+        "uv": [
+          0.6449017,
+          0.9876396
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.137234,
+          0.20799653,
+          0.8390362
+        ],
+        "uv": [
+          0.6395703,
+          0.88450027
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2521
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2521,
+    "samples": [
+      {
+        "p": [
+          1.1467731,
+          0.15722486,
+          0.8356771
+        ],
+        "uv": [
+          0.6055021,
+          0.8950477
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.2220085,
+          0.21594033,
+          0.7882565
+        ],
+        "uv": [
+          0.6449017,
+          0.9876396
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.137234,
+          0.20799653,
+          0.8390362
+        ],
+        "uv": [
+          0.6395703,
+          0.88450027
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2521
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2521,
+    "samples": [
+      {
+        "p": [
+          1.1467731,
+          0.15722486,
+          0.8356771
+        ],
+        "uv": [
+          0.6055021,
+          0.8950477
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.2220085,
+          0.21594033,
+          0.7882565
+        ],
+        "uv": [
+          0.6449017,
+          0.9876396
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.137234,
+          0.20799653,
+          0.8390362
+        ],
+        "uv": [
+          0.6395703,
+          0.88450027
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 2521
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 2521,
+    "samples": [
+      {
+        "p": [
+          1.1467731,
+          0.15722486,
+          0.8356771
+        ],
+        "uv": [
+          0.6055021,
+          0.8950477
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.2220085,
+          0.21594033,
+          0.7882565
+        ],
+        "uv": [
+          0.6449017,
+          0.9876396
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.137234,
+          0.20799653,
+          0.8390362
+        ],
+        "uv": [
+          0.6395703,
+          0.88450027
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6125
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6125,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1938
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1938,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 437
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 437,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 234
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 234,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 19996
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 147,
+    "nonunitNormals": 147,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 19996,
+    "samples": [
+      {
+        "p": [
+          1.358816,
+          -0.31032202,
+          0.8100078
+        ],
+        "uv": [
+          0.42368743,
+          0.9261871
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4149543,
+          -0.6125568,
+          0.763876
+        ],
+        "uv": [
+          0.39349958,
+          0.8644709
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4180048,
+          -0.31465948,
+          0.79982287
+        ],
+        "uv": [
+          0.46124765,
+          0.8554015
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 19994
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 147,
+    "nonunitNormals": 147,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 19994,
+    "samples": [
+      {
+        "p": [
+          1.358816,
+          -0.31032202,
+          0.8100078
+        ],
+        "uv": [
+          0.42368743,
+          0.9261871
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4149543,
+          -0.6125568,
+          0.763876
+        ],
+        "uv": [
+          0.39349958,
+          0.8644709
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4180048,
+          -0.31465948,
+          0.79982287
+        ],
+        "uv": [
+          0.46124765,
+          0.8554015
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 19992
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 147,
+    "nonunitNormals": 147,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 19992,
+    "samples": [
+      {
+        "p": [
+          1.358816,
+          -0.31032202,
+          0.8100078
+        ],
+        "uv": [
+          0.42368743,
+          0.9261871
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4149543,
+          -0.6125568,
+          0.763876
+        ],
+        "uv": [
+          0.39349958,
+          0.8644709
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4180048,
+          -0.31465948,
+          0.79982287
+        ],
+        "uv": [
+          0.46124765,
+          0.8554015
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 19988
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 147,
+    "nonunitNormals": 147,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 19988,
+    "samples": [
+      {
+        "p": [
+          1.358816,
+          -0.31032202,
+          0.8100078
+        ],
+        "uv": [
+          0.42368743,
+          0.9261871
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4149543,
+          -0.6125568,
+          0.763876
+        ],
+        "uv": [
+          0.39349958,
+          0.8644709
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.4180048,
+          -0.31465948,
+          0.79982287
+        ],
+        "uv": [
+          0.46124765,
+          0.8554015
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_A",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 6006
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 6006,
+    "samples": [
+      {
+        "p": [
+          2.193315,
+          0.49164748,
+          0.6190625
+        ],
+        "uv": [
+          0.9727,
+          0.9724
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1734893,
+          0.48801652,
+          0.63332444
+        ],
+        "uv": [
+          0.95600003,
+          0.9702
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1954403,
+          0.47995046,
+          0.6242165
+        ],
+        "uv": [
+          0.97,
+          0.9752
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_B",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 1875
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 1875,
+    "samples": [
+      {
+        "p": [
+          2.1810124,
+          0.5141877,
+          0.6143403
+        ],
+        "uv": [
+          0.9715468,
+          0.9660181
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.1761627,
+          0.47744587,
+          0.6375054
+        ],
+        "uv": [
+          0.9525459,
+          0.9725136
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.196541,
+          0.46837792,
+          0.62984806
+        ],
+        "uv": [
+          0.9661752,
+          0.97752637
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_C",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 378
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 378,
+    "samples": [
+      {
+        "p": [
+          2.2002454,
+          0.53801996,
+          0.59083
+        ],
+        "uv": [
+          0.9903023,
+          0.9627686
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2061725,
+          0.46466318,
+          0.62616473
+        ],
+        "uv": [
+          0.9402986,
+          0.9723427
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          2.2398615,
+          0.46307918,
+          0.59961855
+        ],
+        "uv": [
+          0.98884785,
+          0.98347616
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_D",
+    "colors": [
+      {
+        "color": "FFFFFFFF",
+        "count": 236
+      }
+    ],
+    "nonfiniteNormals": 0,
+    "zeroNormals": 0,
+    "nonunitNormals": 0,
+    "nonfiniteTangents": 0,
+    "zeroTangents": 236,
+    "samples": [
+      {
+        "p": [
+          1.676273,
+          0.6320722,
+          0.773362
+        ],
+        "uv": [
+          0.7330468,
+          1.0460118
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.9655155,
+          0.6063542,
+          0.67641544
+        ],
+        "uv": [
+          0.86439615,
+          0.9139861
+        ],
+        "color": "FFFFFFFF"
+      },
+      {
+        "p": [
+          1.5782039,
+          0.7051303,
+          0.73676723
+        ],
+        "uv": [
+          0.8618804,
+          1.1933973
+        ],
+        "color": "FFFFFFFF"
+      }
+    ]
+  }
+]

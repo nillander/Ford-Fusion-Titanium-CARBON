@@ -1,5 +1,6 @@
 param([ValidateSet('Install','Restore')][string]$Action = 'Install',
-      [string]$GameRoot = 'D:\Program Files (x86)\Electronic Arts\Need for Speed Carbon')
+      [string]$GameRoot = 'D:\Program Files (x86)\Electronic Arts\Need for Speed Carbon',
+      [string]$VerificationFile = 'docs/carbon2018-stage-axes-verification.json')
 $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path $PSScriptRoot -Parent
 $gameFolder = Join-Path $GameRoot 'CARS/MUSTANGGT'
@@ -7,7 +8,7 @@ $backupFolder = Join-Path $GameRoot 'CARS/MUSTANGGT_backup_stock'
 $referenceFolder = Join-Path $repoRoot 'reference/carbon-stock/MUSTANGGT'
 if (Get-Process -Name NFSC -ErrorAction SilentlyContinue) { throw 'Feche o jogo antes de instalar/restaurar.' }
 if ($Action -eq 'Install') {
-    $verification = Get-Content (Join-Path $repoRoot 'docs/carbon2018-stage-axes-verification.json') -Raw | ConvertFrom-Json
+    $verification = Get-Content (Join-Path $repoRoot $VerificationFile) -Raw | ConvertFrom-Json
     if (-not $verification.passed) { throw 'Auditoria corrigida não aprovada.' }
     foreach ($file in $verification.files) {
         if ((Get-FileHash -LiteralPath (Join-Path $repoRoot $file.path)).Hash -ne $file.sha256) { throw 'Staging mudou após auditoria.' }
@@ -26,8 +27,11 @@ foreach ($name in @('GEOMETRY.BIN','TEXTURES.BIN','VINYLS.BIN')) {
 }
 $vinylHash = (Get-FileHash -LiteralPath (Join-Path $gameFolder 'VINYLS.BIN')).Hash
 foreach ($name in @('GEOMETRY.BIN','TEXTURES.BIN')) {
-    $sourceFolder = if ($Action -eq 'Restore') { $backupFolder } else { Join-Path $repoRoot 'work/carbon2018-stage-axes' }
-    $source = Join-Path $sourceFolder $name
+    $source = if ($Action -eq 'Restore') { Join-Path $backupFolder $name } else {
+        $files = @($verification.files | Where-Object { (Split-Path $_.path -Leaf) -eq $name })
+        if ($files.Count -ne 1) { throw "Auditoria deve identificar exatamente um $name." }
+        Join-Path $repoRoot $files[0].path
+    }
     $target = Join-Path $gameFolder $name
     Copy-Item -LiteralPath $source -Destination $target
     if ((Get-FileHash -LiteralPath $target).Hash -ne (Get-FileHash -LiteralPath $source).Hash) { throw 'Hash após cópia difere.' }

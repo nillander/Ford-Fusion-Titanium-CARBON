@@ -15,7 +15,9 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 
 **Próxima ação:** investigar os defeitos de superfícies/vidros/adesivos observados
 no primeiro teste e completar a compatibilidade com MUSTANGGT. O staging corrigido
-`work/carbon2018-stage-axes` está instalado experimentalmente; o antigo segue obsoleto.
+`work/carbon2018-stage-colors` está instalado experimentalmente desde 10:18,
+com 552 cores de vértice recuperadas; `stage-axes` é a comparação anterior.
+As faixas e os artefatos continuam visíveis: a recuperação não resolve o acabamento.
 Reversão: fechar o jogo e executar `scripts/test-install-2018.ps1 -Action Restore`.
 Ler [README.md](README.md) e [sessão Claude](docs/SESSAO-CLAUDE-2026-10-07.md).
 
@@ -156,7 +158,8 @@ Decisão:
 - [ ] DXT1 em opacos; DXT3 só lente/vidro
   - [ ] Revisar DXT3 de BADGING/SKIN19, alpha e mipmaps (a fonte atual declara um nível)
   - [ ] Conferir 20 hashes de texturas compartilhadas no GLOBAL Carbon e effects/materiais
-  - [ ] Recuperar/adaptar cores de vértices perdidas na exportação OBJ
+  - [x] Recuperar cores de vértices da fonte por posição/UV: 552 valores em 14 sólidos; reexportação sem perda e auditoria independente dos 186 sólidos
+  - [ ] Adaptar materiais/adesivos para o slot Carbon; recuperação de cores não eliminou as faixas/artefatos do teste
 - [x] Corrigir rotação de 90° no staging 2018: nfscgc grava (x′,y′)=(y,−x); fonte pré-girada em `work/carbon2018-source-axes`, saída corrigida em `work/carbon2018-stage-axes`
   - [x] Diagnosticar transformação e preparar rotação inversa de posições/normais
   - [x] Compilar/exportar em `work/carbon2018-stage-axes` e conferir caixas no sistema do doador

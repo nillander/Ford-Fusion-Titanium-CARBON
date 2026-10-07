@@ -1,0 +1,939 @@
+{
+  "source_sha256": "C6506D3FA563EC05926315CCC994DE5DC3150DC281F460139BCEE2C16B706F01",
+  "input_sha256": "BCFCD2F7BF5A3D44E8CE8CFFA3A4B1D078AB3FAF1713AC5817BBC55623EEF8E7",
+  "output_sha256": "183246CB9CDF7583661EA7B049AC134CDF24FA70818FEF3E3405D308A221B04C",
+  "parts": [
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_A",
+      "matched_vertices": 1292,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_B",
+      "matched_vertices": 825,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_C",
+      "matched_vertices": 470,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_D",
+      "matched_vertices": 470,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 81,
+      "changed_colors": 45
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DRIVER_A",
+      "matched_vertices": 1044,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DRIVER_B",
+      "matched_vertices": 797,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DRIVER_C",
+      "matched_vertices": 326,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_DECAL_REAR_WINDOW_WIDE_MEDIUM_A",
+      "matched_vertices": 18,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 81,
+      "changed_colors": 45
+    },
+    {
+      "part": "MUSTANGGT_STYLE21_HOOD_A",
+      "matched_vertices": 6070,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE21_HOOD_B",
+      "matched_vertices": 1912,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE21_HOOD_C",
+      "matched_vertices": 407,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE21_HOOD_D",
+      "matched_vertices": 206,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE02_HOOD_A",
+      "matched_vertices": 6149,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE02_HOOD_B",
+      "matched_vertices": 1936,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE02_HOOD_C",
+      "matched_vertices": 434,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE02_HOOD_D",
+      "matched_vertices": 219,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
+      "matched_vertices": 1109,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
+      "matched_vertices": 607,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
+      "matched_vertices": 309,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D",
+      "matched_vertices": 309,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_REAR_WINDOW_A",
+      "matched_vertices": 1256,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_REAR_WINDOW_B",
+      "matched_vertices": 1256,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_REAR_WINDOW_C",
+      "matched_vertices": 1256,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_REAR_WINDOW_D",
+      "matched_vertices": 1256,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_DECAL_FRONT_WINDOW_WIDE_MEDIUM_A",
+      "matched_vertices": 17,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE20_HOOD_A",
+      "matched_vertices": 6163,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE20_HOOD_B",
+      "matched_vertices": 1979,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE20_HOOD_C",
+      "matched_vertices": 478,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE20_HOOD_D",
+      "matched_vertices": 225,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE17_HOOD_A",
+      "matched_vertices": 6007,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE17_HOOD_B",
+      "matched_vertices": 1863,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE17_HOOD_C",
+      "matched_vertices": 383,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE17_HOOD_D",
+      "matched_vertices": 202,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_REAR_BRAKE_A",
+      "matched_vertices": 174,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_REAR_BRAKE_B",
+      "matched_vertices": 114,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_REAR_BRAKE_C",
+      "matched_vertices": 9,
+      "changed_colors": 9
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A",
+      "matched_vertices": 1651,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_B",
+      "matched_vertices": 929,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_C",
+      "matched_vertices": 459,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_D",
+      "matched_vertices": 459,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_A",
+      "matched_vertices": 1330,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_B",
+      "matched_vertices": 776,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_C",
+      "matched_vertices": 378,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_D",
+      "matched_vertices": 378,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE16_HOOD_A",
+      "matched_vertices": 6001,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE16_HOOD_B",
+      "matched_vertices": 1861,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE16_HOOD_C",
+      "matched_vertices": 387,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE16_HOOD_D",
+      "matched_vertices": 200,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 81,
+      "changed_colors": 45
+    },
+    {
+      "part": "MUSTANGGT_KIT05_BODY_A",
+      "matched_vertices": 24936,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT05_BODY_B",
+      "matched_vertices": 23527,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT05_BODY_C",
+      "matched_vertices": 17858,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT05_BODY_D",
+      "matched_vertices": 4941,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT05_BODY_E",
+      "matched_vertices": 2768,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 80,
+      "changed_colors": 44
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 81,
+      "changed_colors": 45
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_BODY_A",
+      "matched_vertices": 24936,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_BODY_B",
+      "matched_vertices": 23527,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_BODY_C",
+      "matched_vertices": 17858,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_BODY_D",
+      "matched_vertices": 4941,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_BODY_E",
+      "matched_vertices": 2768,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_BODY_A",
+      "matched_vertices": 24936,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_BODY_B",
+      "matched_vertices": 23527,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_BODY_C",
+      "matched_vertices": 17858,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_BODY_D",
+      "matched_vertices": 4941,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_BODY_E",
+      "matched_vertices": 2768,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_BRAKE_A",
+      "matched_vertices": 177,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_BRAKE_B",
+      "matched_vertices": 114,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_BRAKE_C",
+      "matched_vertices": 9,
+      "changed_colors": 9
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 80,
+      "changed_colors": 44
+    },
+    {
+      "part": "MUSTANGGT_KIT00_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 81,
+      "changed_colors": 45
+    },
+    {
+      "part": "MUSTANGGT_STYLE32_HOOD_A",
+      "matched_vertices": 6170,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE32_HOOD_B",
+      "matched_vertices": 1967,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE32_HOOD_C",
+      "matched_vertices": 458,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE32_HOOD_D",
+      "matched_vertices": 193,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_LEFT_SIDE_MIRROR_A",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE13_HOOD_A",
+      "matched_vertices": 6126,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE13_HOOD_B",
+      "matched_vertices": 1964,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE13_HOOD_C",
+      "matched_vertices": 483,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE13_HOOD_D",
+      "matched_vertices": 250,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 80,
+      "changed_colors": 44
+    },
+    {
+      "part": "MUSTANGGT_KIT02_BODY_A",
+      "matched_vertices": 24936,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_BODY_B",
+      "matched_vertices": 23527,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_BODY_C",
+      "matched_vertices": 17858,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_BODY_D",
+      "matched_vertices": 4941,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_BODY_E",
+      "matched_vertices": 2768,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT05_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE31_HOOD_A",
+      "matched_vertices": 6112,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE31_HOOD_B",
+      "matched_vertices": 1948,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE31_HOOD_C",
+      "matched_vertices": 451,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE31_HOOD_D",
+      "matched_vertices": 220,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_A",
+      "matched_vertices": 14574,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_B",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_C",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_D",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_E",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE09_HOOD_A",
+      "matched_vertices": 6187,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE09_HOOD_B",
+      "matched_vertices": 1986,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE09_HOOD_C",
+      "matched_vertices": 450,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE09_HOOD_D",
+      "matched_vertices": 230,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_BODY_A",
+      "matched_vertices": 24936,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_BODY_B",
+      "matched_vertices": 23527,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_BODY_C",
+      "matched_vertices": 17858,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_BODY_D",
+      "matched_vertices": 4941,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_BODY_E",
+      "matched_vertices": 2768,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_BODY_A",
+      "matched_vertices": 24926,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_BODY_B",
+      "matched_vertices": 23509,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_BODY_C",
+      "matched_vertices": 17774,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_BODY_D",
+      "matched_vertices": 4857,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_BODY_E",
+      "matched_vertices": 2684,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_TIRE_A",
+      "matched_vertices": 8802,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_TIRE_B",
+      "matched_vertices": 5386,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_TIRE_C",
+      "matched_vertices": 3044,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_TIRE_D",
+      "matched_vertices": 50,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_TIRE_E",
+      "matched_vertices": 50,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 80,
+      "changed_colors": 44
+    },
+    {
+      "part": "MUSTANGGT_KIT01_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 81,
+      "changed_colors": 45
+    },
+    {
+      "part": "MUSTANGGT_STYLE26_HOOD_A",
+      "matched_vertices": 6021,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE26_HOOD_B",
+      "matched_vertices": 1870,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE26_HOOD_C",
+      "matched_vertices": 396,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE26_HOOD_D",
+      "matched_vertices": 218,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_HOOD_A",
+      "matched_vertices": 9595,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_HOOD_B",
+      "matched_vertices": 3020,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_HOOD_C",
+      "matched_vertices": 545,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_HOOD_D",
+      "matched_vertices": 224,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE10_HOOD_A",
+      "matched_vertices": 6143,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE10_HOOD_B",
+      "matched_vertices": 1950,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE10_HOOD_C",
+      "matched_vertices": 428,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE10_HOOD_D",
+      "matched_vertices": 227,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE07_HOOD_A",
+      "matched_vertices": 6093,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE07_HOOD_B",
+      "matched_vertices": 1942,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE07_HOOD_C",
+      "matched_vertices": 460,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE07_HOOD_D",
+      "matched_vertices": 252,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_BASE_A",
+      "matched_vertices": 21575,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_BASE_B",
+      "matched_vertices": 22207,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_BASE_C",
+      "matched_vertices": 12227,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_BASE_D",
+      "matched_vertices": 5157,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_BASE_E",
+      "matched_vertices": 5156,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE06_HOOD_A",
+      "matched_vertices": 5997,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE06_HOOD_B",
+      "matched_vertices": 1869,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE06_HOOD_C",
+      "matched_vertices": 384,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE06_HOOD_D",
+      "matched_vertices": 236,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT02_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "matched_vertices": 15,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT03_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 80,
+      "changed_colors": 44
+    },
+    {
+      "part": "MUSTANGGT_STYLE05_HOOD_A",
+      "matched_vertices": 6204,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE05_HOOD_B",
+      "matched_vertices": 1961,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE05_HOOD_C",
+      "matched_vertices": 446,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE05_HOOD_D",
+      "matched_vertices": 238,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT04_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "matched_vertices": 80,
+      "changed_colors": 44
+    },
+    {
+      "part": "MUSTANGGT_KIT00_SPOILER_A",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_SPOILER_B",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_SPOILER_C",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_SPOILER_D",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_SPOILER_E",
+      "matched_vertices": 3,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE23_HOOD_A",
+      "matched_vertices": 6041,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE23_HOOD_B",
+      "matched_vertices": 1883,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE23_HOOD_C",
+      "matched_vertices": 410,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE23_HOOD_D",
+      "matched_vertices": 242,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_WINDOW_A",
+      "matched_vertices": 2521,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_WINDOW_B",
+      "matched_vertices": 2521,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_WINDOW_C",
+      "matched_vertices": 2521,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_FRONT_WINDOW_D",
+      "matched_vertices": 2521,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE04_HOOD_A",
+      "matched_vertices": 6125,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE04_HOOD_B",
+      "matched_vertices": 1938,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE04_HOOD_C",
+      "matched_vertices": 437,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE04_HOOD_D",
+      "matched_vertices": 234,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_INTERIOR_A",
+      "matched_vertices": 19996,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_INTERIOR_B",
+      "matched_vertices": 19994,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_INTERIOR_C",
+      "matched_vertices": 19992,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_KIT00_INTERIOR_D",
+      "matched_vertices": 19988,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE03_HOOD_A",
+      "matched_vertices": 6006,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE03_HOOD_B",
+      "matched_vertices": 1875,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE03_HOOD_C",
+      "matched_vertices": 378,
+      "changed_colors": 0
+    },
+    {
+      "part": "MUSTANGGT_STYLE03_HOOD_D",
+      "matched_vertices": 236,
+      "changed_colors": 0
+    }
+  ],
+  "changed_colors": 552,
+  "status": "colors restored; CarToolkit reexport and visual test pending"
+}

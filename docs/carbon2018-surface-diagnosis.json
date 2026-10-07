@@ -1,0 +1,521 @@
+{
+  "materials": {
+    "0FEDEE40": {
+      "name": "DULLPLASTIC",
+      "triangles": 112750,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "0A7C3B20",
+          "0A7C3B20",
+          "0A7C3B20",
+          "0A7C3B20",
+          "0A7C3B20"
+        ],
+        [
+          "2AF3D244",
+          "2AF3D244",
+          "2AF3D244",
+          "2AF3D244",
+          "2AF3D244"
+        ],
+        [
+          "339D0D44",
+          "339D0D44",
+          "339D0D44",
+          "339D0D44",
+          "339D0D44"
+        ],
+        [
+          "4B7D95B6",
+          "4B7D95B6",
+          "4B7D95B6",
+          "4B7D95B6",
+          "4B7D95B6"
+        ],
+        [
+          "5A006DE9",
+          "5A006DE9",
+          "5A006DE9",
+          "5A006DE9",
+          "5A006DE9"
+        ],
+        [
+          "5A00E244",
+          "5A00E244",
+          "5A00E244",
+          "5A00E244",
+          "5A00E244"
+        ],
+        [
+          "9A8AAD9E",
+          "9A8AAD9E",
+          "9A8AAD9E",
+          "9A8AAD9E",
+          "9A8AAD9E"
+        ]
+      ]
+    },
+    "5799E60B": {
+      "name": "DRIVER",
+      "triangles": 2709,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "C961D064",
+          "C961D064",
+          "C961D064",
+          "C961D064",
+          "C961D064"
+        ]
+      ]
+    },
+    "05BC3A3C": {
+      "name": "BRAKELIGHT",
+      "triangles": 3870,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "4B7D95B6",
+          "4B7D95B6",
+          "4B7D95B6",
+          "4B7D95B6",
+          "4B7D95B6"
+        ]
+      ]
+    },
+    "471A1DCA": {
+      "name": "WINDSHIELD",
+      "triangles": 79972,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "0AB88F5D",
+          "0AB88F5D",
+          "0AB88F5D",
+          "0AB88F5D",
+          "0AB88F5D"
+        ],
+        [
+          "4CDEBFCA",
+          "4CDEBFCA",
+          "4CDEBFCA",
+          "4CDEBFCA",
+          "4CDEBFCA"
+        ],
+        [
+          "60F8B13C",
+          "60F8B13C",
+          "60F8B13C",
+          "60F8B13C",
+          "60F8B13C"
+        ],
+        [
+          "7B220DDF",
+          "7B220DDF",
+          "7B220DDF",
+          "7B220DDF",
+          "7B220DDF"
+        ],
+        [
+          "D195BE56",
+          "D195BE56",
+          "D195BE56",
+          "D195BE56",
+          "D195BE56"
+        ],
+        [
+          "E7E4EF49",
+          "E7E4EF49",
+          "E7E4EF49",
+          "E7E4EF49",
+          "E7E4EF49"
+        ]
+      ]
+    },
+    "D6640DFF": {
+      "name": "CALIPER",
+      "triangles": 246,
+      "colors": [
+        "00000000",
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "5A00E244",
+          "5A00E244",
+          "5A00E244",
+          "5A00E244",
+          "5A00E244"
+        ]
+      ]
+    },
+    "F0A43B67": {
+      "name": "BRAKEDISC",
+      "triangles": 200,
+      "colors": [
+        "00000000",
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "7811C146",
+          "7811C146",
+          "7811C146",
+          "7811C146",
+          "7811C146"
+        ]
+      ]
+    },
+    "9C645529": {
+      "name": null,
+      "triangles": 4835,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "95DE5B23",
+          "95DE5B23",
+          "95DE5B23",
+          "95DE5B23",
+          "95DE5B23"
+        ]
+      ]
+    },
+    "A6348EE3": {
+      "name": "HEADLIGHTGLASS",
+      "triangles": 4196,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "95DE5B23",
+          "95DE5B23",
+          "95DE5B23",
+          "95DE5B23",
+          "95DE5B23"
+        ]
+      ]
+    },
+    "D6D6080A": {
+      "name": null,
+      "triangles": 1013763,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "9A8AAD9E",
+          "9A8AAD9E",
+          "9A8AAD9E",
+          "9A8AAD9E",
+          "9A8AAD9E"
+        ]
+      ]
+    },
+    "54949AFD": {
+      "name": "CHROME",
+      "triangles": 120,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "5A00E244",
+          "5A00E244",
+          "5A00E244",
+          "5A00E244",
+          "5A00E244"
+        ]
+      ]
+    },
+    "78743CA1": {
+      "name": "RUBBER",
+      "triangles": 3980,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "5A04B8CC",
+          "5A04B8CC",
+          "5A04B8CC",
+          "5A04B8CC",
+          "5A04B8CC"
+        ],
+        [
+          "8C283C65",
+          "8C283C65",
+          "8C283C65",
+          "8C283C65",
+          "8C283C65"
+        ]
+      ]
+    },
+    "59A55DB5": {
+      "name": "ENGINE",
+      "triangles": 96,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "1B049702",
+          "1B049702",
+          "1B049702",
+          "1B049702",
+          "1B049702"
+        ]
+      ]
+    },
+    "2787EDAB": {
+      "name": "INTERIOR",
+      "triangles": 62480,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "2AF3D244",
+          "2AF3D244",
+          "2AF3D244",
+          "2AF3D244",
+          "2AF3D244"
+        ],
+        [
+          "5A006DE9",
+          "5A006DE9",
+          "5A006DE9",
+          "5A006DE9",
+          "5A006DE9"
+        ]
+      ]
+    },
+    "4C95C6F8": {
+      "name": "LICENSEPLATE",
+      "triangles": 120,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "339D0D44",
+          "339D0D44",
+          "339D0D44",
+          "339D0D44",
+          "339D0D44"
+        ]
+      ]
+    },
+    "010CB64A": {
+      "name": "PLAINNOTHING",
+      "triangles": 902,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "1B049702",
+          "1B049702",
+          "1B049702",
+          "1B049702",
+          "1B049702"
+        ]
+      ]
+    },
+    "2E65E067": {
+      "name": "ALUMINUM",
+      "triangles": 178,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "BF30889B",
+          "BF30889B",
+          "BF30889B",
+          "BF30889B",
+          "BF30889B"
+        ]
+      ]
+    },
+    "02DDDAD9": {
+      "name": "GRILL",
+      "triangles": 78,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "69C032BA",
+          "69C032BA",
+          "69C032BA",
+          "69C032BA",
+          "69C032BA"
+        ]
+      ]
+    },
+    "0000D916": {
+      "name": "RAD",
+      "triangles": 22,
+      "colors": [
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "68100815",
+          "68100815",
+          "68100815",
+          "68100815",
+          "68100815"
+        ]
+      ]
+    },
+    "02A05578": {
+      "name": "DECAL",
+      "triangles": 995,
+      "colors": [
+        "2F2F9EC4",
+        "2F2FE0FE",
+        "2F2FFFF4",
+        "3737B0DC",
+        "3737DBDC",
+        "4E4E7D02",
+        "4E4E8A77",
+        "4E4EC1FE",
+        "4E4ECEFE",
+        "4E4ED4F4",
+        "4E4EF1F4",
+        "6C6C7BB5",
+        "6C6CBBFE",
+        "6C6CD8F4",
+        "6D6D2B97",
+        "6D6D3977",
+        "6D6D3A95",
+        "6D6D4A5D",
+        "6D6D5639",
+        "6D6D5C43",
+        "6D6D75B3",
+        "6D6D7CA1",
+        "6D6D98E6",
+        "6D6DA22B",
+        "6D6DA976",
+        "6D6DC3E6",
+        "6D6DCC88",
+        "6D6DD476",
+        "6D6DD6F4",
+        "6D6DDBFE",
+        "6E6E0FF3",
+        "6E6E19DC",
+        "6E6E272E",
+        "6E6E44DC",
+        "6E6E522E",
+        "6E6EE5F3",
+        "8B8B02F4",
+        "8B8B21DC",
+        "8B8B4197",
+        "8B8B4264",
+        "8B8B4739",
+        "8B8B4CDC",
+        "8B8B7643",
+        "8B8B7662",
+        "8B8B76E6",
+        "8B8B9471",
+        "8B8B9AA1",
+        "8B8BA1E6",
+        "8B8BBC68",
+        "8B8BBF71",
+        "8B8BCBA2",
+        "8B8BCD3F",
+        "8B8BF3FE",
+        "8B8BF6A2",
+        "FFFFFFFF"
+      ],
+      "texture_slots": [
+        [
+          "445A675D",
+          "445A675D",
+          "445A675D",
+          "445A675D",
+          "445A675D"
+        ],
+        [
+          "910E6654",
+          "910E6654",
+          "910E6654",
+          "910E6654",
+          "910E6654"
+        ],
+        [
+          "910E6655",
+          "910E6655",
+          "910E6655",
+          "910E6655",
+          "910E6655"
+        ],
+        [
+          "910E6656",
+          "910E6656",
+          "910E6656",
+          "910E6656",
+          "910E6656"
+        ],
+        [
+          "910E6657",
+          "910E6657",
+          "910E6657",
+          "910E6657",
+          "910E6657"
+        ],
+        [
+          "910E6658",
+          "910E6658",
+          "910E6658",
+          "910E6658",
+          "910E6658"
+        ],
+        [
+          "910E6659",
+          "910E6659",
+          "910E6659",
+          "910E6659",
+          "910E6659"
+        ],
+        [
+          "D0161A90",
+          "D0161A90",
+          "D0161A90",
+          "D0161A90",
+          "D0161A90"
+        ]
+      ]
+    }
+  },
+  "source_overlaps": [
+    {
+      "a": "MUSTANGGT_KIT00_REAR_BRAKE_A",
+      "b": "MUSTANGGT_KIT00_FRONT_BRAKE_A",
+      "identical_triangles_10um": 38,
+      "a_triangles": 122,
+      "b_triangles": 122
+    },
+    {
+      "a": "MUSTANGGT_KIT00_LEFT_SIDE_MIRROR_A",
+      "b": "MUSTANGGT_KIT00_SPOILER_A",
+      "identical_triangles_10um": 1,
+      "a_triangles": 1,
+      "b_triangles": 1
+    }
+  ],
+  "scope": "source evidence only; overlap does not prove simultaneous rendering"
+}

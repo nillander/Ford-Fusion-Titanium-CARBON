@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "solids": 186,
+  "lossless_color_patch_reexport": true,
+  "mesh_materials_unchanged": true,
+  "markers_preserved_by_byte_comparison": true,
+  "changed_vertex_colors": 552,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-colors/GEOMETRY.BIN",
+      "sha256": "978936EE550E21AE03E5AEC47EE720C05EF614D6F3D68D727778101C44A084F8",
+      "bytes": 31703296
+    },
+    {
+      "path": "work/carbon2018-stage-colors/TEXTURES.BIN",
+      "sha256": "59BD3711E7E26B70C3C4C11F3CAF7FE99FDBEC95FC3C8CAF3CEEE815AF06F76F",
+      "bytes": 484123
+    }
+  ],
+  "status": "experimental comparison only; visual QA pending"
+}
