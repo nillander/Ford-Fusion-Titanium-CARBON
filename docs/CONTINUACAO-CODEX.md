@@ -4,7 +4,11 @@
 
 Usuário confirmou "tudo certo": direção, logotipo e fogo aprovados. Autorizou
 explicitamente **commit, push, tag e release** nesta rodada, substituindo a
-restrição antiga de publicação dos históricos abaixo. Preparada v1.2.
+restrição antiga de publicação dos históricos abaixo. **v1.2 publicada**, tag
+anotada em `ed9b9fe`; branch main e tag enviados. URL:
+https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.2
+ZIP e dois arquivos SHA256SUMS publicados; todos os digests remotos iguais
+aos locais. Registro em docs/release-v1.2-verification.json.
 
 Pedido posterior: motor do Fusion 20% acima da BMW M3 GTR jogável. Referência
 correta pvehicle bmwm3gtre46 → engine bmwm3gtre46, não o engine bmwm3gtr solto.

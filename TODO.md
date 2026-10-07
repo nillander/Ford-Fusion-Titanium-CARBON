@@ -19,6 +19,7 @@
 - [x] Confirmar no jogo logotipo e alinhamento do fogo (usuário: "tudo certo")
 - [x] Motor base/top: curva BMW M3 GTR jogável ×1,20, mesmos RPM; auditado e instalado
 - [x] Pacote v1.2 com 22 arquivos; instalador/restauração testados em Windows PowerShell 5.1
+- [x] Commit/push, tag anotada e release v1.2 publicados; três anexos com digests GitHub iguais aos locais
 - [ ] QA em corrida após o ajuste posterior de potência BMW +20%
 - [ ] Faixas Mustang de fábrica
 - [ ] Fusion 2012 → CAMARO

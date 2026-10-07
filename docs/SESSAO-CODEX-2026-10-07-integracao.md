@@ -115,3 +115,9 @@ Testes reais do script no Windows PowerShell 5.1: ZIP/checksums, instalação,
 reinstalação, restauração e rejeição sem alterações de pacote/destino modificado.
 SHA-256 ZIP em local/release-v1.2/SHA256SUMS.txt; gate docs/release-v1.2-verification.json.
 README, TODO, handoff e notas de release atualizados; publicação autorizada.
+
+Publicação concluída: commit de release ed9b9fe, tag anotada v1.2 e push main/tag
+atômico. Release GitHub criada às 20:34:23 UTC (17:34:23 local), com ZIP e dois
+SHA256SUMS. SHA do ZIP D7AB7614E0A252F583C7AF79D80E1F5F2BC3546BB600D5DCD07F1C9CEFC2F992.
+Os três digests do GitHub foram comparados aos locais e conferem; tag aponta
+para o commit correto. Registro da publicação no gate release-v1.2-verification.json.
