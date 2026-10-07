@@ -103,3 +103,97 @@ def compress(data, hash_size=0x2000, max_depth=16):
         o = f1pos
     struct.pack_into('<I', out, 12, o)
     return bytes(out[:o])
+
+
+def _emit(data, steps):
+    """steps: lista de (dist, length) ou None (literal), em ordem. Gera stream JDLZ."""
+    n = len(data)
+    out = bytearray(b'JDLZ\x02\x10\x00\x00' + struct.pack('<I', n) + b'\0\0\0\0')
+    f1pos = len(out); out.append(0)
+    f2pos = len(out); out.append(0)
+    f1 = f2 = 0; f1bit = 1; f2bit = 1
+    i = 0
+    first = True
+    for st in steps:
+        if st is None:
+            out.append(data[i]); i += 1
+        else:
+            dist, length = st
+            f1 |= f1bit
+            L = length - 3
+            if dist < 17:
+                f2 |= f2bit
+                out.append(((dist - 1) | ((L >> 4) & 0xF0)) & 0xFF); out.append(L & 0xFF)
+            else:
+                dd = dist - 17
+                out.append((L | ((dd >> 3) & 0xE0)) & 0xFF); out.append(dd & 0xFF)
+            f2bit = (f2bit << 1) & 0xFF
+            i += length
+        f1bit = (f1bit << 1) & 0xFF
+        # mesma ordem do compressor de referência: flags1 antes de flags2
+        if f1bit == 0:
+            out[f1pos] = f1; f1 = 0; f1pos = len(out); out.append(0); f1bit = 1
+        if f2bit == 0:
+            out[f2pos] = f2; f2 = 0; f2pos = len(out); out.append(0); f2bit = 1
+    assert i == n
+    if f2bit > 1: out[f2pos] = f2
+    elif f2pos == len(out) - 1: del out[f2pos]
+    if f1bit > 1: out[f1pos] = f1
+    elif f1pos == len(out) - 1: del out[f1pos]
+    struct.pack_into('<I', out, 12, len(out))
+    return bytes(out)
+
+
+def compress_optimal(data, depth=48):
+    """Parsing ótimo (custo em bits: literal 9, match 18) com candidatos por cadeia de hash.
+    Gera um stream JDLZ válido para o mesmo decodificador; costuma ficar menor que o
+    compressor guloso e que o CarToolkit."""
+    n = len(data)
+    if n < 4:
+        return _emit(data, [None] * n)
+    best = [None] * n  # por posição: (Lshort, dshort, Llong, dlong)
+    heads = {}
+    prev = [-1] * n
+    for i in range(n - 2):
+        key = data[i:i + 3]
+        j = heads.get(key, -1)
+        prev[i] = j
+        heads[key] = i
+        ls = ds = ll = dl = 0
+        k = 0
+        while j >= 0 and k < depth:
+            dist = i - j
+            if dist > 2064: break
+            lim = 4098 if dist <= 16 else 34
+            m = 3
+            mx = min(lim, n - i)
+            while m < mx and data[i + m] == data[j + m]:
+                m += 1
+            if dist <= 16:
+                if m > ls: ls, ds = m, dist
+            elif m > ll: ll, dl = m, dist
+            j = prev[j]; k += 1
+        if ls >= 3 or ll >= 3:
+            best[i] = (ls, ds, ll, dl)
+    INF = 1 << 60
+    cost = [0] * (n + 1)
+    choice = [None] * n
+    for i in range(n - 1, -1, -1):
+        c = 9 + cost[i + 1]; ch = None
+        b = best[i] if i > 0 else None  # o primeiro byte é sempre literal
+        if b:
+            ls, ds, ll, dl = b
+            for L, d_ in ((ls, ds), (ll, dl)):
+                if L >= 3:
+                    lo = 3 if L <= 40 else L - 36
+                    for m in range(L, lo - 1, -1):
+                        v = 18 + cost[i + m]
+                        if v < c: c, ch = v, (d_, m)
+        cost[i] = c; choice[i] = ch
+    steps = []
+    i = 0
+    while i < n:
+        st = choice[i]
+        steps.append(st)
+        i += 1 if st is None else st[1]
+    return _emit(data, steps)

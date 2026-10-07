@@ -96,7 +96,7 @@ def main():
                         zo = struct.unpack_from('<f', s, r + 16 + 14 * 4)[0]
                         struct.pack_into('<f', s, r + 16 + 14 * 4, zo + dz)
                         report['spoiler_markers'].append({'part': name, 'marker': mname, 'z_before': round(zo, 5), 'z_after': round(zo + dz, 5)})
-            s = bytes(s); c = jdlz.compress(s); assert jdlz.decompress(c) == s
+            s = bytes(s); c = jdlz.compress_optimal(s); assert jdlz.decompress(c) == s
             blk = struct.pack('<6I', 0x55441122, len(s), len(c) + 24, 0, 0, 0) + c
         blocks[h] = (blk, un, fl)
     assert len(report['spoiler_markers']) == 10
@@ -122,7 +122,7 @@ def main():
                 m = [c_, 0, -s_, 0, 0, 1, 0, 0, s_, 0, c_, 0, pos[0], pos[1], pos[2], 1]
                 struct.pack_into('<16f', s, r + 16, *m); moved += 1
         assert moved == 2, (n, moved)
-        s = bytes(s); c = jdlz.compress(s); assert jdlz.decompress(c) == s
+        s = bytes(s); c = jdlz.compress_optimal(s); assert jdlz.decompress(c) == s
         blocks[h] = (struct.pack('<6I', 0x55441122, len(s), len(c) + 24, 0, 0, 0) + c, len(s), 0x200)
         report['roof_parts'].append({'part': n, 'hash': '%08X' % h, 'source': 'MUSTANGGT oficial (work/carbon-solids)',
                                      'indices_zeroed': ib - ia, 'roof_scoop': roof_pos, 'tilt_deg': round(math.degrees(ang), 2)})

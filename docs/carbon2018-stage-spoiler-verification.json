@@ -70,8 +70,8 @@
   "files": [
     {
       "path": "work/carbon2018-stage-spoiler/GEOMETRY.BIN",
-      "bytes": 31912576,
-      "sha256": "CC3D4100A848F361EA626CCE169C419184BE77FD6513B9F7A7602AA18C959271"
+      "bytes": 31880960,
+      "sha256": "AE4BB255576689D0668AAB54B677F8D3393AE74C5A15700AB2176FDC89B647B2"
     },
     {
       "path": "work/carbon2018-stage-spoiler/TEXTURES.BIN",
@@ -80,5 +80,6 @@
     }
   ],
   "textures_unchanged": true,
-  "status": "spoiler heights + hidden KIT00_ROOF for roof scoop; game QA pending"
+  "status": "spoiler heights + hidden KIT00_ROOF for roof scoop; game QA pending",
+  "compressor": "jdlz.compress_optimal (blocos <= CarToolkit); variante gulosa CC3D4100\u2026 travou ao visualizar o carro 11:47"
 }
