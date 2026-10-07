@@ -1,0 +1,38 @@
+[
+  {
+    "path": "docs/previas/fusion2018-fonte-mw.jpg",
+    "caption": "Fonte MW v2.8: vista frontal no CarToolkit, catálogo de 186 objetos.",
+    "sha256": "81DFA0FA0910C7AF35F5EB5019298265102815109CAE175DFE74DE5F36E3B722",
+    "bytes": 85664,
+    "origin": "Captura original do CarToolkit recuperada do histórico desta sessão Codex, sem edição",
+    "status": "prévia de ferramenta, não teste em jogo",
+    "captured_at": "2026-10-07T01:52:34.732000-03:00"
+  },
+  {
+    "path": "docs/previas/fusion2018-carbon-preliminar.jpg",
+    "caption": "Compilação Carbon preliminar: vista lateral; materiais, montagem e correção de orientação ainda pendentes.",
+    "sha256": "B6D11D07E33C28A35F2B26E82C614DBD1B42275B927AAFF290CD206A8B04EF46",
+    "bytes": 80384,
+    "origin": "Captura original do CarToolkit recuperada do histórico desta sessão Codex, sem edição",
+    "status": "prévia de ferramenta, não teste em jogo",
+    "captured_at": "2026-10-07T02:00:33.945000-03:00"
+  },
+  {
+    "path": "docs/previas/carbon-geometria-exportada.jpg",
+    "caption": "Reexportação GEOMETRY.BIN alvo Carbon em modo config-free.",
+    "sha256": "53A73E80F3AA24A915EB0DBBF6516C8A6D276B167B4BC0CC7DBAFD39A67C3AE6",
+    "bytes": 97723,
+    "origin": "Captura original do CarToolkit recuperada do histórico desta sessão Codex, sem edição",
+    "status": "prévia de ferramenta, não teste em jogo",
+    "captured_at": "2026-10-07T02:01:26.286000-03:00"
+  },
+  {
+    "path": "docs/previas/carbon-texturas-exportadas.jpg",
+    "caption": "Exportação TEXTURES.BIN com dois nomes de luzes encurtados.",
+    "sha256": "1DFCD39C72052D7C123E1A7B444C8BD5BE5FB0F2A37BB57DDFA8DDF45841DC42",
+    "bytes": 107804,
+    "origin": "Captura original do CarToolkit recuperada do histórico desta sessão Codex, sem edição",
+    "status": "prévia de ferramenta, não teste em jogo",
+    "captured_at": "2026-10-07T02:05:03.284000-03:00"
+  }
+]

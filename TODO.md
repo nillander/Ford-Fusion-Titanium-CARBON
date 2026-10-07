@@ -2,6 +2,22 @@
 
 Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e **2018 AWD**, por **substituição de slot** (não add-on).
 
+## Estado consolidado — 07/10/2026
+
+| Etapa | Concluído | Pendente |
+| --- | --- | --- |
+| Referências | ZIPs v2.8, backup CARS/GLOBAL, 73 hashes; investigação dos doadores | Comprovação da origem limpa dos BIN |
+| Inventário | 1845 sólidos Carbon lidos; mapa inicial 2018 e marcadores dos dois slots/Fusion | Mapa funcional de kits, LODs, damage e AutoSculpt |
+| Staging 2018 | 186 sólidos e 10 texturas Carbon validados; erro de índices resolvido | Recompilar correção de eixos e 165 pontos preparados; validar matrizes e materiais |
+| VLT | Classes, coleções e herança levantadas; VltEd extraído | Ler valores e aplicar FE/performance sem afetar CAMARON |
+| Documentação | Aprendizados no README; quatro capturas originais de ferramenta preservadas | Capturas e QA em jogo |
+| 2012 / entrega | Referências e marcadores disponíveis | Port CAMARO, VLT FWD, instalação, QA e release |
+
+**Próxima ação:** recompilar `work/carbon2018-source-axes` para
+`work/carbon2018-stage-axes`, conferir orientação e marcadores e só então avançar
+na compatibilidade com MUSTANGGT. O staging antigo segue girado e sem montagem validada.
+Ler [README.md](README.md) e [sessão Claude](docs/SESSAO-CLAUDE-2026-10-07.md).
+
 ## Premissas (assumidas)
 
 | Item | Caminho |
@@ -51,7 +67,8 @@ Fontes principais (úteis mesmo em replace):
 
 1. Backup de `CARS/CAMARO`, `CARS/MUSTANGGT` e de `GLOBAL` / VLT afetados.
 2. Recompilar geometry/textures MW com **Game = Carbon** e XNAME do slot alvo (`CAMARO` / `MUSTANGGT`).
-3. Copiar `GEOMETRY.BIN` + `TEXTURES.BIN` (e vinis se houver) para `CARS/<slot>/`.
+3. Validar orientação, montagem e compatibilidade com o doador; depois copiar
+   `GEOMETRY.BIN` + `TEXTURES.BIN` (e vinis se houver) para `CARS/<slot>/`, com backup.
 4. **NFS-VltEd**: `.nfsms` que altera FE (nome Ford Fusion…) e performance nos nós `camaro` / `mustanggt` (e variantes `_top` se existirem).
 5. **Binary** só se precisar de strings/logo/global — não é obrigatório Unlimiter para replace puro.
 6. Testar com save novo ou save no início (Camaro).
@@ -93,7 +110,8 @@ Fontes principais (úteis mesmo em replace):
   - [x] `MUSTANGGT` → Fusion 2018 (destino Carbon: `MUSTANGGT`)
   - [x] `COBALTSS` → Fusion 2012 (destino Carbon: `CAMARO`)
 - [x] Copiar referência instalada Carbon: `CARS/CAMARO` e `CARS/MUSTANGGT` → `reference/carbon-stock/`; backup GLOBAL em `reference/carbon-global-before/`
-- [x] Confirmar origem oficial/vanilla dos doadores copiados — evidência forte, não criptográfica: BIN de `CAMARO`/`MUSTANGGT` e `GLOBAL/*attrib*` com mtime de build 2006-10-14/16, iguais aos carros intocados; sem `_backup_stock` desses slots (ver sessão 07/10)
+- [x] Investigar origem dos doadores: mtimes de build 2006-10-14/16, compatíveis com carros intocados; hashes iguais às referências; sem `_backup_stock` desses slots (ver sessão 07/10)
+- [ ] Comprovar origem oficial/vanilla com fonte limpa: datas e igualdade com o backup local são evidência, mas não comprovação independente
 - [ ] Inventariar peças/sólidos do MW e do stock Carbon (kits, AutoSculpt, spoiler AS, damage) e mapear o que falta no port
   - [x] Descomprimir e nomear 848 CAMARO + 997 MUSTANGGT; leitura independente das 1845 malhas
   - [x] Mapa inicial MUSTANGGT: 86 correspondências exatas com os 186 sólidos Fusion MW; 911 nomes do doador sem correspondência exata (não significa 911 peças obrigatórias)
@@ -101,7 +119,7 @@ Fontes principais (úteis mesmo em replace):
 
 ---
 
-## Fase 1 — Slots (fechado)
+## Fase 1 — Slots definidos; dados e confirmação em jogo pendentes
 
 Decisão:
 
@@ -111,10 +129,12 @@ Decisão:
 | 2018 AWD | Mustang GT | `CARS/MUSTANGGT` |
 
 - [x] Slots Carbon definidos: `CAMARO` + `MUSTANGGT`
-- [x] Confirmar no VLT/FE que `CAMARO` é o carro inicial da carreira (não `CAMARON`): `CAMARO` = Camaro SS 67 (opção muscle inicial, ao lado de RX-8 e Brera); `CAMARON` = `camaro_concept` no FE. Prova final só em jogo
-- [x] Listar nós VLT a editar: não existem `_top`; coleções `camaro`/`mustanggt` em pvehicle, engine, transmission, chassis, tires, brakes, induction, ecar e mais 6 classes (`docs/vlt-slots.json`)
-  - **Atenção:** `pvehicle/camaron` herda de `pvehicle/camaro`. Campos que `camaron` não sobrescreve mudam junto; `transmission/camaron` é coleção própria (FWD no `camaro` não afeta o CAMARON)
-- [x] Confirmar manufacturer Ford no FE de ambos: `frontend/mustanggt` herda de `ford` (ok); `frontend/camaro` herda de `chevrolet` → precisa mudar para `ford` no VltEd
+- [x] Identificar slots e FE: `CAMARO` = Camaro SS 67; `CAMARON` = `camaro_concept`. Documentada a opção muscle inicial ao lado de RX-8 e Brera
+- [ ] Confirmar seleção/spawn do CAMARO no início da carreira em jogo
+- [x] Listar nós VLT: sem `_top`; coleções `camaro`/`mustanggt` em pvehicle, engine, transmission, chassis, tires, brakes, ecar e outras (`docs/vlt-slots.json`). MUSTANGGT não tem induction/nos próprios
+  - **Atenção:** `pvehicle/camaron` herda de `pvehicle/camaro`. Campos que `camaron` não sobrescreve mudam junto; `transmission/camaron` é coleção própria. Conferir valores efetivos/referências no VltEd antes de aplicar FWD para preservar CAMARON
+- [x] Levantar fabricante no FE: `frontend/mustanggt` herda de `ford`; `frontend/camaro`, de `chevrolet`
+- [ ] Alterar fabricante do Fusion 2012 para Ford no VltEd e conferir no frontend
 - [ ] Decidir se 2018 fica RWD (como MW VLT) ou tenta AWD real no Carbon
 - [ ] 2012: forçar FWD no VLT do Camaro (stock Camaro é RWD — precisa mudar `TORQUE_SPLIT` e sensação)
 
@@ -126,12 +146,19 @@ Decisão:
   - [x] 2018: exportação preliminar Carbon em `work/carbon2018-stage`, 186 sólidos MUSTANGGT validados; compatibilidade com doador ainda pendente
   - [ ] 2012: retarget `COBALTSS` → `CAMARO` (renomear sólidos/marcadores)
 - [ ] Reexportar `TEXTURES.BIN` no mesmo XNAME; nomes ≤ 23 chars
+  - [x] 2018: 10 texturas Carbon reexportadas e lidas independentemente; hashes conferidos com o remapeamento
+  - [ ] 2012: exportar no XNAME CAMARO e validar nomes/hashes
 - [ ] Validar ≤ 65535 vértices **e índices**/sólido; LODs; kits que cutscenes/IA do slot pedem
   - [x] Resolver `Indices count for MUSTANGGT_BASE_A exceeded 65536`: simplificar 13 malhas apenas em staging, máximo 65397 índices; conferir 186 malhas reexportadas
-  - [x] Reexportar e ler independentemente 10 texturas Carbon; nomes de luzes encurtados para ≤ 23 caracteres
+  - [x] Conferir nomes/triângulos dos 186 sólidos e hashes das 10 texturas (`docs/carbon2018-stage-verification.json`)
   - [ ] QA visual da simplificação, materiais, cores de vértices, bordas e UVs
 - [ ] DXT1 em opacos; DXT3 só lente/vidro
+  - [ ] Revisar DXT3 de BADGING/SKIN19, alpha e mipmaps (a fonte atual declara um nível)
+  - [ ] Conferir 20 hashes de texturas compartilhadas no GLOBAL Carbon e effects/materiais
+  - [ ] Recuperar/adaptar cores de vértices perdidas na exportação OBJ
 - [ ] **BLOQUEADOR (07/10): staging 2018 está girado 90° no eixo Z.** O nfscgc grava (x′,y′)=(y,−x); doador tem X frente, staging tem Y frente. Fonte corrigida em `work/carbon2018-source-axes` (`scripts/prepare-compiler-input.py`); recompilar no GUI e reauditar
+  - [x] Diagnosticar transformação e preparar rotação inversa de posições/normais
+  - [ ] Compilar/exportar em `work/carbon2018-stage-axes` e conferir caixas no sistema do doador
 - [ ] Mount points vs stock `CAMARO` / `MUSTANGGT` (rodas, exhaust, spoiler, luzes)
   - [x] Extrair marcadores do doador (`docs/mustanggt-stock-markers.json`, 296; `docs/camaro-stock-markers.json`, 276) e do MW (`docs/mw2018-markers.json`, `docs/mw2012-markers.json`)
   - [x] `mpoints.txt` + 165 OBJ de ponto de montagem para o 2018 (lados normalizados LEFT=+Y; anexos iguais ao doador)
@@ -190,8 +217,10 @@ Decisão:
   ```
 
 - [ ] Instalador: backup automático de `CARS/CAMARO` e `CARS/MUSTANGGT` antes de copiar
-- [ ] SHA-256 dos BIN
-- [ ] Capturas (`capturas/2012`, `capturas/2018`)
+- [x] SHA-256 dos BIN preliminares 2018 em `docs/carbon2018-stage-verification.json`
+- [ ] SHA-256 dos BIN finais de release após correções/QA
+- [x] Preservar quatro capturas originais de ferramenta em `docs/previas/`, com manifesto de origem/horários/hashes e galeria no README
+- [ ] Capturas em jogo (`capturas/2012`, `capturas/2018`)
 - [ ] Notas + créditos
 
 ---
@@ -253,7 +282,12 @@ Fusion 2018 para Carbon em staging: 186 sólidos e 10 texturas com leitura indep
 O limite de índices foi resolvido simplificando 13 malhas; fontes v2.8 intactas.
 Nenhum arquivo do jogo foi alterado; sem instalação ou QA em jogo.
 
-Próximo passo: confirmar origem oficial dos doadores e adaptar o staging ao MUSTANGGT
-oficial: pontos de montagem, kits, LODs, AutoSculpt, damage e materiais. A saída ainda
-não é um port instalável. O Fusion 2012 permanece na etapa de referências.
+Claude retomou e registrou os avanços em **`docs/SESSAO-CLAUDE-2026-10-07.md`**:
+diagnóstico de rotação, 165 pontos preparados, marcadores extraídos e levantamento
+VLT somente-leitura. Ler essa sessão junto da passagem anterior.
+
+Próximo passo: recompilar a entrada corrigida, validar orientação e pontos de montagem,
+confirmar origem oficial dos doadores e adaptar kits, LODs, AutoSculpt, damage e materiais.
+A saída ainda não é um port instalável. O Fusion 2012 tem referências/marcadores,
+mas a conversão CAMARO continua pendente. As prévias preservadas não são QA em jogo.
 O horário acima é a retomada informada pelo usuário, não uma automação criada aqui.
