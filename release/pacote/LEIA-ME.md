@@ -1,6 +1,6 @@
 # Ford Fusion Titanium 2018 AWD — Need for Speed Carbon
 
-Substitui o **Ford Mustang GT** (slot `MUSTANGGT`). Prévia v0.1 de 07/10/2026.
+Substitui o **Ford Mustang GT** (slot `MUSTANGGT`). Release v1.0 de 07/10/2026.
 
 Port da carroceria do Fusion 2018 da release MW2005 v2.8 para o Carbon. Esta é a
 primeira versão para o Carbon: o visual está pronto, mas o carro ainda usa o nome,

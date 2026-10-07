@@ -1,9 +1,9 @@
-# v0.1 — Fusion 2018 no Need for Speed Carbon (prévia)
+# v1.0 — Fusion 2018 no Need for Speed Carbon
 
 Primeira versão do Ford Fusion Titanium 2018 para o Need for Speed Carbon. Ele
 substitui o Ford Mustang GT (slot `MUSTANGGT`) com a carroceria da release MW2005
-v2.8. É uma prévia: o visual está pronto, mas nome, logotipo e performance ainda
-são os do Mustang GT, e o Fusion 2012 ainda não foi portado.
+v2.8. O visual está pronto, mas nome, logotipo e performance ainda são os do
+Mustang GT, e o Fusion 2012 ainda não foi portado.
 
 - **Carroceria no padrão do Carbon:** as 186 peças e os cinco níveis de detalhe do Fusion 2018 foram convertidos para o Carbon, com a orientação corrigida e pontos de montagem nas mesmas peças do Mustang GT original. As 13 malhas maiores foram reduzidas para caber no limite de índices do jogo.
 - **Faróis, lanternas e refletores:** usam as luzes dinâmicas do Carbon e os materiais do Mustang GT original. As lanternas e os refletores traseiros aparecem em vermelho, com o brilho certo.

@@ -1,9 +1,9 @@
-# v0.1 — Fusion 2018 no Carbon, prévia (07/10/2026)
+# v1.0 — Fusion 2018 no Carbon (07/10/2026)
 
 - [x] Lanternas e refletores com light material `BRAKELIGHT` + textura dinâmica `BRAKELIGHT_RIGHT` (aprovado no jogo)
 - [x] Aerofólios: `SPOILER` −2,3 cm e `SPOILER2` −8,7 cm nas BASE_A..E (aprovado no jogo)
 - [x] Regravação de BIN sem GUI: `scripts/jdlz.py` (`compress_optimal` menor que o CarToolkit)
-- [x] Pacote v0.1 preparado para publish-release (`local/release-v0.1/`, `release/notes-v0.1.md`)
+- [x] Pacote v1.0 publicado (`local/release-v0.1/`, `release/notes-v1.0.md`, tag/release GitHub v1.0)
 - [ ] Entrada de ar do teto: `KIT00_ROOF` oculto travou o jogo; testar `ROOF_MODE=roof+as` (com ROOF_T0/T1)
 - [ ] Estado ON das luzes (freio) com textura própria; hoje ON = OFF
 - [ ] Nome/logo/preço Fusion e performance (VltEd), decisão RWD×AWD; faixas Mustang de fábrica

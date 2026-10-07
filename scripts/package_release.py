@@ -1,6 +1,6 @@
 """Empacota a release do Fusion Carbon a partir dos BIN aprovados no jogo.
 
-Uso: python scripts/package_release.py v0.1 local/release-v0.1
+Uso: python scripts/package_release.py v1.0 local/release-v1.0
 Confere os BIN contra os hashes aprovados e contra os instalados no jogo (se a
 pasta do jogo estiver acessível), monta Fusion2018_AWD_NFSC.zip e os SHA256SUMS.
 """
