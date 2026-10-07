@@ -386,3 +386,34 @@ o acabamento completo e a release continuam pendentes.
 O doador do port continua sendo o MUSTANGGT oficial; o Bugatti serviu apenas
 como documentação das ferramentas. A auditoria atual está em
 `docs/carbon2018-stage-dynamic-lights-verification.json`.
+
+### Entrada de ar do teto e diagnóstico dos travamentos — 07/10
+
+A fonte completa foi recompilada no nfscgc com quatro peças mínimas
+`KIT00_ROOF_A..D`, cada uma com `ROOF_SCOOP`. O ponto segue a peça correspondente
+do MUSTANGGT oficial, adaptado ao Fusion: `(0,10; 0; 1,23757)` e inclinação de
+5,35°. A exigência de anexar o marcador à peça ROOF também é descrita por um
+modder em [relato de Carbon](https://www.nfsaddons.com/forums/index.php?topic=2715.0).
+As 186 peças da v1.0 foram preservadas integralmente após descompressão, incluindo
+lentes, cores, marcadores e aerofólios. O leitor independente passou nas 190 malhas.
+
+O primeiro teste dessa recompilação também fechou o jogo. A análise dos seis dumps
+locais mostrou falhas na rotina JDLZ (`0x69C650`, `0x69C673`, `0x69C6E4`). O código
+do executável recarrega flags no fim do último grupo antes de verificar o tamanho
+comprimido; o compressor Python removia esses bytes finais. O leitor LibNFS/Python
+parava ao completar a saída e ocultava o erro. Portanto, as conclusões anteriores
+de que adicionar peças ou aumentar o arquivo necessariamente causa crash não
+foram isoladas pelos testes.
+
+`scripts/jdlz.py` preserva agora as flags terminais. `normalize_for_game` verifica
+esse comportamento e corrige somente o fim do stream, com comparação exata da
+saída. Nos 186 arquivos do cache, 49 faltavam flags finais (51 bytes ao todo).
+Regressões cobrem ambos os compressores, limites de grupos e repetição, além de
+dois streams que o leitor antigo aceitava e o Carbon não conseguia encerrar.
+
+O novo teste está em `work/carbon2018-stage-roof` e sua auditoria em
+`docs/carbon2018-stage-roof-verification.json`: 31.841.920 bytes, menor que a v1.0,
+texturas idênticas e 186 peças existentes idênticas após descompressão.
+**O usuário confirmou: “teto resolvido”; o Fusion carregou e as entradas de ar
+apareceram**, após conferir as opções comum e AutoSculpt. A correção está instalada
+e é candidata à próxima release; a v1.0 publicada permanece com os BIN anteriores.

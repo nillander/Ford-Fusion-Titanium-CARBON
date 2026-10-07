@@ -1,4 +1,33 @@
-# Passagem para o Codex — a partir da release v1.0 (07/10/2026, 12:40)
+# Passagem para o Codex — teste do teto e JDLZ (07/10/2026)
+
+## Atualização prioritária: teste instalado
+
+`work/carbon2018-stage-roof` instalado; GEOMETRY SHA-256
+`DE8EE10F8DDA430076D15CAD4DA796398B5BC85DC2EC9D33B4B6B1F94967680E`.
+TEXTURES permanece `8989A7E4…`; VINYLS/GLOBAL/VLT/CAMARO intactos.
+Gate: `docs/carbon2018-stage-roof-verification.json`. São 190 sólidos, com todas
+as 186 peças da v1.0 idênticas após descompressão e quatro ROOF nativos do nfscgc.
+O usuário confirmou que carregou e as entradas comum/AutoSculpt aparecem:
+“teto resolvido”. Correção aprovada no jogo; candidata à próxima release.
+
+**Revisão das conclusões históricas abaixo:** a recompilação também travou antes
+de corrigir JDLZ. Seis dumps apontam para o descompressor, que exige flags no fim
+do último grupo. O compressor antigo removia essas flags; o leitor independente
+parava na saída e não detectava isso. `jdlz.py` corrigido e regressões aprovadas.
+Não afirmar que inserir peças ou crescer o arquivo é a causa desses crashes.
+
+Reprodução: `prepare-roof-compiler-source.py`; compilar BASE_A.obj da pasta
+`work/carbon2018-source-roof` no nfscgc; inventariar/extrair a saída;
+`consolidate-roof-compile.py prepare`; CarToolkit abre
+`work/carbon-compiler/geometry-roof-consolidated.bin` e exporta Carbon/Racer/MUSTANGGT
+para `work/carbon2018-roof-normalized`; `consolidate-roof-compile.py finish`;
+inventário/extrator/leitor independente. A consolidação usa as peças aprovadas
+para preservar todas as correções anteriores e normaliza os fins de streams.
+
+Para voltar à v1.0, fechar NFSC e instalar com o gate
+`docs/carbon2018-stage-spoiler-verification.json` (não usar Restore, que volta stock).
+
+## Passagem anterior — v1.0, 12:40 (histórico)
 
 Trabalhar em pt-BR. Ao parar: atualizar TODO/README, registrar a sessão em
 `docs/SESSAO-CODEX-<data>.md` e fazer commit com coautoria. Push, tags e releases

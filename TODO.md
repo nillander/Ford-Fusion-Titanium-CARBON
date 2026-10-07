@@ -4,7 +4,8 @@
 - [x] Aerofólios: `SPOILER` −2,3 cm e `SPOILER2` −8,7 cm nas BASE_A..E (aprovado no jogo)
 - [x] Regravação de BIN sem GUI: `scripts/jdlz.py` (`compress_optimal` menor que o CarToolkit)
 - [x] Pacote v1.0 publicado (`local/release-v0.1/`, `release/notes-v1.0.md`, tag/release GitHub v1.0)
-- [ ] Entrada de ar do teto: acrescentar sólidos a um BIN pronto trava o jogo (3 tentativas, 07/10); só via recompilação completa no nfscgc (ver `docs/CONTINUACAO-CODEX.md`)
+- [x] Entrada de ar do teto: KIT00_ROOF_A..D e ROOF_SCOOP recompilados; 190 malhas auditadas. Com JDLZ corrigido, o usuário confirmou que o Fusion carrega e as entradas aparecem (07/10). Candidata à próxima release; v1.0 publicada permanece anterior.
+- [x] Compressor JDLZ: preservar flags terminais exigidas pelo Carbon; regressões para grupos de literais e matches; normalizar streams antigos antes de instalar.
 - [ ] Estado ON das luzes (freio) com textura própria; hoje ON = OFF
 - [ ] Nome/logo/preço Fusion e performance (VltEd), decisão RWD×AWD; faixas Mustang de fábrica
 - [ ] Fusion 2012 → CAMARO

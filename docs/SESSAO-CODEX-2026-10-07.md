@@ -244,3 +244,77 @@ Captura preservada em `docs/imagens/2018-confirmacao-usuario-lanternas.png`.
 README, TODO e CONTINUACAO-CLAUDE atualizados com estado instalado, resultado,
 limites da confirmação, fontes e próximos testes. Nenhuma nova alteração no
 jogo após essa confirmação; não foi solicitado enviar mensagem ao Claude.
+# Retomada após v1.0: teto resolvido e causa dos crashes JDLZ
+
+O usuário pediu retomar `CONTINUACAO-CODEX.md`, com foco nas entradas de ar.
+A passagem de 12:40 registrava três crashes ao acrescentar ROOF e propunha
+recompilar o carro inteiro. Foram mantidos os doadores dos slots substituídos:
+MUSTANGGT para 2018; CAMARO reservado para 2012.
+
+## Fonte e consolidação
+
+`prepare-roof-compiler-source.py` copia a fonte com eixos corrigidos, acrescenta
+KIT00_ROOF_A..D (triângulos mínimos ocultos) e quatro ROOF_SCOOP, usando a montagem
+da peça correspondente do Mustang oficial. Posição Fusion `(0,10; 0; 1,23757)`,
+inclinação 5,35159°. Arquivos auxiliares/geometry anteriores preservados em
+`work/carbon-compiler/before-roof`. O nfscgc foi operado pela GUI e compilou todo
+o carro: 190 sólidos reais + sentinel. Leitura/extrator CIP aprovados.
+
+`consolidate-roof-compile.py prepare` conserva o catálogo da compilação completa
+e substitui as 186 peças existentes pelas aprovadas na v1.0. Isso mantém todas
+as correções de lentes, vínculos, cores, marcadores e aerofólios sem reconstruí-las
+por aproximação. CarToolkit reconheceu 190 peças e normalizou a saída Carbon.
+`finish` mantém novamente as peças anteriores e usa somente os quatro ROOF novos
+da normalização. Cache JDLZ recomprime 165 blocos sem alterar a saída; o tamanho
+ficou 31.841.920 bytes, 39.040 abaixo da v1.0. Independente: 190 malhas aprovadas.
+
+Pesquisa: o [relato de modder](https://www.nfsaddons.com/forums/index.php?topic=2715.0)
+descreve entrada sob o carro quando ROOF_SCOOP não está ligado a KIT00_ROOF;
+recomenda uma peça oculta se o teto estiver integrado à carroceria. Foi usado
+como explicação; nenhum carro de mod foi usado como doador.
+
+## O crash era na descompressão
+
+O primeiro teste recompilado (GEOMETRY DB6EBC10…) também fechou ao carregar o Fusion.
+NFSC foi encerrado e a v1.0 reinstalada antes de investigar. Evento Windows:
+0xC0000005, offset 0x0029C673. `diagnose-roof-crash.py` lê metadados dos dumps
+locais, sem copiá-los para o repo. Os seis dumps das tentativas de hoje falham
+na rotina JDLZ: endereços 0x69C650, 0x69C673 ou 0x69C6E4, não na montagem de peças.
+
+O código do NFSC recarrega flags após o último token, antes de encerrar pelo
+tamanho comprimido. Ambos os emissores Python descartavam flags finais ainda
+não usadas. O leitor LibNFS/Python termina ao completar a saída e, por isso,
+aceitava o stream truncado. O jogo decrementa o saldo comprimido abaixo de zero,
+continua lendo além do bloco e acaba acessando memória inválida.
+
+Correção em `jdlz.py`: manter flags terminais nos dois emissores, reservar espaço
+adicional no compressor guloso e tratar entrada vazia. `normalize_for_game`
+verifica os fins dos grupos, limites de matches/saída e extensão comprimida;
+repara flags terminais ausentes e retira até 16 bytes de padding final do
+CarToolkit, sempre comparando a saída integral. Dos 186 streams no cache, 49
+faltavam flags finais (51 bytes). A consolidação normalizou 69 streams (inclui
+padding); saldo de tamanho JDLZ +27 bytes, sem crescer o BIN alinhado.
+
+Não manter como causa confirmada as conclusões anteriores de que adicionar
+sólidos ou ultrapassar o tamanho da v1.0 necessariamente trava. As comparações
+estavam contaminadas pelo compressor. O par BRAKELIGHTGLASS/dinâmica anterior
+também precisa ser reavaliado se voltar a ser necessário, pois seu dump igualmente
+falhou no JDLZ; não substituir os materiais já aprovados nesta correção.
+
+## Validação e aprovação
+
+- `python -m unittest discover -s scripts -p test_jdlz.py`: 3 testes aprovados,
+  com 28 combinações de fronteiras/repetição para os dois compressores e regressões
+  específicas para flags finais de literais e matches.
+- Conteúdo descomprimido final idêntico às 190 malhas auditadas; todos os 186
+  sólidos existentes continuam idênticos à v1.0. TEXTURES/VINYLS preservados.
+- Gate `docs/carbon2018-stage-roof-verification.json`, instalado com NFSC fechado
+  às 16:41:42 America/Sao_Paulo, backup stock conferido.
+- GEOMETRY SHA-256: `DE8EE10F8DDA430076D15CAD4DA796398B5BC85DC2EC9D33B4B6B1F94967680E`.
+- Usuário confirmou “teto resolvido” e respondeu “Carregou e as entradas aparecem”
+  à conferência das opções comum/AutoSculpt. Correção aprovada no jogo.
+
+Instalação final: `work/carbon2018-stage-roof`. V1.0 publicada permanece anterior;
+push/tags/release ficam com o usuário. Próximas tarefas: luz ON real, frontend,
+performance, faixas Mustang e Fusion 2012. Para voltar à v1.0 usar seu gate spoiler
+com NFSC fechado; Restore volta ao Mustang stock. Não instalar a saída bruta nfscgc.

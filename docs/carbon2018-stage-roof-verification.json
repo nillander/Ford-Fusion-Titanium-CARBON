@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "solids": 190,
+  "unchanged_existing_solids": 186,
+  "losslessly_recompressed_blocks": 165,
+  "repaired_terminal_flag_streams": 69,
+  "added_terminal_flag_bytes": 27,
+  "carbon_decoder_end_flags_validated": true,
+  "full_compile": true,
+  "roof": {
+    "source": "work/carbon2018-source-roof",
+    "new_parts": [
+      "MUSTANGGT_KIT00_ROOF_A",
+      "MUSTANGGT_KIT00_ROOF_B",
+      "MUSTANGGT_KIT00_ROOF_C",
+      "MUSTANGGT_KIT00_ROOF_D"
+    ],
+    "position": [
+      0.1,
+      0.0,
+      1.23757
+    ],
+    "tilt_degrees": 5.351590117721595,
+    "donor": "MUSTANGGT_KIT00_ROOF_A..D",
+    "existing_parts": 186,
+    "expected_parts": 190,
+    "status": "compiler input; not installable"
+  },
+  "size_limit": 31880960,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-roof/GEOMETRY.BIN",
+      "bytes": 31841920,
+      "sha256": "DE8EE10F8DDA430076D15CAD4DA796398B5BC85DC2EC9D33B4B6B1F94967680E"
+    },
+    {
+      "path": "work/carbon2018-stage-roof/TEXTURES.BIN",
+      "bytes": 723547,
+      "sha256": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC"
+    }
+  ],
+  "status": "roof scoop fix user-confirmed in game; candidate for next release",
+  "independent_mesh_audit": {
+    "passed": true,
+    "solids": 190,
+    "file": "docs/carbon2018-stage-roof-audit.json",
+    "decoded_solids_unchanged_after_compression_fix": true
+  },
+  "game_qa": {
+    "passed": true,
+    "confirmed_by": "user",
+    "common_and_autosculpt_roof_scoops": true,
+    "message": "teto resolvido; Carregou e as entradas aparecem",
+    "date": "2026-10-07"
+  }
+}

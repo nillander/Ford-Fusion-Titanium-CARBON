@@ -1,7 +1,8 @@
 """JDLZ (EA BlackBox) em Python: descompressão e compressão.
 
-Porte direto de OpenNFSTools/LibNFS/Compression/JDLZ.cs (compressor de "zombie28",
-encode.ru). Usado para regravar sólidos individuais em GEOMETRY.BIN sem GUI.
+Baseado em OpenNFSTools/LibNFS/Compression/JDLZ.cs (compressor de "zombie28",
+encode.ru), com flags terminais preservadas para o descompressor do Carbon.
+Usado para regravar sólidos individuais em GEOMETRY.BIN sem GUI.
 """
 import struct
 
@@ -41,7 +42,10 @@ def decompress(src):
 def compress(data, hash_size=0x2000, max_depth=16):
     MIN = 3
     n = len(data)
-    out = bytearray(n + (n + 7) // 8 + HEADER + 1)
+    if not n:
+        return _emit(data, [])
+    # Allow fresh terminal flags as well as the initial second flag byte.
+    out = bytearray(n + (n + 7) // 8 + HEADER + 3)
     hash_pos = [0] * hash_size
     chain = [0] * max(n, 1)
     out[0:16] = b'JDLZ\x02\x10\x00\x00' + struct.pack('<I', n) + b'\0\0\0\0'
@@ -95,12 +99,8 @@ def compress(data, hash_size=0x2000, max_depth=16):
             out[f2pos] = f2; f2 = 0; f2pos = o; o += 1; f2bit = 1
     if f2bit > 1:
         out[f2pos] = f2
-    elif f2pos == o - 1:
-        o = f2pos
     if f1bit > 1:
         out[f1pos] = f1
-    elif f1pos == o - 1:
-        o = f1pos
     struct.pack_into('<I', out, 12, o)
     return bytes(out[:o])
 
@@ -137,11 +137,73 @@ def _emit(data, steps):
             out[f2pos] = f2; f2 = 0; f2pos = len(out); out.append(0); f2bit = 1
     assert i == n
     if f2bit > 1: out[f2pos] = f2
-    elif f2pos == len(out) - 1: del out[f2pos]
     if f1bit > 1: out[f1pos] = f1
-    elif f1pos == len(out) - 1: del out[f1pos]
     struct.pack_into('<I', out, 12, len(out))
     return bytes(out)
+
+
+def normalize_for_game(src, repair=True):
+    """Check the Carbon decoder's end-of-token flag reloads (NFSC 0x69C6D1).
+
+    LibNFS stops at the declared output length. Carbon also consumes fresh
+    flags at the end of the final group, then stops at packed length. Older
+    emitters removed these unused flags; that can make Carbon read past input.
+    Repair only missing terminal flags; all decoded bytes must stay identical.
+    """
+    data = bytearray(src)
+    if data[:4] != b'JDLZ' or len(data) < 18:
+        raise ValueError('Invalid JDLZ header')
+    n, packed = struct.unpack_from('<II', data, 8)
+    if packed != len(data):
+        raise ValueError('JDLZ packed extent mismatch')
+    out = bytearray()
+    f1, f2 = data[16] | 0x100, data[17] | 0x100
+    i = 18
+    while len(out) < n:
+        if f1 & 1:
+            if i + 2 > len(data):
+                raise ValueError('Truncated match')
+            if f2 & 1:
+                length = (data[i+1] | ((data[i] & 0xF0) << 4)) + 3
+                dist = (data[i] & 0xF) + 1
+            else:
+                length = (data[i] & 0x1F) + 3
+                dist = (data[i+1] | ((data[i] & 0xE0) << 3)) + 17
+            if dist > len(out) or len(out) + length > n:
+                raise ValueError('Match exceeds output bounds')
+            for _ in range(length):
+                out.append(out[-dist])
+            i += 2
+            f2 >>= 1
+        else:
+            if i >= len(data):
+                raise ValueError('Truncated literal')
+            out.append(data[i])
+            i += 1
+        f1 >>= 1
+        # These reloads happen BEFORE Carbon checks remaining packed bytes.
+        for which in (1, 2):
+            if (f1 if which == 1 else f2) == 1:
+                if i == len(data):
+                    if not repair or len(out) != n:
+                        raise ValueError('Missing terminal control flag')
+                    data.append(0)
+                flag = data[i] | 0x100
+                i += 1
+                if which == 1:
+                    f1 = flag
+                else:
+                    f2 = flag
+    if i != len(data):
+        if not repair or len(data) - i > 16:
+            raise ValueError('Trailing data after terminal flags')
+        # CarToolkit can append dummy literal bytes after output is complete.
+        # Finish at the token boundary after required flag reloads instead.
+        del data[i:]
+    if bytes(out) != decompress(src):
+        raise ValueError('Decoded content changed')
+    struct.pack_into('<I', data, 12, len(data))
+    return bytes(data)
 
 
 def compress_optimal(data, depth=48):

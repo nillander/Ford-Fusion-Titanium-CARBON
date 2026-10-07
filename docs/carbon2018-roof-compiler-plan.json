@@ -1,0 +1,19 @@
+{
+  "source": "work/carbon2018-source-roof",
+  "new_parts": [
+    "MUSTANGGT_KIT00_ROOF_A",
+    "MUSTANGGT_KIT00_ROOF_B",
+    "MUSTANGGT_KIT00_ROOF_C",
+    "MUSTANGGT_KIT00_ROOF_D"
+  ],
+  "position": [
+    0.1,
+    0.0,
+    1.23757
+  ],
+  "tilt_degrees": 5.351590117721595,
+  "donor": "MUSTANGGT_KIT00_ROOF_A..D",
+  "existing_parts": 186,
+  "expected_parts": 190,
+  "status": "compiler input; not installable"
+}

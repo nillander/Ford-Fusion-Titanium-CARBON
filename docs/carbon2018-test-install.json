@@ -1,14 +1,10 @@
 {
   "action": "Install",
-  "time": "2026-10-07T11:49:37.628785-03:00",
+  "time": "2026-10-07T16:41:42.4563868-03:00",
   "slot": "MUSTANGGT",
-  "backup": "CARS/MUSTANGGT_backup_stock",
-  "geometry": "AE4BB255576689D0668AAB54B677F8D3393AE74C5A15700AB2176FDC89B647B2",
+  "backup": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\MUSTANGGT_backup_stock",
+  "geometry": "DE8EE10F8DDA430076D15CAD4DA796398B5BC85DC2EC9D33B4B6B1F94967680E",
   "textures": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC",
   "vinyls": "FE3FD7261749E766E20B4B2451FA49DD18CE9220383CC28967F3DA83848292CF",
-  "verification": "docs/carbon2018-stage-spoiler-verification.json",
-  "installed_by": "Claude (device shell; mesmas checagens de test-install-2018.ps1)",
-  "previous_geometry": "DBAB50ED464FC9F2974697A5703850BA5CF182DF45E8CCA28119B5667B502B37",
-  "history": "spoiler-roof 858E92B7 travou; spoiler guloso CC3D4100 travou; revertido DBAB50ED; agora spoiler com compress\u00e3o \u00f3tima",
-  "status": "experimental test only; VLT/FE unchanged"
+  "status": "roof scoops user-confirmed; VLT/FE unchanged; candidate for next release"
 }
