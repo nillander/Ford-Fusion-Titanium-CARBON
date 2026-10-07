@@ -52,14 +52,15 @@ def side(name, y):
     return ('LEFT_' if y > 0 else 'RIGHT_') + base
 
 def main():
-    if DST.exists(): shutil.rmtree(DST)
-    DST.mkdir(parents=True)
+    if SRC.resolve() == DST.resolve():
+        raise ValueError('Origem e destino precisam ser pastas diferentes')
+    DST.mkdir(parents=True, exist_ok=True)
     parts = []
     for p in sorted(SRC.iterdir()):
         if p.suffix.lower() == '.obj':
             rotate_obj(p, DST / p.name); parts.append(p.stem)
         elif p.is_dir():
-            shutil.copytree(p, DST / p.name)
+            shutil.copytree(p, DST / p.name, dirs_exist_ok=True)
         elif p.name not in ('mpoints.txt',):
             shutil.copy2(p, DST / p.name)
     have = set(parts)
@@ -104,8 +105,10 @@ def main():
         mp = f'_{n}{i:02d}'
         obj = DST / f'{n}{i:02d}.obj'
         x, y, z = to_compiler(*pos); e = 0.001
-        obj.write_text(f'g {n}{i:02d}\nv {x - e:.6f} {y - e:.6f} {z:.6f}\nv {x + e:.6f} {y - e:.6f} {z:.6f}\n'
-                       f'v {x:.6f} {y + e:.6f} {z:.6f}\nf 1 2 3\n', encoding='ascii')
+        obj.write_text(f'g {mp}\nv {x - e:.6f} {y - e:.6f} {z:.6f}\nv {x + e:.6f} {y - e:.6f} {z:.6f}\n'
+                       f'v {x:.6f} {y + e:.6f} {z:.6f}\n'
+                       'vt 0 0\nvt 1 0\nvt 0.5 1\nvn 0 0 1\n'
+                       'f 1/1/1 2/2/1 3/3/1\n', encoding='ascii')
         rx, ry, rz = rot_for(n)
         lines.append(f'{mp}\t\t{rx:.1f} {ry:.1f} {rz:.1f}\t\t%_{part}')
         report.append({'mount': mp, 'marker': n, 'carbon_position': pos, 'part': part, 'rotation': [rx, ry, rz]})

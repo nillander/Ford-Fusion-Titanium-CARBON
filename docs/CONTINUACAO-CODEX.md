@@ -1,5 +1,11 @@
 # Passagem para o Codex — 07/10/2026, manhã
 
+> **Atualização após execução pelo Codex:** recompilação e auditoria concluídas;
+> instalação experimental ativa e Fusion 2018 com rodas observado no jogo.
+> Ler `docs/SESSAO-CODEX-2026-10-07.md` e o TODO atualizado para o estado atual.
+> Os passos abaixo registram a passagem original. Próximo trabalho: artefatos
+> visuais e compatibilidade de peças; o primeiro teste não aprova a release.
+
 Trabalhar em pt-BR. Ler antes: `TODO.md` (estado consolidado), `docs/SESSAO-CLAUDE-2026-10-07.md`.
 Ao parar, atualizar TODO/README e fazer commit com coautoria.
 

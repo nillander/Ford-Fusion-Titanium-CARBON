@@ -1,6 +1,6 @@
 {
- "source": "work/carbon2018-source",
- "output": "work/carbon2018-source-axes",
+ "source": "work\\carbon2018-source",
+ "output": "work\\carbon2018-source-axes",
  "axis_fix": "(x,y,z)->(-y,x,z)",
  "mounts": [
   {

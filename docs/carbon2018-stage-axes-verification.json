@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "solids": 186,
+  "markers": 165,
+  "max_indices": 65397,
+  "orientation": "Carbon: front +X, left +Y",
+  "positions_tolerance_m": 0.001,
+  "official_donor_matrix_remap_matches": true,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-axes/GEOMETRY.BIN",
+      "bytes": 31701760,
+      "sha256": "BCFCD2F7BF5A3D44E8CE8CFFA3A4B1D078AB3FAF1713AC5817BBC55623EEF8E7"
+    },
+    {
+      "path": "work/carbon2018-stage-axes/TEXTURES.BIN",
+      "bytes": 484123,
+      "sha256": "59BD3711E7E26B70C3C4C11F3CAF7FE99FDBEC95FC3C8CAF3CEEE815AF06F76F"
+    }
+  ],
+  "status": "approved for reversible experimental test; full slot compatibility and visual QA pending"
+}

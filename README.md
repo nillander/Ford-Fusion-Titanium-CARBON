@@ -32,7 +32,9 @@ recriadas a partir das origens documentadas.
 
 ## Estado
 
-Setup e backup feitos; nenhum port foi instalado ou testado no Carbon.
+Setup e backup feitos. **07/10, manhã:** o Fusion 2018 corrigido foi instalado
+experimentalmente no MUSTANGGT e apareceu na visualização do jogo com rodas.
+O primeiro carregamento foi confirmado; corrida, kits, materiais e QA completo pendentes.
 Os doadores copiados vêm da instalação atual. Claude encontrou datas de build de
 2006 compatíveis com carros intocados e conferiu os hashes contra as referências.
 Isso sustenta a hipótese de arquivos oficiais, mas **não comprova a origem vanilla**.
@@ -58,11 +60,14 @@ em staging. Relatórios: `docs/carbon2018-simplification.json`,
 
 Essa saída precisa de adaptação aos pontos de montagem, kits, AutoSculpt, damage,
 materiais e cores do doador oficial antes de instalar. OBJ não preserva cores de
-vértices; as bordas da simplificação exigem QA visual. Nenhum teste em jogo foi feito.
+vértices; as bordas da simplificação exigem QA visual. A primeira observação em jogo
+da saída corrigida está registrada abaixo; o QA completo continua pendente.
 `mwgc` e `RetargetSlot` continuam sendo ferramentas MW, sem conversão para Carbon.
 
-**07/10:** o staging 2018 está girado 90° (orientação do nfscgc) e sem pontos de montagem;
-não instalar. Correção pronta para recompilar: [docs/SESSAO-CLAUDE-2026-10-07.md](docs/SESSAO-CLAUDE-2026-10-07.md).
+**07/10, manhã:** `work/carbon2018-stage-axes` foi recompilado, com orientação
+correta e 165 marcadores auditados. O staging antigo `work/carbon2018-stage`
+continua obsoleto, girado e sem montagem. Diagnóstico original:
+[docs/SESSAO-CLAUDE-2026-10-07.md](docs/SESSAO-CLAUDE-2026-10-07.md).
 Passagem anterior: [docs/CONTINUACAO-CLAUDE.md](docs/CONTINUACAO-CLAUDE.md).
 
 ## Aprendizados da construção
@@ -120,8 +125,9 @@ Claude comparou as caixas delimitadoras com o doador: o nfscgc transforma
 `(x, y, z)` em `(y, −x, z)`. A primeira saída ficou girada 90° no eixo Z.
 `scripts/prepare-compiler-input.py` prepara posições e normais com a transformação
 inversa `(−y, x, z)`, sem espelhamento ou mudança do enrolamento das faces.
-Os OBJ corrigidos estão em `work/carbon2018-source-axes`; **a saída corrigida
-ainda precisa ser compilada e auditada**. A prévia abaixo é anterior à correção.
+Os OBJ corrigidos estão em `work/carbon2018-source-axes`; a saída corrigida
+foi compilada e auditada em `work/carbon2018-stage-axes`. A galeria histórica de
+ferramenta abaixo é anterior à correção.
 
 ### Pontos de montagem também fazem parte da conversão
 
@@ -130,7 +136,12 @@ A primeira exportação não tinha marcadores. Foram extraídos 296 do MUSTANGGT
 em +Y; parte dos marcadores MW usa o lado oposto. O gerador normaliza os lados
 e prepara 165 OBJ de pontos, com anexos às peças correspondentes do doador.
 
-Posições e matrizes ainda precisam ser conferidas na saída compilada. Continuam
+As 165 posições foram conferidas dentro de 1 mm na saída compilada. As matrizes
+do exemplo divergiam das do doador em faróis, freios e spoilers; o novo script
+`scripts/apply-donor-marker-matrices.py` preserva as matrizes do MUSTANGGT e as
+translações Fusion. Quando falta a mesma peça/LOD no doador, usa a família oficial
+BASE_A, KIT00_BODY_A ou KIT00_FRONT_TIRE_A, registrando a origem de cada matriz.
+CarToolkit reexportou essa saída e a auditoria confirmou os 165 registros. Continuam
 pendentes LICENSEPLATE, ROOF_SCOOP, escapes de para-choques e hashes do teto.
 As rotações do exemplo do autor são referência do formato da ferramenta;
 o veículo do exemplo não é doador deste port.
@@ -161,7 +172,8 @@ a tração: a fonte MW usa RWD, e a decisão Carbon continua pendente.
 
 A instalação já contém NFSCUnlimiter, ExtraOptions, WidescreenFix e DLC Unlocker.
 Registrar esse ambiente no QA. A carreira com CAMARO, IA, garagem, luzes, damage,
-vinis e dirigibilidade ainda não foram testados neste port.
+vinis e dirigibilidade ainda não foram testados neste port. Apenas o primeiro
+carregamento visual do Fusion 2018 foi confirmado nesta manhã.
 
 ## Prévias preservadas da sessão
 
@@ -195,11 +207,29 @@ Exportação das texturas com os dois nomes de luzes encurtados:
 
 ## Retomada e critérios para avançar
 
-Primeiro recompilar `work/carbon2018-source-axes` para uma pasta separada,
-`work/carbon2018-stage-axes`, e conferir orientação, limites, marcadores e matrizes
-contra o doador. Depois adaptar os recursos exigidos pelo MUSTANGGT, revisar
-materiais/cores/texturas, preparar VLT e testar instalação reversível com backup.
-O Fusion 2012 → CAMARO, o QA em jogo e a release continuam pendentes.
+Orientação, limites, 165 posições/matrizes e texturas passaram na auditoria em
+`docs/carbon2018-stage-axes-verification.json`. A instalação experimental está
+ativa em `CARS/MUSTANGGT`; o backup da pasta inteira foi conferido contra as
+referências, e VINYLS/VLT/FE ficaram intactos. O nome no jogo continua Mustang GT.
+
+![Primeiro teste do Fusion 2018 no Carbon, com rodas e defeitos visuais ainda pendentes](capturas/2018/primeiro-teste-carbon-2026-10-07.jpg)
+
+**Primeiro teste em jogo, 07/10 por volta de 10:02.** Carroceria e rodas carregaram,
+com a orientação correta. Há artefatos visíveis nas superfícies, vidros e adesivos;
+a imagem não aprova acabamento, kits ou dirigibilidade. A seleção/câmera foi
+operada pelo usuário após abrir o jogo; Codex observou e preservou a captura.
+
+Para restaurar os BIN originais, fechar o jogo e executar na raiz:
+
+```powershell
+pwsh -NoProfile -File scripts/test-install-2018.ps1 -Action Restore
+```
+
+Para repetir a instalação auditada, usar `-Action Install`. Registro em
+`docs/carbon2018-test-install.json`. Próxima etapa: investigar os artefatos visuais
+e lacunas de peças, testar corrida/garagem e depois preparar VLT. Fusion 2012,
+QA completo e release continuam pendentes. Detalhes da execução em
+[docs/SESSAO-CODEX-2026-10-07.md](docs/SESSAO-CODEX-2026-10-07.md).
 
 [TODO.md](TODO.md) contém o acompanhamento por fase. A sessão Claude de 07/10
 complementa a passagem das 02:31 e deve ser lida antes de continuar.

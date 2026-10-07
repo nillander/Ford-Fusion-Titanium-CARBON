@@ -1,0 +1,10 @@
+{
+  "action": "Install",
+  "time": "2026-10-07T10:01:46.5794380-03:00",
+  "slot": "MUSTANGGT",
+  "backup": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon\\CARS\\MUSTANGGT_backup_stock",
+  "geometry": "BCFCD2F7BF5A3D44E8CE8CFFA3A4B1D078AB3FAF1713AC5817BBC55623EEF8E7",
+  "textures": "59BD3711E7E26B70C3C4C11F3CAF7FE99FDBEC95FC3C8CAF3CEEE815AF06F76F",
+  "vinyls": "FE3FD7261749E766E20B4B2451FA49DD18CE9220383CC28967F3DA83848292CF",
+  "status": "experimental test only; VLT/FE unchanged"
+}
