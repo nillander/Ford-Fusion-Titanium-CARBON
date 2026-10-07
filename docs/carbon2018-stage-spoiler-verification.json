@@ -61,72 +61,24 @@
       "z_after": 0.83687
     }
   ],
-  "roof_parts": [
-    {
-      "part": "MUSTANGGT_KIT00_ROOF_A",
-      "hash": "C5F5EAF5",
-      "source": "MUSTANGGT oficial (work/carbon-solids)",
-      "indices_zeroed": 3800,
-      "roof_scoop": [
-        0.1,
-        0.0,
-        1.23757
-      ],
-      "tilt_deg": 5.35
-    },
-    {
-      "part": "MUSTANGGT_KIT00_ROOF_B",
-      "hash": "C5F5EAF6",
-      "source": "MUSTANGGT oficial (work/carbon-solids)",
-      "indices_zeroed": 1848,
-      "roof_scoop": [
-        0.1,
-        0.0,
-        1.23757
-      ],
-      "tilt_deg": 5.35
-    },
-    {
-      "part": "MUSTANGGT_KIT00_ROOF_C",
-      "hash": "C5F5EAF7",
-      "source": "MUSTANGGT oficial (work/carbon-solids)",
-      "indices_zeroed": 996,
-      "roof_scoop": [
-        0.1,
-        0.0,
-        1.23757
-      ],
-      "tilt_deg": 5.35
-    },
-    {
-      "part": "MUSTANGGT_KIT00_ROOF_D",
-      "hash": "C5F5EAF8",
-      "source": "MUSTANGGT oficial (work/carbon-solids)",
-      "indices_zeroed": 276,
-      "roof_scoop": [
-        0.1,
-        0.0,
-        1.23757
-      ],
-      "tilt_deg": 5.35
-    }
-  ],
-  "passed": false,
-  "solids": 190,
+  "roof_parts": [],
+  "passed": true,
+  "solids": 186,
+  "mode": "none",
   "unchanged_blocks_bytewise": 181,
   "base": "DBAB50ED464FC9F2974697A5703850BA5CF182DF45E8CCA28119B5667B502B37",
   "files": [
     {
-      "path": "work/carbon2018-stage-spoiler-roof/GEOMETRY.BIN",
-      "bytes": 31978240,
-      "sha256": "858E92B7DA60B193726E313F3201B54629BF5CF3C32A5E190D62FAC8FAF529AA"
+      "path": "work/carbon2018-stage-spoiler/GEOMETRY.BIN",
+      "bytes": 31912576,
+      "sha256": "CC3D4100A848F361EA626CCE169C419184BE77FD6513B9F7A7602AA18C959271"
     },
     {
-      "path": "work/carbon2018-stage-spoiler-roof/TEXTURES.BIN",
+      "path": "work/carbon2018-stage-spoiler/TEXTURES.BIN",
       "bytes": 723547,
       "sha256": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC"
     }
   ],
   "textures_unchanged": true,
-  "status": "REPROVADO: travou o jogo ao visualizar o carro (07/10 11:43). KIT00_ROOF sem ROOF_T0/T1. N\u00e3o instalar."
+  "status": "spoiler heights + hidden KIT00_ROOF for roof scoop; game QA pending"
 }

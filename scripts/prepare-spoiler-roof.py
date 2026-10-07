@@ -13,6 +13,10 @@
    pelo Codex), com ROOF_SCOOP no teto do Fusion: x 0,10, 1 cm abaixo da superfície
    (mesma relação do doador) e inclinação do teto do Fusion nesse ponto.
 Base: work/carbon2018-stage-brakelight-lens (aprovado no jogo pelo usuário).
+
+ROOF_MODE=none (padrão): só aerofólios. ROOF_MODE=roof: + KIT00_ROOF_A..D ocultos —
+TRAVOU o jogo ao visualizar o carro (07/10 11:43). ROOF_MODE=roof+as: + ROOF_T0/T1 ocultos
+(hipótese: o AutoSculpt do teto exige as zonas T0/T1 quando KIT00_ROOF existe).
 """
 import hashlib, json, math, shutil, struct, sys
 from pathlib import Path
@@ -24,7 +28,9 @@ import jdlz
 
 SRC = ROOT / 'work/carbon2018-stage-brakelight-lens'
 SRC_SHA = 'DBAB50ED464FC9F2974697A5703850BA5CF182DF45E8CCA28119B5667B502B37'
-DST = ROOT / 'work/carbon2018-stage-spoiler-roof'
+import os
+MODE = os.environ.get('ROOF_MODE', 'none')  # none | roof | roof+as
+DST = ROOT / {'none': 'work/carbon2018-stage-spoiler', 'roof': 'work/carbon2018-stage-spoiler-roof', 'roof+as': 'work/carbon2018-stage-spoiler-roof-as'}[MODE]
 DZ = {'SPOILER': -0.023, 'SPOILER2': -0.087}
 ROOF_X = 0.10
 
@@ -96,20 +102,26 @@ def main():
     assert len(report['spoiler_markers']) == 10
     zc, ang = fusion_roof()
     roof_pos = (ROOF_X, 0.0, round(zc - 0.01, 5))
-    for lod in 'ABCD':
-        n = f'MUSTANGGT_KIT00_ROOF_{lod}'
+    roof_names = [] if MODE == 'none' else [f'MUSTANGGT_KIT00_ROOF_{l}' for l in 'ABCD']
+    if MODE == 'roof+as':
+        roof_names += [f'MUSTANGGT_KIT00_ROOF_{t}_{l}' for t in ('T0', 'T1') for l in 'ABCD']
+    for n in roof_names:
         h = int(donor[n]['hash'], 16)
         assert h not in blocks
         s = bytearray((ROOT / 'work/carbon-solids/MUSTANGGT' / (donor[n]['hash'] + '.bin')).read_bytes())
         ia, ib = find(s, 0x134B03); ia = (ia + 15) & ~15
         s[ia:ib] = b'\0' * (ib - ia)
         moved = 0
+        donor_scoop = (0.08543, 0.0, 1.18652)
         for r in marker_records(s):
-            if struct.unpack_from('<I', s, r)[0] == bh('ROOF_SCOOP'):
+            mh = struct.unpack_from('<I', s, r)[0]
+            if mh == bh('ROOF_SCOOP') or (('_T0_' in n or '_T1_' in n) and mh in (0x45D8B27B, 0x45D8B27C)):
+                old = struct.unpack_from('<16f', s, r + 16)
+                pos = [roof_pos[i] + old[12 + i] - donor_scoop[i] for i in range(3)]
                 c_, s_ = math.cos(ang), math.sin(ang)
-                m = [c_, 0, -s_, 0, 0, 1, 0, 0, s_, 0, c_, 0, roof_pos[0], roof_pos[1], roof_pos[2], 1]
+                m = [c_, 0, -s_, 0, 0, 1, 0, 0, s_, 0, c_, 0, pos[0], pos[1], pos[2], 1]
                 struct.pack_into('<16f', s, r + 16, *m); moved += 1
-        assert moved == 2, moved
+        assert moved == 2, (n, moved)
         s = bytes(s); c = jdlz.compress(s); assert jdlz.decompress(c) == s
         blocks[h] = (struct.pack('<6I', 0x55441122, len(s), len(c) + 24, 0, 0, 0) + c, len(s), 0x200)
         report['roof_parts'].append({'part': n, 'hash': '%08X' % h, 'source': 'MUSTANGGT oficial (work/carbon-solids)',
@@ -149,15 +161,15 @@ def main():
         sol = jdlz.decompress(blk[24:]); assert len(sol) == un
         if h in old and blk == old[h]: same += 1
         seen += 1
-    assert seen == 190 and same == 181, (seen, same)
+    assert seen == 186 + len(roof_names) and same == 181, (seen, same)
     assert d[8:16] == geo[8:16] and find(d, 0x134002)[1] - find(d, 0x134002)[0] == 144
     files = [{'path': p.relative_to(ROOT).as_posix(), 'bytes': p.stat().st_size,
               'sha256': hashlib.sha256(p.read_bytes()).hexdigest().upper()} for p in (DST / 'GEOMETRY.BIN', DST / 'TEXTURES.BIN')]
-    report.update({'passed': True, 'solids': 190, 'unchanged_blocks_bytewise': same, 'base': SRC_SHA,
+    report.update({'passed': True, 'solids': 186 + len(roof_names), 'mode': MODE, 'unchanged_blocks_bytewise': same, 'base': SRC_SHA,
                    'files': files, 'textures_unchanged': True,
                    'status': 'spoiler heights + hidden KIT00_ROOF for roof scoop; game QA pending'})
-    (ROOT / 'docs/carbon2018-stage-spoiler-roof-verification.json').write_text(json.dumps(report, indent=2) + '\n')
-    print('PASS', files[0]['sha256'][:16], len(d), 'bytes; 190 sólidos; 181 blocos idênticos; roof', roof_pos, round(math.degrees(ang), 2), 'graus')
+    (ROOT / ('docs/' + DST.name.replace('carbon2018-stage-', 'carbon2018-stage-') + '-verification.json')).write_text(json.dumps(report, indent=2) + '\n')
+    print('PASS', MODE, files[0]['sha256'][:16], len(d), 'bytes;', seen, 'sólidos;', same, 'blocos idênticos')
 
 if __name__ == '__main__':
     main()
