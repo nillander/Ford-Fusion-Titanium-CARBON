@@ -1,0 +1,1139 @@
+{
+  "source": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/CARS/MUSTANGGT/GEOMETRY.BIN",
+  "official_donor": "reference/carbon-stock/MUSTANGGT/GEOMETRY.BIN",
+  "source_parts": 186,
+  "donor_parts": 997,
+  "exact_matches": 86,
+  "missing_exact": 911,
+  "materials": 39,
+  "shared_texture_hashes_without_names": [
+    "445A675D",
+    "910E6654",
+    "910E6655",
+    "910E6656",
+    "910E6657",
+    "910E6658",
+    "910E6659",
+    "D0161A90"
+  ],
+  "parts": [
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_A",
+      "vertices": 1292,
+      "triangles": 1495,
+      "original_triangles": 1495
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_B",
+      "vertices": 825,
+      "triangles": 747,
+      "original_triangles": 747
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_C",
+      "vertices": 473,
+      "triangles": 328,
+      "original_triangles": 328
+    },
+    {
+      "name": "MUSTANGGT_KIT00_DRIVER_A",
+      "vertices": 1044,
+      "triangles": 1415,
+      "original_triangles": 1415
+    },
+    {
+      "name": "MUSTANGGT_KIT00_DRIVER_B",
+      "vertices": 797,
+      "triangles": 995,
+      "original_triangles": 995
+    },
+    {
+      "name": "MUSTANGGT_KIT00_DRIVER_C",
+      "vertices": 326,
+      "triangles": 299,
+      "original_triangles": 299
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
+      "vertices": 1109,
+      "triangles": 1996,
+      "original_triangles": 1996
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
+      "vertices": 607,
+      "triangles": 998,
+      "original_triangles": 998
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
+      "vertices": 309,
+      "triangles": 438,
+      "original_triangles": 438
+    },
+    {
+      "name": "MUSTANGGT_KIT00_REAR_WINDOW_A",
+      "vertices": 4553,
+      "triangles": 8000,
+      "original_triangles": 8000
+    },
+    {
+      "name": "MUSTANGGT_KIT00_REAR_BRAKE_A",
+      "vertices": 174,
+      "triangles": 122,
+      "original_triangles": 122
+    },
+    {
+      "name": "MUSTANGGT_KIT00_REAR_BRAKE_B",
+      "vertices": 114,
+      "triangles": 96,
+      "original_triangles": 96
+    },
+    {
+      "name": "MUSTANGGT_KIT00_REAR_BRAKE_C",
+      "vertices": 9,
+      "triangles": 5,
+      "original_triangles": 5
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A",
+      "vertices": 1651,
+      "triangles": 2495,
+      "original_triangles": 2495
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_B",
+      "vertices": 929,
+      "triangles": 1246,
+      "original_triangles": 1246
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_C",
+      "vertices": 459,
+      "triangles": 547,
+      "original_triangles": 547
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_A",
+      "vertices": 1350,
+      "triangles": 1997,
+      "original_triangles": 1997
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_B",
+      "vertices": 791,
+      "triangles": 997,
+      "original_triangles": 997
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_C",
+      "vertices": 392,
+      "triangles": 439,
+      "original_triangles": 439
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_BRAKE_A",
+      "vertices": 177,
+      "triangles": 122,
+      "original_triangles": 122
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_BRAKE_B",
+      "vertices": 114,
+      "triangles": 96,
+      "original_triangles": 96
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_BRAKE_C",
+      "vertices": 9,
+      "triangles": 5,
+      "original_triangles": 5
+    },
+    {
+      "name": "MUSTANGGT_KIT00_LEFT_SIDE_MIRROR_A",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT02_BODY_A",
+      "vertices": 59790,
+      "triangles": 21799,
+      "original_triangles": 75590
+    },
+    {
+      "name": "MUSTANGGT_KIT02_BODY_B",
+      "vertices": 27560,
+      "triangles": 21793,
+      "original_triangles": 26580
+    },
+    {
+      "name": "MUSTANGGT_KIT02_BODY_C",
+      "vertices": 17858,
+      "triangles": 14251,
+      "original_triangles": 14251
+    },
+    {
+      "name": "MUSTANGGT_KIT02_BODY_D",
+      "vertices": 4943,
+      "triangles": 3436,
+      "original_triangles": 3436
+    },
+    {
+      "name": "MUSTANGGT_KIT02_BODY_E",
+      "vertices": 2773,
+      "triangles": 1738,
+      "original_triangles": 1738
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_A",
+      "vertices": 14620,
+      "triangles": 15010,
+      "original_triangles": 15010
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_B",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_C",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_D",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_E",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT01_BODY_A",
+      "vertices": 59790,
+      "triangles": 21799,
+      "original_triangles": 75590
+    },
+    {
+      "name": "MUSTANGGT_KIT01_BODY_B",
+      "vertices": 27560,
+      "triangles": 21793,
+      "original_triangles": 26580
+    },
+    {
+      "name": "MUSTANGGT_KIT01_BODY_C",
+      "vertices": 17858,
+      "triangles": 14251,
+      "original_triangles": 14251
+    },
+    {
+      "name": "MUSTANGGT_KIT01_BODY_D",
+      "vertices": 4943,
+      "triangles": 3436,
+      "original_triangles": 3436
+    },
+    {
+      "name": "MUSTANGGT_KIT01_BODY_E",
+      "vertices": 2773,
+      "triangles": 1738,
+      "original_triangles": 1738
+    },
+    {
+      "name": "MUSTANGGT_KIT00_BODY_A",
+      "vertices": 59706,
+      "triangles": 21799,
+      "original_triangles": 75522
+    },
+    {
+      "name": "MUSTANGGT_KIT00_BODY_B",
+      "vertices": 27476,
+      "triangles": 21795,
+      "original_triangles": 26512
+    },
+    {
+      "name": "MUSTANGGT_KIT00_BODY_C",
+      "vertices": 17774,
+      "triangles": 14183,
+      "original_triangles": 14183
+    },
+    {
+      "name": "MUSTANGGT_KIT00_BODY_D",
+      "vertices": 4859,
+      "triangles": 3368,
+      "original_triangles": 3368
+    },
+    {
+      "name": "MUSTANGGT_KIT00_BODY_E",
+      "vertices": 2689,
+      "triangles": 1670,
+      "original_triangles": 1670
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_TIRE_A",
+      "vertices": 8923,
+      "triangles": 14945,
+      "original_triangles": 14945
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_TIRE_B",
+      "vertices": 5433,
+      "triangles": 8614,
+      "original_triangles": 8614
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_TIRE_C",
+      "vertices": 3045,
+      "triangles": 4739,
+      "original_triangles": 4739
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_TIRE_D",
+      "vertices": 50,
+      "triangles": 48,
+      "original_triangles": 48
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_TIRE_E",
+      "vertices": 50,
+      "triangles": 48,
+      "original_triangles": 48
+    },
+    {
+      "name": "MUSTANGGT_BASE_A",
+      "vertices": 22324,
+      "triangles": 21795,
+      "original_triangles": 22658
+    },
+    {
+      "name": "MUSTANGGT_BASE_B",
+      "vertices": 22212,
+      "triangles": 18601,
+      "original_triangles": 18601
+    },
+    {
+      "name": "MUSTANGGT_BASE_C",
+      "vertices": 12232,
+      "triangles": 9235,
+      "original_triangles": 9235
+    },
+    {
+      "name": "MUSTANGGT_BASE_D",
+      "vertices": 5161,
+      "triangles": 3704,
+      "original_triangles": 3704
+    },
+    {
+      "name": "MUSTANGGT_BASE_E",
+      "vertices": 5161,
+      "triangles": 3704,
+      "original_triangles": 3704
+    },
+    {
+      "name": "MUSTANGGT_KIT00_SPOILER_A",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_SPOILER_B",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_SPOILER_C",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_SPOILER_D",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_SPOILER_E",
+      "vertices": 3,
+      "triangles": 1,
+      "original_triangles": 1
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_WINDOW_A",
+      "vertices": 7304,
+      "triangles": 11993,
+      "original_triangles": 11993
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_WINDOW_B",
+      "vertices": 7304,
+      "triangles": 11993,
+      "original_triangles": 11993
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_WINDOW_C",
+      "vertices": 7304,
+      "triangles": 11993,
+      "original_triangles": 11993
+    },
+    {
+      "name": "MUSTANGGT_KIT00_INTERIOR_A",
+      "vertices": 20334,
+      "triangles": 18484,
+      "original_triangles": 18484
+    },
+    {
+      "name": "MUSTANGGT_KIT00_INTERIOR_B",
+      "vertices": 20334,
+      "triangles": 18484,
+      "original_triangles": 18484
+    },
+    {
+      "name": "MUSTANGGT_KIT00_INTERIOR_C",
+      "vertices": 20334,
+      "triangles": 18484,
+      "original_triangles": 18484
+    },
+    {
+      "name": "MUSTANGGT_KIT00_HOOD_A",
+      "vertices": 9778,
+      "triangles": 19136,
+      "original_triangles": 19136
+    },
+    {
+      "name": "MUSTANGGT_KIT00_HOOD_B",
+      "vertices": 3130,
+      "triangles": 5448,
+      "original_triangles": 5448
+    },
+    {
+      "name": "MUSTANGGT_KIT00_HOOD_C",
+      "vertices": 606,
+      "triangles": 794,
+      "original_triangles": 794
+    },
+    {
+      "name": "MUSTANGGT_KIT00_HOOD_D",
+      "vertices": 251,
+      "triangles": 300,
+      "original_triangles": 300
+    },
+    {
+      "name": "MUSTANGGT_STYLE02_HOOD_A",
+      "vertices": 6283,
+      "triangles": 11597,
+      "original_triangles": 11597
+    },
+    {
+      "name": "MUSTANGGT_STYLE03_HOOD_A",
+      "vertices": 6131,
+      "triangles": 11434,
+      "original_triangles": 11434
+    },
+    {
+      "name": "MUSTANGGT_STYLE04_HOOD_A",
+      "vertices": 6260,
+      "triangles": 11612,
+      "original_triangles": 11612
+    },
+    {
+      "name": "MUSTANGGT_STYLE05_HOOD_A",
+      "vertices": 6338,
+      "triangles": 11606,
+      "original_triangles": 11606
+    },
+    {
+      "name": "MUSTANGGT_STYLE06_HOOD_A",
+      "vertices": 6122,
+      "triangles": 11430,
+      "original_triangles": 11430
+    },
+    {
+      "name": "MUSTANGGT_STYLE07_HOOD_A",
+      "vertices": 6256,
+      "triangles": 11508,
+      "original_triangles": 11508
+    },
+    {
+      "name": "MUSTANGGT_STYLE09_HOOD_A",
+      "vertices": 6316,
+      "triangles": 11628,
+      "original_triangles": 11628
+    },
+    {
+      "name": "MUSTANGGT_STYLE10_HOOD_A",
+      "vertices": 6269,
+      "triangles": 11587,
+      "original_triangles": 11587
+    },
+    {
+      "name": "MUSTANGGT_STYLE13_HOOD_A",
+      "vertices": 6311,
+      "triangles": 11551,
+      "original_triangles": 11551
+    },
+    {
+      "name": "MUSTANGGT_STYLE16_HOOD_A",
+      "vertices": 6128,
+      "triangles": 11431,
+      "original_triangles": 11431
+    },
+    {
+      "name": "MUSTANGGT_STYLE17_HOOD_A",
+      "vertices": 6133,
+      "triangles": 11439,
+      "original_triangles": 11439
+    },
+    {
+      "name": "MUSTANGGT_STYLE20_HOOD_A",
+      "vertices": 6295,
+      "triangles": 11574,
+      "original_triangles": 11574
+    },
+    {
+      "name": "MUSTANGGT_STYLE21_HOOD_A",
+      "vertices": 6197,
+      "triangles": 11496,
+      "original_triangles": 11496
+    },
+    {
+      "name": "MUSTANGGT_STYLE23_HOOD_A",
+      "vertices": 6172,
+      "triangles": 11469,
+      "original_triangles": 11469
+    },
+    {
+      "name": "MUSTANGGT_STYLE26_HOOD_A",
+      "vertices": 6150,
+      "triangles": 11441,
+      "original_triangles": 11441
+    },
+    {
+      "name": "MUSTANGGT_STYLE31_HOOD_A",
+      "vertices": 6237,
+      "triangles": 11628,
+      "original_triangles": 11628
+    },
+    {
+      "name": "MUSTANGGT_STYLE32_HOOD_A",
+      "vertices": 6303,
+      "triangles": 11614,
+      "original_triangles": 11614
+    },
+    {
+      "name": "MUSTANGGT_STYLE02_HOOD_B",
+      "vertices": 2014,
+      "triangles": 3170,
+      "original_triangles": 3170
+    },
+    {
+      "name": "MUSTANGGT_STYLE03_HOOD_B",
+      "vertices": 1946,
+      "triangles": 3085,
+      "original_triangles": 3085
+    },
+    {
+      "name": "MUSTANGGT_STYLE04_HOOD_B",
+      "vertices": 2006,
+      "triangles": 3190,
+      "original_triangles": 3190
+    },
+    {
+      "name": "MUSTANGGT_STYLE05_HOOD_B",
+      "vertices": 2032,
+      "triangles": 3145,
+      "original_triangles": 3145
+    },
+    {
+      "name": "MUSTANGGT_STYLE06_HOOD_B",
+      "vertices": 1940,
+      "triangles": 3084,
+      "original_triangles": 3084
+    },
+    {
+      "name": "MUSTANGGT_STYLE07_HOOD_B",
+      "vertices": 2049,
+      "triangles": 3141,
+      "original_triangles": 3141
+    },
+    {
+      "name": "MUSTANGGT_STYLE09_HOOD_B",
+      "vertices": 2057,
+      "triangles": 3193,
+      "original_triangles": 3193
+    },
+    {
+      "name": "MUSTANGGT_STYLE10_HOOD_B",
+      "vertices": 2022,
+      "triangles": 3172,
+      "original_triangles": 3172
+    },
+    {
+      "name": "MUSTANGGT_STYLE13_HOOD_B",
+      "vertices": 2076,
+      "triangles": 3173,
+      "original_triangles": 3173
+    },
+    {
+      "name": "MUSTANGGT_STYLE16_HOOD_B",
+      "vertices": 1934,
+      "triangles": 3076,
+      "original_triangles": 3076
+    },
+    {
+      "name": "MUSTANGGT_STYLE17_HOOD_B",
+      "vertices": 1934,
+      "triangles": 3081,
+      "original_triangles": 3081
+    },
+    {
+      "name": "MUSTANGGT_STYLE20_HOOD_B",
+      "vertices": 2049,
+      "triangles": 3157,
+      "original_triangles": 3157
+    },
+    {
+      "name": "MUSTANGGT_STYLE21_HOOD_B",
+      "vertices": 1986,
+      "triangles": 3121,
+      "original_triangles": 3121
+    },
+    {
+      "name": "MUSTANGGT_STYLE23_HOOD_B",
+      "vertices": 1960,
+      "triangles": 3101,
+      "original_triangles": 3101
+    },
+    {
+      "name": "MUSTANGGT_STYLE26_HOOD_B",
+      "vertices": 1945,
+      "triangles": 3078,
+      "original_triangles": 3078
+    },
+    {
+      "name": "MUSTANGGT_STYLE31_HOOD_B",
+      "vertices": 2019,
+      "triangles": 3197,
+      "original_triangles": 3197
+    },
+    {
+      "name": "MUSTANGGT_STYLE32_HOOD_B",
+      "vertices": 2050,
+      "triangles": 3179,
+      "original_triangles": 3179
+    },
+    {
+      "name": "MUSTANGGT_STYLE02_HOOD_C",
+      "vertices": 460,
+      "triangles": 520,
+      "original_triangles": 520
+    },
+    {
+      "name": "MUSTANGGT_STYLE03_HOOD_C",
+      "vertices": 399,
+      "triangles": 468,
+      "original_triangles": 468
+    },
+    {
+      "name": "MUSTANGGT_STYLE04_HOOD_C",
+      "vertices": 458,
+      "triangles": 534,
+      "original_triangles": 534
+    },
+    {
+      "name": "MUSTANGGT_STYLE05_HOOD_C",
+      "vertices": 470,
+      "triangles": 512,
+      "original_triangles": 512
+    },
+    {
+      "name": "MUSTANGGT_STYLE06_HOOD_C",
+      "vertices": 405,
+      "triangles": 472,
+      "original_triangles": 472
+    },
+    {
+      "name": "MUSTANGGT_STYLE07_HOOD_C",
+      "vertices": 517,
+      "triangles": 534,
+      "original_triangles": 534
+    },
+    {
+      "name": "MUSTANGGT_STYLE09_HOOD_C",
+      "vertices": 471,
+      "triangles": 530,
+      "original_triangles": 530
+    },
+    {
+      "name": "MUSTANGGT_STYLE10_HOOD_C",
+      "vertices": 449,
+      "triangles": 512,
+      "original_triangles": 512
+    },
+    {
+      "name": "MUSTANGGT_STYLE13_HOOD_C",
+      "vertices": 541,
+      "triangles": 556,
+      "original_triangles": 556
+    },
+    {
+      "name": "MUSTANGGT_STYLE16_HOOD_C",
+      "vertices": 409,
+      "triangles": 472,
+      "original_triangles": 472
+    },
+    {
+      "name": "MUSTANGGT_STYLE17_HOOD_C",
+      "vertices": 404,
+      "triangles": 471,
+      "original_triangles": 471
+    },
+    {
+      "name": "MUSTANGGT_STYLE20_HOOD_C",
+      "vertices": 499,
+      "triangles": 534,
+      "original_triangles": 534
+    },
+    {
+      "name": "MUSTANGGT_STYLE21_HOOD_C",
+      "vertices": 431,
+      "triangles": 490,
+      "original_triangles": 490
+    },
+    {
+      "name": "MUSTANGGT_STYLE23_HOOD_C",
+      "vertices": 431,
+      "triangles": 488,
+      "original_triangles": 488
+    },
+    {
+      "name": "MUSTANGGT_STYLE26_HOOD_C",
+      "vertices": 421,
+      "triangles": 479,
+      "original_triangles": 479
+    },
+    {
+      "name": "MUSTANGGT_STYLE31_HOOD_C",
+      "vertices": 474,
+      "triangles": 538,
+      "original_triangles": 538
+    },
+    {
+      "name": "MUSTANGGT_STYLE32_HOOD_C",
+      "vertices": 487,
+      "triangles": 532,
+      "original_triangles": 532
+    },
+    {
+      "name": "MUSTANGGT_STYLE02_HOOD_D",
+      "vertices": 230,
+      "triangles": 222,
+      "original_triangles": 222
+    },
+    {
+      "name": "MUSTANGGT_STYLE03_HOOD_D",
+      "vertices": 249,
+      "triangles": 214,
+      "original_triangles": 214
+    },
+    {
+      "name": "MUSTANGGT_STYLE04_HOOD_D",
+      "vertices": 246,
+      "triangles": 236,
+      "original_triangles": 236
+    },
+    {
+      "name": "MUSTANGGT_STYLE05_HOOD_D",
+      "vertices": 250,
+      "triangles": 222,
+      "original_triangles": 222
+    },
+    {
+      "name": "MUSTANGGT_STYLE06_HOOD_D",
+      "vertices": 246,
+      "triangles": 216,
+      "original_triangles": 216
+    },
+    {
+      "name": "MUSTANGGT_STYLE07_HOOD_D",
+      "vertices": 263,
+      "triangles": 232,
+      "original_triangles": 232
+    },
+    {
+      "name": "MUSTANGGT_STYLE09_HOOD_D",
+      "vertices": 241,
+      "triangles": 226,
+      "original_triangles": 226
+    },
+    {
+      "name": "MUSTANGGT_STYLE10_HOOD_D",
+      "vertices": 239,
+      "triangles": 223,
+      "original_triangles": 223
+    },
+    {
+      "name": "MUSTANGGT_STYLE13_HOOD_D",
+      "vertices": 261,
+      "triangles": 234,
+      "original_triangles": 234
+    },
+    {
+      "name": "MUSTANGGT_STYLE16_HOOD_D",
+      "vertices": 219,
+      "triangles": 206,
+      "original_triangles": 206
+    },
+    {
+      "name": "MUSTANGGT_STYLE17_HOOD_D",
+      "vertices": 213,
+      "triangles": 204,
+      "original_triangles": 204
+    },
+    {
+      "name": "MUSTANGGT_STYLE20_HOOD_D",
+      "vertices": 238,
+      "triangles": 222,
+      "original_triangles": 222
+    },
+    {
+      "name": "MUSTANGGT_STYLE21_HOOD_D",
+      "vertices": 219,
+      "triangles": 206,
+      "original_triangles": 206
+    },
+    {
+      "name": "MUSTANGGT_STYLE23_HOOD_D",
+      "vertices": 256,
+      "triangles": 227,
+      "original_triangles": 227
+    },
+    {
+      "name": "MUSTANGGT_STYLE26_HOOD_D",
+      "vertices": 245,
+      "triangles": 218,
+      "original_triangles": 218
+    },
+    {
+      "name": "MUSTANGGT_STYLE31_HOOD_D",
+      "vertices": 233,
+      "triangles": 224,
+      "original_triangles": 224
+    },
+    {
+      "name": "MUSTANGGT_STYLE32_HOOD_D",
+      "vertices": 201,
+      "triangles": 193,
+      "original_triangles": 193
+    },
+    {
+      "name": "MUSTANGGT_KIT00_INTERIOR_D",
+      "vertices": 20334,
+      "triangles": 18484,
+      "original_triangles": 18484
+    },
+    {
+      "name": "MUSTANGGT_KIT00_FRONT_WINDOW_D",
+      "vertices": 7304,
+      "triangles": 11993,
+      "original_triangles": 11993
+    },
+    {
+      "name": "MUSTANGGT_KIT00_REAR_WINDOW_B",
+      "vertices": 4553,
+      "triangles": 8000,
+      "original_triangles": 8000
+    },
+    {
+      "name": "MUSTANGGT_KIT00_REAR_WINDOW_C",
+      "vertices": 4553,
+      "triangles": 8000,
+      "original_triangles": 8000
+    },
+    {
+      "name": "MUSTANGGT_KIT00_REAR_WINDOW_D",
+      "vertices": 4553,
+      "triangles": 8000,
+      "original_triangles": 8000
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_D",
+      "vertices": 459,
+      "triangles": 547,
+      "original_triangles": 547
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_D",
+      "vertices": 392,
+      "triangles": 439,
+      "original_triangles": 439
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D",
+      "vertices": 309,
+      "triangles": 438,
+      "original_triangles": 438
+    },
+    {
+      "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_D",
+      "vertices": 473,
+      "triangles": 328,
+      "original_triangles": 328
+    },
+    {
+      "name": "MUSTANGGT_KIT00_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "vertices": 81,
+      "triangles": 65,
+      "original_triangles": 65
+    },
+    {
+      "name": "MUSTANGGT_KIT00_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT00_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "vertices": 81,
+      "triangles": 65,
+      "original_triangles": 65
+    },
+    {
+      "name": "MUSTANGGT_KIT00_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT01_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "vertices": 81,
+      "triangles": 65,
+      "original_triangles": 65
+    },
+    {
+      "name": "MUSTANGGT_KIT01_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT01_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "vertices": 81,
+      "triangles": 65,
+      "original_triangles": 65
+    },
+    {
+      "name": "MUSTANGGT_KIT01_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT02_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "vertices": 81,
+      "triangles": 65,
+      "original_triangles": 65
+    },
+    {
+      "name": "MUSTANGGT_KIT02_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT02_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "vertices": 81,
+      "triangles": 65,
+      "original_triangles": 65
+    },
+    {
+      "name": "MUSTANGGT_KIT02_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_DECAL_FRONT_WINDOW_WIDE_MEDIUM_A",
+      "vertices": 17,
+      "triangles": 13,
+      "original_triangles": 13
+    },
+    {
+      "name": "MUSTANGGT_DECAL_REAR_WINDOW_WIDE_MEDIUM_A",
+      "vertices": 18,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT04_BODY_A",
+      "vertices": 59790,
+      "triangles": 21799,
+      "original_triangles": 75590
+    },
+    {
+      "name": "MUSTANGGT_KIT04_BODY_B",
+      "vertices": 27560,
+      "triangles": 21793,
+      "original_triangles": 26580
+    },
+    {
+      "name": "MUSTANGGT_KIT04_BODY_C",
+      "vertices": 17858,
+      "triangles": 14251,
+      "original_triangles": 14251
+    },
+    {
+      "name": "MUSTANGGT_KIT04_BODY_D",
+      "vertices": 4943,
+      "triangles": 3436,
+      "original_triangles": 3436
+    },
+    {
+      "name": "MUSTANGGT_KIT04_BODY_E",
+      "vertices": 2773,
+      "triangles": 1738,
+      "original_triangles": 1738
+    },
+    {
+      "name": "MUSTANGGT_KIT04_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "vertices": 80,
+      "triangles": 64,
+      "original_triangles": 64
+    },
+    {
+      "name": "MUSTANGGT_KIT04_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT04_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "vertices": 80,
+      "triangles": 64,
+      "original_triangles": 64
+    },
+    {
+      "name": "MUSTANGGT_KIT04_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT05_BODY_A",
+      "vertices": 59790,
+      "triangles": 21799,
+      "original_triangles": 75590
+    },
+    {
+      "name": "MUSTANGGT_KIT05_BODY_B",
+      "vertices": 27560,
+      "triangles": 21793,
+      "original_triangles": 26580
+    },
+    {
+      "name": "MUSTANGGT_KIT05_BODY_C",
+      "vertices": 17858,
+      "triangles": 14251,
+      "original_triangles": 14251
+    },
+    {
+      "name": "MUSTANGGT_KIT05_BODY_D",
+      "vertices": 4943,
+      "triangles": 3436,
+      "original_triangles": 3436
+    },
+    {
+      "name": "MUSTANGGT_KIT05_BODY_E",
+      "vertices": 2773,
+      "triangles": 1738,
+      "original_triangles": 1738
+    },
+    {
+      "name": "MUSTANGGT_KIT05_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "vertices": 80,
+      "triangles": 64,
+      "original_triangles": 64
+    },
+    {
+      "name": "MUSTANGGT_KIT05_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT05_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "vertices": 80,
+      "triangles": 64,
+      "original_triangles": 64
+    },
+    {
+      "name": "MUSTANGGT_KIT05_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT03_BODY_A",
+      "vertices": 59790,
+      "triangles": 21799,
+      "original_triangles": 75590
+    },
+    {
+      "name": "MUSTANGGT_KIT03_BODY_B",
+      "vertices": 27560,
+      "triangles": 21793,
+      "original_triangles": 26580
+    },
+    {
+      "name": "MUSTANGGT_KIT03_BODY_C",
+      "vertices": 17858,
+      "triangles": 14251,
+      "original_triangles": 14251
+    },
+    {
+      "name": "MUSTANGGT_KIT03_BODY_D",
+      "vertices": 4943,
+      "triangles": 3436,
+      "original_triangles": 3436
+    },
+    {
+      "name": "MUSTANGGT_KIT03_BODY_E",
+      "vertices": 2773,
+      "triangles": 1738,
+      "original_triangles": 1738
+    },
+    {
+      "name": "MUSTANGGT_KIT03_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+      "vertices": 80,
+      "triangles": 64,
+      "original_triangles": 64
+    },
+    {
+      "name": "MUSTANGGT_KIT03_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    },
+    {
+      "name": "MUSTANGGT_KIT03_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+      "vertices": 80,
+      "triangles": 64,
+      "original_triangles": 64
+    },
+    {
+      "name": "MUSTANGGT_KIT03_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+      "vertices": 15,
+      "triangles": 16,
+      "original_triangles": 16
+    }
+  ],
+  "simplification_indices": "work\\simplification2018",
+  "status": "compiler input only; donor compatibility adaptation pending"
+}

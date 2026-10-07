@@ -1,0 +1,241 @@
+[
+  {
+    "name": "MUSTANGGT_KIT02_BODY_A",
+    "original_indices": 226770,
+    "indices": 65397,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 226566,
+        "indices": 65340,
+        "relative_weighted_error": 0.0006905168411321938
+      },
+      {
+        "original_indices": 204,
+        "indices": 57,
+        "relative_weighted_error": 0.0002397047937847674
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_B",
+    "original_indices": 79740,
+    "indices": 65379,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 79536,
+        "indices": 65214,
+        "relative_weighted_error": 0.0003558292519301176
+      },
+      {
+        "original_indices": 204,
+        "indices": 165,
+        "relative_weighted_error": 0.00004237614120938815
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_A",
+    "original_indices": 226770,
+    "indices": 65397,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 226566,
+        "indices": 65340,
+        "relative_weighted_error": 0.0006905168411321938
+      },
+      {
+        "original_indices": 204,
+        "indices": 57,
+        "relative_weighted_error": 0.0002895248762797564
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_B",
+    "original_indices": 79740,
+    "indices": 65379,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 79536,
+        "indices": 65214,
+        "relative_weighted_error": 0.0003558292519301176
+      },
+      {
+        "original_indices": 204,
+        "indices": 165,
+        "relative_weighted_error": 0.000005743333531427197
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_A",
+    "original_indices": 226566,
+    "indices": 65397,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 226566,
+        "indices": 65397,
+        "relative_weighted_error": 0.0006905168411321938
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_B",
+    "original_indices": 79536,
+    "indices": 65385,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 79536,
+        "indices": 65385,
+        "relative_weighted_error": 0.00034518225584179163
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_A",
+    "original_indices": 67974,
+    "indices": 65385,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 360,
+        "indices": 342,
+        "relative_weighted_error": 0.001115767052397132
+      },
+      {
+        "original_indices": 966,
+        "indices": 924,
+        "relative_weighted_error": 0.001240649726241827
+      },
+      {
+        "original_indices": 50508,
+        "indices": 48594,
+        "relative_weighted_error": 0
+      },
+      {
+        "original_indices": 120,
+        "indices": 114,
+        "relative_weighted_error": 0.000002475401061019511
+      },
+      {
+        "original_indices": 16020,
+        "indices": 15411,
+        "relative_weighted_error": 0.000003984208888141438
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_A",
+    "original_indices": 226770,
+    "indices": 65397,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 226566,
+        "indices": 65340,
+        "relative_weighted_error": 0.0006905168411321938
+      },
+      {
+        "original_indices": 204,
+        "indices": 57,
+        "relative_weighted_error": 0.0002909465110860765
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_B",
+    "original_indices": 79740,
+    "indices": 65379,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 79536,
+        "indices": 65214,
+        "relative_weighted_error": 0.0003558292519301176
+      },
+      {
+        "original_indices": 204,
+        "indices": 165,
+        "relative_weighted_error": 0.00004232269202475436
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_A",
+    "original_indices": 226770,
+    "indices": 65397,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 226566,
+        "indices": 65340,
+        "relative_weighted_error": 0.0006905168411321938
+      },
+      {
+        "original_indices": 204,
+        "indices": 57,
+        "relative_weighted_error": 0.00028953628498129547
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_B",
+    "original_indices": 79740,
+    "indices": 65379,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 79536,
+        "indices": 65214,
+        "relative_weighted_error": 0.0003558292519301176
+      },
+      {
+        "original_indices": 204,
+        "indices": 165,
+        "relative_weighted_error": 0.000005874612270417856
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_A",
+    "original_indices": 226770,
+    "indices": 65397,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 226566,
+        "indices": 65340,
+        "relative_weighted_error": 0.0006905168411321938
+      },
+      {
+        "original_indices": 204,
+        "indices": 57,
+        "relative_weighted_error": 0.00029093166813254356
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_B",
+    "original_indices": 79740,
+    "indices": 65379,
+    "within_carbon_limit": true,
+    "groups": [
+      {
+        "original_indices": 79536,
+        "indices": 65214,
+        "relative_weighted_error": 0.0003558292519301176
+      },
+      {
+        "original_indices": 204,
+        "indices": 165,
+        "relative_weighted_error": 0.00004236034510540776
+      }
+    ]
+  }
+]

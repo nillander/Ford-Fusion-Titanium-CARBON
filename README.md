@@ -38,15 +38,25 @@ O `Backup` existente só contém localização, não carros originais nem GLOBAL
 
 | Geometria | Catálogo | Cabeçalhos com nome lidos | Entradas comprimidas |
 | --- | ---: | ---: | ---: |
-| Carbon CAMARO | 848 | 0 | 848 |
-| Carbon MUSTANGGT | 997 | 0 | 997 |
+| Carbon CAMARO | 848 | 848 | 848 |
+| Carbon MUSTANGGT | 997 | 997 | 997 |
 | MW Fusion 2012 | 202 | 202 | 0 |
 | MW Fusion 2018 | 186 | 186 | 0 |
 
-O inventário é de cabeçalhos e hashes; não valida malhas, materiais ou compatibilidade.
-É preciso descomprimir CIP para obter os nomes/peças dos doadores Carbon e finalizar
-o mapeamento. As fontes locais NFS-ModTools têm leitores Carbon; isso não comprova
-que exista um exportador Carbon disponível. `mwgc` e `RetargetSlot` são ferramentas MW,
-e renomear sólidos nelas não converte o formato para Carbon.
+O inventário registra cabeçalhos/hashes. `docs/carbon-mesh-audit.json` registra a
+leitura independente das 1845 malhas descomprimidas, incluindo 269 com morph targets.
+O mapa inicial MUSTANGGT está em `docs/mustanggt-part-map.csv`: 86 nomes coincidem
+com o Fusion MW, mas isso ainda não comprova compatibilidade com o slot.
+
+O Fusion 2018 foi compilado com ModTools e reexportado pelo CarToolkit 3.1 para
+`work/carbon2018-stage/`: 186 sólidos e 10 texturas Carbon passaram nos leitores
+independentes. Treze malhas excediam 65535 índices e foram simplificadas somente
+em staging. Relatórios: `docs/carbon2018-simplification.json`,
+`docs/carbon2018-stage-audit.json` e `docs/carbon2018-texture-audit.json`.
+
+Essa saída precisa de adaptação aos pontos de montagem, kits, AutoSculpt, damage,
+materiais e cores do doador oficial antes de instalar. OBJ não preserva cores de
+vértices; as bordas da simplificação exigem QA visual. Nenhum teste em jogo foi feito.
+`mwgc` e `RetargetSlot` continuam sendo ferramentas MW, sem conversão para Carbon.
 
 Continuação às 02:31 em [docs/CONTINUACAO-CLAUDE.md](docs/CONTINUACAO-CLAUDE.md).

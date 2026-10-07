@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "solids": 186,
+  "textures": 10,
+  "source_names_and_triangle_counts_match": true,
+  "max_indices_per_solid": 65397,
+  "local_texture_hashes_match_remap": true,
+  "shared_diffuse_hashes_to_validate_in_carbon_global": [
+    "0AB88F5D",
+    "1B049702",
+    "445A675D",
+    "4CDEBFCA",
+    "60F8B13C",
+    "68100815",
+    "69C032BA",
+    "7811C146",
+    "7B220DDF",
+    "8C283C65",
+    "910E6654",
+    "910E6655",
+    "910E6656",
+    "910E6657",
+    "910E6658",
+    "910E6659",
+    "BF30889B",
+    "D0161A90",
+    "D195BE56",
+    "E7E4EF49"
+  ],
+  "status": "staging only; official donor compatibility and visual QA pending",
+  "files": [
+    {
+      "path": "work/carbon2018-stage/GEOMETRY.BIN",
+      "bytes": 31700736,
+      "sha256": "829A9CF120F05365111DAAA6E30E99185A90A9A8EC4A945DB268F7A9EDF6298C"
+    },
+    {
+      "path": "work/carbon2018-stage/TEXTURES.BIN",
+      "bytes": 484123,
+      "sha256": "59BD3711E7E26B70C3C4C11F3CAF7FE99FDBEC95FC3C8CAF3CEEE815AF06F76F"
+    }
+  ]
+}

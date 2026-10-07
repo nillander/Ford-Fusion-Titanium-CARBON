@@ -18,5 +18,59 @@
     "origin": "C:\\Users\\nillander\\NoDocuments\\fusion-mw2005\\scripts\\RetargetSlot.cs",
     "path": "tools/vendor/mw/RetargetSlot.cs",
     "sha256": "AB31E1AAF1BCE699CB58ABA38212375ACCE7FB63119E8B8BD13F04DAE27C2268"
+  },
+  {
+    "path": "tools/vendor/cartoolkit/cartoolkit.7z",
+    "origin": "https://mega.nz/folder/GahkUB6B#vB1Cpy7PeUfe9O7FetG2Ag",
+    "bytes": 8092914,
+    "sha256": "FA4C74C50D966891C33D217F29490B5D75FBCB762FDECA7493536A8F18FF83D9"
+  },
+  {
+    "path": "tools/vendor/cartoolkit/vlted.7z",
+    "origin": "https://mega.nz/folder/GahkUB6B#vB1Cpy7PeUfe9O7FetG2Ag",
+    "bytes": 1244912,
+    "sha256": "7BBE25EB6567F376F883B5880396D6AAF1A7A55F7B0889E7A44C664C376D8ED4"
+  },
+  {
+    "path": "tools/vendor/carbon-modtools/modtools.rar",
+    "origin": "https://nfs.com.ru/downloads/1404",
+    "bytes": 2182328,
+    "sha256": "413E6EF80DE6602FCC42B1C43BEE1C87D6877DEAA6C9F22C57611320A3B7717D"
+  },
+  {
+    "path": "tools/vendor/quickbms/quickbms.zip",
+    "origin": "https://mirror.aluigi.org/papers/quickbms.zip",
+    "bytes": 15979735,
+    "sha256": "B9D4F9EFB55692994CD42A491CFEA11F86E3375A618B9BD771583CE40DDB3828"
+  },
+  {
+    "path": "tools/vendor/meshoptimizer/package/meshopt_simplifier.js",
+    "origin": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-1.3.0.tgz",
+    "bytes": 67671,
+    "sha256": "C3098EE4CB4FC242B84F064C88898E76E44BF58B0E1F693507F323C08CDBB5ED"
+  },
+  {
+    "path": "tools/vendor/megajs/package/dist/main.browser-es.mjs",
+    "origin": "https://registry.npmjs.org/megajs/-/megajs-1.3.10.tgz",
+    "bytes": 535980,
+    "sha256": "2198BB5E17BD71EB0DA7A4EC4483F55FA4F927AEF9680B33E1411E21E4235FF0"
+  },
+  {
+    "path": "tools/vendor/cartoolkit/app/NFS-CarToolkit/NFS-CarToolkit.exe",
+    "origin": "Pacote preservado documentado em tools/README.md",
+    "bytes": 7644160,
+    "sha256": "8EFDEF79C995FAA3FA50F69FDAD84F25676B1CF2271DEB4A5301386F345D2C40"
+  },
+  {
+    "path": "tools/vendor/carbon-modtools/NFS Carbon ModTools v1.1/bin/nfscgc.exe",
+    "origin": "Pacote preservado documentado em tools/README.md",
+    "bytes": 118272,
+    "sha256": "32F71CE3D4F1D3242478E190804C8EC65986901AE4FF2E3A8EB9E42C07CE2D7E"
+  },
+  {
+    "path": "tools/vendor/quickbms/quickbms.exe",
+    "origin": "Pacote preservado documentado em tools/README.md",
+    "bytes": 20151296,
+    "sha256": "FF812D38E22AEA0CC2CDC13C5C91CA34FAE4443AB12987002105BE6BAB3F4948"
   }
 ]

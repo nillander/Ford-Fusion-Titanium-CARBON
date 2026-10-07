@@ -74,7 +74,7 @@ Fontes principais (úteis mesmo em replace):
 
 - [ ] **Binary** ≥ 2.9 (strings/logo/global se necessário)
 - [ ] **NFS-VltEd** ≥ 4.6 (FE + performance nos slots)
-- [ ] **NFS-CarToolkit** e/ou **Carbon ModTools** (geometry + textures)
+- [x] **NFS-CarToolkit 3.1** e **Carbon ModTools 1.1**, obtidos e operados; proveniência em `tools/README.md`
 - [ ] Backup limpo do Carbon (já há pasta `Backup` no jogo)
 - [x] Espelhar utilitários MW selecionados e RetargetSlot em `tools/vendor/mw`; manifesto em `tools/toolchain-manifest.json` (não convertem formato para Carbon)
 - [ ] Unlimiter **não** é requisito para este replace; só se o jogo já estiver modado com add-ons
@@ -91,6 +91,9 @@ Fontes principais (úteis mesmo em replace):
 - [x] Copiar referência instalada Carbon: `CARS/CAMARO` e `CARS/MUSTANGGT` → `reference/carbon-stock/`; backup GLOBAL em `reference/carbon-global-before/`
 - [ ] Confirmar origem oficial/vanilla dos doadores copiados (Backup do jogo só contém localização)
 - [ ] Inventariar peças/sólidos do MW e do stock Carbon (kits, AutoSculpt, spoiler AS, damage) e mapear o que falta no port
+  - [x] Descomprimir e nomear 848 CAMARO + 997 MUSTANGGT; leitura independente das 1845 malhas
+  - [x] Mapa inicial MUSTANGGT: 86 correspondências exatas com os 186 sólidos Fusion MW; 911 nomes do doador sem correspondência exata (não significa 911 peças obrigatórias)
+  - [ ] Adaptar o mapa aos recursos efetivamente exigidos pelo slot oficial
 
 ---
 
@@ -115,10 +118,13 @@ Decisão:
 ## Fase 2 — Geometria e texturas
 
 - [ ] Abrir `GEOMETRY.BIN` MW no CarToolkit; reexportar com **Game = Carbon**
-  - [ ] 2018: XNAME / sólidos → `MUSTANGGT`
+  - [x] 2018: exportação preliminar Carbon em `work/carbon2018-stage`, 186 sólidos MUSTANGGT validados; compatibilidade com doador ainda pendente
   - [ ] 2012: retarget `COBALTSS` → `CAMARO` (renomear sólidos/marcadores)
 - [ ] Reexportar `TEXTURES.BIN` no mesmo XNAME; nomes ≤ 23 chars
-- [ ] Validar ≤ 65535 vértices/sólido; LODs; kits que cutscenes/IA do slot pedem
+- [ ] Validar ≤ 65535 vértices **e índices**/sólido; LODs; kits que cutscenes/IA do slot pedem
+  - [x] Resolver `Indices count for MUSTANGGT_BASE_A exceeded 65536`: simplificar 13 malhas apenas em staging, máximo 65397 índices; conferir 186 malhas reexportadas
+  - [x] Reexportar e ler independentemente 10 texturas Carbon; nomes de luzes encurtados para ≤ 23 caracteres
+  - [ ] QA visual da simplificação, materiais, cores de vértices, bordas e UVs
 - [ ] DXT1 em opacos; DXT3 só lente/vidro
 - [ ] Mount points vs stock `CAMARO` / `MUSTANGGT` (rodas, exhaust, spoiler, luzes)
 - [ ] Smoke-test: início da carreira com Fusion 2012; Mustang slot com Fusion 2018
@@ -232,14 +238,12 @@ Estado do código-fonte MW e aprendizados: `../fusion-mw2005/README.md`, `docs/A
 ## Passagem para Claude — 07/10/2026, 02:31 (America/Sao_Paulo)
 
 Leia **`docs/CONTINUACAO-CLAUDE.md`** para assumir a partir deste commit.
-Preparação concluída por Codex: referências v2.8, cópias dos doadores instalados,
-backup GLOBAL e manifestos de hashes. Nenhum arquivo do jogo foi alterado.
+Codex descomprimiu e validou 1845 malhas dos doadores instalados. Exportou o
+Fusion 2018 para Carbon em staging: 186 sólidos e 10 texturas com leitura independente.
+O limite de índices foi resolvido simplificando 13 malhas; fontes v2.8 intactas.
+Nenhum arquivo do jogo foi alterado; sem instalação ou QA em jogo.
 
-Inventário preliminar em `docs/geometry-inventory.json`: Fusion 2012 com 202 sólidos,
-2018 com 186; CAMARO instalado com 848 entradas e MUSTANGGT com 997, todas
-comprimidas. Descompressão CIP e mapa de peças oficiais ainda pendentes.
-Não marcar geometria/QA como concluídos: não há exportação Carbon nem teste em jogo.
-
-Próximo passo: confirmar os doadores oficiais, preparar leitura CIP/exportação Carbon
-e comparar kits, LODs, AutoSculpt, damage e marcadores; então iniciar 2018 → MUSTANGGT.
+Próximo passo: confirmar origem oficial dos doadores e adaptar o staging ao MUSTANGGT
+oficial: pontos de montagem, kits, LODs, AutoSculpt, damage e materiais. A saída ainda
+não é um port instalável. O Fusion 2012 permanece na etapa de referências.
 O horário acima é a retomada informada pelo usuário, não uma automação criada aqui.

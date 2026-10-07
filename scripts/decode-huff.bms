@@ -1,0 +1,10 @@
+# EA HUFF payload, following the 16-byte BlackBox header.
+# Based on Luigi Auriemma's nfsu_bun.bms CHECK_DECOMPRESS/DECOMPRESS.
+idstring "HUFF"
+get FLAGS long
+get SIZE long
+get PACKED long
+get TOTAL asize
+math TOTAL - 16
+comtype ea_huff
+clog "decoded.bin" 16 TOTAL SIZE

@@ -10,9 +10,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def inventory(path):
+def inventory(path, carbon=None, extracted_root=None):
     data = path.read_bytes()
-    carbon = "carbon-stock" in path.parts
+    carbon = "carbon-stock" in path.parts if carbon is None else carbon
     result = {"path": path.relative_to(ROOT).as_posix(),
               "sha256": hashlib.sha256(data).hexdigest().upper(),
               "declared_count": None, "streaming": [], "readable_headers": []}
@@ -58,7 +58,18 @@ def inventory(path):
     walk(0, len(data))
     if carbon:
         for entry in result["streaming"]:
-            if not entry["compressed"]:
+            extracted = (extracted_root or ROOT / "work/carbon-solids") / path.parent.name / (entry["hash"] + ".bin")
+            if entry["compressed"] and extracted.exists():
+                original_data = data
+                data = extracted.read_bytes()
+                if len(data) != entry["bytes"]:
+                    raise ValueError("Decompressed size mismatch")
+                before = len(result["readable_headers"])
+                walk(0, len(data))
+                if len(result["readable_headers"]) != before + 1 or result["readable_headers"][-1]["hash"] != entry["hash"]:
+                    raise ValueError("Decompressed catalogue hash mismatch")
+                data = original_data
+            elif not entry["compressed"]:
                 walk(entry["offset"], entry["offset"] + entry["bytes"])
     names = [r["name"] for r in result["readable_headers"]]
     if len(names) != len(set(names)):

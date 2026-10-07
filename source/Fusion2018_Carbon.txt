@@ -1,0 +1,4 @@
+# NFS-CarToolkit 3.1: texture names used by the staged geometry.
+# Geometry compatibility with the official MUSTANGGT donor remains pending.
+TEXTURE C MUSTANGGT_KIT00_BRAKELIGHT_OFF MUSTANGGT_BRAKE_OFF
+TEXTURE C MUSTANGGT_KIT00_HEADLIGHT_OFF MUSTANGGT_HEAD_OFF

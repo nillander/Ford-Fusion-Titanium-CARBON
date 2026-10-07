@@ -1,63 +1,115 @@
 # Passagem para Claude — 07/10/2026 às 02:31
 
-Horário de retomada informado pelo usuário, fuso America/Sao_Paulo (UTC−03:00).
-Este arquivo deixa a tarefa pronta para a sessão do Claude; não agenda nem inicia essa sessão.
+Retomada informada pelo usuário, America/Sao_Paulo. Este documento não agenda a sessão.
+Assumir TODO.md; ao parar, atualizar os registros e fazer commit com coautoria do agente.
+Trabalhar em pt-BR. Usar exclusivamente os veículos oficiais que serão substituídos
+como doadores: CAMARO → Fusion 2012 FWD, MUSTANGGT → Fusion 2018. Preservar CAMARON.
+As cópias instaladas ainda têm origem vanilla não comprovada; confirmar antes de tratá-las
+como oficiais. Não substituir por outro carro/mod.
 
-## Instruções do usuário
+## Estado entregue
 
-- Assumir TODO.md; ao parar, fazer commit e registrar coautoria do agente.
-- Usar **CAMARO oficial do Carbon** como doador para o Fusion 2012, e
-  **MUSTANGGT oficial do Carbon** para o Fusion 2018. Esses são os veículos substituídos.
-- Preservar CAMARON. Trabalhar em pt-BR.
+- Referências v2.8 verificadas, backup CARS/GLOBAL e manifesto de 73 arquivos.
+- 848 sólidos CAMARO + 997 MUSTANGGT descomprimidos CIP (HUFF/JDLZ), com limites,
+  cobertura, tamanho e hashes conferidos. Leitor independente validou índices,
+  posições e UVs das 1845 malhas; 269 possuem morph targets.
+- Fusion 2018: 186 sólidos, 86 nomes exatos do doador. Há 911 nomes do doador sem
+  correspondência exata: esse número não define quantas peças são obrigatórias.
+- CarToolkit 3.1 e ModTools 1.1 obtidos e operados. VltEd 4.6 baixado, ainda no 7z.
+- Erro de índices resolvido em staging: 13 malhas acima de 65535 índices (BASE_A,
+  seis KITxx_BODY_A e seis KITxx_BODY_B) simplificadas por material; máximo 65397.
+- ModTools compilou os 186 OBJ, mas a saída bruta tem um sólido vazio hash zero e
+  contagens de vértices de materiais incompatíveis com o leitor independente.
+  NÃO instalar work/carbon-compiler/geometry.bin.
+- CarToolkit reconheceu 186 sólidos reais na saída bruta e reexportou para Carbon:
+  work/carbon2018-stage/GEOMETRY.BIN. Todos passaram no leitor independente,
+  sem sentinel, depois da descompressão.
+- work/carbon2018-stage/TEXTURES.BIN: 10 texturas Carbon, nomes ≤23 caracteres,
+  hashes únicos, formatos DXT e dados dos mipmaps declarados validados.
+  As fontes atuais declaram apenas um nível; isso não certifica qualidade visual.
+- Configuração source/Fusion2018_Carbon.txt renomeia luzes para MUSTANGGT_BRAKE_OFF
+  e MUSTANGGT_HEAD_OFF, correspondentes aos hashes na geometria.
+- Nenhum jogo/VLT alterado, instalação, release ou QA em jogo. 2012 ainda não portado.
 
-## Trabalho entregue por Codex
+## Próximos passos
 
-- Estrutura mínima e README; referências locais ignoradas no Git.
-- ZIPs v2.8 verificados contra os hashes registrados no projeto MW e extraídos.
-- Backup dos três BIN de cada slot e dos arquivos diretamente em GLOBAL.
-- Manifesto de 73 arquivos e inventário de quatro GEOMETRY.BIN.
-- Os sólidos MW estão nomeados no inventário; os doadores Carbon têm 848/997
-  entradas CIP comprimidas, ainda sem nomes ou malhas extraídos.
-- Utilitários MW selecionados espelhados em tools/vendor/mw; proveniência em
-  tools/README.md. Não executar esses compiladores para produzir BIN Carbon.
-- Jogo e projeto MW não foram alterados. Sem instalação, release ou QA em jogo.
+1. Confirmar origem oficial dos doadores; Backup existente só contém localização.
+   Não sobrescrever as referências preservadas com arquivos modificados.
+2. Adaptar staging ao MUSTANGGT oficial: pontos de montagem (rodas, escape, spoiler,
+   luzes), kits, LODs, cutscenes/IA, damage e AutoSculpt. mpoints.txt é placeholder.
+   Não há montagem funcional validada. A saída ainda não é um port instalável.
+3. Revisar effects/materiais Carbon e texturas compartilhadas. O exporter preservou
+   oito hashes sem nomes como 0xHASH. CarToolkit/Data/Textures.txt identifica
+   DUMMY_DECAL1..6 e DUMMY_NUMBER_LEFT/RIGHT; confirmar no GLOBAL Carbon.
+   Não assumir que shaders MW com o mesmo hash dão o mesmo visual.
+4. QA da redução: meshoptimizer 1.3.0, Sparse/Permissive, pesos normais 0.1 e UVs 1,
+   erro alvo 0.01; maior erro relativo ponderado observado ~0.001241 (não metros).
+   LockBorder impedia atingir o limite e não foi usado. Vértices e atributos vêm
+   do original, mas faces/bordas mudaram: revisar costuras, UVs e silhueta.
+   OBJ não preserva cores de vértices do BIN MW.
+5. DXT3 em BADGING e SKIN19 ainda exige revisão de alpha/opacos. Considerar mipmaps.
+6. Inspecionar VLT real antes de converter MWPS. 2018 está RWD apesar do nome AWD;
+   decisão pendente. 2012 exige FWD e confirmação CAMARO inicial.
+7. Após compatibilidade estrutural/visual: instalação reversível com backup, QA,
+   repetir para 2012 → CAMARO, então release. Não marcar Fases 1–7 completas.
 
-## Próximos passos, em ordem
+## Reprodução na raiz do projeto
 
-1. Ler TODO.md, README.md e os dois manifestos em docs. Executar
-   `pwsh -File scripts/prepare-reference.ps1` e `python scripts/inventory_geometry.py`
-   se precisar verificar/recriar o setup. Os backups Carbon nunca devem ser sobrescritos
-   por arquivos modificados da instalação.
-2. Confirmar que os doadores são realmente oficiais/limpos. O Backup do jogo só
-   contém localização. As cópias estão rotuladas `carbon-installed-donor-unverified-stock`.
-   Se houver mod nos slots, obter os originais da instalação/mídia oficial e registrar
-   novos hashes antes de usá-los como base. Não trocar por veículos de outro mod.
-3. Providenciar ferramenta com leitura CIP e **exportação Carbon**, por exemplo
-   CarToolkit/Carbon ModTools, verificando a documentação e a licença da ferramenta.
-   `../fusion-mw2005/tools/NFS-ModTools/Common/Geometry/CarbonSolidListReader.cs`
-   documenta a tabela de streaming; `Common/Compression.cs` depende de CompLib.
-   O `dotnet` disponível não listou SDKs nesta sessão. Não afirmar que as ferramentas
-   necessárias já estão prontas: fontes de leitores não equivalem a exportador.
-4. Descomprimir e inventariar os oficiais CAMARO/MUSTANGGT: peças, LODs, kits,
-   AutoSculpt, damage, marcadores, materiais e texturas. Comparar com os 202/186
-   sólidos MW. Finalizar o mapa de peças ausentes antes de marcar a Fase 0 completa.
-5. Começar pelo 2018 → MUSTANGGT; preservar os recursos exigidos pelo slot oficial
-   e inserir a malha Fusion. Exportar geometry e textures com alvo Carbon para `work/`.
-   Não copiar geometry MW diretamente ao jogo nem tratar RetargetSlot como conversor.
-6. Preparar VLT mínimo após inspecionar os nós reais e preservar backup. Não portar
-   MWPS literalmente. O 2018 MW está RWD apesar do nome AWD; 2012 exige FWD.
-   Confirmar no VLT/FE o uso de CAMARO no início e os nós/variantes antes de editar.
-7. Só avançar para instalação/teste com saída Carbon validada; registrar o que foi
-   realmente testado. Ao parar, atualizar TODO/passagem e fazer commit com coautoria.
+Ferramentas/BIN ignorados pelo Git existem neste computador; origens em tools/README.md.
 
-## Fontes exatas
+```powershell
+pwsh -NoProfile -File scripts/extract-carbon-solids.ps1
+python scripts/inventory_geometry.py
+pwsh -NoProfile -File scripts/validate-carbon-solids.ps1
+python scripts/prepare-simplification.py
+node scripts/simplify-carbon-source.mjs
+python scripts/prepare-carbon-source.py --indices-directory work/simplification2018
+```
 
-- `reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/CARS/MUSTANGGT/`
-- `reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/CARS/COBALTSS/`
-- MWPS em `ADDONS/CARS_REPLACE/<slot>/` dentro de cada pacote extraído.
-- `reference/carbon-stock/CAMARO/` e `reference/carbon-stock/MUSTANGGT/`
-- `reference/carbon-global-before/`
-- Contexto MW: `../fusion-mw2005/docs/APRENDIZADOS.md` e `docs/CONTINUACAO.md`.
+O exporter depende de numpy, parser MW irmão e work/mw2018-textures.json + work/mw2018-dds.
+Para recriar metadata/DDS:
+```powershell
+& 'C:\Program Files\dotnet\dotnet.exe' '..\fusion-mw2005\scripts\validator\bin\Release\net8.0\Validator.dll' 'reference\mw-v28\Fusion2018_AWD_MW2005\Fusion2018_AWD_MW2005\CARS\MUSTANGGT\TEXTURES.BIN' 'work\mw2018-textures.json' 'work\mw2018-dds'
+```
+Usar C:\Program Files\dotnet\dotnet.exe (x64):
+`dotnet` padrão é x86 e não lista SDK. Assembly existente:
+C:\Users\nillander\NoDocuments\fusion-mw2005\scripts\validator\bin\Release\net8.0\Validator.dll.
 
-O próximo objetivo é obter o mapa das peças oficiais e uma exportação Carbon do
-2018 em staging. O port completo segue pendente nas Fases 1–7 de TODO.md.
+Fonte 2018: reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/CARS/MUSTANGGT/.
+Fonte 2012: reference/mw-v28/Fusion2012_FWD_MW2005/Fusion2012_FWD_MW2005/CARS/COBALTSS/.
+Doadores: reference/carbon-stock/{CAMARO,MUSTANGGT}; backup GLOBAL: reference/carbon-global-before/.
+
+Compilação GUI:
+1. work/carbon-compiler/nfscgc.exe, working directory nessa pasta (materiais/mp.txt
+   já presentes). MUSTANGGT, Save log, Compile, selecionar OBJ em work/carbon2018-source.
+   Os 186 OBJ, matlist/link/mpoints estão preparados. Log append contém falhas antigas
+   seguidas do sucesso; olhar o final.
+2. CarToolkit: abrir work/carbon-compiler/geometry.bin, Carbon/Racer/MUSTANGGT,
+   saída manual work/carbon2018-stage, exportar GEOMETRY.BIN config-free.
+3. Texturas: carregar TEXTURES.BIN original MW, Configuration Auto desmarcado →
+   source/Fusion2018_Carbon.txt, Carbon/MUSTANGGT, mesma saída, exportar TEXTURES.BIN.
+
+A GUI foi controlada com skill computer-use e @oai/sky. Nas janelas de arquivo,
+digitar o caminho no campo Nome: a barra de endereço pode fechar nfscgc. Árvores de
+acessibilidade às vezes vêm atrasadas: observar novamente antes de usar índices.
+
+Auditoria da saída existente:
+```powershell
+pwsh -NoProfile -File scripts/extract-carbon-solids.ps1 -InventoryFile docs/carbon2018-stage-inventory.json -OutputRoot work/carbon2018-stage-solids
+pwsh -NoProfile -File scripts/validate-carbon-solids.ps1 -InputRoot work/carbon2018-stage-solids -OutputFile docs/carbon2018-stage-audit.json
+pwsh -NoProfile -File scripts/validate-carbon-textures.ps1
+```
+Ao alterar o BIN, regenerar inventário staging com inventory(path, carbon=True,
+extracted_root=work/carbon2018-stage-solids), do script inventory_geometry.py.
+O leitor TPK usa Version3Tpk.cs irmão recompilado com nosso decoder CIP; a assembly
+MW sozinha rejeita os recursos comprimidos.
+
+## Relatórios
+
+geometry-inventory.json; carbon-mesh-audit.json; mustanggt-part-map.csv;
+carbon2018-source-report.json; carbon2018-simplification.json;
+carbon2018-compiled-inventory.json (187 entradas brutas, incluindo vazio);
+carbon2018-stage-inventory.json; carbon2018-stage-audit.json;
+carbon2018-texture-audit.json; carbon2018-stage-verification.json.
+
+Próximo objetivo: adaptação ao doador oficial, antes de instalar o staging atual.
