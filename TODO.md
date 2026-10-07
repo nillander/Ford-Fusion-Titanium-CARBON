@@ -11,7 +11,7 @@
 - [ ] Confirmar categoria EXOTIC no menu e comportamento em corrida
 - [x] ZIP v1.3: 22 arquivos; Windows PowerShell 5.1, instalar/reinstalar/restaurar, upgrade v1.2 e preservação do backup anterior testados
 - [x] README consolidado com aprendizados de geometria, materiais/lentes, JDLZ, montagem, frontend, VLT, física e entrega
-- [ ] Publicar v1.3 a pedido do usuário, com QA leve EXOTIC pendente; manter v1.2 intacta
+- [x] Commit/push, tag anotada e release v1.3 publicados a pedido do usuário, com QA leve EXOTIC pendente; v1.2 intacta. Três anexos com digests GitHub conferidos.
 
 As aprovações abaixo referem-se às etapas anteriores, não aprovam esta comparação nova.
 

@@ -1,5 +1,15 @@
 # Passagem para o Codex — integração AWD do 2018 (07/10/2026)
 
+## Entrega atual — v1.3 publicada
+
+Release: https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.3
+Tag anotada em `2d3efcc`; commit e tag enviados, três digests de anexos
+conferidos contra os locais. ZIP/instalador e upgrade/restauração v1.2 testados
+em Windows PowerShell 5.1. Auditoria: docs/release-v1.3-verification.json.
+README contém os aprendizados consolidados; TODO contém o port alternativo
+Fusion 2018 AWD no SL65 AMG oficial. Não foi iniciado e não integra a v1.3.
+Acerto leve/categoria EXOTIC e motor posterior seguem aguardando QA no jogo.
+
 ## Prioridade atual — candidata leve EXOTIC após v1.2 (18:20)
 
 Usuário ainda considera o Fusion pesado e quer uma alternativa customizada à
@@ -34,7 +44,7 @@ Não alterar flags booleanas desconhecidas nem Tier 2 sem motivo comprovado.
 Usuário respondeu Exotic e disse que testará quando terminar. Aguardar QA da
 categoria no menu e arrancada/retomada/curvas. Backup só leve, ainda Muscle,
 em work/global2018-performance-lightweight (4277ECF9…), gate próprio preservado.
-O usuário solicitou publicação deste acerto como v1.3, com QA pendente registrado.
+O usuário solicitou e recebeu a publicação deste acerto como v1.3, com QA pendente registrado.
 A v1.2 permanece intacta. README consolidado e TODO incluem a alternativa AWD
 no SL65 AMG oficial, ainda não executada. Não renomear BIN Mustang para SL65:
 reconstruir a compatibilidade com o próprio Mercedes oficial como doador.

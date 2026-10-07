@@ -9,5 +9,34 @@
   "install_reinstall_restore_passed": true,
   "unknown_mod_preflight_no_changes": true,
   "corrupt_package_preflight_no_changes": true,
-  "mock_directory": "C:\\Users\\nillander\\NoDocuments\\fusion-carbon\\work\\release-v13-check-69d0c3526ca34a9781cd55f0e462f155"
+  "mock_directory": "C:\\Users\\nillander\\NoDocuments\\fusion-carbon\\work\\release-v13-check-69d0c3526ca34a9781cd55f0e462f155",
+  "publication": {
+    "url": "https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.3",
+    "published_at": "2026-10-07T21:34:27Z",
+    "tag": "v1.3",
+    "tag_commit": "2d3efcc18e75e0c999303e6f20ba35c04571b664",
+    "annotated_tag_verified": true,
+    "remote_commit_and_tag_verified": true,
+    "assets_digests_verified": true,
+    "assets": [
+      {
+        "name": "Fusion2018_AWD_NFSC.zip",
+        "size": 32364472,
+        "sha256": "B1BEE2ED48519739BE65F0B0207E9E1E0259E638ED469983EDB9F02006027653",
+        "github_digest": "sha256:b1bee2ed48519739be65f0b0207e9e1e0259e638ed469983edb9f02006027653"
+      },
+      {
+        "name": "SHA256SUMS-conteudo.txt",
+        "size": 3847,
+        "sha256": "491D95DF936DC67CF7257E0263219DF2128DA20744BFDE213F3DCC9C03B03C61",
+        "github_digest": "sha256:491d95df936dc67cf7257e0263219df2128da20744bfde213f3dcc9c03b03c61"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 91,
+        "sha256": "9932F7F7BC8DC6594A26F6E54C590FAA8489F9B43B01571929B0359519901B4E",
+        "github_digest": "sha256:9932f7f7bc8dc6594a26f6e54c590faa8489f9b43b01571929b0359519901b4e"
+      }
+    ]
+  }
 }

@@ -164,3 +164,9 @@ instalar/reinstalar/restaurar, upgrade da v1.2 e restauração exata, backup
 anterior preservado, recusa de mod desconhecido e pacote corrompido sem mudanças.
 Relatório: docs/release-v1.3-verification.json. QA do acerto novo segue pendente;
 publicação autorizada explicitamente nesta solicitação.
+
+Release v1.3 publicada: https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.3
+Tag anotada em 2d3efcc18e75e0c999303e6f20ba35c04571b664, enviada junto ao main.
+Os três anexos publicados têm tamanho e digest SHA-256 iguais aos locais.
+ZIP SHA-256 B1BEE2ED48519739BE65F0B0207E9E1E0259E638ED469983EDB9F02006027653.
+Fechamento documental enviado em commit posterior; tag permanece no commit da entrega.
