@@ -1,4 +1,12 @@
-# Fusion 2018 — performance Carbon v1.2
+# Fusion 2018 — performance em desenvolvimento após v1.2
+
+Comparação atual: MASS 1100, FINAL_GEAR 4,11 e FLYWHEEL_MASS 10 como a BMW
+M3 GTR, preservando AWD, motor +20% e direção aprovada. Ainda depende de QA.
+Usuário também escolheu EXOTIC: RacingClass explícita no próprio slot, sem
+trocar o pai muscle. Rollback remove o override e recupera a herança original.
+Os ModScripts deste checkout contêm essa comparação; o ZIP/tag v1.2 publicado
+mantém o acerto anterior. Gerar com
+`prepare-performance-2018.py --racer-weight --racing-class Exotic`.
 
 Acerto MW v2.8 convertido para o Carbon, com AWD por escolha do usuário.
 Preço original do Mustang (50.000), desbloqueio, fabricante Ford e montagem

@@ -1,6 +1,43 @@
 # Passagem para o Codex — integração AWD do 2018 (07/10/2026)
 
-## Prioridade atual — v1.2 e motor BMW +20%
+## Prioridade atual — candidata leve EXOTIC após v1.2 (18:20)
+
+Usuário ainda considera o Fusion pesado e quer uma alternativa customizada à
+BMW M3 GTR. Em seguida perguntou se Muscle/Exotic fazem diferença.
+
+Instalado **attributes.bin B5DA3F6865C760D6279B29526D2B8CF83FA3CBAC3694DD88280FFB74CB2580E4**.
+Comparação: massa 1600→1100; FINAL_GEAR base 3,06→4,11/top 3,5→4,11;
+FLYWHEEL_MASS base 12→10/top 9→10. São cinco campos numéricos e RacingClass;
+todo o restante da v1.2
+mantido (motor BMW +20%, AWD, direção, pneus/freios/chassi, preço 50.000 e visual).
+10.180 nós/312 blobs e rollback auditados; importação sobre v1.2 equivalente.
+Gerar com `prepare-performance-2018.py --racer-weight --racing-class Exotic`. Sem as flags reproduz
+o acerto de peso anterior; não regenerar sem perceber o modo de comparação.
+
+Rollback ao publicado: `test-install-performance-2018.ps1 -Action RestoreRelease`,
+com jogo/VltEd fechados. Fonte work/global2018-performance-v1.2/main/attributes.bin
+SHA D58BEA8A…, gate docs/carbon2018-performance-v1.2-verification.json. Restore
+sem sufixo continua voltando aos atributos do Mustang original.
+
+**Usuário escolheu EXOTIC; instalado:** override local RacingClass sem trocar
+o pai. Herança original mustanggt → muscle → racers;
+BMW → exotic → racers. RacingClass herdado, ausente no Data próprio do Mustang.
+Racer não equivale à classe Exotic. Pais muscle/exotic têm MASS=1000 e mesmo
+TENSOR_SCALE=(1,2,1,0); peso extra era override. Classe aparece em regras,
+música/recompensas e SkidInfo; efeito direto sobre física não foi estabelecido.
+Diagnóstico em docs/carbon2018-racing-class-diagnostic.json. Override Exotic
+auditado no próprio slot, sem reparentear o Mustang. Rollback remove o override
+(delete_field) e restaura a herança exata; comprovado na auditoria de todos os nós.
+Documentação oficial ModScript confirma add_field/delete_field/update_field.
+Não alterar flags booleanas desconhecidas nem Tier 2 sem motivo comprovado.
+
+Usuário respondeu Exotic e disse que testará quando terminar. Aguardar QA da
+categoria no menu e arrancada/retomada/curvas. Backup só leve, ainda Muscle,
+em work/global2018-performance-lightweight (4277ECF9…), gate próprio preservado.
+Nova candidata
+não publicada; v1.2 permanece intacta e o empacotador impede rebatizá-la como v1.2.
+
+## Histórico — v1.2 e motor BMW +20%
 
 Usuário confirmou "tudo certo": direção, logotipo e fogo aprovados. Autorizou
 explicitamente **commit, push, tag e release** nesta rodada, substituindo a

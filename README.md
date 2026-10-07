@@ -6,6 +6,12 @@
 > esse novo ajuste de potência foi auditado e instalado, sem novo teste em corrida.
 > Preço original 50.000. Fusion 2012 ainda não portado.
 
+**Desenvolvimento após v1.2:** usuário ainda percebe o carro pesado e quer uma
+alternativa customizada à BMW. Comparação instalada: massa 1100, relação final
+4,11 e volante do motor 10, iguais à BMW. Mantém potência +20%, AWD e direção
+aprovada, com RacingClass **EXOTIC** escolhida pelo usuário. QA pendente;
+o ZIP/tag v1.2 publicado permanece com o acerto anterior.
+
 ## Downloads — v1.2
 
 | Pacote | Carro | Estado |
@@ -545,3 +551,34 @@ aprovada anterior. BMW e outros carros não são alterados; os 10.180 nós e
 312 blobs, importação sobre a candidata anterior e rollback foram auditados.
 Novo attributes.bin instalado. Usuário autorizou commit/push/tag/release;
 o novo motor ainda precisa de teste em corrida.
+
+## Comparação de peso e classificação após v1.2
+
+A curva de motor +20% não compensava os 1600 de massa do Fusion frente aos
+1100 da BMW: a razão potência/peso era 1,20×1100/1600=0,825, cerca de 17,5%
+inferior. A relação final 3,06 (base) / 3,5 (upgrade) também era mais longa que
+4,11 da BMW. O usuário quer um acerto customizado de competição, não o peso
+do Fusion de fábrica. `prepare-performance-2018.py --racer-weight` agora usa
+MASS=1100, FINAL_GEAR=4,11 e FLYWHEEL_MASS=10. São cinco campos numéricos de três
+tipos alterados frente à v1.2; direção/pneus/freios/suspensão, montagem visual,
+AWD e curva de potência permanecem. Auditados e instalados, aguardando QA de
+arrancada/retomada/curvas. `test-install-performance-2018.ps1 -Action RestoreRelease`
+recupera o attributes.bin publicado na v1.2 (Restore continua voltando ao Mustang
+original). Backup em work/global2018-performance-v1.2, gate versionado preservado.
+
+**Classe:** mustanggt herda pvehicle/muscle → RacingClass Muscle; bmwm3gtre46
+herda pvehicle/exotic → RacingClass Exotic. Ambos descendem de racers: Racer
+não é uma quarta categoria Muscle/Tuner/Exotic. Os pais muscle e exotic usam
+a mesma MASS=1000 e TENSOR_SCALE=(1,2,1,0); o peso extra veio do override do
+Fusion. A classe é usada por tabelas de música, regras de gameplay/recompensas
+e referência herdada de áudio de derrapagem. Ainda não foi demonstrado um
+multiplicador direto de física por classe. Não atribuir toda a sensação pesada
+ao nome Muscle nem trocar o pai inteiro para alterar apenas a categoria.
+Diagnóstico: docs/carbon2018-racing-class-diagnostic.json. O usuário escolheu
+**EXOTIC**. `--racing-class Exotic` acrescenta um override RacingClass ao próprio
+mustanggt; o pai muscle, seus outros campos e o Tier 2 permanecem. O rollback
+usa delete_field e recupera a herança original, conforme a
+[documentação ModScript](https://nfs-tools.blogspot.com/2018/02/nfs-vlted-usage-2-modscript-format.html).
+A geração da candidata completa usa `--racer-weight --racing-class Exotic`.
+Efeito da classe sobre a dirigibilidade ainda exige comparação no jogo.
+O empacotador recusa rotular essa comparação de desenvolvimento como v1.2.

@@ -208,3 +208,4 @@ update_field transmission mustanggt_top TORQUE_SPLIT 0
 update_field transmission mustanggt_top CLUTCH_SLIP 0.699999988
 update_field transmission mustanggt_top SHIFT_SPEED 0.25
 update_field transmission mustanggt_top FINAL_GEAR 3.9000001
+delete_field pvehicle mustanggt RacingClass

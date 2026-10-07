@@ -50,11 +50,19 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--baseline", type=Path, default=Path("work/vlt-baseline-yaml"))
     parser.add_argument("--steering-range-scale", type=float, default=1.15)
+    parser.add_argument('--racer-weight', action='store_true',
+                        help='Development comparison: BMW mass, final drive and flywheel response.')
+    parser.add_argument('--racing-class', choices=('Exotic','Muscle','Tuner'), default=None,
+                        help='Override inherited RacingClass on MUSTANGGT only, without reparenting.')
     args = parser.parse_args()
     source = next(Path("reference/mw-v28/Fusion2018_AWD_MW2005").rglob("ATTRIBUTES.MWPS"))
     parsed = parse_mwps(source)
     engine_rows = yaml.safe_load((args.baseline / 'main/attributes/db/engine.yml').read_text())
     bmw = next(row for row in engine_rows if row['Name'] == 'bmwm3gtre46')['Data']
+    references = {}
+    for cls in ('pvehicle','transmission'):
+        rows = yaml.safe_load((args.baseline / f'main/attributes/db/{cls}.yml').read_text())
+        references[cls] = next(row for row in rows if row['Name'] == 'bmwm3gtre46')['Data']
     changed = []
     commands = ["game C", "# Fusion 2018: MW v2.8 handling, AWD; preserve Carbon price/unlock/visual mounts."]
     rollback = ["game C", "# Restore only the fields changed by Fusion2018-performance.nfsms."]
@@ -72,6 +80,12 @@ def main():
             fields['TORQUE'] = [v * 1.2 for v in bmw['TORQUE']['Data']]
             for field in ('MAX_RPM', 'RED_LINE', 'IDLE'):
                 fields[field] = [bmw[field]]
+            if args.racer_weight:
+                fields['FLYWHEEL_MASS'] = [bmw['FLYWHEEL_MASS']]
+        if args.racer_weight and cls == 'pvehicle':
+            fields['MASS'] = [references['pvehicle']['MASS']]
+        if args.racer_weight and cls == 'transmission':
+            fields['FINAL_GEAR'] = [references['transmission']['FINAL_GEAR']]
         if cls == "tires":
             # Angle-only revision failed in game, including at low speed.
             # Compare less axle locking and neutral grip, retaining the donor's
@@ -114,6 +128,16 @@ def main():
                 rollback.append(f"update_field {cls} {node} {path} {previous:.9g}")
             if old != target:
                 changed.append({"class": cls, "node": node, "field": field, "before": old, "after": target})
+    if args.racing_class:
+        row = next(r for r in yaml.safe_load((args.baseline / 'main/attributes/db/pvehicle.yml').read_text()) if r['Name']=='mustanggt')
+        assert row['ParentName'] == 'muscle' and 'RacingClass' not in row['Data']
+        target = 'kRaceCar_Class'+args.racing_class
+        commands += ['add_field pvehicle mustanggt RacingClass',
+                     f'update_field pvehicle mustanggt RacingClass {target}']
+        rollback += ['delete_field pvehicle mustanggt RacingClass']
+        changed.append({'class':'pvehicle','node':'mustanggt','field':'RacingClass',
+                        'before':'kRaceCar_ClassMuscle','before_inherited':True,
+                        'after':target,'rollback':'delete explicit override; restore original inheritance'})
     output = Path("release/vlt")
     output.mkdir(parents=True, exist_ok=True)
     (output / "Fusion2018-performance.nfsms").write_text("\n".join(commands) + "\n")
@@ -126,6 +150,13 @@ def main():
                             "reference_torque": bmw['TORQUE']['Data'],
                             "MAX_RPM": bmw['MAX_RPM'], "RED_LINE": bmw['RED_LINE'],
                             "scope": "mustanggt and mustanggt_top; engine curve, without induction/nitrous"},
+        "racer_weight_comparison": {"enabled": args.racer_weight,
+                                    "MASS": references['pvehicle']['MASS'] if args.racer_weight else 1600,
+                                    "FINAL_GEAR": references['transmission']['FINAL_GEAR'] if args.racer_weight else None,
+                                    "FLYWHEEL_MASS": bmw['FLYWHEEL_MASS'] if args.racer_weight else None,
+                                    "scope": "numerical references only; MUSTANGGT structure, tier, visual mounting and AWD preserved",
+                                    "game_validation": "pending"},
+        "racing_class_override": args.racing_class,
         "steering_revision": {"STEERING": 1.1, "STEERING_RANGE_scale": args.steering_range_scale,
                               "YAW_CONTROL": "original Carbon MUSTANGGT base/top", "YAW_SPEED": 0.3,
                               "DIFFERENTIAL": [0.35, 0.5, 0.5], "grip": "equal front/rear, MW front value",

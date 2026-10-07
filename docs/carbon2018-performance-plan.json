@@ -21,6 +21,15 @@
     "RED_LINE": 8500,
     "scope": "mustanggt and mustanggt_top; engine curve, without induction/nitrous"
   },
+  "racer_weight_comparison": {
+    "enabled": true,
+    "MASS": 1100,
+    "FINAL_GEAR": 4.110000133514404,
+    "FLYWHEEL_MASS": 10,
+    "scope": "numerical references only; MUSTANGGT structure, tier, visual mounting and AWD preserved",
+    "game_validation": "pending"
+  },
+  "racing_class_override": "Exotic",
   "steering_revision": {
     "STEERING": 1.1,
     "STEERING_RANGE_scale": 1.15,
@@ -49,7 +58,7 @@
       "node": "mustanggt",
       "field": "MASS",
       "before": 1568,
-      "after": 1600.0
+      "after": 1100.0
     },
     {
       "class": "pvehicle",
@@ -496,13 +505,6 @@
     {
       "class": "engine",
       "node": "mustanggt",
-      "field": "FLYWHEEL_MASS",
-      "before": 10,
-      "after": 12.0
-    },
-    {
-      "class": "engine",
-      "node": "mustanggt",
       "field": "RED_LINE",
       "before": 6250,
       "after": 8500.0
@@ -552,7 +554,7 @@
       "node": "mustanggt_top",
       "field": "FLYWHEEL_MASS",
       "before": 9.5,
-      "after": 9.0
+      "after": 10.0
     },
     {
       "class": "engine",
@@ -857,7 +859,7 @@
       "node": "mustanggt",
       "field": "FINAL_GEAR",
       "before": 4.050000190734863,
-      "after": 3.059999942779541
+      "after": 4.110000133514404
     },
     {
       "class": "transmission",
@@ -944,7 +946,16 @@
       "node": "mustanggt_top",
       "field": "FINAL_GEAR",
       "before": 3.9000000953674316,
-      "after": 3.5
+      "after": 4.110000133514404
+    },
+    {
+      "class": "pvehicle",
+      "node": "mustanggt",
+      "field": "RacingClass",
+      "before": "kRaceCar_ClassMuscle",
+      "before_inherited": true,
+      "after": "kRaceCar_ClassExotic",
+      "rollback": "delete explicit override; restore original inheritance"
     }
   ]
 }

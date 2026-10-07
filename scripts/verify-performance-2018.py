@@ -66,6 +66,35 @@ def main():
         engine = candidate[('main/attributes/db/engine.yml',node)]['Data']
         assert engine['TORQUE']['Data'] == [normalized(v*1.2) for v in bmw['TORQUE']['Data']]
         assert engine['MAX_RPM'] == bmw['MAX_RPM'] and engine['RED_LINE'] == bmw['RED_LINE']
+    racer = plan.get('racer_weight_comparison', {})
+    if racer.get('enabled'):
+        pv = candidate[('main/attributes/db/pvehicle.yml','mustanggt')]['Data']
+        ref_pv = baseline[('main/attributes/db/pvehicle.yml','bmwm3gtre46')]['Data']
+        assert pv['MASS'] == ref_pv['MASS'] == 1100
+        assert pv['TENSOR_SCALE'] == ref_pv['TENSOR_SCALE']
+        ref_transmission = baseline[('main/attributes/db/transmission.yml','bmwm3gtre46')]['Data']
+        for node in ('mustanggt','mustanggt_top'):
+            transmission = candidate[('main/attributes/db/transmission.yml',node)]['Data']
+            assert transmission['FINAL_GEAR'] == ref_transmission['FINAL_GEAR']
+            assert transmission['TORQUE_SPLIT'] == 0.5
+            assert candidate[('main/attributes/db/engine.yml',node)]['Data']['FLYWHEEL_MASS'] == bmw['FLYWHEEL_MASS']
+    previous_release = Path('work/global2018-performance-v1.2/main/attributes.bin')
+    release_hash = None
+    if previous_release.exists():
+        release_hash = hashlib.sha256(previous_release.read_bytes()).hexdigest().upper()
+        release_gate = json.loads(Path('docs/carbon2018-performance-v1.2-verification.json').read_text())
+        assert release_hash == release_gate['attributes_sha256'] and release_gate['status'] == 'passed'
+    lightweight = Path('work/global2018-performance-lightweight/main/attributes.bin')
+    lightweight_hash = None
+    if lightweight.exists():
+        lightweight_hash = hashlib.sha256(lightweight.read_bytes()).hexdigest().upper()
+        lightweight_gate = json.loads(Path('docs/carbon2018-performance-lightweight-verification.json').read_text())
+        assert lightweight_hash == lightweight_gate['attributes_sha256'] and lightweight_gate['status'] == 'passed'
+    if plan.get('racing_class_override'):
+        pv = candidate[('main/attributes/db/pvehicle.yml','mustanggt')]
+        assert pv['ParentName'] == 'muscle'
+        assert pv['Data']['RacingClass'] == 'kRaceCar_Class'+plan['racing_class_override']
+        assert 'RacingClass' not in rollback[('main/attributes/db/pvehicle.yml','mustanggt')]['Data']
     first_candidate = Path('work/global2018-performance-first/main/attributes.bin')
     previous_hash = None
     if first_candidate.exists():
@@ -86,8 +115,13 @@ def main():
         'game_validation': 'pending',
         'power_reference_checked': 'bmwm3gtre46 torque x1.20; same MAX_RPM/RED_LINE; base/top',
         'approved_handling_attributes_sha256': '547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06',
-        'import_over_second_candidate_semantically_identical': upgrade_checked,
+        'import_over_previous_candidate_semantically_identical': upgrade_checked,
+        'import_comparison_source': 'v1.2' if racer.get('enabled') else 'second candidate',
         'attributes_sha256': hashlib.sha256(Path('work/global2018-performance/main/attributes.bin').read_bytes()).hexdigest().upper(),
+        'previous_release_attributes_sha256': release_hash,
+        'previous_lightweight_attributes_sha256': lightweight_hash,
+        'racing_class_override': plan.get('racing_class_override'),
+        'racer_weight_comparison_checked': bool(racer.get('enabled')),
         'backup_attributes_sha256': hashlib.sha256(Path('work/global-before-integration-2018/attributes.bin').read_bytes()).hexdigest().upper(),
         'previous_candidate_attributes_sha256': previous_hash,
         'second_candidate_attributes_sha256': second_hash,

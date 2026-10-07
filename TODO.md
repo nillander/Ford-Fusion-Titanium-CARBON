@@ -1,5 +1,18 @@
 # v1.2 — Fusion 2018 no Carbon (07/10/2026)
 
+## Desenvolvimento posterior — sensação de peso / alternativa à BMW
+
+- [x] Comparar massa: Fusion 1600 vs BMW 1100; relação potência/peso da v1.2 era 17,5% inferior apesar do motor +20%
+- [x] Preparar/auditar/instalar MASS 1100, FINAL_GEAR 4,11 e FLYWHEEL_MASS 10; somente cinco campos mudam frente à v1.2
+- [x] Preservar backup/gate v1.2 e acrescentar RestoreRelease ao instalador local
+- [x] Identificar RacingClass herdada: Fusion Muscle, BMW Exotic; ambos racers; pais têm mesmos padrões de massa/inércia
+- [ ] Receber QA de arrancada, retomada e curvas da candidata leve
+- [x] Usuário escolheu EXOTIC: override RacingClass no próprio slot; rollback remove o campo e restaura a herança Muscle
+- [ ] Confirmar categoria EXOTIC no menu e comportamento em corrida
+- [ ] Nova release após QA; manter v1.2 publicada como está
+
+As aprovações abaixo referem-se às etapas anteriores, não aprovam esta comparação nova.
+
 - [x] Lanternas e refletores com light material `BRAKELIGHT` + textura dinâmica `BRAKELIGHT_RIGHT` (aprovado no jogo)
 - [x] Aerofólios: `SPOILER` −2,3 cm e `SPOILER2` −8,7 cm nas BASE_A..E (aprovado no jogo)
 - [x] Regravação de BIN sem GUI: `scripts/jdlz.py` (`compress_optimal` menor que o CarToolkit)

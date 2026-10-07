@@ -69,6 +69,7 @@
       "fields": [
         "TORQUE",
         "MAX_RPM",
+        "FLYWHEEL_MASS",
         "RED_LINE"
       ]
     },
@@ -88,8 +89,7 @@
       "fields": [
         "MASS",
         "TENSOR_SCALE",
-        "HandlingRating",
-        "RacingClass"
+        "HandlingRating"
       ]
     },
     {
@@ -154,59 +154,11 @@
   "game_validation": "pending",
   "power_reference_checked": "bmwm3gtre46 torque x1.20; same MAX_RPM/RED_LINE; base/top",
   "approved_handling_attributes_sha256": "547C601A5517A487AA02ED6F45D0AB9B2CA7FC3CB085D090A3AC270F858B7C06",
-  "import_over_previous_candidate_semantically_identical": true,
-  "import_comparison_source": "v1.2",
-  "attributes_sha256": "B5DA3F6865C760D6279B29526D2B8CF83FA3CBAC3694DD88280FFB74CB2580E4",
-  "previous_release_attributes_sha256": "D58BEA8A066735CC07A36D2D77107254C85523B89369541C481C166A66FF853D",
-  "previous_lightweight_attributes_sha256": "4277ECF91E7B0148EEAAF11FF60D7902D56A160ABEF410F7DB2F271EA8E8E7C7",
-  "racing_class_override": "Exotic",
-  "racer_weight_comparison_checked": true,
+  "import_over_second_candidate_semantically_identical": true,
+  "attributes_sha256": "D58BEA8A066735CC07A36D2D77107254C85523B89369541C481C166A66FF853D",
   "backup_attributes_sha256": "D64234661F8226FE24ABD45EAE7F5C24CE400A214526A4D23D6B421E75D820E4",
   "previous_candidate_attributes_sha256": "1F6913AB3B44960699DAC112A762002F14DAEB95B304F16745851B83876DF62A",
   "second_candidate_attributes_sha256": "9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C",
-  "changes_from_v1.2": [
-    {
-      "class": "engine",
-      "node": "mustanggt",
-      "field": "FLYWHEEL_MASS",
-      "before": 12.0,
-      "after": 10
-    },
-    {
-      "class": "pvehicle",
-      "node": "mustanggt",
-      "field": "RacingClass",
-      "before": "kRaceCar_ClassMuscle",
-      "after": "kRaceCar_ClassExotic"
-    },
-    {
-      "class": "transmission",
-      "node": "mustanggt_top",
-      "field": "FINAL_GEAR",
-      "before": 3.5,
-      "after": 4.110000133514404
-    },
-    {
-      "class": "transmission",
-      "node": "mustanggt",
-      "field": "FINAL_GEAR",
-      "before": 3.059999942779541,
-      "after": 4.110000133514404
-    },
-    {
-      "class": "engine",
-      "node": "mustanggt_top",
-      "field": "FLYWHEEL_MASS",
-      "before": 9.0,
-      "after": 10.0
-    },
-    {
-      "class": "pvehicle",
-      "node": "mustanggt",
-      "field": "MASS",
-      "before": 1600.0,
-      "after": 1100.0
-    }
-  ],
-  "steering_chassis_tires_brakes_power_unchanged_from_v1.2": true
+  "approved_handling_preserved": true,
+  "power_game_validation": "not retested in game; release authorized explicitly by user after power request"
 }

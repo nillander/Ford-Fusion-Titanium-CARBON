@@ -1,6 +1,6 @@
 game C
 # Fusion 2018: MW v2.8 handling, AWD; preserve Carbon price/unlock/visual mounts.
-update_field pvehicle mustanggt MASS 1600
+update_field pvehicle mustanggt MASS 1100
 update_field pvehicle mustanggt TENSOR_SCALE X 1
 update_field pvehicle mustanggt TENSOR_SCALE Y 2
 update_field pvehicle mustanggt TENSOR_SCALE Z 1
@@ -85,7 +85,7 @@ update_field engine mustanggt TORQUE[6] 320.399994
 update_field engine mustanggt TORQUE[7] 292.799988
 update_field engine mustanggt TORQUE[8] 273.600006
 update_field engine mustanggt MAX_RPM 9500
-update_field engine mustanggt FLYWHEEL_MASS 12
+update_field engine mustanggt FLYWHEEL_MASS 10
 update_field engine mustanggt RED_LINE 8500
 update_field engine mustanggt_top ENGINE_BRAKING[0] 0.699999988
 update_field engine mustanggt_top ENGINE_BRAKING[1] 0.800000012
@@ -101,7 +101,7 @@ update_field engine mustanggt_top TORQUE[6] 320.399994
 update_field engine mustanggt_top TORQUE[7] 292.799988
 update_field engine mustanggt_top TORQUE[8] 273.600006
 update_field engine mustanggt_top MAX_RPM 9500
-update_field engine mustanggt_top FLYWHEEL_MASS 9
+update_field engine mustanggt_top FLYWHEEL_MASS 10
 update_field engine mustanggt_top RED_LINE 8500
 update_field tires mustanggt SECTION_WIDTH Front 255
 update_field tires mustanggt SECTION_WIDTH Rear 255
@@ -182,7 +182,7 @@ update_field transmission mustanggt TORQUE_CONVERTER 0.300000012
 update_field transmission mustanggt TORQUE_SPLIT 0.5
 update_field transmission mustanggt CLUTCH_SLIP 0.800000012
 update_field transmission mustanggt SHIFT_SPEED 0.25
-update_field transmission mustanggt FINAL_GEAR 3.05999994
+update_field transmission mustanggt FINAL_GEAR 4.11000013
 update_field transmission mustanggt_top GEAR_RATIO[0] 2.5
 update_field transmission mustanggt_top GEAR_RATIO[1] 0
 update_field transmission mustanggt_top GEAR_RATIO[2] 3.4000001
@@ -207,4 +207,6 @@ update_field transmission mustanggt_top TORQUE_CONVERTER 0.300000012
 update_field transmission mustanggt_top TORQUE_SPLIT 0.5
 update_field transmission mustanggt_top CLUTCH_SLIP 0.800000012
 update_field transmission mustanggt_top SHIFT_SPEED 0.200000003
-update_field transmission mustanggt_top FINAL_GEAR 3.5
+update_field transmission mustanggt_top FINAL_GEAR 4.11000013
+add_field pvehicle mustanggt RacingClass
+update_field pvehicle mustanggt RacingClass kRaceCar_ClassExotic

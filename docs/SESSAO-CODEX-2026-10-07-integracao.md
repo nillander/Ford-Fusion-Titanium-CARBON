@@ -121,3 +121,30 @@ atômico. Release GitHub criada às 20:34:23 UTC (17:34:23 local), com ZIP e doi
 SHA256SUMS. SHA do ZIP D7AB7614E0A252F583C7AF79D80E1F5F2BC3546BB600D5DCD07F1C9CEFC2F992.
 Os três digests do GitHub foram comparados aos locais e conferem; tag aponta
 para o commit correto. Registro da publicação no gate release-v1.2-verification.json.
+
+## Continuação: alternativa à BMW, massa e EXOTIC (18:20)
+
+Usuário ainda sentiu peso. A comparação local mostrou MASS Fusion 1600 vs BMW
+1100; potência/peso 1,20×1100/1600=0,825, apesar da curva de motor +20%.
+FINAL_GEAR Fusion base 3,06/top 3,5 contra BMW 4,11. Ajuste customizado escolhido
+para competição: massa 1100, final 4,11 e flywheel 10 na base/top, mantendo o
+restante. Comparação numérica instalada e preservada em backup/gate próprios.
+
+Usuário perguntou sobre Muscle/Exotic e escolheu EXOTIC. RacingClass era herdada
+de pvehicle/muscle, enquanto BMW herda exotic; ambos descendem de racers.
+Os dois pais têm mesmos padrões de massa/inércia. Uso de classe encontrado em
+regras/música/recompensas/SkidInfo; multiplicador direto de física não demonstrado.
+Não atribuir peso automaticamente à classe. Tier 2 e flags desconhecidas mantidos.
+
+Override RacingClass explícito no próprio mustanggt (add_field/update_field),
+sem trocar o pai, slot ou peças do doador. Rollback delete_field recupera a
+herança original e a auditoria exata passa. São seis campos frente à v1.2,
+mantendo motor +20%, AWD, preço 50.000, direção/chassi/pneus/freios e visual.
+10.180 nós/312 blobs auditados, importação sobre v1.2 equivalente. Instalado
+attributes B5DA3F68… com jogo/VltEd fechados. Geração com --racer-weight
+--racing-class Exotic; RestoreRelease retorna a v1.2, Restore retorna stock.
+
+Usuário informou que testará quando concluirmos; QA ainda pendente. V1.2
+publicada permanece intacta; nenhuma tag/release nova nesta comparação.
+README/TODO/handoff atualizados. Documentação oficial dos comandos:
+https://nfs-tools.blogspot.com/2018/02/nfs-vlted-usage-2-modscript-format.html

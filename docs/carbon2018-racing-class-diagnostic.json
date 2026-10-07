@@ -1,0 +1,25 @@
+{
+  "source": "work/vlt-baseline-yaml/main/attributes/db/pvehicle.yml",
+  "fusion_parent": "muscle",
+  "bmw_parent": "exotic",
+  "fusion_inherited_class": "kRaceCar_ClassMuscle",
+  "bmw_inherited_class": "kRaceCar_ClassExotic",
+  "both_share_racers_ancestor": true,
+  "muscle_parent_mass": 1000,
+  "exotic_parent_mass": 1000,
+  "parent_tensor_scales_equal": true,
+  "original_fusion_override_mass": 1600,
+  "bmw_mass": 1100,
+  "installed_comparison_mass": 1100,
+  "class_used_in_local_tables": [
+    "music.CarClass",
+    "gameplay.CarClass",
+    "rewardcard class collections",
+    "SkidInfo inherited reference"
+  ],
+  "direct_physics_class_multiplier": "not established; do not infer an automatic heavy-car penalty",
+  "class_change": "user chose Exotic; explicit RacingClass override compiled, audited and installed",
+  "fusion_effective_class_after": "kRaceCar_ClassExotic",
+  "game_validation": "pending",
+  "racing_tier_preserved": "kRaceTier_2"
+}

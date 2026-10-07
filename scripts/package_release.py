@@ -37,6 +37,7 @@ def main(version, outdir):
             if p.exists(): allowed.append(sha(p.read_bytes()))
         add(f'CARS/MUSTANGGT/{name}',path,digest,allowed)
     performance = json.loads((ROOT / 'docs/carbon2018-performance-verification.json').read_text())
+    assert not performance.get('racer_weight_comparison_checked'), 'Current staging is the post-v1.2 comparison; do not relabel it as v1.2.'
     assert performance['status'] == 'passed' and performance['rollback_semantically_identical']
     add('GLOBAL/attributes.bin','work/global2018-performance/main/attributes.bin',performance['attributes_sha256'],
         [performance[k] for k in ('backup_attributes_sha256','previous_candidate_attributes_sha256',
