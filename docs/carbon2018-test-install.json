@@ -1,13 +1,14 @@
 {
   "action": "Install",
-  "time": "2026-10-07T11:25:28.253445-03:00",
+  "time": "2026-10-07T11:28:42.738218-03:00",
   "slot": "MUSTANGGT",
   "backup": "CARS/MUSTANGGT_backup_stock",
-  "geometry": "D7C5B56B7D4B8451267D976314092290F15027CC613D04E40105B4FFC924D766",
+  "geometry": "DBAB50ED464FC9F2974697A5703850BA5CF182DF45E8CCA28119B5667B502B37",
   "textures": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC",
   "vinyls": "FE3FD7261749E766E20B4B2451FA49DD18CE9220383CC28967F3DA83848292CF",
-  "verification": "docs/carbon2018-stage-glass-lens-verification.json",
+  "verification": "docs/carbon2018-stage-brakelight-lens-verification.json",
   "installed_by": "Claude (device shell; mesmas checagens de test-install-2018.ps1)",
   "previous_geometry": "8158464702D4B7805844C60E392121ABF72356E41AC4AA905725578CEC2FB4EE",
+  "history": "11:25 glass-lens instalado -> travou 11:27 -> revertido para dynamic-lights (8158\u2026) -> brakelight-lens",
   "status": "experimental test only; VLT/FE unchanged"
 }

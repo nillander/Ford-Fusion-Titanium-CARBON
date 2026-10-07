@@ -1,5 +1,5 @@
 {
-  "passed": false,
+  "passed": true,
   "solids": 186,
   "changed_solids": 4,
   "unchanged_blocks_bytewise": 182,
@@ -9,48 +9,48 @@
     {
       "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
       "hash": "1C56D559",
-      "light_material": "DULLPLASTIC -> BRAKELIGHTGLASS",
-      "material_1_flags": "0x4180 -> 0x14180",
+      "light_material": "DULLPLASTIC -> BRAKELIGHT",
+      "material_1_flags": "0x4180 -> 0x4180",
       "solid_before_sha256": "EEB68062B82AE9F3F2CEB6120A4E6BD6A8DE142CAE8342853A71BF238B58A936",
-      "solid_after_sha256": "8D5CEF0EC2F77CEA10DEBB168B59ECA33C68B76FB7FA14D6A984B8D619A6DE7C"
+      "solid_after_sha256": "3BBF503900F0E656BAD8717A8D947815A2A6C9CD36EB265DDDE76C44109EFF06"
     },
     {
       "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
       "hash": "1C56D55A",
-      "light_material": "DULLPLASTIC -> BRAKELIGHTGLASS",
-      "material_1_flags": "0x4180 -> 0x14180",
+      "light_material": "DULLPLASTIC -> BRAKELIGHT",
+      "material_1_flags": "0x4180 -> 0x4180",
       "solid_before_sha256": "6B7AA269E65BEA0F77A89FF03019F0A0468D4A28CF4EF1BF0ECFCC155F42DE3D",
-      "solid_after_sha256": "3A5302F6FEB8E0E37E4B0B7B3393A78BFB04C081912B3574F85729CB505AD1B9"
+      "solid_after_sha256": "6E5CE5AD34498223D2862157E415F4AD1715BA7D060EE901362041935C79713C"
     },
     {
       "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
       "hash": "1C56D55B",
-      "light_material": "DULLPLASTIC -> BRAKELIGHTGLASS",
-      "material_1_flags": "0x4180 -> 0x14180",
+      "light_material": "DULLPLASTIC -> BRAKELIGHT",
+      "material_1_flags": "0x4180 -> 0x4180",
       "solid_before_sha256": "629454019737EF62302587E327714983EDA796D7D232C44E9C9FBCCFDF30122D",
-      "solid_after_sha256": "3175F9B2F71DCF0E191F18177C3C59DB68131E83E53D630BE4ADA7489F4FCB6E"
+      "solid_after_sha256": "B92213DEB6349AC42E5D56262FC53CCBD3AA471DEAC9524C65E2BC46424AD66C"
     },
     {
       "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D",
       "hash": "1C56D55C",
-      "light_material": "DULLPLASTIC -> BRAKELIGHTGLASS",
-      "material_1_flags": "0x4180 -> 0x14180",
+      "light_material": "DULLPLASTIC -> BRAKELIGHT",
+      "material_1_flags": "0x4180 -> 0x4180",
       "solid_before_sha256": "5FA41DFD0D9F4B8CFFFFB3AE8ECC70FA16B6091A46947FC053C0970265CE29E4",
-      "solid_after_sha256": "49D4E3AC38AE8C396F907462943A1CF93A7E98E0BC89DC302BAC0943897A3C0D"
+      "solid_after_sha256": "FF089225DB5D6D09E69C15ED28AC05A2D6071584A8A724E28BFF0F0A5FB6E6DC"
     }
   ],
   "files": [
     {
-      "path": "work/carbon2018-stage-glass-lens/GEOMETRY.BIN",
+      "path": "work/carbon2018-stage-brakelight-lens/GEOMETRY.BIN",
       "bytes": 31885568,
-      "sha256": "D7C5B56B7D4B8451267D976314092290F15027CC613D04E40105B4FFC924D766"
+      "sha256": "DBAB50ED464FC9F2974697A5703850BA5CF182DF45E8CCA28119B5667B502B37"
     },
     {
-      "path": "work/carbon2018-stage-glass-lens/TEXTURES.BIN",
+      "path": "work/carbon2018-stage-brakelight-lens/TEXTURES.BIN",
       "bytes": 723547,
       "sha256": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC"
     }
   ],
   "method": "JDLZ recompress (scripts/jdlz.py) + CarToolkit-compatible layout; no GUI",
-  "status": "REPROVADO: travou e fechou o jogo em 07/10 11:27. BRAKELIGHTGLASS sem a textura BRAKELIGHT_GLASS_RIGHT n\u00e3o \u00e9 par oficial. N\u00e3o instalar."
+  "status": "rear lens glass material test; game QA pending"
 }
