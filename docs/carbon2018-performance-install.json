@@ -1,0 +1,8 @@
+{
+  "action": "Install",
+  "installed_at": "2026-10-07T17:05:22.5984495-03:00",
+  "attributes_sha256": "9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C",
+  "game_path": "D:\\Program Files (x86)\\Electronic Arts\\Need for Speed Carbon",
+  "only_file_changed": "GLOBAL/attributes.bin",
+  "game_validation": "pending"
+}

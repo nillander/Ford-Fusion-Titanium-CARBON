@@ -1,0 +1,970 @@
+{
+  "source": "reference/mw-v28/Fusion2018_AWD_MW2005/Fusion2018_AWD_MW2005/ADDONS/CARS_REPLACE/MUSTANGGT/ATTRIBUTES.MWPS",
+  "source_sha256": "3be53cf93b914ddebf65efc1cc22fb1594c74be74b8482e288954280c9b40617",
+  "traction": "AWD, TORQUE_SPLIT=0.5 at base and top, user confirmed 2026-10-07",
+  "cost": "preserve Carbon MUSTANGGT 50000, user confirmed 2026-10-07",
+  "steering_revision": {
+    "STEERING": 1.1,
+    "STEERING_RANGE_scale": 1.15,
+    "reason": "First game test: generally good handling, too hard to turn. Comparison pending."
+  },
+  "excluded": [
+    "frontend cost/unlock",
+    "ecar visual mounts",
+    "chassis RIDE_HEIGHT",
+    "audio",
+    "induction",
+    "nos",
+    "Carbon-only drift fields"
+  ],
+  "changes": [
+    {
+      "class": "pvehicle",
+      "node": "mustanggt",
+      "field": "MASS",
+      "before": 1568,
+      "after": 1600.0
+    },
+    {
+      "class": "pvehicle",
+      "node": "mustanggt",
+      "field": "TENSOR_SCALE",
+      "before": {
+        "X": 1,
+        "Y": 3.5,
+        "Z": 1,
+        "W": 0
+      },
+      "after": {
+        "X": 1.0,
+        "Y": 2.0,
+        "Z": 1.0,
+        "W": 0.0
+      }
+    },
+    {
+      "class": "pvehicle",
+      "node": "mustanggt",
+      "field": "HandlingRating",
+      "before": {
+        "Capacity": 2,
+        "Data": [
+          30,
+          40
+        ]
+      },
+      "after": {
+        "Capacity": 2,
+        "Data": [
+          55.0,
+          97.0
+        ]
+      }
+    },
+    {
+      "class": "brakes",
+      "node": "mustanggt",
+      "field": "BRAKES",
+      "before": {
+        "Front": 360,
+        "Rear": 600
+      },
+      "after": {
+        "Front": 375.0,
+        "Rear": 500.0
+      }
+    },
+    {
+      "class": "brakes",
+      "node": "mustanggt",
+      "field": "EBRAKE",
+      "before": 650,
+      "after": 850.0
+    },
+    {
+      "class": "brakes",
+      "node": "mustanggt_top",
+      "field": "BRAKES",
+      "before": {
+        "Front": 500,
+        "Rear": 675
+      },
+      "after": {
+        "Front": 375.0,
+        "Rear": 500.0
+      }
+    },
+    {
+      "class": "brakes",
+      "node": "mustanggt_top",
+      "field": "BRAKE_LOCK",
+      "before": {
+        "Front": 1,
+        "Rear": 3.299999952316284
+      },
+      "after": {
+        "Front": 1.0,
+        "Rear": 3.5
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "WHEEL_BASE",
+      "before": 2.7100000381469727,
+      "after": 2.7249999046325684
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "DRAG_COEFFICIENT",
+      "before": 0.33000001311302185,
+      "after": 0.3199999928474426
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "SHOCK_VALVING",
+      "before": {
+        "Front": 18,
+        "Rear": 18
+      },
+      "after": {
+        "Front": 17.0,
+        "Rear": 17.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "SHOCK_STIFFNESS",
+      "before": {
+        "Front": 40,
+        "Rear": 45
+      },
+      "after": {
+        "Front": 45.0,
+        "Rear": 45.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "SHOCK_BLOWOUT",
+      "before": 6,
+      "after": 5.0
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "SWAYBAR_STIFFNESS",
+      "before": {
+        "Front": 185,
+        "Rear": 200
+      },
+      "after": {
+        "Front": 250.0,
+        "Rear": 250.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "ROLL_CENTER",
+      "before": 11.5,
+      "after": 9.0
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "TRAVEL",
+      "before": {
+        "Front": 7.5,
+        "Rear": 7.5
+      },
+      "after": {
+        "Front": 7.0,
+        "Rear": 7.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "SPRING_STIFFNESS",
+      "before": {
+        "Front": 450,
+        "Rear": 525
+      },
+      "after": {
+        "Front": 500.0,
+        "Rear": 500.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "AERO_CG",
+      "before": 51,
+      "after": 48.0
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "SPRING_PROGRESSION",
+      "before": {
+        "Front": 5,
+        "Rear": 6.199999809265137
+      },
+      "after": {
+        "Front": 7.5,
+        "Rear": 6.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "TRACK_WIDTH",
+      "before": {
+        "Front": 1.5800000429153442,
+        "Rear": 1.587499976158142
+      },
+      "after": {
+        "Front": 1.6080000400543213,
+        "Rear": 1.6030000448226929
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "SHOCK_DIGRESSION",
+      "before": {
+        "Front": 0.3499999940395355,
+        "Rear": 0.3499999940395355
+      },
+      "after": {
+        "Front": 0.30000001192092896,
+        "Rear": 0.30000001192092896
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "AERO_COEFFICIENT",
+      "before": 0.1599999964237213,
+      "after": 0.23999999463558197
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt",
+      "field": "FRONT_AXLE",
+      "before": 1.4249999523162842,
+      "after": 1.5
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "WHEEL_BASE",
+      "before": 2.7100000381469727,
+      "after": 2.7249999046325684
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "DRAG_COEFFICIENT",
+      "before": 0.4000000059604645,
+      "after": 0.3199999928474426
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SHOCK_VALVING",
+      "before": {
+        "Front": 22,
+        "Rear": 22
+      },
+      "after": {
+        "Front": 17.0,
+        "Rear": 17.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SHOCK_STIFFNESS",
+      "before": {
+        "Front": 60,
+        "Rear": 65
+      },
+      "after": {
+        "Front": 65.0,
+        "Rear": 65.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SHOCK_BLOWOUT",
+      "before": 6,
+      "after": 5.0
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SHOCK_EXT_STIFFNESS",
+      "before": {
+        "Front": 70,
+        "Rear": 72.55999755859375
+      },
+      "after": {
+        "Front": 90.0,
+        "Rear": 90.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SWAYBAR_STIFFNESS",
+      "before": {
+        "Front": 250,
+        "Rear": 335
+      },
+      "after": {
+        "Front": 300.0,
+        "Rear": 325.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "ROLL_CENTER",
+      "before": 10.5,
+      "after": 8.5
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SPRING_STIFFNESS",
+      "before": {
+        "Front": 675,
+        "Rear": 715
+      },
+      "after": {
+        "Front": 600.0,
+        "Rear": 700.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "AERO_CG",
+      "before": 51,
+      "after": 48.0
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SPRING_PROGRESSION",
+      "before": {
+        "Front": 7,
+        "Rear": 7.5
+      },
+      "after": {
+        "Front": 7.5,
+        "Rear": 6.0
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "TRACK_WIDTH",
+      "before": {
+        "Front": 1.5800000429153442,
+        "Rear": 1.587499976158142
+      },
+      "after": {
+        "Front": 1.6080000400543213,
+        "Rear": 1.6030000448226929
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "SHOCK_DIGRESSION",
+      "before": {
+        "Front": 0.25,
+        "Rear": 0.25
+      },
+      "after": {
+        "Front": 0.30000001192092896,
+        "Rear": 0.30000001192092896
+      }
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "RENDER_MOTION",
+      "before": 0.5,
+      "after": 1.0
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "AERO_COEFFICIENT",
+      "before": 0.20000000298023224,
+      "after": 0.23999999463558197
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "FRONT_AXLE",
+      "before": 1.4249999523162842,
+      "after": 1.5
+    },
+    {
+      "class": "chassis",
+      "node": "mustanggt_top",
+      "field": "FRONT_WEIGHT_BIAS",
+      "before": 51,
+      "after": 53.5
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt",
+      "field": "TORQUE",
+      "before": {
+        "Capacity": 9,
+        "Data": [
+          125,
+          165,
+          250,
+          320,
+          318,
+          275,
+          245,
+          230,
+          217
+        ]
+      },
+      "after": {
+        "Capacity": 9,
+        "Data": [
+          160.0,
+          220.0,
+          320.0,
+          477.0,
+          523.0,
+          473.0,
+          409.0,
+          364.0,
+          341.0
+        ]
+      }
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt",
+      "field": "MAX_RPM",
+      "before": 7250,
+      "after": 8000.0
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt",
+      "field": "FLYWHEEL_MASS",
+      "before": 10,
+      "after": 12.0
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt",
+      "field": "RED_LINE",
+      "before": 6250,
+      "after": 7000.0
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt_top",
+      "field": "TORQUE",
+      "before": {
+        "Capacity": 9,
+        "Data": [
+          127,
+          193,
+          333,
+          448,
+          441,
+          392,
+          357,
+          333,
+          315
+        ]
+      },
+      "after": {
+        "Capacity": 9,
+        "Data": [
+          165.0,
+          250.0,
+          400.0,
+          575.0,
+          621.0,
+          555.0,
+          490.0,
+          430.0,
+          390.0
+        ]
+      }
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt_top",
+      "field": "MAX_RPM",
+      "before": 7250,
+      "after": 8000.0
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt_top",
+      "field": "FLYWHEEL_MASS",
+      "before": 9.5,
+      "after": 9.0
+    },
+    {
+      "class": "engine",
+      "node": "mustanggt_top",
+      "field": "RED_LINE",
+      "before": 6250,
+      "after": 7000.0
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "SECTION_WIDTH",
+      "before": {
+        "Front": 235,
+        "Rear": 235
+      },
+      "after": {
+        "Front": 255.0,
+        "Rear": 255.0
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "YAW_CONTROL",
+      "before": {
+        "Capacity": 4,
+        "Data": [
+          0.05000000074505806,
+          0.07000000029802322,
+          0.125,
+          0.20000000298023224
+        ]
+      },
+      "after": {
+        "Capacity": 4,
+        "Data": [
+          0.20000000298023224,
+          0.6000000238418579,
+          0.75,
+          1.0
+        ]
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "DYNAMIC_GRIP",
+      "before": {
+        "Front": 1.4500000476837158,
+        "Rear": 1.4500000476837158
+      },
+      "after": {
+        "Front": 1.5499999523162842,
+        "Rear": 1.649999976158142
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "RIM_SIZE",
+      "before": {
+        "Front": 17,
+        "Rear": 17
+      },
+      "after": {
+        "Front": 18.0,
+        "Rear": 18.0
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "YAW_SPEED",
+      "before": 0.42500001192092896,
+      "after": 0.4000000059604645
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "ASPECT_RATIO",
+      "before": {
+        "Front": 55,
+        "Rear": 55
+      },
+      "after": {
+        "Front": 40.0,
+        "Rear": 40.0
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "STATIC_GRIP",
+      "before": {
+        "Front": 1.600000023841858,
+        "Rear": 1.600000023841858
+      },
+      "after": {
+        "Front": 1.75,
+        "Rear": 1.850000023841858
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt",
+      "field": "STEERING_RANGE",
+      "before": {
+        "Capacity": 10,
+        "Data": [
+          46.125,
+          15.375,
+          11.274999618530273,
+          8.199999809265137,
+          7.175000190734863,
+          7.175000190734863,
+          7.175000190734863,
+          7.175000190734863,
+          7.175000190734863,
+          7.175000190734863
+        ]
+      },
+      "after": {
+        "Capacity": 10,
+        "Data": [
+          53.04375076293945,
+          17.681249618530273,
+          12.966249465942383,
+          9.429999351501465,
+          8.251250267028809,
+          8.251250267028809,
+          8.251250267028809,
+          8.251250267028809,
+          8.251250267028809,
+          8.251250267028809
+        ]
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "SECTION_WIDTH",
+      "before": {
+        "Front": 235,
+        "Rear": 235
+      },
+      "after": {
+        "Front": 255.0,
+        "Rear": 255.0
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "YAW_CONTROL",
+      "before": {
+        "Capacity": 4,
+        "Data": [
+          0,
+          0.10000000149011612,
+          0.20000000298023224,
+          0.44999998807907104
+        ]
+      },
+      "after": {
+        "Capacity": 4,
+        "Data": [
+          0.30000001192092896,
+          0.800000011920929,
+          0.8999999761581421,
+          1.100000023841858
+        ]
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "DYNAMIC_GRIP",
+      "before": {
+        "Front": 1.600000023841858,
+        "Rear": 1.7000000476837158
+      },
+      "after": {
+        "Front": 1.7999999523162842,
+        "Rear": 1.899999976158142
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "RIM_SIZE",
+      "before": {
+        "Front": 17,
+        "Rear": 17
+      },
+      "after": {
+        "Front": 18.0,
+        "Rear": 18.0
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "YAW_SPEED",
+      "before": 0.38499999046325684,
+      "after": 0.3799999952316284
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "ASPECT_RATIO",
+      "before": {
+        "Front": 55,
+        "Rear": 55
+      },
+      "after": {
+        "Front": 40.0,
+        "Rear": 40.0
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "STATIC_GRIP",
+      "before": {
+        "Front": 1.7999999523162842,
+        "Rear": 2.0999999046325684
+      },
+      "after": {
+        "Front": 2.0250000953674316,
+        "Rear": 2.0999999046325684
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "GRIP_SCALE",
+      "before": {
+        "Front": 1,
+        "Rear": 1
+      },
+      "after": {
+        "Front": 1.100000023841858,
+        "Rear": 1.100000023841858
+      }
+    },
+    {
+      "class": "tires",
+      "node": "mustanggt_top",
+      "field": "STEERING_RANGE",
+      "before": {
+        "Capacity": 10,
+        "Data": [
+          48.375,
+          16.125,
+          11.824999809265137,
+          8.600000381469727,
+          7.525000095367432,
+          7.525000095367432,
+          7.525000095367432,
+          7.525000095367432,
+          7.525000095367432,
+          7.525000095367432
+        ]
+      },
+      "after": {
+        "Capacity": 10,
+        "Data": [
+          55.631248474121094,
+          18.543750762939453,
+          13.598750114440918,
+          9.890000343322754,
+          8.6537504196167,
+          8.6537504196167,
+          8.6537504196167,
+          8.6537504196167,
+          8.6537504196167,
+          8.6537504196167
+        ]
+      }
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt",
+      "field": "GEAR_RATIO",
+      "before": {
+        "Capacity": 9,
+        "Data": [
+          2.5299999713897705,
+          0,
+          3.3399999141693115,
+          2,
+          1.3200000524520874,
+          1,
+          0.7749999761581421
+        ]
+      },
+      "after": {
+        "Capacity": 9,
+        "Data": [
+          3.1700000762939453,
+          0.0,
+          3.4000000953674316,
+          2.190000057220459,
+          1.409999966621399,
+          1.0,
+          0.8309999704360962
+        ]
+      }
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt",
+      "field": "DIFFERENTIAL",
+      "before": {
+        "Capacity": 3,
+        "Data": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "after": {
+        "Capacity": 3,
+        "Data": [
+          0.800000011920929,
+          0.800000011920929,
+          0.75
+        ]
+      }
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt",
+      "field": "TORQUE_CONVERTER",
+      "before": 0.4000000059604645,
+      "after": 0.30000001192092896
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt",
+      "field": "TORQUE_SPLIT",
+      "before": 0,
+      "after": 0.5
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt",
+      "field": "FINAL_GEAR",
+      "before": 4.050000190734863,
+      "after": 3.059999942779541
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt_top",
+      "field": "GEAR_RATIO",
+      "before": {
+        "Capacity": 9,
+        "Data": [
+          3.390000104904175,
+          0,
+          3.4000000953674316,
+          1.7999999523162842,
+          1.25,
+          1,
+          0.800000011920929,
+          0.699999988079071
+        ]
+      },
+      "after": {
+        "Capacity": 9,
+        "Data": [
+          2.5,
+          0.0,
+          3.4000000953674316,
+          2.190000057220459,
+          1.5,
+          1.100000023841858,
+          0.8309999704360962,
+          0.6800000071525574
+        ]
+      }
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt_top",
+      "field": "DIFFERENTIAL",
+      "before": {
+        "Capacity": 3,
+        "Data": [
+          0,
+          0.6499999761581421,
+          0
+        ]
+      },
+      "after": {
+        "Capacity": 3,
+        "Data": [
+          0.800000011920929,
+          0.800000011920929,
+          0.75
+        ]
+      }
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt_top",
+      "field": "TORQUE_CONVERTER",
+      "before": 0.6000000238418579,
+      "after": 0.30000001192092896
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt_top",
+      "field": "TORQUE_SPLIT",
+      "before": 0,
+      "after": 0.5
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt_top",
+      "field": "CLUTCH_SLIP",
+      "before": 0.699999988079071,
+      "after": 0.800000011920929
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt_top",
+      "field": "SHIFT_SPEED",
+      "before": 0.25,
+      "after": 0.20000000298023224
+    },
+    {
+      "class": "transmission",
+      "node": "mustanggt_top",
+      "field": "FINAL_GEAR",
+      "before": 3.9000000953674316,
+      "after": 3.5
+    }
+  ]
+}

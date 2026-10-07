@@ -34,7 +34,8 @@ Port dos Fusion 2012 FWD e 2018 da release MW2005 v2.8, por substituição de sl
 Use os veículos oficiais **que serão substituídos** como doadores de estrutura,
 peças de compatibilidade, materiais e pontos de montagem do Carbon. A malha visual
 Fusion vem dos ZIPs MW; não usar outro mod como doador Carbon. A tração do 2018
-na v2.8 MW é RWD; AWD real continua sendo uma decisão pendente.
+na v2.8 MW é RWD; para o Carbon o usuário escolheu **AWD real** (07/10), com
+preço de compra original do Mustang preservado: **50.000**.
 
 ## Ambiente e reprodução
 
@@ -417,3 +418,52 @@ O novo teste está em `work/carbon2018-stage-roof` e sua auditoria em
 texturas idênticas e 186 peças existentes idênticas após descompressão.
 **O usuário confirmou: “teto resolvido”; o Fusion carregou e as entradas de ar
 apareceram**, após conferir as opções comum e AutoSculpt. Publicado na **v1.1**.
+
+## Integração do 2018: performance AWD (07/10/2026)
+
+O usuário considera a aparência do 2018 finalizada. A próxima fase converte o
+acerto MW v2.8 para os dados do Carbon, incluindo a transmissão melhorada.
+A candidata em `release/vlt/Fusion2018-performance.nfsms` altera 76 campos de
+11 nós: massa/inércia, motor, transmissão, suspensão, pneus e freios.
+AWD usa divisão 0,5 e diferencial central ativo; o acerto é adaptação de jogo,
+não uma simulação de especificações de fábrica. O preço permanece 50.000,
+o fabricante Ford e o desbloqueio continuam originais do Carbon.
+Montagem `ecar`, altura visual, áudio, indução/nitro e campos de drift exclusivos
+do Carbon ficam preservados. O primeiro teste carregou e teve condução geral boa, mas virou com dificuldade
+mesmo em baixa velocidade. A comparação instalada restaura STEERING=1,1
+e amplia a curva STEERING_RANGE em 15% na base e nos upgrades; demais ajustes
+ficam iguais. Aprovação dessa revisão ainda pendente.
+
+O inventário inicial não resolvia vários nomes `_top`. A extração completa com
+[Attribulator 2.0](https://github.com/NFSTools/Attribulator/releases/tag/v2.0.0)
+mostrou que o Mustang tem níveis próprios de motor, transmissão, suspensão,
+pneus/freios e referências de indução. Não usar offsets `.MWPS` no Carbon:
+a conversão usa nomes, tipos, membros Front/Rear e índices de arrays da base alvo.
+A sintaxe segue a [documentação ModScript do autor do VltEd](https://nfs-tools.blogspot.com/2018/02/nfs-vlted-usage-2-modscript-format.html).
+
+`prepare-performance-2018.py` gera o script e sua reversão a partir de um dump
+YAML da base original. `verify-performance-2018.py` compara 10.180 nós e 312 blobs
+contra o plano, exige CAMARO/CAMARON e todos os outros nós intactos e verifica
+que o rollback recupera exatamente os valores originais.
+Relatórios: `docs/carbon2018-performance-plan.json` e
+`docs/carbon2018-performance-verification.json`.
+Ferramenta externa extraída em `tools/vendor/attribulator/v2/release_windows`.
+
+Instalação local com jogo e VltEd fechados:
+`pwsh -File scripts/test-install-performance-2018.ps1 -Action Install`.
+Reversão: mesmo comando com `-Action Restore`.
+Só `GLOBAL/attributes.bin` é substituído; backup em
+`work/global-before-integration-2018`. A release v1.1 publicada não contém esse
+acerto experimental. Nome/logotipo Fusion exigem trabalho em strings/texturas
+do frontend; o nó `frontend/mustanggt` não possui campo de nome visível para edição.
+
+Nome preparado em `work/languages2018-name`: 17 arquivos Frontend (incluindo
+Largest), com apenas `CARNAME_FORD_MUSTANGGT` (1CC69F99) substituído por
+“Ford Fusion Titanium AWD”. Labels, textos de outros carros, charset e demais
+chunks preservados. O texto é acrescentado ao chunk e só seu ponteiro é
+atualizado. A leitura segue o formato descrito pelo código de
+[Labrune](https://github.com/nlgxzef/Labrune).
+Verificação em `docs/carbon2018-frontend-name-verification.json`.
+Nome instalado junto da comparação de direção; confirmação visual pendente.
+Com o jogo fechado: `pwsh -File scripts/test-install-frontend-name-2018.ps1 -Action Install`.
+`-Action Restore` recupera o backup. Logotipo Fusion ainda pendente.

@@ -8,7 +8,12 @@
 - [x] Compressor JDLZ: preservar flags terminais exigidas pelo Carbon; regressões para grupos de literais e matches; normalizar streams antigos antes de instalar.
 - [x] Pacote v1.1 publicado (`local/release-v1.1/`, `release/notes-v1.1.md`, tag/release GitHub v1.1)
 - [ ] Estado ON das luzes (freio) com textura própria; hoje ON = OFF
-- [ ] Nome/logo/preço Fusion e performance (VltEd), decisão RWD×AWD; faixas Mustang de fábrica
+- [x] Visual do Fusion 2018 considerado finalizado pelo usuário (07/10); seguir para integração e 2012
+- [x] Decisão do usuário: AWD real; manter preço original do Carbon (50.000)
+- [x] Converter performance MW v2.8 para `.nfsms` Carbon; 11 nós/76 campos auditados, rollback validado
+- [ ] Validar no jogo a candidata de performance AWD (base e upgrades)
+- [x] Nome Fusion preparado, auditado em 17 idiomas e instalado para teste
+- [ ] Confirmar nome no jogo e adaptar logotipo Fusion; faixas Mustang de fábrica
 - [ ] Fusion 2012 → CAMARO
 
 # TODO — Portar Ford Fusion (MW2005) → Need for Speed Carbon
@@ -21,22 +26,23 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 | --- | --- | --- |
 | Referências | ZIPs v2.8, backup CARS/GLOBAL, 73 hashes; investigação dos doadores | Comprovação da origem limpa dos BIN |
 | Inventário | 1845 sólidos Carbon lidos; mapa inicial 2018 e marcadores dos dois slots/Fusion | Mapa funcional de kits, LODs, damage e AutoSculpt |
-| Staging 2018 | 186 sólidos, 10 texturas, orientação e 165 posições/matrizes validados | Compatibilidade completa de peças e revisão de materiais |
-| VLT | Classes, coleções e herança levantadas; VltEd extraído | Ler valores e aplicar FE/performance sem afetar CAMARON |
-| Primeiro teste / documentação | Instalação reversível; Fusion 2018 visível com rodas; captura em jogo e galeria de ferramenta | Corrida, kits, acabamento e QA completo |
-| 2012 / entrega | Referências e marcadores disponíveis | Port CAMARO, VLT FWD, instalação, QA e release |
+| Visual 2018 | v1.1: 190 sólidos, 18 texturas; carroceria, lentes, aerofólios e teto aprovados; usuário considera carro finalizado | QA de corrida/damage/IA separado do acabamento aprovado |
+| VLT 2018 | Dados completos extraídos com Attribulator 2.0; base e `_top` reconhecidos; performance MW convertida, AWD escolhido e rollback auditado | Teste de dirigibilidade no jogo; nome/logo em strings/texturas frontend |
+| Frontend | Fabricante Ford (2), preço original 50.000 e desbloqueio 11 preservados | Nome e logotipo Fusion; revisar vinil de fábrica se necessário |
+| 2012 / entrega | Referências e marcadores oficiais CAMARO disponíveis; v1.1 visual 2018 entregue | Port CAMARO, VLT FWD, instalação, QA e nova release |
 
-**Próxima ação:** terminar acabamento/QA em `work/carbon2018-stage-dynamic-lights`,
-instalado às 11:06. As lentes vermelhas das lanternas e os refletores passaram a
-aparecer após trocar oito referências diretas de atlas pelos slots dinâmicos
-HEADLIGHT_RIGHT/BRAKELIGHT_RIGHT do MUSTANGGT oficial. Ainda há partes cinza nas
-lanternas e faixas Mustang deslocadas. Conferir frente, miolo branco e iluminação.
-DXT1 sozinho e material difuso sozinho não corrigiram; a alteração dos vínculos
-dinâmicos foi a primeira comparação com resultado vermelho visível. A auditoria
-confirma só oito hashes alterados sobre `stage-diffuse-brake`; 178 sólidos intactos.
-VINYLS continua original. Pesquisa e capturas estão no README e na sessão Codex.
-Reversão: fechar o jogo e executar `scripts/test-install-2018.ps1 -Action Restore`.
-Ler [README.md](README.md) e [sessão Claude](docs/SESSAO-CLAUDE-2026-10-07.md).
+**Próxima ação:** validar a revisão de direção AWD do 2018 no jogo e
+concluir nome/logotipo no frontend. A aparência do 2018 está aprovada pelo usuário;
+não retomar os testes antigos de lentes/teto. Usar `release/vlt/Fusion2018-performance.nfsms`
+para performance; relatório `docs/carbon2018-performance-verification.json`.
+Nome instalado de `work/languages2018-name`; confirmação no jogo pendente.
+Primeiro teste: condução geral boa, dificuldade para virar em baixa velocidade.
+Revisão instalada: STEERING 1,1 e STEERING_RANGE +15%, base/upgrades.
+Logotipo pendente.
+Preço de compra continua 50.000 por instrução do usuário. Base e upgrades usam
+`TORQUE_SPLIT=0.5`; montagem visual `ecar` e altura de suspensão permanecem aprovadas.
+Depois portar o Fusion 2012 usando **CAMARO oficial**, preservando CAMARON.
+Ler a atualização prioritária de `docs/CONTINUACAO-CODEX.md` antes dos históricos.
 
 ## Premissas (assumidas)
 
@@ -64,12 +70,12 @@ AutoSculpt, damage, materiais e pontos de montagem), adaptando a malha Fusion MW
 Não usar outro veículo/mod como base Carbon. Confirmar a origem limpa dos BIN
 antes de considerar o doador validado; a cópia da instalação atual não comprova isso.
 
-Tração alvo (herdada do MW):
+Tração alvo (decisão atual do usuário; MW serve como referência de acerto):
 
 | Carro | Tração |
 | --- | --- |
 | 2012 no `CAMARO` | FWD (`TORQUE_SPLIT` 1,0) |
-| 2018 no `MUSTANGGT` | RWD no VLT (`TORQUE_SPLIT` 0); nome de garagem AWD |
+| 2018 no `MUSTANGGT` | **AWD** (`TORQUE_SPLIT` 0,5 na base e `_top`); teste no jogo pendente |
 
 ---
 
@@ -151,11 +157,11 @@ Decisão:
 - [x] Slots Carbon definidos: `CAMARO` + `MUSTANGGT`
 - [x] Identificar slots e FE: `CAMARO` = Camaro SS 67; `CAMARON` = `camaro_concept`. Documentada a opção muscle inicial ao lado de RX-8 e Brera
 - [ ] Confirmar seleção/spawn do CAMARO no início da carreira em jogo
-- [x] Listar nós VLT: sem `_top`; coleções `camaro`/`mustanggt` em pvehicle, engine, transmission, chassis, tires, brakes, ecar e outras (`docs/vlt-slots.json`). MUSTANGGT não tem induction/nos próprios
+- [x] Listar nós VLT (`docs/vlt-slots.json`, inventário inicial incompleto). Corrigido com Attribulator: existem `mustanggt_top` nos níveis de performance e `mustanggt_base/top` de indução; a primeira leitura não resolvia esses nomes
   - **Atenção:** `pvehicle/camaron` herda de `pvehicle/camaro`. Campos que `camaron` não sobrescreve mudam junto; `transmission/camaron` é coleção própria. Conferir valores efetivos/referências no VltEd antes de aplicar FWD para preservar CAMARON
 - [x] Levantar fabricante no FE: `frontend/mustanggt` herda de `ford`; `frontend/camaro`, de `chevrolet`
 - [ ] Alterar fabricante do Fusion 2012 para Ford no VltEd e conferir no frontend
-- [ ] Decidir se 2018 fica RWD (como MW VLT) ou tenta AWD real no Carbon
+- [x] Usuário escolheu AWD para o 2018; candidata instalada, validar base e upgrades no jogo
 - [ ] 2012: forçar FWD no VLT do Camaro (stock Camaro é RWD — precisa mudar `TORQUE_SPLIT` e sensação)
 
 ---
@@ -185,7 +191,8 @@ Decisão:
   - [x] `mpoints.txt` + 165 OBJ de ponto de montagem para o 2018 (lados normalizados LEFT=+Y; anexos iguais ao doador)
   - [x] Corrigir OBJ dos marcadores (UVs/normais e grupo com prefixo `_`); compilar os 165 pontos
   - [x] Conferir posições (≤1 mm) e preservar matrizes do doador com `scripts/apply-donor-marker-matrices.py`; registrar fallbacks de família oficial; reexportar e reauditar
-  - [ ] Sem fonte ainda: `LICENSEPLATE`, `ROOF_SCOOP` (Fusion não tem `KIT00_ROOF`), `LEFT/RIGHT_EXHAUST` dos para-choques
+  - [x] Teto: recompilar KIT00_ROOF_A..D e ROOF_SCOOP; entradas comum/AutoSculpt aprovadas
+  - [ ] Mapear separadamente LICENSEPLATE e LEFT/RIGHT_EXHAUST dos para-choques se necessário no QA de kits
 - [ ] Smoke-test: início da carreira com Fusion 2012; Mustang slot com Fusion 2018
   - [x] 2018: carregamento visual com carroceria/rodas no jogo, captura preservada; teste experimental ativo
   - [ ] 2018: corrida e seleção de kits; corrigir artefatos visuais observados
@@ -196,9 +203,9 @@ Decisão:
   - [x] Ler README e APRENDIZADOS do MW; preparar e instalar comparação DXT1 traseira com RGB e geometria preservados
   - [x] Comparar DXT1 e material difuso isoladamente: lanternas continuaram cinza nos dois testes
   - [x] Pesquisar documentação/relatos do CarToolkit e comparar slots dinâmicos do Mustang oficial; instalar oito vínculos dinâmicos, vermelho visível nas lanternas/refletores
-  - [ ] Aprovar lentes vermelhas/brancas completas: vermelho apareceu, mas miolo branco e partes cinza ainda exigem revisão
+  - [x] Lentes traseiras aprovadas pelo usuário; visual 2018 considerado finalizado
   - [x] Confirmar aparecimento das lentes vermelhas das lanternas e refletores acima dos escapamentos: observado em `stage-dynamic-lights` e confirmado pelo usuário com captura
-  - [ ] Confirmar lentes dos faróis e dos faróis de milha
+  - [x] Lentes dos faróis e dos faróis de milha confirmadas pelo usuário
   - [ ] Confirmar remoção dos adesivos “Mustang”; se persistirem, investigar vinil de fábrica/pintura do save separadamente dos sólidos DECAL
   - [ ] 2012: início da carreira
 
@@ -216,11 +223,12 @@ Decisão:
 ## Fase 4 — Dados VltEd (`.nfsms`)
 
 - [ ] Converter `ATTRIBUTES.MWPS` MW → nós Carbon:
-  - [ ] `mustanggt`: intent SLR motor + chassi Mustang (v2.1 MW)
+  - [x] `mustanggt` e `mustanggt_top`: acerto MW v2.8 convertido por nomes de campos, AWD 0,5; 10.180 nós/312 blobs auditados, só 11 nós alterados
+  - [ ] Testar corrida, transmissão melhorada e sensação de AWD; preservar altura visual e dados Carbon de drift
   - [ ] `camaro`: chassi/base do 2018 + motor FWD (estilo Cobalt ×1,2) com `TORQUE_SPLIT` 1,0
 - [ ] Converter `FE.MWPS` → nomes de garagem:
   - [ ] Camaro → `Ford Fusion 2012 FWD` (manter preço/disponibilidade de carro inicial se possível)
-  - [ ] MustangGT → `Ford Fusion Titanium AWD` (preço/tier alinhados ao MW ou ao Mustang Carbon)
+  - [ ] MustangGT → `Ford Fusion Titanium AWD` (preço original Carbon **50.000** e disponibilidade preservados; não usar preço MW 42.000)
 - [ ] Importar `.nfsms`, Save, testar save no início + Mustang na seleção
 - [ ] Comparar sensação com MW
 
@@ -230,7 +238,8 @@ Decisão:
 
 - [ ] Logo / secondary logo dos slots via Binary ou replace de textures frontend
 - [ ] Vinis: UV contínua; adaptar `VINYLS.BIN` de `CAMARO` / `MUSTANGGT` se o port quebrar adesivos
-- [ ] Strings de idioma se o nome stock ainda aparecer
+- [x] Preparar nome Ford Fusion Titanium AWD em 17 arquivos Frontend; só CARNAME_FORD_MUSTANGGT alterado e demais dados preservados
+- [ ] Confirmar nome instalado no jogo; logotipo ainda pendente
 
 ---
 
@@ -272,7 +281,7 @@ Decisão:
 - [ ] Garagem: kits, hoods, spoiler, wheels, paint, vinyl em ambos os slots
 - [ ] Luzes dia/noite
 - [ ] Perseguição / damage / LODs
-- [ ] Dirigibilidade FWD no Camaro-slot vs RWD/AWD no Mustang-slot
+- [ ] Dirigibilidade FWD no Camaro-slot vs AWD no Mustang-slot (decisão do usuário)
 - [ ] IA / rivais que usam `CAMARO` ou `MUSTANGGT` não ficam sem carroceria
 - [ ] Comparar visual com v2.8 MW
 

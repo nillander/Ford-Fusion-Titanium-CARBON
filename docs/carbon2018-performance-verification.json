@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "nodes_checked": 10180,
+  "blobs_checked": 312,
+  "changed_nodes": [
+    {
+      "file": "main/attributes/db/brakes.yml",
+      "node": "mustanggt",
+      "fields": [
+        "BRAKES",
+        "EBRAKE"
+      ]
+    },
+    {
+      "file": "main/attributes/db/brakes.yml",
+      "node": "mustanggt_top",
+      "fields": [
+        "BRAKES",
+        "BRAKE_LOCK"
+      ]
+    },
+    {
+      "file": "main/attributes/db/chassis.yml",
+      "node": "mustanggt",
+      "fields": [
+        "WHEEL_BASE",
+        "DRAG_COEFFICIENT",
+        "SHOCK_VALVING",
+        "SHOCK_STIFFNESS",
+        "SHOCK_BLOWOUT",
+        "SWAYBAR_STIFFNESS",
+        "ROLL_CENTER",
+        "TRAVEL",
+        "SPRING_STIFFNESS",
+        "AERO_CG",
+        "SPRING_PROGRESSION",
+        "TRACK_WIDTH",
+        "SHOCK_DIGRESSION",
+        "AERO_COEFFICIENT",
+        "FRONT_AXLE"
+      ]
+    },
+    {
+      "file": "main/attributes/db/chassis.yml",
+      "node": "mustanggt_top",
+      "fields": [
+        "WHEEL_BASE",
+        "DRAG_COEFFICIENT",
+        "SHOCK_VALVING",
+        "SHOCK_STIFFNESS",
+        "SHOCK_BLOWOUT",
+        "SHOCK_EXT_STIFFNESS",
+        "SWAYBAR_STIFFNESS",
+        "ROLL_CENTER",
+        "SPRING_STIFFNESS",
+        "AERO_CG",
+        "SPRING_PROGRESSION",
+        "TRACK_WIDTH",
+        "SHOCK_DIGRESSION",
+        "RENDER_MOTION",
+        "AERO_COEFFICIENT",
+        "FRONT_AXLE",
+        "FRONT_WEIGHT_BIAS"
+      ]
+    },
+    {
+      "file": "main/attributes/db/engine.yml",
+      "node": "mustanggt",
+      "fields": [
+        "TORQUE",
+        "MAX_RPM",
+        "FLYWHEEL_MASS",
+        "RED_LINE"
+      ]
+    },
+    {
+      "file": "main/attributes/db/engine.yml",
+      "node": "mustanggt_top",
+      "fields": [
+        "TORQUE",
+        "MAX_RPM",
+        "FLYWHEEL_MASS",
+        "RED_LINE"
+      ]
+    },
+    {
+      "file": "main/attributes/db/pvehicle.yml",
+      "node": "mustanggt",
+      "fields": [
+        "MASS",
+        "TENSOR_SCALE",
+        "HandlingRating"
+      ]
+    },
+    {
+      "file": "main/attributes/db/tires.yml",
+      "node": "mustanggt",
+      "fields": [
+        "SECTION_WIDTH",
+        "YAW_CONTROL",
+        "DYNAMIC_GRIP",
+        "RIM_SIZE",
+        "YAW_SPEED",
+        "ASPECT_RATIO",
+        "STATIC_GRIP",
+        "STEERING_RANGE"
+      ]
+    },
+    {
+      "file": "main/attributes/db/tires.yml",
+      "node": "mustanggt_top",
+      "fields": [
+        "SECTION_WIDTH",
+        "YAW_CONTROL",
+        "DYNAMIC_GRIP",
+        "RIM_SIZE",
+        "YAW_SPEED",
+        "ASPECT_RATIO",
+        "STATIC_GRIP",
+        "GRIP_SCALE",
+        "STEERING_RANGE"
+      ]
+    },
+    {
+      "file": "main/attributes/db/transmission.yml",
+      "node": "mustanggt",
+      "fields": [
+        "GEAR_RATIO",
+        "DIFFERENTIAL",
+        "TORQUE_CONVERTER",
+        "TORQUE_SPLIT",
+        "FINAL_GEAR"
+      ]
+    },
+    {
+      "file": "main/attributes/db/transmission.yml",
+      "node": "mustanggt_top",
+      "fields": [
+        "GEAR_RATIO",
+        "DIFFERENTIAL",
+        "TORQUE_CONVERTER",
+        "TORQUE_SPLIT",
+        "CLUTCH_SLIP",
+        "SHIFT_SPEED",
+        "FINAL_GEAR"
+      ]
+    }
+  ],
+  "rollback_semantically_identical": true,
+  "frontend": {
+    "Cost": 50000,
+    "manufacturer": 2,
+    "UnlockedAt": 11
+  },
+  "camaro_camaron_other_nodes_unchanged": true,
+  "game_validation": "pending",
+  "attributes_sha256": "9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C",
+  "backup_attributes_sha256": "D64234661F8226FE24ABD45EAE7F5C24CE400A214526A4D23D6B421E75D820E4",
+  "previous_candidate_attributes_sha256": "1F6913AB3B44960699DAC112A762002F14DAEB95B304F16745851B83876DF62A"
+}

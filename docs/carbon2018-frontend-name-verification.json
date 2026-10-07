@@ -1,0 +1,164 @@
+{
+  "status": "passed",
+  "target_hash": "1CC69F99",
+  "target_label": "CARNAME_FORD_MUSTANGGT",
+  "only_record_changed": true,
+  "game_validation": "pending",
+  "installed": true,
+  "source_format": "https://github.com/nlgxzef/Labrune",
+  "files": [
+    {
+      "file": "Chinese_Simp_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "F9D15CA61B8F76FB1BFD240164E74F2C6D2027078474E4534CE1B877B33F13BF",
+      "after_sha256": "1605C503ACC777458994AEFF0F3809C302DC1D38DD8B427DFF88195015FD6FC5"
+    },
+    {
+      "file": "Chinese_Trad_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "3612E6DC8866B584B13798EF51EF7B53CBFE16A5AA70801FC41611F8E74D16CF",
+      "after_sha256": "99635F667DE302E7136198084B9474BC496A27C30B97025B5CFFA959FE6FA840"
+    },
+    {
+      "file": "Czech_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "2BA4CA07C7015D41FC2DAA3C72A9919E50A57AC5E189E6BD1ECF23D000A220A4",
+      "after_sha256": "7A72AA5517434D1DCE59D94BEA051268B852E3AFC1ADB42BB19BC5E49FD3E15D"
+    },
+    {
+      "file": "Danish_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "CB283F32149467E842FB7719E51D41ED43AEA005CD32550B16FDD3107B8B912C",
+      "after_sha256": "62D7C6A9536C4800E05065E5017EA07E5CC77E448108697971D6C55379277B13"
+    },
+    {
+      "file": "Dutch_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "A686327026E1E8FD574069C3B7318FCA54A67A33DC03314B78F1C37EF2696970",
+      "after_sha256": "8CD54FDA2199E91FBF3C43EBEFB757890B8371ABF49F3184C6864A29C57E0174"
+    },
+    {
+      "file": "English_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "329F7DEDF65116075EE552909238598F7BB538CE37792F2C24583D411EC4119E",
+      "after_sha256": "6CDD19754221D8FC79D2C198E855AB8A58CD778D016360F4BCFC5C56EFF705BE"
+    },
+    {
+      "file": "Finnish_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "A257CDAB4AAAB25ACB3D26DB5898E58A3AC60005E659A71D28F60D3B3843DC9F",
+      "after_sha256": "BBAAFF1423156480FC3D7DEB3E1FE29A7CCF4E02C649E52FA9EC314538BADEBF"
+    },
+    {
+      "file": "French_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "EE7172A0CADE41998FE45FC0DC8D120C8CAC9BD8A4CC485CBFF2DB3397E14483",
+      "after_sha256": "BDB00492B6524119ECC8844B67233865AE748B6F99FE6AA883DB2FA73EBDE240"
+    },
+    {
+      "file": "German_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "22D8DA25980CE25A9DBC24A11E27D886DF429926614254C8CB20DBC9D7E8CEFF",
+      "after_sha256": "6EA304BF68227A28DCEEBE681474222CA4CF0234CF090C19CFBF27A2FC54D608"
+    },
+    {
+      "file": "Hungarian_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "E5F30DF9171C09BBB78A802B4DF207F46FB70C8F6266D81A6D25A74457808D76",
+      "after_sha256": "81CD53E600B6809BF3808A92D3505619D723F711843E6FADDC1EE7EA01191CE7"
+    },
+    {
+      "file": "Italian_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "3DFC32D373D10D4486B13E661D375A2D5D5CC0081C04E29CF92510991ECD45A5",
+      "after_sha256": "CDECFCE5AFACDCAEE580C068DD43E6A8DB2E325AD29AC7D3891C81D229D785DC"
+    },
+    {
+      "file": "Korean_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "A3782A385D4DF8A014ABD769EE041E7B2C93931390C50AE7CD55974B5F4C2E9F",
+      "after_sha256": "95A93F404965E47B7AA3AF341977A3B4E656B283DDCEDA7A23A701F3E83E63E3"
+    },
+    {
+      "file": "Largest_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "B09697AF998C0DE4BA8408A1EB995D192EEA2DB855B1DBF6FE6BDB7638330F59",
+      "after_sha256": "64E749A1F036F91029B8E600113D033836597E45984D714A70E967311D9FAF9F"
+    },
+    {
+      "file": "Mexican_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "D697E0C24F7A33B5CA061E679BB6C38D40A13514D1FEB05B82DAEBF8E5633992",
+      "after_sha256": "A11CC03ED71CE5F15274E7CD0BAAF0B0485DFF0B0B16CFEC8D93C3F82DA368BB"
+    },
+    {
+      "file": "Polish_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "87C59820A1DB5D96169C139B6A201757D65E4D22D33FEFB9061EB8B2493D3C33",
+      "after_sha256": "27B25FDA7BA5223E579A44240A147CAB2C93CCFBF307F6F1A39E118D8DC7BC84"
+    },
+    {
+      "file": "Spanish_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "04EE44B82E7B92B2EAC3893F97A3A7B180053FC5BE3BF6B0EAD1513CDD8E174F",
+      "after_sha256": "0967BA8D57E5703854F7847360B6A07E5573A57AE726EF696AFBFEE5B31CE21B"
+    },
+    {
+      "file": "Swedish_Frontend.bin",
+      "strings_checked": 845,
+      "encrypted": false,
+      "before": "Ford Mustang GT",
+      "after": "Ford Fusion Titanium AWD",
+      "before_sha256": "ED5D1622683276DA66337AF508843E25FD146A9475F3753ECACC6125B98A0EBB",
+      "after_sha256": "D53F7ADB60CBC95BBCF4E4D2375B2D5E4EBA3DA0AD5A17D70A9B285DD1FEFE5C"
+    }
+  ]
+}

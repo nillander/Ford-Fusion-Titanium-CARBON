@@ -1,4 +1,56 @@
-# Passagem para o Codex — teste do teto e JDLZ (07/10/2026)
+# Passagem para o Codex — integração AWD do 2018 (07/10/2026)
+
+## Prioridade atual — substitui os próximos passos históricos abaixo
+
+O usuário considera o visual 2018 finalizado. Escolheu **AWD** e **preço original
+Carbon 50.000**. Não retomar testes antigos de lentes/teto já aprovados.
+
+Instalado para teste: **somente GLOBAL/attributes.bin** com acerto MW v2.8
+convertido por nomes de campos. SHA-256
+`9DECD6C74E3E182468AE625C975213C2C6D311C6978D22086AB2783367899F1C`.
+Base e transmissão `_top` usam TORQUE_SPLIT 0,5 e diferencial central 0,75.
+Massa 1600, motor/chassi/pneus/freios da referência MW; montagem ecar, altura
+visual, áudio/indução/nitro, preço e desbloqueio Carbon preservados.
+**Primeiro teste: carregou, condução geral boa, difícil virar mesmo em baixa velocidade.**
+Comparação instalada: STEERING 1,1 e STEERING_RANGE +15%, base/upgrades; resto
+igual. Nome Fusion também instalado. Nova confirmação solicitada; pendente.
+GEOMETRY/TEXTURES são os da v1.1. Release v1.1 publicada é só visual, sem esse acerto.
+
+Backup GLOBAL: `work/global-before-integration-2018`; attributes original
+`D64234661F8226FE24ABD45EAE7F5C24CE400A214526A4D23D6B421E75D820E4`.
+Instalar/restaurar: `scripts/test-install-performance-2018.ps1 -Action Install/Restore`
+(jogo e VltEd fechados). Scripts distribuíveis e rollback em `release/vlt`.
+Auditoria: 10.180 nós e 312 blobs; só 11 nós/76 campos alterados; CAMARO/CAMARON
+e demais nós intactos; rollback semanticamente idêntico.
+Relatórios `docs/carbon2018-performance-plan.json` e `*-verification.json`.
+
+**Corrigir o inventário inicial:** existem níveis `mustanggt_top` e coleções de
+indução próprias. `vlt_dump.py` não resolvia nomes; usar o dump completo
+`work/vlt-baseline-yaml`. Attribulator v2.0 em
+`tools/vendor/attribulator/v2/release_windows`, obtido da release oficial:
+https://github.com/NFSTools/Attribulator/releases/download/v2.0.0/release_windows.zip
+SHA-256 `3D4D15677C6625EB37EBCEBE0D07BD1322D53F632B0CE7D05F1461E183218C95`.
+`unpack -i <GLOBAL> -o <dump> -p CARBON -f yml`; gerar scripts com
+`prepare-performance-2018.py`; aplicar com `apply-script-bin`.
+A saída compilada fica na subpasta **main**. Extrair candidata/rollback para
+`work/vlt-performance-yaml`/`work/vlt-rollback-yaml` e rodar
+`verify-performance-2018.py` antes de instalar.
+
+**Nome preparado e instalado para teste:** `prepare-frontend-name-2018.py` gerou 17
+arquivos em `work/languages2018-name`; backup `work/languages-before-integration-2018`.
+CARNAME_FORD_MUSTANGGT (1CC69F99) → Ford Fusion Titanium AWD; todos os outros textos,
+chunks e charset intactos. Auditoria `docs/carbon2018-frontend-name-verification.json`.
+Com NFSC fechado, `test-install-frontend-name-2018.ps1 -Action Install`; Restore
+recupera idiomas originais. Validar nome no jogo depois da instalação.
+
+Próximos: resposta do teste de direção e nome; adaptar logotipo Fusion;
+depois Fusion 2012 FWD → **CAMARO oficial**, preservando CAMARON. ON de freio e
+faixas de fábrica continuam melhorias pendentes. Ao parar, documentar e fazer
+commit com coautoria. Push/release ficam com o usuário.
+
+---
+
+## Histórico: teto e JDLZ
 
 ## Atualização prioritária: teste instalado
 
