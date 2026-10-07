@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "solids": 186,
+  "dynamic_light_parts": 8,
+  "unchanged_solids": 178,
+  "textures_unchanged": true,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-dynamic-lights/GEOMETRY.BIN",
+      "bytes": 31883392,
+      "sha256": "8158464702D4B7805844C60E392121ABF72356E41AC4AA905725578CEC2FB4EE"
+    },
+    {
+      "path": "work/carbon2018-stage-dynamic-lights/TEXTURES.BIN",
+      "bytes": 723547,
+      "sha256": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC"
+    }
+  ],
+  "status": "official dynamic texture comparison; game QA pending"
+}

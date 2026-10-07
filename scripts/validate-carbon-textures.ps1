@@ -1,6 +1,8 @@
 param([string]$ReaderAssembly = 'C:\Users\nillander\NoDocuments\fusion-mw2005\scripts\validator\bin\Release\net8.0\Validator.dll',
       [string]$InputFile = 'work/carbon2018-stage/TEXTURES.BIN',
-      [string]$OutputFile = 'docs/carbon2018-texture-audit.json')
+      [string]$OutputFile = 'docs/carbon2018-texture-audit.json',
+      [string]$ExportDirectory = '',
+      [int]$MaxNameLength = 23)
 $ErrorActionPreference = 'Stop'
 Add-Type -Path $ReaderAssembly
 . (Join-Path $PSScriptRoot 'extract-carbon-solids.ps1') -LibraryOnly
@@ -24,14 +26,19 @@ public static class CarbonTextureCip {
  }
 }
 public static class CarbonTextureAudit {
- public static void Run(string file, string destination) {
+ public static void Run(string file, string destination, string exportDirectory, int maxNameLength) {
   using var br=new BinaryReader(File.OpenRead(file));
   if(br.ReadUInt32()!=0xB3300000)throw new Exception("Unexpected TPK container");
   var textures=new CarbonValidation.Version3Tpk().ReadTexturePack(br,br.ReadUInt32()).Textures;
   if(textures.Count==0)throw new Exception("No textures parsed");
   if(textures.Select(t=>t.TexHash).Distinct().Count()!=textures.Count)throw new Exception("Duplicate texture hash");
   foreach(var t in textures) {
-   if(t.Name.Length>23)throw new Exception("Texture name exceeds 23 characters: "+t.Name);
+   if(!String.IsNullOrEmpty(exportDirectory)) {
+    Directory.CreateDirectory(exportDirectory);
+    using var image=File.Create(Path.Combine(exportDirectory,t.TexHash.ToString("X8")+".dds"));
+    t.GenerateImage(image);
+   }
+   if(t.Name.Length>maxNameLength)throw new Exception("Texture name exceeds selected limit: "+t.Name);
    if(t.Width==0||t.Height==0||t.Data.Length!=t.DataSize)throw new Exception("Invalid texture dimensions/data");
    if(t.Format!=0x31545844&&t.Format!=0x33545844&&t.Format!=0x35545844)throw new Exception("Unsupported DXT format");
    long required=0; long w=t.Width,h=t.Height;
@@ -61,4 +68,4 @@ Add-Type -ReferencedAssemblies $references -IgnoreWarnings -WarningAction Silent
     }
     return ,[CarbonCip]::Extract($packed,0,$packed.Length,$size,$decoder)
 }
-[CarbonTextureAudit]::Run((Resolve-Path $InputFile).Path, [IO.Path]::GetFullPath($OutputFile))
+[CarbonTextureAudit]::Run((Resolve-Path $InputFile).Path, [IO.Path]::GetFullPath($OutputFile), $(if ($ExportDirectory) { [IO.Path]::GetFullPath($ExportDirectory) } else { '' }), $MaxNameLength)

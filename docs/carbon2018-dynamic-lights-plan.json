@@ -1,0 +1,42 @@
+[
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
+    "dynamic_texture": "02B52399",
+    "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A"
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
+    "dynamic_texture": "02B52399",
+    "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A"
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
+    "dynamic_texture": "02B52399",
+    "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A"
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D",
+    "dynamic_texture": "02B52399",
+    "donor": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A"
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A",
+    "dynamic_texture": "F68EF19F",
+    "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A"
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_B",
+    "dynamic_texture": "F68EF19F",
+    "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A"
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_C",
+    "dynamic_texture": "F68EF19F",
+    "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A"
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_D",
+    "dynamic_texture": "F68EF19F",
+    "donor": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A"
+  }
+]

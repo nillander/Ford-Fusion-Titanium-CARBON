@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "textures": 18,
+  "geometry_unchanged": true,
+  "opaque_brake_atlases": [
+    "MUSTANGGT_BRAKE_OFF",
+    "MUSTANGGT_KIT00_BRAKELIGHT_GLASS_OFF",
+    "MUSTANGGT_KIT00_BRAKELIGHT_GLASS_ON",
+    "MUSTANGGT_KIT00_BRAKELIGHT_OFF",
+    "MUSTANGGT_KIT00_BRAKELIGHT_ON"
+  ],
+  "all_rgb_pixels_identical": true,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-opaque-brake/GEOMETRY.BIN",
+      "bytes": 31883392,
+      "sha256": "1EC7A01A79AE29AD7582F5AE0B182EFAE500CA83B12BFDA8F2302C0A75684460"
+    },
+    {
+      "path": "work/carbon2018-stage-opaque-brake/TEXTURES.BIN",
+      "bytes": 723547,
+      "sha256": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC"
+    }
+  ],
+  "status": "DXT1 appearance comparison; game QA pending"
+}

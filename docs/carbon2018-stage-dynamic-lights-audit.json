@@ -1,0 +1,8206 @@
+[
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_A",
+    "hash": "004E5A32",
+    "vertices": 1292,
+    "triangles": 1495,
+    "morphTargets": [],
+    "min": [
+      -2.3212905,
+      -0.8075721,
+      0.1936024
+    ],
+    "max": [
+      -1.8058401,
+      0.8071438,
+      0.7916761
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "619B9937",
+        "normal": null,
+        "specular": null,
+        "vertices": 1292,
+        "indices": 4485
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_B",
+    "hash": "004E5A33",
+    "vertices": 825,
+    "triangles": 747,
+    "morphTargets": [],
+    "min": [
+      -2.3212,
+      -0.8069163,
+      0.19388254
+    ],
+    "max": [
+      -1.8069987,
+      0.80808413,
+      0.791252
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "619B9937",
+        "normal": null,
+        "specular": null,
+        "vertices": 825,
+        "indices": 2241
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_C",
+    "hash": "004E5A34",
+    "vertices": 470,
+    "triangles": 328,
+    "morphTargets": [],
+    "min": [
+      -2.3223433,
+      -0.8081599,
+      0.19522582
+    ],
+    "max": [
+      -1.801236,
+      0.807308,
+      0.7931298
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "619B9937",
+        "normal": null,
+        "specular": null,
+        "vertices": 470,
+        "indices": 984
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_GLASS_D",
+    "hash": "004E5A35",
+    "vertices": 470,
+    "triangles": 328,
+    "morphTargets": [],
+    "min": [
+      -2.3223433,
+      -0.8081599,
+      0.19522582
+    ],
+    "max": [
+      -1.801236,
+      0.807308,
+      0.7931298
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "619B9937",
+        "normal": null,
+        "specular": null,
+        "vertices": 470,
+        "indices": 984
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "hash": "017FEE95",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.901,
+      0.80178154,
+      0.6407625
+    ],
+    "max": [
+      -1.4002377,
+      0.871617,
+      0.7510549
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "hash": "046E5F08",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.9006797,
+      -0.8720114,
+      0.640658
+    ],
+    "max": [
+      -1.4002535,
+      -0.8007903,
+      0.75091004
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "hash": "07BEA8C4",
+    "vertices": 81,
+    "triangles": 65,
+    "morphTargets": [],
+    "min": [
+      -0.050005186,
+      0.8888638,
+      0.19937696
+    ],
+    "max": [
+      0.8000949,
+      0.907924,
+      0.6210252
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 45,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 27
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DRIVER_A",
+    "hash": "0986356B",
+    "vertices": 1044,
+    "triangles": 1415,
+    "morphTargets": [],
+    "min": [
+      -0.34356898,
+      0.102654874,
+      0.014420703
+    ],
+    "max": [
+      0.7208842,
+      0.63010395,
+      0.95131034
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "C961D064",
+        "normal": null,
+        "specular": null,
+        "vertices": 1044,
+        "indices": 4245
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DRIVER_B",
+    "hash": "0986356C",
+    "vertices": 797,
+    "triangles": 995,
+    "morphTargets": [],
+    "min": [
+      -0.33777064,
+      0.10147631,
+      0.014420703
+    ],
+    "max": [
+      0.7208842,
+      0.6502455,
+      0.95131034
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "C961D064",
+        "normal": null,
+        "specular": null,
+        "vertices": 797,
+        "indices": 2985
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DRIVER_C",
+    "hash": "0986356D",
+    "vertices": 326,
+    "triangles": 299,
+    "morphTargets": [],
+    "min": [
+      -0.33532923,
+      0.10147631,
+      0.44044608
+    ],
+    "max": [
+      0.34788856,
+      0.6347283,
+      0.94612235
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "C961D064",
+        "normal": null,
+        "specular": null,
+        "vertices": 326,
+        "indices": 897
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_DECAL_REAR_WINDOW_WIDE_MEDIUM_A",
+    "hash": "0C0E19B9",
+    "vertices": 18,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.3008267,
+      -0.4804666,
+      1.1033888
+    ],
+    "max": [
+      -1.1507003,
+      0.48046654,
+      1.1624862
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 18,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "hash": "0EC4BDF7",
+    "vertices": 81,
+    "triangles": 65,
+    "morphTargets": [],
+    "min": [
+      -0.05000195,
+      -0.9076829,
+      0.19926178
+    ],
+    "max": [
+      0.80009604,
+      -0.88886714,
+      0.62102973
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 45,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 27
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_A",
+    "hash": "0F83D0B5",
+    "vertices": 6070,
+    "triangles": 11496,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.86588466
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6048,
+        "indices": 34386
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 30
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 16,
+        "indices": 72
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_B",
+    "hash": "0F83D0B6",
+    "vertices": 1912,
+    "triangles": 3121,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.86584496
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1901,
+        "indices": 9309
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 30
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_C",
+    "hash": "0F83D0B7",
+    "vertices": 407,
+    "triangles": 490,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.86577123
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 400,
+        "indices": 1446
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE21_HOOD_D",
+    "hash": "0F83D0B8",
+    "vertices": 206,
+    "triangles": 206,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.86716443
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 203,
+        "indices": 606
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_A",
+    "hash": "12CCC394",
+    "vertices": 6149,
+    "triangles": 11597,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6143,
+        "indices": 34773
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 18
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_B",
+    "hash": "12CCC395",
+    "vertices": 1936,
+    "triangles": 3170,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1932,
+        "indices": 9498
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_C",
+    "hash": "12CCC396",
+    "vertices": 434,
+    "triangles": 520,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 430,
+        "indices": 1548
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE02_HOOD_D",
+    "hash": "12CCC397",
+    "vertices": 219,
+    "triangles": 222,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 215,
+        "indices": 654
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
+    "hash": "1C56D559",
+    "vertices": 2401,
+    "triangles": 3491,
+    "morphTargets": [],
+    "min": [
+      -2.3212905,
+      -0.8075721,
+      0.1936024
+    ],
+    "max": [
+      0.6943147,
+      0.8071438,
+      1.1707835
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 1109,
+        "indices": 5988
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 1292,
+        "indices": 4485
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
+    "hash": "1C56D55A",
+    "vertices": 1432,
+    "triangles": 1745,
+    "morphTargets": [],
+    "min": [
+      -2.3212,
+      -0.8069163,
+      0.19388254
+    ],
+    "max": [
+      0.6943118,
+      0.80808413,
+      1.1707333
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 607,
+        "indices": 2994
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 825,
+        "indices": 2241
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
+    "hash": "1C56D55B",
+    "vertices": 779,
+    "triangles": 766,
+    "morphTargets": [],
+    "min": [
+      -2.3223433,
+      -0.8081599,
+      0.19522582
+    ],
+    "max": [
+      0.5452483,
+      0.807308,
+      1.170559
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 309,
+        "indices": 1314
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 470,
+        "indices": 984
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D",
+    "hash": "1C56D55C",
+    "vertices": 779,
+    "triangles": 766,
+    "morphTargets": [],
+    "min": [
+      -2.3223433,
+      -0.8081599,
+      0.19522582
+    ],
+    "max": [
+      0.5452483,
+      0.807308,
+      1.170559
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 309,
+        "indices": 1314
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "02B52399",
+        "normal": null,
+        "specular": null,
+        "vertices": 470,
+        "indices": 984
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_A",
+    "hash": "1FC7F5C0",
+    "vertices": 1256,
+    "triangles": 8000,
+    "morphTargets": [],
+    "min": [
+      -1.9035099,
+      -0.7745175,
+      0.7851796
+    ],
+    "max": [
+      0.96130586,
+      0.7745163,
+      1.1702447
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 552,
+        "indices": 3
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 173,
+        "indices": 2076
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 38,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 43,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 127,
+        "indices": 1761
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 323,
+        "indices": 19260
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_B",
+    "hash": "1FC7F5C1",
+    "vertices": 1256,
+    "triangles": 8000,
+    "morphTargets": [],
+    "min": [
+      -1.9035099,
+      -0.7745175,
+      0.7851796
+    ],
+    "max": [
+      0.96130586,
+      0.7745163,
+      1.1702447
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 552,
+        "indices": 3
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 173,
+        "indices": 2076
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 38,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 43,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 127,
+        "indices": 1761
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 323,
+        "indices": 19260
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_C",
+    "hash": "1FC7F5C2",
+    "vertices": 1256,
+    "triangles": 8000,
+    "morphTargets": [],
+    "min": [
+      -1.9035099,
+      -0.7745175,
+      0.7851796
+    ],
+    "max": [
+      0.96130586,
+      0.7745163,
+      1.1702447
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 552,
+        "indices": 3
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 173,
+        "indices": 2076
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 38,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 43,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 127,
+        "indices": 1761
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 323,
+        "indices": 19260
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_WINDOW_D",
+    "hash": "1FC7F5C3",
+    "vertices": 1256,
+    "triangles": 8000,
+    "morphTargets": [],
+    "min": [
+      -1.9035099,
+      -0.7745175,
+      0.7851796
+    ],
+    "max": [
+      0.96130586,
+      0.7745163,
+      1.1702447
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 552,
+        "indices": 3
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 173,
+        "indices": 2076
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 38,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 43,
+        "indices": 450
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 127,
+        "indices": 1761
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 323,
+        "indices": 19260
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_DECAL_FRONT_WINDOW_WIDE_MEDIUM_A",
+    "hash": "22A80498",
+    "vertices": 17,
+    "triangles": 13,
+    "morphTargets": [],
+    "min": [
+      0.41012245,
+      -0.5204202,
+      1.1069661
+    ],
+    "max": [
+      0.5501697,
+      0.5204063,
+      1.1728709
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 17,
+        "indices": 39
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_A",
+    "hash": "2341FBD4",
+    "vertices": 6163,
+    "triangles": 11574,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.861667
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6127,
+        "indices": 34572
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 14,
+        "indices": 60
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 22,
+        "indices": 90
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_B",
+    "hash": "2341FBD5",
+    "vertices": 1979,
+    "triangles": 3157,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.86653686
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1955,
+        "indices": 9351
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 9,
+        "indices": 45
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 75
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_C",
+    "hash": "2341FBD6",
+    "vertices": 478,
+    "triangles": 534,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.86381346
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 454,
+        "indices": 1482
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 45
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 14,
+        "indices": 75
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE20_HOOD_D",
+    "hash": "2341FBD7",
+    "vertices": 225,
+    "triangles": 222,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.86680907
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 217,
+        "indices": 636
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 8,
+        "indices": 30
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_A",
+    "hash": "24925CFA",
+    "vertices": 6007,
+    "triangles": 11439,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6004,
+        "indices": 34308
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 9
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_B",
+    "hash": "24925CFB",
+    "vertices": 1863,
+    "triangles": 3081,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1860,
+        "indices": 9234
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 9
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_C",
+    "hash": "24925CFC",
+    "vertices": 383,
+    "triangles": 471,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 381,
+        "indices": 1407
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE17_HOOD_D",
+    "hash": "24925CFD",
+    "vertices": 202,
+    "triangles": 204,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 200,
+        "indices": 606
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_BRAKE_A",
+    "hash": "295FA1ED",
+    "vertices": 174,
+    "triangles": 122,
+    "morphTargets": [],
+    "min": [
+      -0.20790295,
+      -0.011848456,
+      -0.17824952
+    ],
+    "max": [
+      0.17825,
+      0.039715793,
+      0.17825046
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 149,
+        "indices": 180
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7811C146",
+        "normal": null,
+        "specular": null,
+        "vertices": 25,
+        "indices": 186
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_BRAKE_B",
+    "hash": "295FA1EE",
+    "vertices": 114,
+    "triangles": 96,
+    "morphTargets": [],
+    "min": [
+      -0.20790295,
+      -0.011848456,
+      -0.17824952
+    ],
+    "max": [
+      0.17825,
+      0.03608115,
+      0.17825046
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 98,
+        "indices": 180
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7811C146",
+        "normal": null,
+        "specular": null,
+        "vertices": 16,
+        "indices": 108
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_REAR_BRAKE_C",
+    "hash": "295FA1EF",
+    "vertices": 9,
+    "triangles": 5,
+    "morphTargets": [],
+    "min": [
+      -0.20329832,
+      -0.0036470192,
+      -0.17824952
+    ],
+    "max": [
+      0.17825,
+      0.022799907,
+      0.17825046
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 9
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7811C146",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A",
+    "hash": "2D4F5FE6",
+    "vertices": 2981,
+    "triangles": 4492,
+    "morphTargets": [],
+    "min": [
+      1.7022609,
+      -0.8546846,
+      0.10297885
+    ],
+    "max": [
+      2.271309,
+      0.854747,
+      0.6316225
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 1651,
+        "indices": 7485
+      },
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 1330,
+        "indices": 5991
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_B",
+    "hash": "2D4F5FE7",
+    "vertices": 1705,
+    "triangles": 2243,
+    "morphTargets": [],
+    "min": [
+      1.7022234,
+      -0.85391283,
+      0.10305231
+    ],
+    "max": [
+      2.271309,
+      0.8547594,
+      0.6319166
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 929,
+        "indices": 3738
+      },
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 776,
+        "indices": 2991
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_C",
+    "hash": "2D4F5FE8",
+    "vertices": 837,
+    "triangles": 986,
+    "morphTargets": [],
+    "min": [
+      1.7020094,
+      -0.8543978,
+      0.10270149
+    ],
+    "max": [
+      2.2715235,
+      0.8544318,
+      0.6322721
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 459,
+        "indices": 1641
+      },
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 378,
+        "indices": 1317
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_D",
+    "hash": "2D4F5FE9",
+    "vertices": 837,
+    "triangles": 986,
+    "morphTargets": [],
+    "min": [
+      1.7020094,
+      -0.8543978,
+      0.10270149
+    ],
+    "max": [
+      2.2715235,
+      0.8544318,
+      0.6322721
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 459,
+        "indices": 1641
+      },
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "F68EF19F",
+        "normal": null,
+        "specular": null,
+        "vertices": 378,
+        "indices": 1317
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_A",
+    "hash": "35D9DA7F",
+    "vertices": 1330,
+    "triangles": 1997,
+    "morphTargets": [],
+    "min": [
+      1.7022609,
+      -0.8546846,
+      0.10297885
+    ],
+    "max": [
+      2.271309,
+      0.854747,
+      0.6316225
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 1330,
+        "indices": 5991
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_B",
+    "hash": "35D9DA80",
+    "vertices": 776,
+    "triangles": 997,
+    "morphTargets": [],
+    "min": [
+      1.7022234,
+      -0.85391283,
+      0.10305231
+    ],
+    "max": [
+      2.271309,
+      0.8547594,
+      0.6319166
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 776,
+        "indices": 2991
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_C",
+    "hash": "35D9DA81",
+    "vertices": 378,
+    "triangles": 439,
+    "morphTargets": [],
+    "min": [
+      1.7020094,
+      -0.8543978,
+      0.10270149
+    ],
+    "max": [
+      2.2715235,
+      0.8544318,
+      0.6322721
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 378,
+        "indices": 1317
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_GLASS_D",
+    "hash": "35D9DA82",
+    "vertices": 378,
+    "triangles": 439,
+    "morphTargets": [],
+    "min": [
+      1.7020094,
+      -0.8543978,
+      0.10270149
+    ],
+    "max": [
+      2.2715235,
+      0.8544318,
+      0.6322721
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 82304,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 378,
+        "indices": 1317
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_A",
+    "hash": "38508819",
+    "vertices": 6001,
+    "triangles": 11431,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 5997,
+        "indices": 34281
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_B",
+    "hash": "3850881A",
+    "vertices": 1861,
+    "triangles": 3076,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1859,
+        "indices": 9222
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_C",
+    "hash": "3850881B",
+    "vertices": 387,
+    "triangles": 472,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 385,
+        "indices": 1410
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE16_HOOD_D",
+    "hash": "3850881C",
+    "vertices": 200,
+    "triangles": 206,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 198,
+        "indices": 612
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "hash": "39B032B6",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.901,
+      0.80178154,
+      0.6407625
+    ],
+    "max": [
+      -1.4002377,
+      0.871617,
+      0.7510549
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "hash": "3AF9D903",
+    "vertices": 81,
+    "triangles": 65,
+    "morphTargets": [],
+    "min": [
+      -0.050005186,
+      0.8888638,
+      0.19937696
+    ],
+    "max": [
+      0.8000949,
+      0.907924,
+      0.6210252
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 45,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 27
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_A",
+    "hash": "3DE6D1F2",
+    "vertices": 24936,
+    "triangles": 21799,
+    "morphTargets": [],
+    "min": [
+      -2.364096,
+      -1.0413111,
+      -0.04379161
+    ],
+    "max": [
+      2.368057,
+      1.0387574,
+      1.2634124
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 24926,
+        "indices": 65340
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 57
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_B",
+    "hash": "3DE6D1F3",
+    "vertices": 23527,
+    "triangles": 21793,
+    "morphTargets": [],
+    "min": [
+      -2.3635454,
+      -1.0413111,
+      -0.04338271
+    ],
+    "max": [
+      2.368057,
+      1.0395234,
+      1.2635628
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 23505,
+        "indices": 65214
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 22,
+        "indices": 165
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_C",
+    "hash": "3DE6D1F4",
+    "vertices": 17858,
+    "triangles": 14251,
+    "morphTargets": [],
+    "min": [
+      -2.36986,
+      -1.0414103,
+      -0.043162268
+    ],
+    "max": [
+      2.3675315,
+      1.0424693,
+      1.2650086
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 17831,
+        "indices": 42549
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_D",
+    "hash": "3DE6D1F5",
+    "vertices": 4941,
+    "triangles": 3436,
+    "morphTargets": [],
+    "min": [
+      -2.371151,
+      -1.0357821,
+      -0.04583165
+    ],
+    "max": [
+      2.36643,
+      1.0323126,
+      1.2682906
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 4914,
+        "indices": 10104
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_BODY_E",
+    "hash": "3DE6D1F6",
+    "vertices": 2768,
+    "triangles": 1738,
+    "morphTargets": [],
+    "min": [
+      -2.3742106,
+      -1.0362481,
+      -0.04583165
+    ],
+    "max": [
+      2.3651195,
+      1.031047,
+      1.2590606
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 2741,
+        "indices": 5010
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "hash": "3EE1159A",
+    "vertices": 80,
+    "triangles": 64,
+    "morphTargets": [],
+    "min": [
+      -0.05000195,
+      -0.9076829,
+      0.19926178
+    ],
+    "max": [
+      0.80009604,
+      -0.88886714,
+      0.62102973
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 44,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "hash": "42A72749",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.9006797,
+      -0.8720114,
+      0.640658
+    ],
+    "max": [
+      -1.4002535,
+      -0.8007903,
+      0.75091004
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "hash": "44072E35",
+    "vertices": 81,
+    "triangles": 65,
+    "morphTargets": [],
+    "min": [
+      -0.05000195,
+      -0.9076829,
+      0.19926178
+    ],
+    "max": [
+      0.80009604,
+      -0.88886714,
+      0.62102973
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 45,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 27
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "hash": "49C40645",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.9006797,
+      -0.8720114,
+      0.640658
+    ],
+    "max": [
+      -1.4002535,
+      -0.8007903,
+      0.75091004
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_A",
+    "hash": "51A4FD11",
+    "vertices": 24936,
+    "triangles": 21799,
+    "morphTargets": [],
+    "min": [
+      -2.364096,
+      -1.0413111,
+      -0.04379161
+    ],
+    "max": [
+      2.368057,
+      1.0387574,
+      1.2634124
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 24926,
+        "indices": 65340
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 57
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_B",
+    "hash": "51A4FD12",
+    "vertices": 23527,
+    "triangles": 21793,
+    "morphTargets": [],
+    "min": [
+      -2.3635454,
+      -1.0413111,
+      -0.04338271
+    ],
+    "max": [
+      2.368057,
+      1.0395234,
+      1.2635628
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 23505,
+        "indices": 65214
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 22,
+        "indices": 165
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_C",
+    "hash": "51A4FD13",
+    "vertices": 17858,
+    "triangles": 14251,
+    "morphTargets": [],
+    "min": [
+      -2.36986,
+      -1.0414103,
+      -0.043162268
+    ],
+    "max": [
+      2.3675315,
+      1.0424693,
+      1.2650086
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 17831,
+        "indices": 42549
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_D",
+    "hash": "51A4FD14",
+    "vertices": 4941,
+    "triangles": 3436,
+    "morphTargets": [],
+    "min": [
+      -2.371151,
+      -1.0357821,
+      -0.04583165
+    ],
+    "max": [
+      2.36643,
+      1.0323126,
+      1.2682906
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 4914,
+        "indices": 10104
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_BODY_E",
+    "hash": "51A4FD15",
+    "vertices": 2768,
+    "triangles": 1738,
+    "morphTargets": [],
+    "min": [
+      -2.3742106,
+      -1.0362481,
+      -0.04583165
+    ],
+    "max": [
+      2.3651195,
+      1.031047,
+      1.2590606
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 2741,
+        "indices": 5010
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "hash": "58EF2232",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.901,
+      0.80178154,
+      0.6407625
+    ],
+    "max": [
+      -1.4002377,
+      0.871617,
+      0.7510549
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_A",
+    "hash": "65632830",
+    "vertices": 24936,
+    "triangles": 21799,
+    "morphTargets": [],
+    "min": [
+      -2.364096,
+      -1.0413111,
+      -0.04379161
+    ],
+    "max": [
+      2.368057,
+      1.0387574,
+      1.2634124
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 24926,
+        "indices": 65340
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 57
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_B",
+    "hash": "65632831",
+    "vertices": 23527,
+    "triangles": 21793,
+    "morphTargets": [],
+    "min": [
+      -2.3635454,
+      -1.0413111,
+      -0.04338271
+    ],
+    "max": [
+      2.368057,
+      1.0395234,
+      1.2635628
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 23505,
+        "indices": 65214
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 22,
+        "indices": 165
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_C",
+    "hash": "65632832",
+    "vertices": 17858,
+    "triangles": 14251,
+    "morphTargets": [],
+    "min": [
+      -2.36986,
+      -1.0414103,
+      -0.043162268
+    ],
+    "max": [
+      2.3675315,
+      1.0424693,
+      1.2650086
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 17831,
+        "indices": 42549
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_D",
+    "hash": "65632833",
+    "vertices": 4941,
+    "triangles": 3436,
+    "morphTargets": [],
+    "min": [
+      -2.371151,
+      -1.0357821,
+      -0.04583165
+    ],
+    "max": [
+      2.36643,
+      1.0323126,
+      1.2682906
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 4914,
+        "indices": 10104
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_BODY_E",
+    "hash": "65632834",
+    "vertices": 2768,
+    "triangles": 1738,
+    "morphTargets": [],
+    "min": [
+      -2.3742106,
+      -1.0362481,
+      -0.04583165
+    ],
+    "max": [
+      2.3651195,
+      1.031047,
+      1.2590606
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 2741,
+        "indices": 5010
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_BRAKE_A",
+    "hash": "6D90E44C",
+    "vertices": 177,
+    "triangles": 122,
+    "morphTargets": [],
+    "min": [
+      -0.17825,
+      -0.009012513,
+      -0.17824952
+    ],
+    "max": [
+      0.20915529,
+      0.039715774,
+      0.17825046
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 152,
+        "indices": 180
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7811C146",
+        "normal": null,
+        "specular": null,
+        "vertices": 25,
+        "indices": 186
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_BRAKE_B",
+    "hash": "6D90E44D",
+    "vertices": 114,
+    "triangles": 96,
+    "morphTargets": [],
+    "min": [
+      -0.17825,
+      -0.009012513,
+      -0.17824952
+    ],
+    "max": [
+      0.20915529,
+      0.03608116,
+      0.17825046
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 98,
+        "indices": 180
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7811C146",
+        "normal": null,
+        "specular": null,
+        "vertices": 16,
+        "indices": 108
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_BRAKE_C",
+    "hash": "6D90E44E",
+    "vertices": 9,
+    "triangles": 5,
+    "morphTargets": [],
+    "min": [
+      -0.17825,
+      -0.0045727524,
+      -0.17824952
+    ],
+    "max": [
+      0.21483193,
+      0.022799907,
+      0.17825046
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 9
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7811C146",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "hash": "6E0D1807",
+    "vertices": 80,
+    "triangles": 64,
+    "morphTargets": [],
+    "min": [
+      -0.050005186,
+      0.8888638,
+      0.19937696
+    ],
+    "max": [
+      0.8000949,
+      0.907924,
+      0.6210252
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 44,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "hash": "6E350942",
+    "vertices": 81,
+    "triangles": 65,
+    "morphTargets": [],
+    "min": [
+      -0.050005186,
+      0.8888638,
+      0.19937696
+    ],
+    "max": [
+      0.8000949,
+      0.907924,
+      0.6210252
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 45,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 27
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_A",
+    "hash": "70421697",
+    "vertices": 6170,
+    "triangles": 11614,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6158,
+        "indices": 34776
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 42
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "68100815",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_B",
+    "hash": "70421698",
+    "vertices": 1967,
+    "triangles": 3179,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1958,
+        "indices": 9489
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 30
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "68100815",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 18
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_C",
+    "hash": "70421699",
+    "vertices": 458,
+    "triangles": 532,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 448,
+        "indices": 1560
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "68100815",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE32_HOOD_D",
+    "hash": "7042169A",
+    "vertices": 193,
+    "triangles": 193,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 185,
+        "indices": 555
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "68100815",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_LEFT_SIDE_MIRROR_A",
+    "hash": "713E7E68",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "hash": "71E076D7",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.901,
+      0.80178154,
+      0.6407625
+    ],
+    "max": [
+      -1.4002377,
+      0.871617,
+      0.7510549
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_A",
+    "hash": "738B0976",
+    "vertices": 6126,
+    "triangles": 11551,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6059,
+        "indices": 34227
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 20,
+        "indices": 102
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 47,
+        "indices": 324
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_B",
+    "hash": "738B0977",
+    "vertices": 1964,
+    "triangles": 3173,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1916,
+        "indices": 9219
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 11,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 37,
+        "indices": 252
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_C",
+    "hash": "738B0978",
+    "vertices": 483,
+    "triangles": 556,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 439,
+        "indices": 1392
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 11,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 33,
+        "indices": 228
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE13_HOOD_D",
+    "hash": "738B0979",
+    "vertices": 250,
+    "triangles": 234,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 227,
+        "indices": 582
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "BF30889B",
+        "normal": null,
+        "specular": null,
+        "vertices": 11,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 12,
+        "indices": 72
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "hash": "742385D8",
+    "vertices": 80,
+    "triangles": 64,
+    "morphTargets": [],
+    "min": [
+      -0.05000195,
+      -0.9076829,
+      0.19926178
+    ],
+    "max": [
+      0.80009604,
+      -0.88886714,
+      0.62102973
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 44,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_A",
+    "hash": "7921534F",
+    "vertices": 24936,
+    "triangles": 21799,
+    "morphTargets": [],
+    "min": [
+      -2.364096,
+      -1.0413111,
+      -0.04379161
+    ],
+    "max": [
+      2.368057,
+      1.0387574,
+      1.2634124
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 24926,
+        "indices": 65340
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 57
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_B",
+    "hash": "79215350",
+    "vertices": 23527,
+    "triangles": 21793,
+    "morphTargets": [],
+    "min": [
+      -2.3635454,
+      -1.0413111,
+      -0.04338271
+    ],
+    "max": [
+      2.368057,
+      1.0395234,
+      1.2635628
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 23505,
+        "indices": 65214
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 22,
+        "indices": 165
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_C",
+    "hash": "79215351",
+    "vertices": 17858,
+    "triangles": 14251,
+    "morphTargets": [],
+    "min": [
+      -2.36986,
+      -1.0414103,
+      -0.043162268
+    ],
+    "max": [
+      2.3675315,
+      1.0424693,
+      1.2650086
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 17831,
+        "indices": 42549
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_D",
+    "hash": "79215352",
+    "vertices": 4941,
+    "triangles": 3436,
+    "morphTargets": [],
+    "min": [
+      -2.371151,
+      -1.0357821,
+      -0.04583165
+    ],
+    "max": [
+      2.36643,
+      1.0323126,
+      1.2682906
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 4914,
+        "indices": 10104
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_BODY_E",
+    "hash": "79215353",
+    "vertices": 2768,
+    "triangles": 1738,
+    "morphTargets": [],
+    "min": [
+      -2.3742106,
+      -1.0362481,
+      -0.04583165
+    ],
+    "max": [
+      2.3651195,
+      1.031047,
+      1.2590606
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 2741,
+        "indices": 5010
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT05_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "hash": "80DFEF8A",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.9006797,
+      -0.8720114,
+      0.640658
+    ],
+    "max": [
+      -1.4002535,
+      -0.8007903,
+      0.75091004
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_A",
+    "hash": "840041B6",
+    "vertices": 6112,
+    "triangles": 11628,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.90364456
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6105,
+        "indices": 34842
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 42
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_B",
+    "hash": "840041B7",
+    "vertices": 1948,
+    "triangles": 3197,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.90770817
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1943,
+        "indices": 9567
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_C",
+    "hash": "840041B8",
+    "vertices": 451,
+    "triangles": 538,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.9106917
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 448,
+        "indices": 1602
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE31_HOOD_D",
+    "hash": "840041B9",
+    "vertices": 220,
+    "triangles": 224,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.90166956
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 218,
+        "indices": 666
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 2,
+        "indices": 6
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_A",
+    "hash": "8709A47B",
+    "vertices": 14574,
+    "triangles": 15010,
+    "morphTargets": [],
+    "min": [
+      -2.3662746,
+      -1.0353564,
+      -0.044372097
+    ],
+    "max": [
+      2.345151,
+      1.0358104,
+      1.1925904
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 10536,
+        "indices": 8850
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 4005,
+        "indices": 35820
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 33,
+        "indices": 360
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_B",
+    "hash": "8709A47C",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_C",
+    "hash": "8709A47D",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_D",
+    "hash": "8709A47E",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_RIGHT_SIDE_MIRROR_E",
+    "hash": "8709A47F",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "hash": "87FCCE86",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.9006797,
+      -0.8720114,
+      0.640658
+    ],
+    "max": [
+      -1.4002535,
+      -0.8007903,
+      0.75091004
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_A",
+    "hash": "889995BB",
+    "vertices": 6187,
+    "triangles": 11628,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6183,
+        "indices": 34860
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_B",
+    "hash": "889995BC",
+    "vertices": 1986,
+    "triangles": 3193,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1982,
+        "indices": 9561
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 18
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_C",
+    "hash": "889995BD",
+    "vertices": 450,
+    "triangles": 530,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 446,
+        "indices": 1578
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE09_HOOD_D",
+    "hash": "889995BE",
+    "vertices": 230,
+    "triangles": 226,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 226,
+        "indices": 666
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_A",
+    "hash": "8CDF7E6E",
+    "vertices": 24936,
+    "triangles": 21799,
+    "morphTargets": [],
+    "min": [
+      -2.364096,
+      -1.0413111,
+      -0.04379161
+    ],
+    "max": [
+      2.368057,
+      1.0387574,
+      1.2634124
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 24926,
+        "indices": 65340
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 57
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_B",
+    "hash": "8CDF7E6F",
+    "vertices": 23527,
+    "triangles": 21793,
+    "morphTargets": [],
+    "min": [
+      -2.3635454,
+      -1.0413111,
+      -0.04338271
+    ],
+    "max": [
+      2.368057,
+      1.0395234,
+      1.2635628
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 23505,
+        "indices": 65214
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 22,
+        "indices": 165
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_C",
+    "hash": "8CDF7E70",
+    "vertices": 17858,
+    "triangles": 14251,
+    "morphTargets": [],
+    "min": [
+      -2.36986,
+      -1.0414103,
+      -0.043162268
+    ],
+    "max": [
+      2.3675315,
+      1.0424693,
+      1.2650086
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 17831,
+        "indices": 42549
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_D",
+    "hash": "8CDF7E71",
+    "vertices": 4941,
+    "triangles": 3436,
+    "morphTargets": [],
+    "min": [
+      -2.371151,
+      -1.0357821,
+      -0.04583165
+    ],
+    "max": [
+      2.36643,
+      1.0323126,
+      1.2682906
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 4914,
+        "indices": 10104
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_BODY_E",
+    "hash": "8CDF7E72",
+    "vertices": 2768,
+    "triangles": 1738,
+    "morphTargets": [],
+    "min": [
+      -2.3742106,
+      -1.0362481,
+      -0.04583165
+    ],
+    "max": [
+      2.3651195,
+      1.031047,
+      1.2590606
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 2741,
+        "indices": 5010
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 27,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "hash": "911F6653",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.901,
+      0.80178154,
+      0.6407625
+    ],
+    "max": [
+      -1.4002377,
+      0.871617,
+      0.7510549
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_A",
+    "hash": "A09DA98D",
+    "vertices": 24926,
+    "triangles": 21799,
+    "morphTargets": [],
+    "min": [
+      -2.364096,
+      -1.0413111,
+      -0.04379161
+    ],
+    "max": [
+      2.368057,
+      1.0387574,
+      1.2634124
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 24926,
+        "indices": 65397
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_B",
+    "hash": "A09DA98E",
+    "vertices": 23509,
+    "triangles": 21795,
+    "morphTargets": [],
+    "min": [
+      -2.3635454,
+      -1.0413111,
+      -0.04338271
+    ],
+    "max": [
+      2.368057,
+      1.0395234,
+      1.2635628
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 23509,
+        "indices": 65385
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_C",
+    "hash": "A09DA98F",
+    "vertices": 17774,
+    "triangles": 14183,
+    "morphTargets": [],
+    "min": [
+      -2.36986,
+      -1.0414103,
+      -0.043162268
+    ],
+    "max": [
+      2.3675315,
+      1.0424693,
+      1.2650086
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 17774,
+        "indices": 42549
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_D",
+    "hash": "A09DA990",
+    "vertices": 4857,
+    "triangles": 3368,
+    "morphTargets": [],
+    "min": [
+      -2.371151,
+      -1.0357821,
+      -0.04583165
+    ],
+    "max": [
+      2.36643,
+      1.0323126,
+      1.2682906
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 4857,
+        "indices": 10104
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_BODY_E",
+    "hash": "A09DA991",
+    "vertices": 2684,
+    "triangles": 1670,
+    "morphTargets": [],
+    "min": [
+      -2.3742106,
+      -1.0362481,
+      -0.04583165
+    ],
+    "max": [
+      2.3651195,
+      1.031047,
+      1.2590606
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 2684,
+        "indices": 5010
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_A",
+    "hash": "A112499B",
+    "vertices": 8802,
+    "triangles": 14945,
+    "morphTargets": [],
+    "min": [
+      -0.32203946,
+      -0.007188795,
+      -0.32203937
+    ],
+    "max": [
+      0.32203946,
+      0.2393618,
+      0.32203934
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0A7C3B20",
+        "normal": null,
+        "specular": null,
+        "vertices": 8536,
+        "indices": 40875
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A04B8CC",
+        "normal": null,
+        "specular": null,
+        "vertices": 266,
+        "indices": 3960
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_B",
+    "hash": "A112499C",
+    "vertices": 5386,
+    "triangles": 8614,
+    "morphTargets": [],
+    "min": [
+      -0.32203946,
+      -0.007188795,
+      -0.32203937
+    ],
+    "max": [
+      0.32203946,
+      0.2393618,
+      0.32203934
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0A7C3B20",
+        "normal": null,
+        "specular": null,
+        "vertices": 5120,
+        "indices": 21882
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A04B8CC",
+        "normal": null,
+        "specular": null,
+        "vertices": 266,
+        "indices": 3960
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_C",
+    "hash": "A112499D",
+    "vertices": 3044,
+    "triangles": 4739,
+    "morphTargets": [],
+    "min": [
+      -0.32203946,
+      -0.0069298884,
+      -0.32203937
+    ],
+    "max": [
+      0.32203946,
+      0.2393618,
+      0.32203934
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0A7C3B20",
+        "normal": null,
+        "specular": null,
+        "vertices": 2778,
+        "indices": 10257
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A04B8CC",
+        "normal": null,
+        "specular": null,
+        "vertices": 266,
+        "indices": 3960
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_D",
+    "hash": "A112499E",
+    "vertices": 50,
+    "triangles": 48,
+    "morphTargets": [],
+    "min": [
+      -0.32839525,
+      -0.0048544407,
+      -0.32839525
+    ],
+    "max": [
+      0.32839525,
+      0.22720394,
+      0.32839525
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 50,
+        "indices": 144
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_TIRE_E",
+    "hash": "A112499F",
+    "vertices": 50,
+    "triangles": 48,
+    "morphTargets": [],
+    "min": [
+      -0.32839525,
+      -0.0048544407,
+      -0.32839525
+    ],
+    "max": [
+      0.32839525,
+      0.22720394,
+      0.32839525
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 50,
+        "indices": 144
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "hash": "A1484846",
+    "vertices": 80,
+    "triangles": 64,
+    "morphTargets": [],
+    "min": [
+      -0.050005186,
+      0.8888638,
+      0.19937696
+    ],
+    "max": [
+      0.8000949,
+      0.907924,
+      0.6210252
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 44,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT01_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "hash": "A965F616",
+    "vertices": 81,
+    "triangles": 65,
+    "morphTargets": [],
+    "min": [
+      -0.05000195,
+      -0.9076829,
+      0.19926178
+    ],
+    "max": [
+      0.80009604,
+      -0.88886714,
+      0.62102973
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 45,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 27
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_A",
+    "hash": "ACCCF91A",
+    "vertices": 6021,
+    "triangles": 11441,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6015,
+        "indices": 34299
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_B",
+    "hash": "ACCCF91B",
+    "vertices": 1870,
+    "triangles": 3078,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1866,
+        "indices": 9222
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_C",
+    "hash": "ACCCF91C",
+    "vertices": 396,
+    "triangles": 479,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 392,
+        "indices": 1425
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE26_HOOD_D",
+    "hash": "ACCCF91D",
+    "vertices": 218,
+    "triangles": 218,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 214,
+        "indices": 642
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_A",
+    "hash": "AEA24C29",
+    "vertices": 9595,
+    "triangles": 19136,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 9595,
+        "indices": 57408
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_B",
+    "hash": "AEA24C2A",
+    "vertices": 3020,
+    "triangles": 5448,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 3020,
+        "indices": 16344
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_C",
+    "hash": "AEA24C2B",
+    "vertices": 545,
+    "triangles": 794,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 545,
+        "indices": 2382
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_HOOD_D",
+    "hash": "AEA24C2C",
+    "vertices": 224,
+    "triangles": 300,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 224,
+        "indices": 900
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_A",
+    "hash": "AEC58AD3",
+    "vertices": 6143,
+    "triangles": 11587,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.90244293
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6137,
+        "indices": 34719
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 42
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_B",
+    "hash": "AEC58AD4",
+    "vertices": 1950,
+    "triangles": 3172,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.90383613
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1944,
+        "indices": 9486
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 30
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_C",
+    "hash": "AEC58AD5",
+    "vertices": 428,
+    "triangles": 512,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.90576285
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 421,
+        "indices": 1512
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE10_HOOD_D",
+    "hash": "AEC58AD6",
+    "vertices": 227,
+    "triangles": 223,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.9088547
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 222,
+        "indices": 651
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 18
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_A",
+    "hash": "B015EBF9",
+    "vertices": 6093,
+    "triangles": 11508,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6059,
+        "indices": 34284
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 34,
+        "indices": 240
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_B",
+    "hash": "B015EBFA",
+    "vertices": 1942,
+    "triangles": 3141,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1910,
+        "indices": 9219
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 32,
+        "indices": 204
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_C",
+    "hash": "B015EBFB",
+    "vertices": 460,
+    "triangles": 534,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 428,
+        "indices": 1392
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 32,
+        "indices": 210
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE07_HOOD_D",
+    "hash": "B015EBFC",
+    "vertices": 252,
+    "triangles": 232,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 231,
+        "indices": 600
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 21,
+        "indices": 96
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_A",
+    "hash": "C3891553",
+    "vertices": 21575,
+    "triangles": 21795,
+    "morphTargets": [],
+    "min": [
+      -2.3187385,
+      -1.0373359,
+      0.078805976
+    ],
+    "max": [
+      2.363519,
+      1.0372928,
+      1.1947831
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "339D0D44",
+        "normal": null,
+        "specular": null,
+        "vertices": 14160,
+        "indices": 342
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 130,
+        "indices": 924
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 6299,
+        "indices": 48594
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "339D0D44",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 114
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 971,
+        "indices": 15411
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_B",
+    "hash": "C3891554",
+    "vertices": 22207,
+    "triangles": 18601,
+    "morphTargets": [],
+    "min": [
+      -2.3711045,
+      -1.040717,
+      -0.044372097
+    ],
+    "max": [
+      2.3634126,
+      1.041345,
+      1.1938059
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "339D0D44",
+        "normal": null,
+        "specular": null,
+        "vertices": 14365,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 174,
+        "indices": 1476
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 3993,
+        "indices": 27132
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "339D0D44",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 120
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 3612,
+        "indices": 26679
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 48,
+        "indices": 384
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_C",
+    "hash": "C3891555",
+    "vertices": 12227,
+    "triangles": 9235,
+    "morphTargets": [],
+    "min": [
+      -2.3706925,
+      -1.0395399,
+      -0.044372097
+    ],
+    "max": [
+      2.3625255,
+      1.0408672,
+      1.2029203
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 10073,
+        "indices": 13101
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 41,
+        "indices": 234
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 163,
+        "indices": 1398
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "339D0D44",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 120
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 1935,
+        "indices": 12852
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_D",
+    "hash": "C3891556",
+    "vertices": 5157,
+    "triangles": 3704,
+    "morphTargets": [],
+    "min": [
+      -2.4073198,
+      -1.0395399,
+      -0.020983022
+    ],
+    "max": [
+      2.3427298,
+      1.0408672,
+      1.2191302
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 4045,
+        "indices": 3600
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 25,
+        "indices": 177
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 144,
+        "indices": 1266
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 943,
+        "indices": 6069
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_BASE_E",
+    "hash": "C3891557",
+    "vertices": 5156,
+    "triangles": 3704,
+    "morphTargets": [],
+    "min": [
+      -2.4073198,
+      -1.0395399,
+      -0.020983022
+    ],
+    "max": [
+      2.3427298,
+      1.0408672,
+      1.2191302
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A00E244",
+        "normal": null,
+        "specular": null,
+        "vertices": 4044,
+        "indices": 3600
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5D88F764",
+        "normal": null,
+        "specular": null,
+        "vertices": 25,
+        "indices": 177
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 144,
+        "indices": 1266
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 943,
+        "indices": 6069
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_A",
+    "hash": "C3D41718",
+    "vertices": 5997,
+    "triangles": 11430,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 5990,
+        "indices": 34266
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_B",
+    "hash": "C3D41719",
+    "vertices": 1869,
+    "triangles": 3084,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1862,
+        "indices": 9228
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_C",
+    "hash": "C3D4171A",
+    "vertices": 384,
+    "triangles": 472,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 377,
+        "indices": 1392
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE06_HOOD_D",
+    "hash": "C3D4171B",
+    "vertices": 236,
+    "triangles": 216,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.87207675
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 230,
+        "indices": 630
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 18
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_RIGHT_QUARTER_RECT_MEDIUM_A",
+    "hash": "C63596C7",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.9006797,
+      -0.8720114,
+      0.640658
+    ],
+    "max": [
+      -1.4002535,
+      -0.8007903,
+      0.75091004
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT02_DECAL_LEFT_QUARTER_RECT_MEDIUM_A",
+    "hash": "C94FAA74",
+    "vertices": 15,
+    "triangles": 16,
+    "morphTargets": [],
+    "min": [
+      -1.901,
+      0.80178154,
+      0.6407625
+    ],
+    "max": [
+      -1.4002377,
+      0.871617,
+      0.7510549
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 15,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT03_DECAL_LEFT_DOOR_RECT_MEDIUM_A",
+    "hash": "D4837885",
+    "vertices": 80,
+    "triangles": 64,
+    "morphTargets": [],
+    "min": [
+      -0.050005186,
+      0.8888638,
+      0.19937696
+    ],
+    "max": [
+      0.8000949,
+      0.907924,
+      0.6210252
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 44,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_A",
+    "hash": "D7924237",
+    "vertices": 6204,
+    "triangles": 11606,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.8788084
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6200,
+        "indices": 34806
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_B",
+    "hash": "D7924238",
+    "vertices": 1961,
+    "triangles": 3145,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.87886536
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1957,
+        "indices": 9423
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_C",
+    "hash": "D7924239",
+    "vertices": 446,
+    "triangles": 512,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.8670434
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 442,
+        "indices": 1524
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE05_HOOD_D",
+    "hash": "D792423A",
+    "vertices": 238,
+    "triangles": 222,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.86666113
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 234,
+        "indices": 654
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT04_DECAL_RIGHT_DOOR_RECT_MEDIUM_A",
+    "hash": "D9824DB9",
+    "vertices": 80,
+    "triangles": 64,
+    "morphTargets": [],
+    "min": [
+      -0.05000195,
+      -0.9076829,
+      0.19926178
+    ],
+    "max": [
+      0.80009604,
+      -0.88886714,
+      0.62102973
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D0161A90",
+        "normal": null,
+        "specular": null,
+        "vertices": 44,
+        "indices": 48
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6654",
+        "normal": null,
+        "specular": null,
+        "vertices": 6,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6655",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 15
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6656",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 21
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6657",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6658",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "910E6659",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "445A675D",
+        "normal": null,
+        "specular": null,
+        "vertices": 10,
+        "indices": 48
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_A",
+    "hash": "E5158BDD",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_B",
+    "hash": "E5158BDE",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_C",
+    "hash": "E5158BDF",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_D",
+    "hash": "E5158BE0",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_SPOILER_E",
+    "hash": "E5158BE1",
+    "vertices": 3,
+    "triangles": 1,
+    "morphTargets": [],
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      1E-05,
+      1E-05,
+      0
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 3
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_A",
+    "hash": "E8077A77",
+    "vertices": 6041,
+    "triangles": 11469,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.8781427
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6033,
+        "indices": 34371
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 18
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "8C283C65",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 18
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_B",
+    "hash": "E8077A78",
+    "vertices": 1883,
+    "triangles": 3101,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.879028
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1875,
+        "indices": 9267
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 18
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "8C283C65",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 18
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_C",
+    "hash": "E8077A79",
+    "vertices": 410,
+    "triangles": 488,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.88243294
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 403,
+        "indices": 1440
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 3,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "8C283C65",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE23_HOOD_D",
+    "hash": "E8077A7A",
+    "vertices": 242,
+    "triangles": 227,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.8823131
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 234,
+        "indices": 657
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "69C032BA",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "8C283C65",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_A",
+    "hash": "EA2183FF",
+    "vertices": 2521,
+    "triangles": 11993,
+    "morphTargets": [],
+    "min": [
+      -1.9035691,
+      -0.77741885,
+      0.7879918
+    ],
+    "max": [
+      1.2308307,
+      0.77741885,
+      1.1911145
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 1536,
+        "indices": 2814
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 180,
+        "indices": 2454
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1788
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1857
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 148,
+        "indices": 2160
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 395,
+        "indices": 24906
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_B",
+    "hash": "EA218400",
+    "vertices": 2521,
+    "triangles": 11993,
+    "morphTargets": [],
+    "min": [
+      -1.9035691,
+      -0.77741885,
+      0.7879918
+    ],
+    "max": [
+      1.2308307,
+      0.77741885,
+      1.1911145
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 1536,
+        "indices": 2814
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 180,
+        "indices": 2454
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1788
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1857
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 148,
+        "indices": 2160
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 395,
+        "indices": 24906
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_C",
+    "hash": "EA218401",
+    "vertices": 2521,
+    "triangles": 11993,
+    "morphTargets": [],
+    "min": [
+      -1.9035691,
+      -0.77741885,
+      0.7879918
+    ],
+    "max": [
+      1.2308307,
+      0.77741885,
+      1.1911145
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 1536,
+        "indices": 2814
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 180,
+        "indices": 2454
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1788
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1857
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 148,
+        "indices": 2160
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 395,
+        "indices": 24906
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_FRONT_WINDOW_D",
+    "hash": "EA218402",
+    "vertices": 2521,
+    "triangles": 11993,
+    "morphTargets": [],
+    "min": [
+      -1.9035691,
+      -0.77741885,
+      0.7879918
+    ],
+    "max": [
+      1.2308307,
+      0.77741885,
+      1.1911145
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "7B220DDF",
+        "normal": null,
+        "specular": null,
+        "vertices": 1536,
+        "indices": 2814
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "D195BE56",
+        "normal": null,
+        "specular": null,
+        "vertices": 180,
+        "indices": 2454
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "E7E4EF49",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1788
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "60F8B13C",
+        "normal": null,
+        "specular": null,
+        "vertices": 131,
+        "indices": 1857
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "4CDEBFCA",
+        "normal": null,
+        "specular": null,
+        "vertices": 148,
+        "indices": 2160
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "0AB88F5D",
+        "normal": null,
+        "specular": null,
+        "vertices": 395,
+        "indices": 24906
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_A",
+    "hash": "EB506D56",
+    "vertices": 6125,
+    "triangles": 11612,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.9359368
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 6116,
+        "indices": 34782
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 9,
+        "indices": 54
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_B",
+    "hash": "EB506D57",
+    "vertices": 1938,
+    "triangles": 3190,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.9326411
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1931,
+        "indices": 9528
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 7,
+        "indices": 42
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_C",
+    "hash": "EB506D58",
+    "vertices": 437,
+    "triangles": 534,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.9310493
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 432,
+        "indices": 1572
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 30
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE04_HOOD_D",
+    "hash": "EB506D59",
+    "vertices": 234,
+    "triangles": 236,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.9389219
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 229,
+        "indices": 684
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 5,
+        "indices": 24
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_A",
+    "hash": "EE0A2D0B",
+    "vertices": 19996,
+    "triangles": 18484,
+    "morphTargets": [],
+    "min": [
+      -2.2837796,
+      -0.78677905,
+      0.08594457
+    ],
+    "max": [
+      1.8646632,
+      0.78695846,
+      1.2048202
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 13279,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 1230,
+        "indices": 10185
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 5487,
+        "indices": 45243
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_B",
+    "hash": "EE0A2D0C",
+    "vertices": 19994,
+    "triangles": 18484,
+    "morphTargets": [],
+    "min": [
+      -2.2837796,
+      -0.78677905,
+      0.08594457
+    ],
+    "max": [
+      1.8646632,
+      0.78695846,
+      1.2048202
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 13277,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 1230,
+        "indices": 10185
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 5487,
+        "indices": 45243
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_C",
+    "hash": "EE0A2D0D",
+    "vertices": 19992,
+    "triangles": 18484,
+    "morphTargets": [],
+    "min": [
+      -2.2837796,
+      -0.78677905,
+      0.08594457
+    ],
+    "max": [
+      1.8646632,
+      0.78695846,
+      1.2048202
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 13275,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 1230,
+        "indices": 10185
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 5487,
+        "indices": 45243
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_KIT00_INTERIOR_D",
+    "hash": "EE0A2D0E",
+    "vertices": 19988,
+    "triangles": 18484,
+    "morphTargets": [],
+    "min": [
+      -2.2837796,
+      -0.78677905,
+      0.08594457
+    ],
+    "max": [
+      1.8646632,
+      0.78695846,
+      1.2048202
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "5A006DE9",
+        "normal": null,
+        "specular": null,
+        "vertices": 13271,
+        "indices": 24
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 1230,
+        "indices": 10185
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "2AF3D244",
+        "normal": null,
+        "specular": null,
+        "vertices": 5487,
+        "indices": 45243
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_A",
+    "hash": "FF0E9875",
+    "vertices": 6006,
+    "triangles": 11434,
+    "morphTargets": [],
+    "min": [
+      1.0930805,
+      -0.7864403,
+      0.5714154
+    ],
+    "max": [
+      2.266913,
+      0.78643954,
+      0.84768045
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 5998,
+        "indices": 34266
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 8,
+        "indices": 36
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_B",
+    "hash": "FF0E9876",
+    "vertices": 1875,
+    "triangles": 3085,
+    "morphTargets": [],
+    "min": [
+      1.0930951,
+      -0.7864053,
+      0.5713976
+    ],
+    "max": [
+      2.267134,
+      0.786433,
+      0.84775966
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 1867,
+        "indices": 9219
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 8,
+        "indices": 36
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_C",
+    "hash": "FF0E9877",
+    "vertices": 378,
+    "triangles": 468,
+    "morphTargets": [],
+    "min": [
+      1.0940492,
+      -0.78660077,
+      0.5710806
+    ],
+    "max": [
+      2.2686439,
+      0.78638035,
+      0.84771055
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 374,
+        "indices": 1392
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  },
+  {
+    "name": "MUSTANGGT_STYLE03_HOOD_D",
+    "hash": "FF0E9878",
+    "vertices": 236,
+    "triangles": 214,
+    "morphTargets": [],
+    "min": [
+      1.0894697,
+      -0.7866486,
+      0.5723663
+    ],
+    "max": [
+      2.2717378,
+      0.7867442,
+      0.84643424
+    ],
+    "materials": [
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "9A8AAD9E",
+        "normal": null,
+        "specular": null,
+        "vertices": 232,
+        "indices": 630
+      },
+      {
+        "Name": null,
+        "Flags": 16768,
+        "effect": 4,
+        "diffuse": "1B049702",
+        "normal": null,
+        "specular": null,
+        "vertices": 4,
+        "indices": 12
+      }
+    ]
+  }
+]

@@ -1,0 +1,168 @@
+{
+  "passed": true,
+  "count": 18,
+  "textures": [
+    {
+      "Name": "MUSTANGGT_RIM",
+      "hash": "0A7C3B20",
+      "Width": 256,
+      "Height": 256,
+      "DataSize": 32768,
+      "MipMapCount": 1,
+      "Format": 827611204
+    },
+    {
+      "Name": "MUSTANGGT_INTERIOR",
+      "hash": "2AF3D244",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 524288,
+      "MipMapCount": 1,
+      "Format": 827611204
+    },
+    {
+      "Name": "MUSTANGGT_BADGING",
+      "hash": "339D0D44",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_BRAKELIGHT_OFF",
+      "hash": "4B7D95B6",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_HEADLIGHT_ON",
+      "hash": "59DFF345",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_LOGO",
+      "hash": "5A006DE9",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 524288,
+      "MipMapCount": 1,
+      "Format": 827611204
+    },
+    {
+      "Name": "MUSTANGGT_MISC",
+      "hash": "5A00E244",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 524288,
+      "MipMapCount": 1,
+      "Format": 827611204
+    },
+    {
+      "Name": "MUSTANGGT_TIRE",
+      "hash": "5A04B8CC",
+      "Width": 256,
+      "Height": 256,
+      "DataSize": 32768,
+      "MipMapCount": 1,
+      "Format": 827611204
+    },
+    {
+      "Name": "MUSTANGGT_HEAD_OFF",
+      "hash": "5D88F764",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_BRAKE_OFF",
+      "hash": "619B9937",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_BRAKELIGHT_ON",
+      "hash": "7E68A778",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_HEADLIGHT_OFF",
+      "hash": "95DE5B23",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_SKIN1",
+      "hash": "9A8AAD9E",
+      "Width": 16,
+      "Height": 16,
+      "DataSize": 256,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_BRAKELIGHT_GLASS_O",
+      "hash": "A0FFA5B1",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_HEADLIGHT_GLASS_OF",
+      "hash": "AAA0BE3C",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_BRAKELIGHT_GLASS_O",
+      "hash": "C0F45B0F",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    },
+    {
+      "Name": "MUSTANGGT_DRIVER",
+      "hash": "C961D064",
+      "Width": 256,
+      "Height": 256,
+      "DataSize": 32768,
+      "MipMapCount": 1,
+      "Format": 827611204
+    },
+    {
+      "Name": "MUSTANGGT_KIT00_HEADLIGHT_GLASS_ON",
+      "hash": "EDE5D73E",
+      "Width": 1024,
+      "Height": 1024,
+      "DataSize": 1048576,
+      "MipMapCount": 1,
+      "Format": 861165636
+    }
+  ]
+}

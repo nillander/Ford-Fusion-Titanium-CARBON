@@ -1,0 +1,1501 @@
+[
+  {
+    "path": "work/carbon2018-stage-dynamic-lights/GEOMETRY.BIN",
+    "sha256": "8158464702D4B7805844C60E392121ABF72356E41AC4AA905725578CEC2FB4EE",
+    "declared_count": 186,
+    "streaming": [
+      {
+        "hash": "004E5A32",
+        "offset": 6272,
+        "packed_bytes": 44609,
+        "bytes": 71520,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "004E5A33",
+        "offset": 50944,
+        "packed_bytes": 27821,
+        "bytes": 44608,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "004E5A34",
+        "offset": 78848,
+        "packed_bytes": 14735,
+        "bytes": 25056,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "004E5A35",
+        "offset": 93696,
+        "packed_bytes": 14735,
+        "bytes": 25056,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "017FEE95",
+        "offset": 108544,
+        "packed_bytes": 784,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "046E5F08",
+        "offset": 109440,
+        "packed_bytes": 785,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "07BEA8C4",
+        "offset": 110336,
+        "packed_bytes": 3167,
+        "bytes": 5856,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0986356B",
+        "offset": 113536,
+        "packed_bytes": 37330,
+        "bytes": 59120,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0986356C",
+        "offset": 150912,
+        "packed_bytes": 27406,
+        "bytes": 44736,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0986356D",
+        "offset": 178432,
+        "packed_bytes": 10405,
+        "bytes": 17952,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0C0E19B9",
+        "offset": 188928,
+        "packed_bytes": 796,
+        "bytes": 1488,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0EC4BDF7",
+        "offset": 189824,
+        "packed_bytes": 3110,
+        "bytes": 5856,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0F83D0B5",
+        "offset": 193024,
+        "packed_bytes": 266399,
+        "bytes": 361168,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0F83D0B6",
+        "offset": 459520,
+        "packed_bytes": 85513,
+        "bytes": 111328,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0F83D0B7",
+        "offset": 545152,
+        "packed_bytes": 17585,
+        "bytes": 23312,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "0F83D0B8",
+        "offset": 562816,
+        "packed_bytes": 8540,
+        "bytes": 11792,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "12CCC394",
+        "offset": 571392,
+        "packed_bytes": 269117,
+        "bytes": 365408,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "12CCC395",
+        "offset": 840576,
+        "packed_bytes": 86325,
+        "bytes": 112624,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "12CCC396",
+        "offset": 926976,
+        "packed_bytes": 18263,
+        "bytes": 24624,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "12CCC397",
+        "offset": 945280,
+        "packed_bytes": 8807,
+        "bytes": 12512,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1C56D559",
+        "offset": 954112,
+        "packed_bytes": 94877,
+        "bytes": 136864,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1C56D55A",
+        "offset": 1049088,
+        "packed_bytes": 54395,
+        "bytes": 79872,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1C56D55B",
+        "offset": 1103616,
+        "packed_bytes": 26661,
+        "bytes": 42656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1C56D55C",
+        "offset": 1130368,
+        "packed_bytes": 26661,
+        "bytes": 42656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1FC7F5C0",
+        "offset": 1157120,
+        "packed_bytes": 58126,
+        "bytes": 109552,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1FC7F5C1",
+        "offset": 1215360,
+        "packed_bytes": 58126,
+        "bytes": 109552,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1FC7F5C2",
+        "offset": 1273600,
+        "packed_bytes": 58126,
+        "bytes": 109552,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "1FC7F5C3",
+        "offset": 1331840,
+        "packed_bytes": 58126,
+        "bytes": 109552,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "22A80498",
+        "offset": 1390080,
+        "packed_bytes": 757,
+        "bytes": 1424,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2341FBD4",
+        "offset": 1390848,
+        "packed_bytes": 269184,
+        "bytes": 366096,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2341FBD5",
+        "offset": 1660160,
+        "packed_bytes": 87230,
+        "bytes": 114768,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2341FBD6",
+        "offset": 1747456,
+        "packed_bytes": 19262,
+        "bytes": 26976,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2341FBD7",
+        "offset": 1766784,
+        "packed_bytes": 9079,
+        "bytes": 12800,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "24925CFA",
+        "offset": 1775872,
+        "packed_bytes": 264541,
+        "bytes": 357648,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "24925CFB",
+        "offset": 2040448,
+        "packed_bytes": 83792,
+        "bytes": 108576,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "24925CFC",
+        "offset": 2124288,
+        "packed_bytes": 16677,
+        "bytes": 21888,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "24925CFD",
+        "offset": 2141056,
+        "packed_bytes": 8320,
+        "bytes": 11584,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "295FA1ED",
+        "offset": 2149504,
+        "packed_bytes": 4157,
+        "bytes": 9760,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "295FA1EE",
+        "offset": 2153728,
+        "packed_bytes": 3194,
+        "bytes": 6720,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "295FA1EF",
+        "offset": 2157056,
+        "packed_bytes": 559,
+        "bytes": 1136,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2D4F5FE6",
+        "offset": 2157696,
+        "packed_bytes": 118464,
+        "bytes": 170704,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2D4F5FE7",
+        "offset": 2276224,
+        "packed_bytes": 65509,
+        "bytes": 95968,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2D4F5FE8",
+        "offset": 2341760,
+        "packed_bytes": 31582,
+        "bytes": 46768,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "2D4F5FE9",
+        "offset": 2373376,
+        "packed_bytes": 31582,
+        "bytes": 46768,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "35D9DA7F",
+        "offset": 2404992,
+        "packed_bytes": 39577,
+        "bytes": 76336,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "35D9DA80",
+        "offset": 2444672,
+        "packed_bytes": 22417,
+        "bytes": 43744,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "35D9DA81",
+        "offset": 2467200,
+        "packed_bytes": 11060,
+        "bytes": 21296,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "35D9DA82",
+        "offset": 2478336,
+        "packed_bytes": 11060,
+        "bytes": 21296,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "38508819",
+        "offset": 2489472,
+        "packed_bytes": 264294,
+        "bytes": 357312,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3850881A",
+        "offset": 2753792,
+        "packed_bytes": 83701,
+        "bytes": 108448,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3850881B",
+        "offset": 2837504,
+        "packed_bytes": 16775,
+        "bytes": 22080,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3850881C",
+        "offset": 2854400,
+        "packed_bytes": 8414,
+        "bytes": 11504,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "39B032B6",
+        "offset": 2862848,
+        "packed_bytes": 784,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3AF9D903",
+        "offset": 2863744,
+        "packed_bytes": 3167,
+        "bytes": 5856,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3DE6D1F2",
+        "offset": 2866944,
+        "packed_bytes": 960529,
+        "bytes": 1328704,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3DE6D1F3",
+        "offset": 3827584,
+        "packed_bytes": 951545,
+        "bytes": 1261024,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3DE6D1F4",
+        "offset": 4779264,
+        "packed_bytes": 709334,
+        "bytes": 943664,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3DE6D1F5",
+        "offset": 5488640,
+        "packed_bytes": 188901,
+        "bytes": 258752,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3DE6D1F6",
+        "offset": 5677568,
+        "packed_bytes": 103222,
+        "bytes": 144272,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "3EE1159A",
+        "offset": 5780864,
+        "packed_bytes": 3098,
+        "bytes": 5808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "42A72749",
+        "offset": 5784064,
+        "packed_bytes": 785,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "44072E35",
+        "offset": 5784960,
+        "packed_bytes": 3110,
+        "bytes": 5856,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "49C40645",
+        "offset": 5788160,
+        "packed_bytes": 785,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "51A4FD11",
+        "offset": 5789056,
+        "packed_bytes": 960551,
+        "bytes": 1328704,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "51A4FD12",
+        "offset": 6749696,
+        "packed_bytes": 951529,
+        "bytes": 1261024,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "51A4FD13",
+        "offset": 7701248,
+        "packed_bytes": 709329,
+        "bytes": 943664,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "51A4FD14",
+        "offset": 8410624,
+        "packed_bytes": 188896,
+        "bytes": 258752,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "51A4FD15",
+        "offset": 8599552,
+        "packed_bytes": 103217,
+        "bytes": 144272,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "58EF2232",
+        "offset": 8702848,
+        "packed_bytes": 784,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "65632830",
+        "offset": 8703744,
+        "packed_bytes": 960551,
+        "bytes": 1328704,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "65632831",
+        "offset": 9664384,
+        "packed_bytes": 951534,
+        "bytes": 1261024,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "65632832",
+        "offset": 10615936,
+        "packed_bytes": 709329,
+        "bytes": 943664,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "65632833",
+        "offset": 11325312,
+        "packed_bytes": 188896,
+        "bytes": 258752,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "65632834",
+        "offset": 11514240,
+        "packed_bytes": 103217,
+        "bytes": 144272,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "6D90E44C",
+        "offset": 11617536,
+        "packed_bytes": 4215,
+        "bytes": 9904,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "6D90E44D",
+        "offset": 11621760,
+        "packed_bytes": 3261,
+        "bytes": 6720,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "6D90E44E",
+        "offset": 11625088,
+        "packed_bytes": 586,
+        "bytes": 1136,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "6E0D1807",
+        "offset": 11625728,
+        "packed_bytes": 3154,
+        "bytes": 5808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "6E350942",
+        "offset": 11628928,
+        "packed_bytes": 3167,
+        "bytes": 5856,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "70421697",
+        "offset": 11632128,
+        "packed_bytes": 269950,
+        "bytes": 366672,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "70421698",
+        "offset": 11902208,
+        "packed_bytes": 87019,
+        "bytes": 114320,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "70421699",
+        "offset": 11989248,
+        "packed_bytes": 19031,
+        "bytes": 26000,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "7042169A",
+        "offset": 12008320,
+        "packed_bytes": 8048,
+        "bytes": 11248,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "713E7E68",
+        "offset": 12016384,
+        "packed_bytes": 274,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "71E076D7",
+        "offset": 12016768,
+        "packed_bytes": 784,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "738B0976",
+        "offset": 12017664,
+        "packed_bytes": 267797,
+        "bytes": 364192,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "738B0977",
+        "offset": 12285568,
+        "packed_bytes": 86578,
+        "bytes": 114144,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "738B0978",
+        "offset": 12372224,
+        "packed_bytes": 19495,
+        "bytes": 27344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "738B0979",
+        "offset": 12391808,
+        "packed_bytes": 10056,
+        "bytes": 14240,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "742385D8",
+        "offset": 12401920,
+        "packed_bytes": 3098,
+        "bytes": 5808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "7921534F",
+        "offset": 12405120,
+        "packed_bytes": 960546,
+        "bytes": 1328704,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "79215350",
+        "offset": 13365760,
+        "packed_bytes": 951532,
+        "bytes": 1261024,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "79215351",
+        "offset": 14317312,
+        "packed_bytes": 709329,
+        "bytes": 943664,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "79215352",
+        "offset": 15026688,
+        "packed_bytes": 188896,
+        "bytes": 258752,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "79215353",
+        "offset": 15215616,
+        "packed_bytes": 103217,
+        "bytes": 144272,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "80DFEF8A",
+        "offset": 15318912,
+        "packed_bytes": 785,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "840041B6",
+        "offset": 15319808,
+        "packed_bytes": 268717,
+        "bytes": 363808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "840041B7",
+        "offset": 15588608,
+        "packed_bytes": 86757,
+        "bytes": 113360,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "840041B8",
+        "offset": 15675392,
+        "packed_bytes": 18643,
+        "bytes": 25552,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "840041B9",
+        "offset": 15694080,
+        "packed_bytes": 8837,
+        "bytes": 12576,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8709A47B",
+        "offset": 15703040,
+        "packed_bytes": 508677,
+        "bytes": 790432,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8709A47C",
+        "offset": 16211840,
+        "packed_bytes": 275,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8709A47D",
+        "offset": 16212224,
+        "packed_bytes": 275,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8709A47E",
+        "offset": 16212608,
+        "packed_bytes": 275,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8709A47F",
+        "offset": 16212992,
+        "packed_bytes": 275,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "87FCCE86",
+        "offset": 16213376,
+        "packed_bytes": 785,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "889995BB",
+        "offset": 16214272,
+        "packed_bytes": 270547,
+        "bytes": 367408,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "889995BC",
+        "offset": 16484864,
+        "packed_bytes": 87435,
+        "bytes": 115152,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "889995BD",
+        "offset": 16572416,
+        "packed_bytes": 18613,
+        "bytes": 25456,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "889995BE",
+        "offset": 16591104,
+        "packed_bytes": 9100,
+        "bytes": 13072,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8CDF7E6E",
+        "offset": 16600320,
+        "packed_bytes": 960532,
+        "bytes": 1328704,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8CDF7E6F",
+        "offset": 17560960,
+        "packed_bytes": 951536,
+        "bytes": 1261024,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8CDF7E70",
+        "offset": 18512512,
+        "packed_bytes": 709334,
+        "bytes": 943664,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8CDF7E71",
+        "offset": 19221888,
+        "packed_bytes": 188901,
+        "bytes": 258752,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "8CDF7E72",
+        "offset": 19410816,
+        "packed_bytes": 103221,
+        "bytes": 144272,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "911F6653",
+        "offset": 19514112,
+        "packed_bytes": 784,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A09DA98D",
+        "offset": 19515008,
+        "packed_bytes": 960931,
+        "bytes": 1328064,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A09DA98E",
+        "offset": 20476032,
+        "packed_bytes": 952683,
+        "bytes": 1260016,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A09DA98F",
+        "offset": 21428736,
+        "packed_bytes": 708156,
+        "bytes": 939072,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A09DA990",
+        "offset": 22136960,
+        "packed_bytes": 187730,
+        "bytes": 254160,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A09DA991",
+        "offset": 22324736,
+        "packed_bytes": 102050,
+        "bytes": 139664,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A112499B",
+        "offset": 22426880,
+        "packed_bytes": 285923,
+        "bytes": 512912,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A112499C",
+        "offset": 22712832,
+        "packed_bytes": 169583,
+        "bytes": 310960,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A112499D",
+        "offset": 22882432,
+        "packed_bytes": 95574,
+        "bytes": 175296,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A112499E",
+        "offset": 22978048,
+        "packed_bytes": 1143,
+        "bytes": 3280,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A112499F",
+        "offset": 22979200,
+        "packed_bytes": 1143,
+        "bytes": 3280,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A1484846",
+        "offset": 22980352,
+        "packed_bytes": 3154,
+        "bytes": 5808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "A965F616",
+        "offset": 22983552,
+        "packed_bytes": 3110,
+        "bytes": 5856,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "ACCCF91A",
+        "offset": 22986752,
+        "packed_bytes": 264734,
+        "bytes": 358320,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "ACCCF91B",
+        "offset": 23251584,
+        "packed_bytes": 83828,
+        "bytes": 108896,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "ACCCF91C",
+        "offset": 23335424,
+        "packed_bytes": 17028,
+        "bytes": 22560,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "ACCCF91D",
+        "offset": 23352576,
+        "packed_bytes": 8911,
+        "bytes": 12448,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEA24C29",
+        "offset": 23361536,
+        "packed_bytes": 414746,
+        "bytes": 575872,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEA24C2A",
+        "offset": 23776384,
+        "packed_bytes": 133186,
+        "bytes": 178144,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEA24C2B",
+        "offset": 23909632,
+        "packed_bytes": 23661,
+        "bytes": 31424,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEA24C2C",
+        "offset": 23933312,
+        "packed_bytes": 9730,
+        "bytes": 13040,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEC58AD3",
+        "offset": 23943168,
+        "packed_bytes": 269101,
+        "bytes": 365056,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEC58AD4",
+        "offset": 24212352,
+        "packed_bytes": 86556,
+        "bytes": 113296,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEC58AD5",
+        "offset": 24299008,
+        "packed_bytes": 17936,
+        "bytes": 24288,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "AEC58AD6",
+        "offset": 24317056,
+        "packed_bytes": 8980,
+        "bytes": 12912,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "B015EBF9",
+        "offset": 24326144,
+        "packed_bytes": 267032,
+        "bytes": 362176,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "B015EBFA",
+        "offset": 24593280,
+        "packed_bytes": 85803,
+        "bytes": 112736,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "B015EBFB",
+        "offset": 24679168,
+        "packed_bytes": 18851,
+        "bytes": 25952,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "B015EBFC",
+        "offset": 24698112,
+        "packed_bytes": 9775,
+        "bytes": 14160,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3891553",
+        "offset": 24707968,
+        "packed_bytes": 585595,
+        "bytes": 1168128,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3891554",
+        "offset": 25293696,
+        "packed_bytes": 653427,
+        "bytes": 1179456,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3891555",
+        "offset": 25947136,
+        "packed_bytes": 336293,
+        "bytes": 644080,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3891556",
+        "offset": 26283520,
+        "packed_bytes": 168615,
+        "bytes": 271376,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3891557",
+        "offset": 26452224,
+        "packed_bytes": 168605,
+        "bytes": 271328,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3D41718",
+        "offset": 26620928,
+        "packed_bytes": 264224,
+        "bytes": 357104,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3D41719",
+        "offset": 26885248,
+        "packed_bytes": 83925,
+        "bytes": 108880,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3D4171A",
+        "offset": 26969216,
+        "packed_bytes": 16646,
+        "bytes": 21936,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C3D4171B",
+        "offset": 26985984,
+        "packed_bytes": 9180,
+        "bytes": 13296,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C63596C7",
+        "offset": 26995200,
+        "packed_bytes": 785,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "C94FAA74",
+        "offset": 26996096,
+        "packed_bytes": 784,
+        "bytes": 1344,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "D4837885",
+        "offset": 26996992,
+        "packed_bytes": 3154,
+        "bytes": 5808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "D7924237",
+        "offset": 27000192,
+        "packed_bytes": 270594,
+        "bytes": 368096,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "D7924238",
+        "offset": 27270912,
+        "packed_bytes": 86431,
+        "bytes": 113664,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "D7924239",
+        "offset": 27357440,
+        "packed_bytes": 18256,
+        "bytes": 25152,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "D792423A",
+        "offset": 27375744,
+        "packed_bytes": 9136,
+        "bytes": 13424,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "D9824DB9",
+        "offset": 27384960,
+        "packed_bytes": 3098,
+        "bytes": 5808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E5158BDD",
+        "offset": 27388160,
+        "packed_bytes": 261,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E5158BDE",
+        "offset": 27388544,
+        "packed_bytes": 262,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E5158BDF",
+        "offset": 27388928,
+        "packed_bytes": 262,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E5158BE0",
+        "offset": 27389312,
+        "packed_bytes": 262,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E5158BE1",
+        "offset": 27389696,
+        "packed_bytes": 262,
+        "bytes": 656,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E8077A77",
+        "offset": 27390080,
+        "packed_bytes": 265523,
+        "bytes": 359616,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E8077A78",
+        "offset": 27655680,
+        "packed_bytes": 84413,
+        "bytes": 109824,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E8077A79",
+        "offset": 27740160,
+        "packed_bytes": 17459,
+        "bytes": 23440,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "E8077A7A",
+        "offset": 27757696,
+        "packed_bytes": 9463,
+        "bytes": 13808,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EA2183FF",
+        "offset": 27767168,
+        "packed_bytes": 116463,
+        "bytes": 194224,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EA218400",
+        "offset": 27883648,
+        "packed_bytes": 116461,
+        "bytes": 194224,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EA218401",
+        "offset": 28000128,
+        "packed_bytes": 116463,
+        "bytes": 194224,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EA218402",
+        "offset": 28116608,
+        "packed_bytes": 116463,
+        "bytes": 194224,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EB506D56",
+        "offset": 28233088,
+        "packed_bytes": 268964,
+        "bytes": 364336,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EB506D57",
+        "offset": 28502144,
+        "packed_bytes": 86414,
+        "bytes": 112832,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EB506D58",
+        "offset": 28588672,
+        "packed_bytes": 18355,
+        "bytes": 24848,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EB506D59",
+        "offset": 28607104,
+        "packed_bytes": 9274,
+        "bytes": 13312,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EE0A2D0B",
+        "offset": 28616448,
+        "packed_bytes": 723112,
+        "bytes": 1071520,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EE0A2D0C",
+        "offset": 29339648,
+        "packed_bytes": 723154,
+        "bytes": 1071424,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EE0A2D0D",
+        "offset": 30062848,
+        "packed_bytes": 723071,
+        "bytes": 1071328,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "EE0A2D0E",
+        "offset": 30786048,
+        "packed_bytes": 722774,
+        "bytes": 1071136,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "FF0E9875",
+        "offset": 31508864,
+        "packed_bytes": 264489,
+        "bytes": 357568,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "FF0E9876",
+        "offset": 31773440,
+        "packed_bytes": 84089,
+        "bytes": 109184,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "FF0E9877",
+        "offset": 31857664,
+        "packed_bytes": 16481,
+        "bytes": 21616,
+        "compressed": true,
+        "flags": 512
+      },
+      {
+        "hash": "FF0E9878",
+        "offset": 31874176,
+        "packed_bytes": 9139,
+        "bytes": 13280,
+        "compressed": true,
+        "flags": 512
+      }
+    ],
+    "readable_headers": [],
+    "compressed_count": 186,
+    "named_count": 0,
+    "mesh_validation": "not performed"
+  }
+]

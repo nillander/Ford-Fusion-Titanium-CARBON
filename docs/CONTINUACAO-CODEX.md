@@ -1,5 +1,13 @@
 # Passagem para o Codex — 07/10/2026, manhã
 
+> **Estado mais recente — 11:06:** instalado `stage-dynamic-lights`.
+> Vermelho visível nas lanternas e refletores após usar HEADLIGHT_RIGHT e
+> BRAKELIGHT_RIGHT do MUSTANGGT oficial. DXT1 isolado e difuso isolado não
+> corrigiram. Miolo branco/partes cinza, frente, milha, luzes ON e adesivos
+> Mustang ainda pendentes. Ler o fim do README e da sessão Codex; os estados
+> anteriores abaixo são histórico. GEOMETRY `8158464702D4B7805844C60E392121ABF72356E41AC4AA905725578CEC2FB4EE`;
+> TEXTURES `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC`.
+
 > **Atualização após execução pelo Codex:** recompilação e auditoria concluídas;
 > instalação experimental ativa e Fusion 2018 com rodas observado no jogo.
 > Ler `docs/SESSAO-CODEX-2026-10-07.md` e o TODO atualizado para o estado atual.

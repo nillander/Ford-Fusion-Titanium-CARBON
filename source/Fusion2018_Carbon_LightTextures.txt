@@ -1,0 +1,1 @@
+# Full official light state names; DDS aliases retain Fusion pixels.

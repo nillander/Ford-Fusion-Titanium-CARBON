@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "solids": 186,
+  "diffuse_rear_lenses": [
+    "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
+    "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
+    "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
+    "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D"
+  ],
+  "unchanged_solids": 182,
+  "textures_unchanged": true,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-diffuse-brake/GEOMETRY.BIN",
+      "bytes": 31883392,
+      "sha256": "283C43EF2F348BE25484ADDD326E40A7DB7E7ED2CEC933556335C9E38F21DF1D"
+    },
+    {
+      "path": "work/carbon2018-stage-diffuse-brake/TEXTURES.BIN",
+      "bytes": 723547,
+      "sha256": "8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC"
+    }
+  ],
+  "status": "diffuse material comparison; game QA pending"
+}

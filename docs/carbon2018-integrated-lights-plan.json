@@ -1,0 +1,42 @@
+[
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_A",
+    "indices": 13476,
+    "lens_triangles": 1997
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_B",
+    "indices": 6729,
+    "lens_triangles": 997
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_C",
+    "indices": 2958,
+    "lens_triangles": 439
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_HEADLIGHT_D",
+    "indices": 2958,
+    "lens_triangles": 439
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_A",
+    "indices": 10473,
+    "lens_triangles": 1495
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_B",
+    "indices": 5235,
+    "lens_triangles": 747
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_C",
+    "indices": 2298,
+    "lens_triangles": 328
+  },
+  {
+    "part": "MUSTANGGT_KIT00_RIGHT_BRAKELIGHT_D",
+    "indices": 2298,
+    "lens_triangles": 328
+  }
+]

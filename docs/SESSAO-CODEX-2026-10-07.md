@@ -174,3 +174,73 @@ isolar vinil no menu antes de modificar arquivos globais ou deformar a carroceri
 
 Próximo teste: lanternas vermelhas/brancas, refletores acima dos escapes, lentes
 dos faróis e milha; confirmar adesivos removidos. Depois corrida/kit e restante TODO.
+
+## Comparações das lentes e retorno aos aprendizados MW
+
+1. Oito lentes integradas aos sólidos principais, com os oito sólidos separados
+   ocultos para evitar duplicação; outros 170 sólidos intactos. O erro `NumVerts`
+   do compiler multimaterial foi corrigido por faixas reais do índice/buffer.
+2. Atlas DDS instalado igual ao MW, inclusive RGB vermelho e alpha; exportação
+   independente conferiu os pixels. O problema não era ausência de vermelho no DDS.
+3. 18 texturas com oito nomes/hashes oficiais completos das luzes: exportação e
+   pixels validados; lanternas ainda cinza e faixas Mustang visíveis no jogo.
+4. Usuário lembrou o problema MW de textura incorreta. Lidos README e
+   APRENDIZADOS §§1,16,18: distinguir DXT/profundidade, UV preta e material difuso.
+5. Cinco aliases traseiros DXT3→DXT1 com RGB exatamente idêntico, 13 outros DDS
+   e GEOMETRY intactos. Auditoria aprovada, instalado e observado: ainda cinza.
+   Captura `docs/imagens/2018-dxt1-lanternas-cinza.png`.
+6. Preparado `scripts/prepare-diffuse-brake-lenses.py` →
+   `work/carbon-compiler/geometry-diffuse-brake.bin`: quatro materiais traseiros
+   restaurados a `0FEDEE40` (DULLPLASTIC), confirmado no MUSTANGGT oficial
+   `KIT00_REAR_BUMPER_BADGING_SET_A`; flags do grupo 0x4180. Demais 182 sólidos
+   iguais. Ainda depende de normalização CarToolkit, auditoria e teste no jogo.
+
+Instalação atual: `stage-opaque-brake`; VINYLS, GLOBAL e VLT não alterados.
+O helper de UI alternou foco/screenshot para Chrome durante a tentativa de
+exportação. Não usar coordenadas de uma janela cuja imagem seja de outro app.
+
+## Material difuso e vínculos dinâmicos — 11:01–11:07
+
+A comparação difusa foi exportada e auditada (186 sólidos, 182 inalterados;
+quatro materiais/flags editados). Instalada às 11:01, continuou mostrando lentes
+cinza: `docs/imagens/2018-difuso-lanternas-cinza.png`.
+
+Pesquisa solicitada pelo usuário antes da próxima tentativa:
+- AJ_Lethal, relato direto no fórum CarToolkit: https://www.nfsaddons.com/forums/index.php?topic=2412.0
+  BRAKELIGHT_RIGHT é uma referência dinâmica, não o atlas final.
+- nfsu360: https://nfs-tools.blogspot.com/2010/01/nfsu2mw-texture-compiler-usage.html
+  Nomes completos dos atlas Carbon OFF/ON/GLASS.
+- Exemplo oficial das ferramentas: `tools/vendor/carbon-modtools/NFS Carbon ModTools v1.1/bugatti_source/geometry/matlist.txt`.
+  HEADLIGHTREFLECTOR/HEADLIGHT_RIGHT, BRAKELIGHT/BRAKELIGHT_RIGHT e referências
+  *_GLASS_RIGHT para vidro. Usado como documentação, não como doador.
+- `tools/vendor/cartoolkit/app/NFS-CarToolkit/Data/Carbon/ViewerMappings.txt`
+  mapeia referências dinâmicas para %_KIT00_*_ON/GLASS_ON na prévia.
+- MUSTANGGT oficial: HEADLIGHT_RIGHT F68EF19F, BRAKELIGHT_RIGHT 02B52399;
+  vidro do farol usa OpacityMapId separado apontando AAA0BE3C (GLASS_OFF).
+  Nosso port integrado ainda usa um único slot de textura por sólido.
+
+`prepare-dynamic-light-textures.py` extrai hashes do doador e altera apenas
+quatro bytes na tabela de textura de cada um dos oito sólidos principais A-D.
+`verify-dynamic-light-textures.py` confere exatamente esse escopo após exportação;
+178 outros sólidos e todo TPK iguais. Instalação às 11:06, hashes no log.
+
+RESULTADO: vermelho visível nas lentes de lanternas e refletores traseiros.
+Captura `docs/imagens/2018-dinamico-lanternas-vermelhas.png`. Miolo branco ainda
+mostra cinza, faixas Mustang persistem. O teste identifica que o vínculo direto
+abreviado era inadequado neste port; não demonstra que DXT1/difuso são necessários.
+Próxima comparação: manter vínculos dinâmicos e revisar vidro/OpacityMapId segundo
+MUSTANGGT oficial, frente e milha; depois vinil de fábrica/save. ON ainda duplica OFF.
+
+Instalação atual supersede `stage-opaque-brake`: `stage-dynamic-lights`.
+Antes de compilar novamente o carro inteiro, restaurar mpoints/link originais
+em `work/carbon-compiler` a partir de `work/carbon2018-source-axes`; os arquivos
+atuais do compiler foram preparados para oito luzes sem marcadores.
+
+## Encerramento solicitado pelo usuário
+
+Usuário confirmou “apareceram” com captura traseira das lentes e refletores,
+solicitou fechar o aprendizado e fazer commit para Claude continuar.
+Captura preservada em `docs/imagens/2018-confirmacao-usuario-lanternas.png`.
+README, TODO e CONTINUACAO-CLAUDE atualizados com estado instalado, resultado,
+limites da confirmação, fontes e próximos testes. Nenhuma nova alteração no
+jogo após essa confirmação; não foi solicitado enviar mensagem ao Claude.

@@ -149,7 +149,10 @@ o veículo do exemplo não é doador deste port.
 ### Texturas e atributos não podem ser certificados só pelo nome
 
 As luzes foram renomeadas para `MUSTANGGT_BRAKE_OFF` e `MUSTANGGT_HEAD_OFF`,
-respeitando os 23 caracteres. As 10 texturas Carbon passaram na descompressão,
+seguindo naquele teste o limite de 23 caracteres do pipeline MW. Esse limite
+não vale como regra geral para o CarToolkit/Carbon: o doador oficial tem nomes
+de luzes maiores, que precisam manter os hashes completos. As 10 texturas
+Carbon passaram na descompressão,
 conferência de hashes, dimensões, formatos DXT e dados dos mipmaps declarados.
 A fonte tem apenas um nível de mipmap: isso não certifica qualidade à distância.
 BADGING e SKIN19 ainda usam DXT3 e precisam de revisão de alpha/opacidade.
@@ -286,3 +289,77 @@ atlases DEBUG/MASK; não alterados neste teste.
 complementa a passagem das 02:31 e deve ser lida antes de continuar.
 
 Próxima sessão do Codex: [docs/CONTINUACAO-CODEX.md](docs/CONTINUACAO-CODEX.md).
+
+### Lentes: comparações e aprendizados recuperados do MW
+
+Integrar as lentes aos oito sólidos principais de faróis/lanternas preservou
+170 outros sólidos, incluindo a carroceria e os pontos de montagem. O compiler
+preencheu `NumVerts` com o número de triângulos nos grupos de OBJ multimaterial;
+o ajuste calcula as faixas contíguas de vértices pelos índices e confere o buffer
+real de 48 bytes por vértice antes de exportar. A auditoria independente aprovou
+186 sólidos. A aparência cinza das lanternas continuou no jogo.
+
+O exportador inicial encurtava nomes como `MUSTANGGT_KIT00_BRAKELIGHT_OFF`.
+O doador oficial do Carbon contém esses nomes longos e hashes completos.
+A comparação `stage-lighttextures` adicionou oito aliases OFF/ON/GLASS, totalizando
+18 texturas. Todos os hashes e pixels DDS foram conferidos após descompressão.
+Isso também não eliminou as lanternas cinza. Os aliases ON ainda copiam os pixels
+OFF: não representam luzes acesas finalizadas.
+
+A pedido do usuário, foram relidos o [README do MW](../fusion-mw2005/README.md)
+e seus [aprendizados](../fusion-mw2005/docs/APRENDIZADOS.md), especialmente as
+seções 1, 16 e 18. Eles registram três diagnósticos diferentes: DXT3 em peças
+opacas prejudicava a profundidade; a UV do farol caía em região preta do atlas;
+e a lente traseira aprovada precisava conservar sua cobertura e usar o material
+difuso `DULLPLASTIC` (`0FEDEE40`). Nenhum deles deve ser transferido ao Carbon
+como causa confirmada sem comparação no jogo.
+
+`stage-opaque-brake` testa somente DXT3→DXT1 em cinco atlases traseiros.
+Os blocos RGB foram preservados sem recompressão; a leitura dos DDS confirma
+cada pixel RGB idêntico. Geometria e outras 13 texturas permanecem iguais.
+**Resultado observado: as lanternas continuam cinza e as faixas Mustang persistem.**
+A comparação seguinte, `stage-diffuse-brake`, restaurou o material difuso das quatro
+lentes traseiras integradas, usando o mesmo hash encontrado no MUSTANGGT oficial.
+Só o material e uma flag por lente mudaram; os outros 182 sólidos e o TPK ficaram
+iguais. Exportada, auditada e instalada às 11:01: as lanternas continuaram cinza.
+
+![Lanternas ainda cinza na comparação DXT1](docs/imagens/2018-dxt1-lanternas-cinza.png)
+
+Auditorias: `docs/carbon2018-stage-integrated-verification.json`,
+`docs/carbon2018-stage-lighttextures-verification.json` e
+`docs/carbon2018-stage-opaque-brake-verification.json`. A validação estrutural
+não aprova o acabamento. Lentes, refletores, faróis, milha, iluminação em corrida
+e vinil de fábrica continuam pendentes.
+
+### Slots dinâmicos: primeira melhora das lanternas no jogo
+
+A pesquisa encontrou a explicação de AJ_Lethal: nomes como `BRAKELIGHT_RIGHT`
+representam referências para troca dinâmica, usadas no material da geometria.
+O autor das ferramentas também lista os atlas completos OFF/ON/GLASS do Carbon.
+Fontes: [relato no fórum CarToolkit](https://www.nfsaddons.com/forums/index.php?topic=2412.0)
+e [documentação de texturas de nfsu360](https://nfs-tools.blogspot.com/2010/01/nfsu2mw-texture-compiler-usage.html).
+O exemplo Bugatti fornecido com Carbon ModTools e o `ViewerMappings.txt` do
+CarToolkit usam esses vínculos. O MUSTANGGT oficial confirmou os hashes:
+`HEADLIGHT_RIGHT = F68EF19F`, `BRAKELIGHT_RIGHT = 02B52399`.
+
+`stage-dynamic-lights` troca somente oito hashes de referência nos sólidos
+principais A–D. Não muda UV, posição, índices, shaders, flags nem DDS em relação
+à comparação difusa. Auditoria byte a byte aprovada; instalado às 11:06.
+**Resultado observado: o vermelho apareceu nas lentes traseiras e nos refletores
+acima dos escapes.** Isso identifica um problema no vínculo direto das texturas
+neste port. Não prova que a compressão ou o material anteriores eram ideais:
+as comparações seguintes devem avaliar esses pontos separadamente.
+
+![Vermelho visível após usar os slots dinâmicos oficiais](docs/imagens/2018-dinamico-lanternas-vermelhas.png)
+
+O miolo branco ainda mostra elementos cinza, e as faixas Mustang persistem.
+Faróis, milha, transparência, estados acesos e kits ainda precisam de QA.
+O usuário confirmou que as lentes apareceram e solicitou encerrar o aprendizado
+para o Claude continuar. A confirmação vale para o aparecimento observado;
+o acabamento completo e a release continuam pendentes.
+
+![Confirmação do usuário: lanternas e refletores visíveis](docs/imagens/2018-confirmacao-usuario-lanternas.png)
+
+O doador do port continua sendo o MUSTANGGT oficial; o Bugatti serviu apenas
+como documentação das ferramentas. A auditoria atual está em
+`docs/carbon2018-stage-dynamic-lights-verification.json`.

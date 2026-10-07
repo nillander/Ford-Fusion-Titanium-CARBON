@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "textures": 18,
+  "all_dds_pixels_identical": true,
+  "geometry_unchanged": true,
+  "light_state_aliases": {
+    "C0F45B0F": "MUSTANGGT_KIT00_BRAKELIGHT_GLASS_OFF",
+    "A0FFA5B1": "MUSTANGGT_KIT00_BRAKELIGHT_GLASS_ON",
+    "4B7D95B6": "MUSTANGGT_KIT00_BRAKELIGHT_OFF",
+    "7E68A778": "MUSTANGGT_KIT00_BRAKELIGHT_ON",
+    "AAA0BE3C": "MUSTANGGT_KIT00_HEADLIGHT_GLASS_OFF",
+    "EDE5D73E": "MUSTANGGT_KIT00_HEADLIGHT_GLASS_ON",
+    "95DE5B23": "MUSTANGGT_KIT00_HEADLIGHT_OFF",
+    "59DFF345": "MUSTANGGT_KIT00_HEADLIGHT_ON"
+  },
+  "files": [
+    {
+      "path": "work/carbon2018-stage-lighttextures/GEOMETRY.BIN",
+      "bytes": 31883392,
+      "sha256": "1EC7A01A79AE29AD7582F5AE0B182EFAE500CA83B12BFDA8F2302C0A75684460"
+    },
+    {
+      "path": "work/carbon2018-stage-lighttextures/TEXTURES.BIN",
+      "bytes": 974273,
+      "sha256": "F1C8C4999C74F4E35A531EAD72ED6091952E4E9FA7CA330DC908310168E924D2"
+    }
+  ],
+  "status": "OFF atlases also used for ON aliases; appearance and illumination require game QA"
+}

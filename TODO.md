@@ -13,13 +13,15 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 | Primeiro teste / documentação | Instalação reversível; Fusion 2018 visível com rodas; captura em jogo e galeria de ferramenta | Corrida, kits, acabamento e QA completo |
 | 2012 / entrega | Referências e marcadores disponíveis | Port CAMARO, VLT FWD, instalação, QA e release |
 
-**Próxima ação:** confirmar o teste das lentes e adesivos em `work/carbon2018-stage-lenses`,
-instalado experimentalmente às 10:28. O usuário considera a carroceria boa, sem
-outras deformações percebidas; o foco passa para lentes e adesivos originais deslocados.
-O novo staging adapta 8 materiais de lentes ao MUSTANGGT oficial e oculta 26
-superfícies DECAL herdadas. 152 sólidos, incluindo carroceria, permanecem idênticos.
-`stage-colors` e `stage-axes` são comparações anteriores. A exibição das lentes e
-a remoção das faixas ainda precisam de confirmação no jogo; VINYLS continua original.
+**Próxima ação:** terminar acabamento/QA em `work/carbon2018-stage-dynamic-lights`,
+instalado às 11:06. As lentes vermelhas das lanternas e os refletores passaram a
+aparecer após trocar oito referências diretas de atlas pelos slots dinâmicos
+HEADLIGHT_RIGHT/BRAKELIGHT_RIGHT do MUSTANGGT oficial. Ainda há partes cinza nas
+lanternas e faixas Mustang deslocadas. Conferir frente, miolo branco e iluminação.
+DXT1 sozinho e material difuso sozinho não corrigiram; a alteração dos vínculos
+dinâmicos foi a primeira comparação com resultado vermelho visível. A auditoria
+confirma só oito hashes alterados sobre `stage-diffuse-brake`; 178 sólidos intactos.
+VINYLS continua original. Pesquisa e capturas estão no README e na sessão Codex.
 Reversão: fechar o jogo e executar `scripts/test-install-2018.ps1 -Action Restore`.
 Ler [README.md](README.md) e [sessão Claude](docs/SESSAO-CLAUDE-2026-10-07.md).
 
@@ -150,7 +152,7 @@ Decisão:
 - [ ] Abrir `GEOMETRY.BIN` MW no CarToolkit; reexportar com **Game = Carbon**
   - [x] 2018: exportação preliminar Carbon em `work/carbon2018-stage`, 186 sólidos MUSTANGGT validados; compatibilidade com doador ainda pendente
   - [ ] 2012: retarget `COBALTSS` → `CAMARO` (renomear sólidos/marcadores)
-- [ ] Reexportar `TEXTURES.BIN` no mesmo XNAME; nomes ≤ 23 chars
+- [ ] Reexportar `TEXTURES.BIN` no mesmo XNAME; preservar nomes/hashes oficiais das luzes. O limite de 23 caracteres era do pipeline MW, não uma regra geral do Carbon/CarToolkit.
   - [x] 2018: 10 texturas Carbon reexportadas e lidas independentemente; hashes conferidos com o remapeamento
   - [ ] 2012: exportar no XNAME CAMARO e validar nomes/hashes
 - [ ] Validar ≤ 65535 vértices **e índices**/sólido; LODs; kits que cutscenes/IA do slot pedem
@@ -176,8 +178,13 @@ Decisão:
   - [ ] 2018: corrida e seleção de kits; corrigir artefatos visuais observados
   - [x] Usuário considera carroceria 2018 satisfatória, sem outras deformações percebidas (avaliação visual, não QA completo)
   - [x] Adaptar configurações de material de 8 sólidos de lentes ao doador oficial; ocultar 26 superfícies de adesivos herdadas; preservar carroceria e texturas
-  - [ ] Confirmar lentes vermelhas/brancas das lanternas no teste `stage-lenses`
-  - [ ] Confirmar lentes vermelhas dos refletores acima dos escapamentos
+  - [x] Integrar oito lentes nos sólidos principais e validar 170 sólidos restantes intactos; teste ainda mostrou lanternas cinza
+  - [x] Exportar 18 texturas com oito aliases dos estados oficiais das luzes; todos os hashes e pixels validados, sem correção visual confirmada
+  - [x] Ler README e APRENDIZADOS do MW; preparar e instalar comparação DXT1 traseira com RGB e geometria preservados
+  - [x] Comparar DXT1 e material difuso isoladamente: lanternas continuaram cinza nos dois testes
+  - [x] Pesquisar documentação/relatos do CarToolkit e comparar slots dinâmicos do Mustang oficial; instalar oito vínculos dinâmicos, vermelho visível nas lanternas/refletores
+  - [ ] Aprovar lentes vermelhas/brancas completas: vermelho apareceu, mas miolo branco e partes cinza ainda exigem revisão
+  - [x] Confirmar aparecimento das lentes vermelhas das lanternas e refletores acima dos escapamentos: observado em `stage-dynamic-lights` e confirmado pelo usuário com captura
   - [ ] Confirmar lentes dos faróis e dos faróis de milha
   - [ ] Confirmar remoção dos adesivos “Mustang”; se persistirem, investigar vinil de fábrica/pintura do save separadamente dos sólidos DECAL
   - [ ] 2012: início da carreira
@@ -274,7 +281,7 @@ Decisão:
 - Kit/body ausente = carro invisível (IA, cutscenes, presets do slot)
 - Camaro stock é RWD — esquecer `TORQUE_SPLIT` FWD deixa o 2012 errado
 - Substituir `CAMARO` afeta qualquer conteúdo que use esse slot (rivais, eventos)
-- DXT3 em opaco / textura > 23 chars / UV 0–1 nas luzes (aprendizados MW)
+- DXT3 em opaco / UV 0–1 nas luzes (aprendizados MW). Não aplicar o limite do mwtc de 23 caracteres aos nomes oficiais do Carbon exportados pelo CarToolkit.
 - Geometry MW sem reexport Carbon = hash/XNAME errado mesmo com pasta certa
 - Editar VLT sem backup = save quebrado
 

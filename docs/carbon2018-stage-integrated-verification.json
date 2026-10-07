@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "solids": 186,
+  "integrated_main_lights": 8,
+  "hidden_separate_lenses": 8,
+  "unchanged_solids": 170,
+  "files": [
+    {
+      "path": "work/carbon2018-stage-integrated/GEOMETRY.BIN",
+      "bytes": 31883392,
+      "sha256": "1EC7A01A79AE29AD7582F5AE0B182EFAE500CA83B12BFDA8F2302C0A75684460"
+    },
+    {
+      "path": "work/carbon2018-stage-integrated/TEXTURES.BIN",
+      "bytes": 484123,
+      "sha256": "59BD3711E7E26B70C3C4C11F3CAF7FE99FDBEC95FC3C8CAF3CEEE815AF06F76F"
+    }
+  ],
+  "status": "experimental integrated-light test; visual confirmation pending"
+}

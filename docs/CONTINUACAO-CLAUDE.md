@@ -1,4 +1,58 @@
-# Passagem para Claude — 07/10/2026 às 02:31
+# Passagem para Claude — atualização de 07/10/2026, 11:07
+
+## Estado atual confirmado pelo usuário
+
+O Fusion 2018 aparece no Carbon. A carroceria foi considerada boa pelo usuário.
+Em `stage-dynamic-lights`, as lentes vermelhas das lanternas e os refletores acima
+dos escapamentos apareceram; o usuário confirmou com captura e pediu o commit
+para você continuar. As faixas Mustang deslocadas persistem e o miolo das
+lanternas ainda mostra elementos cinza. Não tratar como release aprovada.
+
+Instalação atual, somente MUSTANGGT GEOMETRY/TEXTURES:
+
+- GEOMETRY SHA-256: `8158464702D4B7805844C60E392121ABF72356E41AC4AA905725578CEC2FB4EE`
+- TEXTURES SHA-256: `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC`
+- Staging: `work/carbon2018-stage-dynamic-lights`.
+- Auditoria/gate: `docs/carbon2018-stage-dynamic-lights-verification.json`.
+- VINYLS, GLOBAL e VLT permanecem anteriores; o carro ainda se chama Mustang e
+  usa a performance do slot. Fusion 2012 ainda não foi portado.
+
+### Aprendizado que resolveu o aparecimento
+
+O port referenciava diretamente os atlas abreviados HEAD_OFF/BRAKE_OFF. Os DDS
+tinham os pixels corretos, mas o jogo não os exibia nas lentes. Nomes completos
+no TPK, DXT1 isolado e material difuso isolado não resolveram.
+Oito referências de textura nos sólidos principais A–D foram então trocadas
+pelos hashes dinâmicos do MUSTANGGT oficial: `HEADLIGHT_RIGHT` (`F68EF19F`) e
+`BRAKELIGHT_RIGHT` (`02B52399`). Só esses oito hashes mudaram no último teste;
+178 sólidos e todas as texturas ficaram idênticos. O vermelho apareceu.
+As fontes da pesquisa e capturas estão no fim do README e da sessão Codex.
+
+### Próximos passos
+
+1. Conferir faróis/milha, lente branca da lanterna e transparência; preservar
+   cobertura externa. O vidro do farol oficial possui diffuse dinâmico e
+   OpacityMapId separado para GLASS_OFF, enquanto a integração atual usa uma
+   única entrada de textura. Comparar essa estrutura antes de novas mudanças.
+2. Manter o vínculo dinâmico e comparar DXT3/material de vidro reversivelmente:
+   o último teste ainda herda DXT1 traseiro + difuso. Não concluir que ambos
+   são necessários só porque a combinação final apareceu.
+3. Corrigir estados ON: os oito aliases atuais copiam os atlas OFF. Fazer QA
+   em corrida, freio, ré, faróis e LODs/kits antes de aprovar iluminação.
+4. Resolver faixas Mustang via vinil de fábrica/save/UV. Ocultar 26 sólidos
+   DECAL não removeu as faixas; VINYLS continua stock. Não apagar emblemas Fusion.
+5. Seguir TODO para kits, VLT/FE e Fusion 2012 no CAMARO, preservando CAMARON.
+
+Para recriar aliases: `scripts/prepare-light-texture-aliases.py`; importar a pasta
+resultante no CarToolkit e exportar Carbon com
+`source/Fusion2018_Carbon_LightTextures.txt`. O limite de 23 caracteres do mwtc
+não é regra geral do Carbon; manter nomes/hashes oficiais completos das luzes.
+Antes de compilar o carro inteiro, restaurar mpoints/link de
+`work/carbon2018-source-axes` no cwd do compiler: os atuais são do teste só de luzes.
+Fechar NFSC antes de instalar; usar gate específico em `test-install-2018.ps1`.
+Reversão stock: `scripts/test-install-2018.ps1 -Action Restore` com o jogo fechado.
+
+## Passagem original — 02:31 (histórico; supersedida pelo estado acima)
 
 Retomada informada pelo usuário, America/Sao_Paulo. Este documento não agenda a sessão.
 Assumir TODO.md; ao parar, atualizar os registros e fazer commit com coautoria do agente.
