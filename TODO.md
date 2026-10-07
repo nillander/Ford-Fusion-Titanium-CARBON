@@ -74,10 +74,14 @@ Fontes principais (úteis mesmo em replace):
 
 - [ ] **Binary** ≥ 2.9 (strings/logo/global se necessário)
 - [ ] **NFS-VltEd** ≥ 4.6 (FE + performance nos slots)
+  - [x] Extraído em `tools/vendor/cartoolkit/vlted/` (7-Zip; SHA-256 em `docs/SESSAO-CLAUDE-2026-10-07.md`); ainda não operado
+  - [x] Leitor próprio somente-leitura do VPAK Carbon: `scripts/vlt_dump.py` (classes/coleções/pais; não lê valores de campo)
 - [x] **NFS-CarToolkit 3.1** e **Carbon ModTools 1.1**, obtidos e operados; proveniência em `tools/README.md`
 - [ ] Backup limpo do Carbon (já há pasta `Backup` no jogo)
+  - [x] Doadores e GLOBAL conferidos byte a byte com `reference/` (SHA-256 iguais em 07/10 02:40)
 - [x] Espelhar utilitários MW selecionados e RetargetSlot em `tools/vendor/mw`; manifesto em `tools/toolchain-manifest.json` (não convertem formato para Carbon)
 - [ ] Unlimiter **não** é requisito para este replace; só se o jogo já estiver modado com add-ons
+  - Nota 07/10: o jogo **já tem** NFSCUnlimiter, ExtraOptions, WidescreenFix e DLC Unlocker em `scripts/`; considerar no QA
 
 ---
 
@@ -89,7 +93,7 @@ Fontes principais (úteis mesmo em replace):
   - [x] `MUSTANGGT` → Fusion 2018 (destino Carbon: `MUSTANGGT`)
   - [x] `COBALTSS` → Fusion 2012 (destino Carbon: `CAMARO`)
 - [x] Copiar referência instalada Carbon: `CARS/CAMARO` e `CARS/MUSTANGGT` → `reference/carbon-stock/`; backup GLOBAL em `reference/carbon-global-before/`
-- [ ] Confirmar origem oficial/vanilla dos doadores copiados (Backup do jogo só contém localização)
+- [x] Confirmar origem oficial/vanilla dos doadores copiados — evidência forte, não criptográfica: BIN de `CAMARO`/`MUSTANGGT` e `GLOBAL/*attrib*` com mtime de build 2006-10-14/16, iguais aos carros intocados; sem `_backup_stock` desses slots (ver sessão 07/10)
 - [ ] Inventariar peças/sólidos do MW e do stock Carbon (kits, AutoSculpt, spoiler AS, damage) e mapear o que falta no port
   - [x] Descomprimir e nomear 848 CAMARO + 997 MUSTANGGT; leitura independente das 1845 malhas
   - [x] Mapa inicial MUSTANGGT: 86 correspondências exatas com os 186 sólidos Fusion MW; 911 nomes do doador sem correspondência exata (não significa 911 peças obrigatórias)
@@ -107,9 +111,10 @@ Decisão:
 | 2018 AWD | Mustang GT | `CARS/MUSTANGGT` |
 
 - [x] Slots Carbon definidos: `CAMARO` + `MUSTANGGT`
-- [ ] Confirmar no VLT/FE que `CAMARO` é o carro inicial da carreira (não `CAMARON`)
-- [ ] Listar nós VLT a editar: `camaro` / `camaro_top` (se houver) e `mustanggt` / `mustanggt_top`
-- [ ] Confirmar manufacturer Ford no FE de ambos
+- [x] Confirmar no VLT/FE que `CAMARO` é o carro inicial da carreira (não `CAMARON`): `CAMARO` = Camaro SS 67 (opção muscle inicial, ao lado de RX-8 e Brera); `CAMARON` = `camaro_concept` no FE. Prova final só em jogo
+- [x] Listar nós VLT a editar: não existem `_top`; coleções `camaro`/`mustanggt` em pvehicle, engine, transmission, chassis, tires, brakes, induction, ecar e mais 6 classes (`docs/vlt-slots.json`)
+  - **Atenção:** `pvehicle/camaron` herda de `pvehicle/camaro`. Campos que `camaron` não sobrescreve mudam junto; `transmission/camaron` é coleção própria (FWD no `camaro` não afeta o CAMARON)
+- [x] Confirmar manufacturer Ford no FE de ambos: `frontend/mustanggt` herda de `ford` (ok); `frontend/camaro` herda de `chevrolet` → precisa mudar para `ford` no VltEd
 - [ ] Decidir se 2018 fica RWD (como MW VLT) ou tenta AWD real no Carbon
 - [ ] 2012: forçar FWD no VLT do Camaro (stock Camaro é RWD — precisa mudar `TORQUE_SPLIT` e sensação)
 
@@ -126,7 +131,12 @@ Decisão:
   - [x] Reexportar e ler independentemente 10 texturas Carbon; nomes de luzes encurtados para ≤ 23 caracteres
   - [ ] QA visual da simplificação, materiais, cores de vértices, bordas e UVs
 - [ ] DXT1 em opacos; DXT3 só lente/vidro
+- [ ] **BLOQUEADOR (07/10): staging 2018 está girado 90° no eixo Z.** O nfscgc grava (x′,y′)=(y,−x); doador tem X frente, staging tem Y frente. Fonte corrigida em `work/carbon2018-source-axes` (`scripts/prepare-compiler-input.py`); recompilar no GUI e reauditar
 - [ ] Mount points vs stock `CAMARO` / `MUSTANGGT` (rodas, exhaust, spoiler, luzes)
+  - [x] Extrair marcadores do doador (`docs/mustanggt-stock-markers.json`, 296; `docs/camaro-stock-markers.json`, 276) e do MW (`docs/mw2018-markers.json`, `docs/mw2012-markers.json`)
+  - [x] `mpoints.txt` + 165 OBJ de ponto de montagem para o 2018 (lados normalizados LEFT=+Y; anexos iguais ao doador)
+  - [ ] Compilar, conferir posições e matrizes dos marcadores contra o doador
+  - [ ] Sem fonte ainda: `LICENSEPLATE`, `ROOF_SCOOP` (Fusion não tem `KIT00_ROOF`), `LEFT/RIGHT_EXHAUST` dos para-choques
 - [ ] Smoke-test: início da carreira com Fusion 2012; Mustang slot com Fusion 2018
 
 ---

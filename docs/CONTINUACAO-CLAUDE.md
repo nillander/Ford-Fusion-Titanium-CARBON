@@ -7,6 +7,11 @@ como doadores: CAMARO → Fusion 2012 FWD, MUSTANGGT → Fusion 2018. Preservar 
 As cópias instaladas ainda têm origem vanilla não comprovada; confirmar antes de tratá-las
 como oficiais. Não substituir por outro carro/mod.
 
+> **Atualização 07/10 (Claude):** o staging 2018 saiu **girado 90°** pelo nfscgc e
+> não tinha nenhum ponto de montagem. Fonte corrigida e `mpoints.txt` em
+> `work/carbon2018-source-axes`. Detalhes e próximos passos em
+> [SESSAO-CLAUDE-2026-10-07.md](SESSAO-CLAUDE-2026-10-07.md).
+
 ## Estado entregue
 
 - Referências v2.8 verificadas, backup CARS/GLOBAL e manifesto de 73 arquivos.

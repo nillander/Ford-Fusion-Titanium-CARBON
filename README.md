@@ -59,4 +59,6 @@ materiais e cores do doador oficial antes de instalar. OBJ não preserva cores d
 vértices; as bordas da simplificação exigem QA visual. Nenhum teste em jogo foi feito.
 `mwgc` e `RetargetSlot` continuam sendo ferramentas MW, sem conversão para Carbon.
 
-Continuação às 02:31 em [docs/CONTINUACAO-CLAUDE.md](docs/CONTINUACAO-CLAUDE.md).
+**07/10:** o staging 2018 está girado 90° (orientação do nfscgc) e sem pontos de montagem;
+não instalar. Correção pronta para recompilar: [docs/SESSAO-CLAUDE-2026-10-07.md](docs/SESSAO-CLAUDE-2026-10-07.md).
+Passagem anterior: [docs/CONTINUACAO-CLAUDE.md](docs/CONTINUACAO-CLAUDE.md).

@@ -1,0 +1,2499 @@
+{
+ "source": "work/carbon2018-source",
+ "output": "work/carbon2018-source-axes",
+ "axis_fix": "(x,y,z)->(-y,x,z)",
+ "mounts": [
+  {
+   "mount": "_LEFT_HEADLIGHT00",
+   "marker": "LEFT_HEADLIGHT",
+   "carbon_position": [
+    2.15007,
+    0.57725,
+    0.51464
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_HEADLIGHT01",
+   "marker": "LEFT_HEADLIGHT",
+   "carbon_position": [
+    2.15007,
+    0.57725,
+    0.51464
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_HEADLIGHT02",
+   "marker": "LEFT_HEADLIGHT",
+   "carbon_position": [
+    2.15007,
+    0.57725,
+    0.51464
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_HEADLIGHT03",
+   "marker": "LEFT_HEADLIGHT",
+   "carbon_position": [
+    2.15007,
+    0.57725,
+    0.51464
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_HEADLIGHT04",
+   "marker": "LEFT_HEADLIGHT",
+   "carbon_position": [
+    2.15007,
+    0.57725,
+    0.51464
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_HEADLIGHT00",
+   "marker": "RIGHT_HEADLIGHT",
+   "carbon_position": [
+    2.14979,
+    -0.57701,
+    0.51453
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_HEADLIGHT01",
+   "marker": "RIGHT_HEADLIGHT",
+   "carbon_position": [
+    2.14979,
+    -0.57701,
+    0.51453
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_HEADLIGHT02",
+   "marker": "RIGHT_HEADLIGHT",
+   "carbon_position": [
+    2.14979,
+    -0.57701,
+    0.51453
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_HEADLIGHT03",
+   "marker": "RIGHT_HEADLIGHT",
+   "carbon_position": [
+    2.14979,
+    -0.57701,
+    0.51453
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_HEADLIGHT04",
+   "marker": "RIGHT_HEADLIGHT",
+   "carbon_position": [
+    2.14979,
+    -0.57701,
+    0.51453
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_BRAKELIGHT00",
+   "marker": "LEFT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22243,
+    0.65348,
+    0.68811
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_BRAKELIGHT01",
+   "marker": "LEFT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22243,
+    0.65348,
+    0.68811
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_BRAKELIGHT02",
+   "marker": "LEFT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22243,
+    0.65348,
+    0.68811
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_BRAKELIGHT03",
+   "marker": "LEFT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22243,
+    0.65348,
+    0.68811
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_BRAKELIGHT04",
+   "marker": "LEFT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22243,
+    0.65348,
+    0.68811
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_BRAKELIGHT00",
+   "marker": "RIGHT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22271,
+    -0.65323,
+    0.68799
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_BRAKELIGHT01",
+   "marker": "RIGHT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22271,
+    -0.65323,
+    0.68799
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_BRAKELIGHT02",
+   "marker": "RIGHT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22271,
+    -0.65323,
+    0.68799
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_BRAKELIGHT03",
+   "marker": "RIGHT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22271,
+    -0.65323,
+    0.68799
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_BRAKELIGHT04",
+   "marker": "RIGHT_BRAKELIGHT",
+   "carbon_position": [
+    -2.22271,
+    -0.65323,
+    0.68799
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE00",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE01",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE02",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE03",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE04",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE00",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE01",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE02",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE03",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE04",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER00",
+   "marker": "SPOILER",
+   "carbon_position": [
+    -2.15,
+    0.0,
+    0.868
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER01",
+   "marker": "SPOILER",
+   "carbon_position": [
+    -2.15,
+    0.0,
+    0.868
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER02",
+   "marker": "SPOILER",
+   "carbon_position": [
+    -2.15,
+    0.0,
+    0.868
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER03",
+   "marker": "SPOILER",
+   "carbon_position": [
+    -2.15,
+    0.0,
+    0.868
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER04",
+   "marker": "SPOILER",
+   "carbon_position": [
+    -2.15,
+    0.0,
+    0.868
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER200",
+   "marker": "SPOILER2",
+   "carbon_position": [
+    -2.18049,
+    0.0,
+    0.92387
+   ],
+   "part": "BASE_A",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER201",
+   "marker": "SPOILER2",
+   "carbon_position": [
+    -2.18049,
+    0.0,
+    0.92387
+   ],
+   "part": "BASE_B",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER202",
+   "marker": "SPOILER2",
+   "carbon_position": [
+    -2.18049,
+    0.0,
+    0.92387
+   ],
+   "part": "BASE_C",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER203",
+   "marker": "SPOILER2",
+   "carbon_position": [
+    -2.18049,
+    0.0,
+    0.92387
+   ],
+   "part": "BASE_D",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_SPOILER204",
+   "marker": "SPOILER2",
+   "carbon_position": [
+    -2.18049,
+    0.0,
+    0.92387
+   ],
+   "part": "BASE_E",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST00",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST01",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE05",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT00_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE05",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT00_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST02",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST03",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE06",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT00_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE06",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT00_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST04",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST05",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE07",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT00_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE07",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT00_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST06",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST07",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE08",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT00_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE08",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT00_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST08",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST09",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT00_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE09",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT00_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE09",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT00_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST10",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST11",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE10",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT01_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE10",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT01_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST12",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST13",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE11",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT01_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE11",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT01_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST14",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST15",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE12",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT01_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE12",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT01_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST16",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST17",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE13",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT01_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE13",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT01_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST18",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST19",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT01_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE14",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT01_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE14",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT01_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST20",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST21",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE15",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT02_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE15",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT02_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST22",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST23",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE16",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT02_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE16",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT02_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST24",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST25",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE17",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT02_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE17",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT02_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST26",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST27",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE18",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT02_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE18",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT02_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST28",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST29",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT02_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE19",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT02_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE19",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT02_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST30",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST31",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE20",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT03_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE20",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT03_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST32",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST33",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE21",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT03_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE21",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT03_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST34",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST35",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE22",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT03_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE22",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT03_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST36",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST37",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE23",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT03_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE23",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT03_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST38",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST39",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT03_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE24",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT03_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE24",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT03_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST40",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST41",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE25",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT04_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE25",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT04_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST42",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST43",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE26",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT04_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE26",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT04_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST44",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST45",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE27",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT04_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE27",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT04_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST46",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST47",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE28",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT04_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE28",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT04_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST48",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST49",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT04_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE29",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT04_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE29",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT04_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST50",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST51",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE30",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT05_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE30",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT05_BODY_A",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST52",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST53",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE31",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT05_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE31",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT05_BODY_B",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST54",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST55",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE32",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT05_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE32",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT05_BODY_C",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST56",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST57",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE33",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT05_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE33",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT05_BODY_D",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST58",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_EXHAUST59",
+   "marker": "EXHAUST",
+   "carbon_position": [
+    -2.32,
+    -0.635,
+    0.135
+   ],
+   "part": "KIT05_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_LEFT_REVERSE34",
+   "marker": "LEFT_REVERSE",
+   "carbon_position": [
+    -2.20699,
+    0.63511,
+    0.77914
+   ],
+   "part": "KIT05_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_RIGHT_REVERSE34",
+   "marker": "RIGHT_REVERSE",
+   "carbon_position": [
+    -2.20716,
+    -0.63549,
+    0.77921
+   ],
+   "part": "KIT05_BODY_E",
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "mount": "_FRONT_BRAKE00",
+   "marker": "FRONT_BRAKE",
+   "carbon_position": [
+    0.0,
+    0.06284,
+    0.0
+   ],
+   "part": "KIT00_FRONT_TIRE_A",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_FRONT_BRAKE01",
+   "marker": "FRONT_BRAKE",
+   "carbon_position": [
+    0.0,
+    0.06284,
+    0.0
+   ],
+   "part": "KIT00_FRONT_TIRE_B",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_FRONT_BRAKE02",
+   "marker": "FRONT_BRAKE",
+   "carbon_position": [
+    0.0,
+    0.06284,
+    0.0
+   ],
+   "part": "KIT00_FRONT_TIRE_C",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_FRONT_BRAKE03",
+   "marker": "FRONT_BRAKE",
+   "carbon_position": [
+    0.0,
+    0.06284,
+    0.0
+   ],
+   "part": "KIT00_FRONT_TIRE_D",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "mount": "_FRONT_BRAKE04",
+   "marker": "FRONT_BRAKE",
+   "carbon_position": [
+    0.0,
+    0.06284,
+    0.0
+   ],
+   "part": "KIT00_FRONT_TIRE_E",
+   "rotation": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "not_mapped": {
+  "CENTRE_BRAKELIGHT": [
+   [
+    -1.17,
+    0.0,
+    1.172
+   ]
+  ],
+  "ROOF_SCOOP (Fusion n\u00e3o tem KIT00_ROOF)": [
+   [
+    0.3,
+    0.0,
+    1.207
+   ]
+  ],
+  "LICENSEPLATE (MW sem marcador; Fusion sem REAR_BUMPER)": []
+ }
+}

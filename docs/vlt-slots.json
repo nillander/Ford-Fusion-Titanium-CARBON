@@ -1,0 +1,339 @@
+{
+ "source": "GLOBAL/attributes.bin, FE_ATTRIB.bin, gameplay.bin (instala\u00e7\u00e3o atual, mtimes 2006-10-14/16)",
+ "reader": "scripts/vlt_dump.py",
+ "attributes": [
+  {
+   "class_name": "brakes",
+   "name": "mustanggt",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "brakes",
+   "name": "camaron",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "brakes",
+   "name": "camaro",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0xBD259E63",
+   "name": "muscle",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0xBD259E63",
+   "name": "camaron",
+   "parent_name": "muscle",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0xBD259E63",
+   "name": "mustanggt",
+   "parent_name": "muscle",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0xBD259E63",
+   "name": "camaro",
+   "parent_name": "muscle",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "induction",
+   "name": "camaron",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "induction",
+   "name": "camaro",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "transmission",
+   "name": "mustanggt",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "transmission",
+   "name": "camaron",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "transmission",
+   "name": "camaro",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "engine",
+   "name": "mustanggt",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "engine",
+   "name": "camaron",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "engine",
+   "name": "camaro",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "tires",
+   "name": "muscle",
+   "parent_name": "default",
+   "optional_field_names": [
+    "0x7CAFC471",
+    "0xF4BBE085"
+   ]
+  },
+  {
+   "class_name": "tires",
+   "name": "mustanggt",
+   "parent_name": "muscle",
+   "optional_field_names": [
+    "0x7CAFC471",
+    "0xC51EB1A1"
+   ]
+  },
+  {
+   "class_name": "tires",
+   "name": "camaron",
+   "parent_name": "muscle",
+   "optional_field_names": [
+    "0x7CAFC471",
+    "0xC51EB1A1"
+   ]
+  },
+  {
+   "class_name": "tires",
+   "name": "camaro",
+   "parent_name": "muscle",
+   "optional_field_names": [
+    "0x7CAFC471",
+    "0xC51EB1A1"
+   ]
+  },
+  {
+   "class_name": "chassis",
+   "name": "camaron",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "chassis",
+   "name": "mustanggt",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "chassis",
+   "name": "camaro",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0xC77AEC3D",
+   "name": "muscle",
+   "parent_name": "default",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "pvehicle",
+   "name": "muscle",
+   "parent_name": "racers",
+   "optional_field_names": [
+    "0x247E0956",
+    "0x85D4A8FD",
+    "0xC8F8F0D3"
+   ]
+  },
+  {
+   "class_name": "pvehicle",
+   "name": "mustanggt",
+   "parent_name": "muscle",
+   "optional_field_names": [
+    "transmission",
+    "0xAACBE2E7",
+    "0x9C256C4C",
+    "0xF31E1CD5",
+    "0x0E9BFB66",
+    "chassis",
+    "0x8AE8BEE0",
+    "engine",
+    "induction",
+    "brakes",
+    "tires"
+   ]
+  },
+  {
+   "class_name": "pvehicle",
+   "name": "camaro",
+   "parent_name": "muscle",
+   "optional_field_names": [
+    "transmission",
+    "nos",
+    "0xAACBE2E7",
+    "0x6DF0ABFE",
+    "0x9C256C4C",
+    "0xF31E1CD5",
+    "0x0E9BFB66",
+    "chassis",
+    "0x8AE8BEE0",
+    "engine",
+    "induction",
+    "brakes",
+    "tires"
+   ]
+  },
+  {
+   "class_name": "pvehicle",
+   "name": "camaron",
+   "parent_name": "camaro",
+   "optional_field_names": [
+    "nos",
+    "0xAACBE2E7",
+    "0x6DF0ABFE",
+    "0x9C256C4C",
+    "tires",
+    "0x8AE8BEE0",
+    "transmission",
+    "engine",
+    "induction",
+    "chassis",
+    "brakes",
+    "0x0E9BFB66"
+   ]
+  },
+  {
+   "class_name": "ecar",
+   "name": "camaron",
+   "parent_name": "racers",
+   "optional_field_names": [
+    "0x8D5BEB72",
+    "0x24CB15EA"
+   ]
+  },
+  {
+   "class_name": "ecar",
+   "name": "mustanggt",
+   "parent_name": "racers",
+   "optional_field_names": [
+    "0x8D5BEB72",
+    "0x24CB15EA"
+   ]
+  },
+  {
+   "class_name": "ecar",
+   "name": "camaro",
+   "parent_name": "racers",
+   "optional_field_names": [
+    "0x8D5BEB72",
+    "0x24CB15EA"
+   ]
+  },
+  {
+   "class_name": "0x291C0DAE",
+   "name": "muscle",
+   "parent_name": "default",
+   "optional_field_names": [
+    "0x416A8409"
+   ]
+  },
+  {
+   "class_name": "0x20D08342",
+   "name": "muscle",
+   "parent_name": "default",
+   "optional_field_names": [
+    "0x94E3C795"
+   ]
+  }
+ ],
+ "frontend": [
+  {
+   "class_name": "0x85885722",
+   "name": "stock_camaron",
+   "parent_name": "preset_skins",
+   "optional_field_names": [
+    "0xB14385D8"
+   ]
+  },
+  {
+   "class_name": "0x85885722",
+   "name": "alt_camaron",
+   "parent_name": "preset_skins",
+   "optional_field_names": [
+    "0xB14385D8",
+    "0x9604791E"
+   ]
+  },
+  {
+   "class_name": "0x85885722",
+   "name": "chevrolet",
+   "parent_name": "north_america",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0x85885722",
+   "name": "ford",
+   "parent_name": "north_america",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0x85885722",
+   "name": "mustanggt",
+   "parent_name": "ford",
+   "optional_field_names": [
+    "0xEA7F3FE4",
+    "0x4D3B62F3",
+    "0x0E141CDE"
+   ]
+  },
+  {
+   "class_name": "0x85885722",
+   "name": "camaro_concept",
+   "parent_name": "chevrolet",
+   "optional_field_names": []
+  },
+  {
+   "class_name": "0x85885722",
+   "name": "camaro",
+   "parent_name": "chevrolet",
+   "optional_field_names": []
+  }
+ ],
+ "gameplay": [
+  {
+   "vault": "gpcore",
+   "class_name": "0x5CEA9D46",
+   "name": "rewards/car_unlocks/camaro",
+   "parent_name": "vehicle_unlock"
+  },
+  {
+   "vault": "gpcore",
+   "class_name": "0x5CEA9D46",
+   "name": "rewards/car_unlocks/camaron",
+   "parent_name": "vehicle_unlock"
+  },
+  {
+   "vault": "gpcore",
+   "class_name": "0x5CEA9D46",
+   "name": "rewards/car_unlocks/mustanggt",
+   "parent_name": "vehicle_unlock"
+  }
+ ]
+}

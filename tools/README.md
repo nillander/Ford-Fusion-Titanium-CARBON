@@ -15,7 +15,7 @@ Leitores de referência Carbon disponíveis no projeto irmão:
 
 - CarToolkit 3.1: `vendor/cartoolkit/app/NFS-CarToolkit/NFS-CarToolkit.exe`.
   [Autor](https://nfs-tools.blogspot.com/2020/07/nfs-cartoolkit-v31-released.html).
-  `cartoolkit.7z` e `vlted.7z` (4.6, ainda não extraído) vieram do link MEGA
+  `cartoolkit.7z` e `vlted.7z` (4.6, extraído em `vendor/cartoolkit/vlted/` com 7-Zip 24.09 por causa do filtro BCJ2) vieram do link MEGA
   alternativo na [página oficial](https://nfs-tools.blogspot.com/p/downloads.html):
   https://mega.nz/folder/GahkUB6B#vB1Cpy7PeUfe9O7FetG2Ag.
 - Carbon ModTools 1.1: `vendor/carbon-modtools/NFS Carbon ModTools v1.1/bin/`.
