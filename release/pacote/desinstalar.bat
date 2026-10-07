@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableExtensions
 cd /d "%~dp0"
-echo Restaura todos os arquivos anteriores a instalacao da v1.2.
+echo Restaura todos os arquivos anteriores a instalacao da v1.3.
 set "JOGO="
 set /p JOGO=Digite a pasta do jogo (onde esta NFSC.exe):
 if not defined JOGO exit /b 1

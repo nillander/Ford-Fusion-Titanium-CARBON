@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "archive_sha256": "B1BEE2ED48519739BE65F0B0207E9E1E0259E638ED469983EDB9F02006027653",
+  "files_checked": 22,
+  "upgrade_v1_2_restore_passed": true,
+  "previous_backup_preserved": true,
+  "windows_powershell_5_1": true,
+  "zip_checksums_passed": true,
+  "install_reinstall_restore_passed": true,
+  "unknown_mod_preflight_no_changes": true,
+  "corrupt_package_preflight_no_changes": true,
+  "mock_directory": "C:\\Users\\nillander\\NoDocuments\\fusion-carbon\\work\\release-v13-check-69d0c3526ca34a9781cd55f0e462f155"
+}

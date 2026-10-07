@@ -18,11 +18,12 @@ function Inside([string]$root,[string]$relative) {
     if (-not $path.StartsWith($root.TrimEnd('\','/')+[IO.Path]::DirectorySeparatorChar,[StringComparison]::OrdinalIgnoreCase)) { throw 'Caminho fora da pasta.' }
     return $path
 }
-$manifest = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'arquivos-v1.2.json') -Raw | ConvertFrom-Json
-$backupRoot = Join-Path $gameRoot 'Fusion2018_v1.2_backup'
+$manifest = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'arquivos.json') -Raw | ConvertFrom-Json
+if ($manifest.version -notmatch '^v[0-9]+[.][0-9]+$') { throw 'Versao invalida no manifesto.' }
+$backupRoot = Join-Path $gameRoot ('Fusion2018_'+$manifest.version+'_backup')
 $statePath = Join-Path $backupRoot 'estado.json'
 $state = if (Test-Path -LiteralPath $statePath) { Get-Content -LiteralPath $statePath -Raw | ConvertFrom-Json } else { $null }
-if ($Action -eq 'Restore' -and -not $state) { throw 'Backup da v1.2 nao encontrado.' }
+if ($Action -eq 'Restore' -and -not $state) { throw 'Backup desta release nao encontrado.' }
 $operations = @()
 foreach ($file in $manifest.files) {
     $source = Inside $PSScriptRoot $file.path
@@ -50,7 +51,7 @@ if (-not $state) {
         Copy-Item -LiteralPath $op.target -Destination $op.backup -Force
         if ((Get-PackageHash -LiteralPath $op.backup).Hash -ne $op.current) { throw 'Falha no backup.' }
     }
-    $state = [ordered]@{version='v1.2';files=@($operations | ForEach-Object { @{path=$_.path;sha256=$_.current} })}
+    $state = [ordered]@{version=$manifest.version;files=@($operations | ForEach-Object { @{path=$_.path;sha256=$_.current} })}
     $state | ConvertTo-Json -Depth 7 | Set-Content -LiteralPath $statePath -Encoding utf8
 }
 $transactionRoot = Join-Path $backupRoot ('transacao-'+[Guid]::NewGuid().ToString('N'))

@@ -39,14 +39,3 @@ Pendentes: QA do acerto leve EXOTIC, freio ON distinto de OFF, faixas Mustang
 de fábrica, damage/IA e Fusion 2012 FWD no CAMARO. A alternativa Fusion AWD
 no **SL65 AMG oficial** foi adicionada ao TODO; ainda não está construída nem
 incluída nesta release. Seu possível benefício requer comparação no jogo.
-
-## Créditos
-Modelo GTA V: AND1V79; conversão e texturas para o GTA V pelo autor do pacote
-original, disponibilizado por Gabriel Lima (ver `CREDITOS/source-readme.txt`).
-Base MW (Fusion 2010): Marcelo Castro (AJM3899), com peças de FOX, Porsche4ever e
-AJ Lethal (ver `CREDITOS/donor-readme.txt`).
-Ferramentas Carbon: NFS-CarToolkit 3.1 e NFS Carbon ModTools 1.1 (nfsu360),
-compressor JDLZ de OpenNFSTools (zombie28), meshoptimizer.
-Estrutura, materiais e pontos de montagem de referência: Ford Mustang GT original
-do Need for Speed Carbon.
-Conversão para o Carbon: Nillander Alarcão, com Codex e Claude.

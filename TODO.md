@@ -1,6 +1,6 @@
-# v1.2 — Fusion 2018 no Carbon (07/10/2026)
+# v1.3 — Fusion 2018 EXOTIC no Carbon (07/10/2026)
 
-## Desenvolvimento posterior — sensação de peso / alternativa à BMW
+## Acerto da v1.3 — sensação de peso / alternativa à BMW
 
 - [x] Comparar massa: Fusion 1600 vs BMW 1100; relação potência/peso da v1.2 era 17,5% inferior apesar do motor +20%
 - [x] Preparar/auditar/instalar MASS 1100, FINAL_GEAR 4,11 e FLYWHEEL_MASS 10; somente cinco campos mudam frente à v1.2
@@ -9,7 +9,9 @@
 - [ ] Receber QA de arrancada, retomada e curvas da candidata leve
 - [x] Usuário escolheu EXOTIC: override RacingClass no próprio slot; rollback remove o campo e restaura a herança Muscle
 - [ ] Confirmar categoria EXOTIC no menu e comportamento em corrida
-- [ ] Nova release após QA; manter v1.2 publicada como está
+- [x] ZIP v1.3: 22 arquivos; Windows PowerShell 5.1, instalar/reinstalar/restaurar, upgrade v1.2 e preservação do backup anterior testados
+- [x] README consolidado com aprendizados de geometria, materiais/lentes, JDLZ, montagem, frontend, VLT, física e entrega
+- [ ] Publicar v1.3 a pedido do usuário, com QA leve EXOTIC pendente; manter v1.2 intacta
 
 As aprovações abaixo referem-se às etapas anteriores, não aprovam esta comparação nova.
 
@@ -37,6 +39,16 @@ As aprovações abaixo referem-se às etapas anteriores, não aprovam esta compa
 - [ ] Faixas Mustang de fábrica
 - [ ] Fusion 2012 → CAMARO
 
+## Alternativa solicitada — Fusion Titanium 2018 AWD → SL65 AMG
+
+- [ ] Portar o Fusion 2018 AWD para substituir **Mercedes-Benz SL65 AMG**, slot **SL65**, como alternativa ao MUSTANGGT.
+- [ ] Usar o **SL65 oficial do Carbon como doador** de estrutura, kits, LODs, damage, AutoSculpt, materiais e marcadores; a malha Fusion é a fonte visual. Não apenas renomear os BIN compilados do Mustang.
+- [ ] Inventariar e preservar backup de CARS/SL65, VLT e recursos frontend antes de modificar; o diretório SL65 foi confirmado na instalação.
+- [ ] Comparar dados efetivos SL65/BMW/Mustang (massa, inércia, direção, transmissão e RacingClass); adaptar AWD e motor BMW ×1,20 ao slot e definir preço antes da instalação.
+- [ ] Construir e auditar geometria, texturas, nome/logotipo, performance base/upgrades e rollback próprio; preservar MUSTANGGT, CAMARO e CAMARON.
+- [ ] Testar lado a lado arrancada, retomada, curvas, upgrades e categoria; escolher o melhor doador somente após QA. A expectativa de funcionar melhor é uma hipótese.
+- [ ] Publicar pacote/tag próprios após a construção; **a v1.3 atual continua substituindo MUSTANGGT**.
+
 # TODO — Portar Ford Fusion (MW2005) → Need for Speed Carbon
 
 Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e **2018 AWD**, por **substituição de slot** (não add-on).
@@ -48,11 +60,11 @@ Portar os dois Fusion do `../fusion-mw2005` (v2.8) para o Carbon: **2012 FWD** e
 | Referências | ZIPs v2.8, backup CARS/GLOBAL, 73 hashes; investigação dos doadores | Comprovação da origem limpa dos BIN |
 | Inventário | 1845 sólidos Carbon lidos; mapa inicial 2018 e marcadores dos dois slots/Fusion | Mapa funcional de kits, LODs, damage e AutoSculpt |
 | Visual 2018 | Carroceria, lentes, aerofólios, teto e fogo do escapamento aprovados | QA ampliado de corrida/damage/IA |
-| VLT 2018 | Direção AWD aprovada; motor BMW +20% auditado/instalado, rollback validado | QA em corrida do motor posterior |
+| VLT 2018 | Direção AWD aprovada; motor BMW +20%, massa 1100/relação 4,11/volante 10 e EXOTIC auditados/instalados; rollback validado | QA do motor e acerto leve EXOTIC |
 | Frontend | Ford (2), preço 50.000 e desbloqueio 11 preservados; nome e logotipo confirmados | Revisar vinil de fábrica |
-| 2012 / entrega | Referências e marcadores oficiais CAMARO disponíveis; v1.1 visual 2018 entregue | Port CAMARO, VLT FWD, instalação, QA e nova release |
+| 2012 / alternativa | Referências CAMARO disponíveis; diretório SL65 confirmado | Port CAMARO/FWD e alternativa SL65/AWD, integração, auditoria e QA |
 
-**Próxima ação:** QA do novo motor BMW +20% e port do Fusion 2012 no CAMARO.
+**Próxima ação:** QA do acerto leve EXOTIC e avaliação do port alternativo AWD no SL65 oficial; Fusion 2012/CAMARO segue pendente.
 Direção, nome, logotipo e fogo do 2018 estão aprovados pelo usuário;
 não retomar os testes antigos de lentes/teto. Usar `release/vlt/Fusion2018-performance.nfsms`
 para performance; relatório `docs/carbon2018-performance-verification.json`.
@@ -90,7 +102,8 @@ Ler a atualização prioritária de `docs/CONTINUACAO-CODEX.md` antes dos histó
 ### Regra obrigatória dos doadores (instrução do usuário)
 
 Usar como doadores **os veículos oficiais do Carbon que serão substituídos**:
-**CAMARO oficial → Fusion 2012 FWD** e **MUSTANGGT oficial → Fusion 2018**.
+**CAMARO oficial → Fusion 2012 FWD**, **MUSTANGGT oficial → Fusion 2018 atual**
+e **SL65 oficial → Fusion 2018 AWD alternativo**.
 Preservar deles a estrutura e os recursos exigidos pelo slot (peças, LODs, kits,
 AutoSculpt, damage, materiais e pontos de montagem), adaptando a malha Fusion MW.
 Não usar outro veículo/mod como base Carbon. Confirmar a origem limpa dos BIN

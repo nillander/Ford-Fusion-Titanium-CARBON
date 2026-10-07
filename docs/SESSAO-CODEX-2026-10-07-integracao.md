@@ -148,3 +148,19 @@ Usuário informou que testará quando concluirmos; QA ainda pendente. V1.2
 publicada permanece intacta; nenhuma tag/release nova nesta comparação.
 README/TODO/handoff atualizados. Documentação oficial dos comandos:
 https://nfs-tools.blogspot.com/2018/02/nfs-vlted-usage-2-modscript-format.html
+
+
+## Fechamento documental e preparação da v1.3
+
+A pedido do usuário, README consolidado com todos os aprendizados do port,
+separando correções verificadas e histórico de tentativas. TODO inclui Fusion
+2018 AWD no SL65 AMG, com SL65 oficial como doador; port ainda não executado.
+A alternativa não comprova benefício de física e não muda o pacote MUSTANGGT.
+
+v1.3 preparada com massa 1100, relação final 4,11, volante 10 e EXOTIC,
+AWD e curva BMW +20% mantidos. O jogo instalado coincide com os 22 hashes do
+pacote. Testes em mock no Windows PowerShell 5.1 passaram: checksums do ZIP,
+instalar/reinstalar/restaurar, upgrade da v1.2 e restauração exata, backup
+anterior preservado, recusa de mod desconhecido e pacote corrompido sem mudanças.
+Relatório: docs/release-v1.3-verification.json. QA do acerto novo segue pendente;
+publicação autorizada explicitamente nesta solicitação.

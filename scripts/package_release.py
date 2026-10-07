@@ -1,6 +1,6 @@
 """Empacota a release do Fusion Carbon a partir dos BIN aprovados no jogo.
 
-Uso: python scripts/package_release.py v1.2 local/release-v1.2
+Uso: python scripts/package_release.py v1.3 local/release-v1.3
 Confere os BIN contra os hashes aprovados e contra os instalados no jogo (se a
 pasta do jogo estiver acessível), monta Fusion2018_AWD_NFSC.zip e os SHA256SUMS.
 """
@@ -37,11 +37,13 @@ def main(version, outdir):
             if p.exists(): allowed.append(sha(p.read_bytes()))
         add(f'CARS/MUSTANGGT/{name}',path,digest,allowed)
     performance = json.loads((ROOT / 'docs/carbon2018-performance-verification.json').read_text())
-    assert not performance.get('racer_weight_comparison_checked'), 'Current staging is the post-v1.2 comparison; do not relabel it as v1.2.'
+    assert version == 'v1.3', 'Current staging belongs to v1.3.'
+    assert performance.get('racer_weight_comparison_checked') and performance['racing_class_override'] == 'Exotic'
     assert performance['status'] == 'passed' and performance['rollback_semantically_identical']
     add('GLOBAL/attributes.bin','work/global2018-performance/main/attributes.bin',performance['attributes_sha256'],
         [performance[k] for k in ('backup_attributes_sha256','previous_candidate_attributes_sha256',
-                                  'second_candidate_attributes_sha256','approved_handling_attributes_sha256')])
+                                  'second_candidate_attributes_sha256','approved_handling_attributes_sha256',
+                                  'previous_release_attributes_sha256','previous_lightweight_attributes_sha256')])
     logo = json.loads((ROOT / 'docs/carbon2018-frontend-logo-verification.json').read_text())
     assert logo['passed'] and logo['game_validation'].startswith('user confirmed')
     for file in logo['files']:
@@ -54,12 +56,13 @@ def main(version, outdir):
     for file in manifest:
         assert sha((GAME / file['path']).read_bytes()) == file['sha256'], 'Installed differs: '+file['path']
     content = json.dumps({'version':version,'files':manifest},indent=2)+'\n'
-    (src / 'arquivos-v1.2.json').write_text(content)
+    (src / 'arquivos.json').write_text(content)
     for p in (ROOT / 'release/vlt').glob('*'):
         if p.is_file(): files['VLT/'+p.name] = p.read_bytes()
     for p in sorted(src.rglob('*')):
         if p.is_file():
             rel = p.relative_to(src).as_posix()
+            if p.name.startswith('arquivos-'): continue
             if p.name.startswith('NOTAS-') and p.name != f'NOTAS-{version}.md': continue
             data = p.read_bytes()
             if p.suffix.lower() == '.bat':

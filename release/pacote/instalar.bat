@@ -97,7 +97,7 @@ exit /b 1
 :Instalar
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0instalar.ps1" -GamePath "!JOGO!" -Action Install
 if errorlevel 1 goto Falhou
-echo Instalacao v1.2 concluida. Backup: Fusion2018_v1.2_backup.
+echo Instalacao v1.3 concluida. Backup: Fusion2018_v1.3_backup.
 pause
 exit /b 0
 

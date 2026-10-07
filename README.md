@@ -1,43 +1,33 @@
 # Ford Fusion — Need for Speed Carbon
 
-> **Release v1.2 (07/10/2026):** Fusion Titanium AWD 2018 no lugar do Mustang GT.
-> Visual, direção AWD, nome, logotipo e fogo do escapamento aprovados no jogo.
-> Motor ajustado para a curva da BMW M3 GTR × 1,20, por pedido posterior do usuário;
-> esse novo ajuste de potência foi auditado e instalado, sem novo teste em corrida.
-> Preço original 50.000. Fusion 2012 ainda não portado.
+> **Release v1.3 (07/10/2026):** Fusion Titanium AWD 2018 substitui MUSTANGGT.
+> Visual, direção anterior, nome, logotipo e fogo aprovados no jogo.
+> Acerto atual: EXOTIC, AWD 50/50, massa 1100, relação final 4,11,
+> volante do motor 10 e curva BMW M3 GTR ×1,20. Preço original **50.000**.
+> Motor posterior e acerto leve EXOTIC auditados; confirmação em corrida pendente.
+> Fusion 2012/CAMARO e alternativa AWD/SL65 ainda não portados.
 
-**Desenvolvimento após v1.2:** usuário ainda percebe o carro pesado e quer uma
-alternativa customizada à BMW. Comparação instalada: massa 1100, relação final
-4,11 e volante do motor 10, iguais à BMW. Mantém potência +20%, AWD e direção
-aprovada, com RacingClass **EXOTIC** escolhida pelo usuário. QA pendente;
-o ZIP/tag v1.2 publicado permanece com o acerto anterior.
+## Downloads — v1.3
 
-## Downloads — v1.2
+Baixe [`Fusion2018_AWD_NFSC.zip`](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/download/v1.3/Fusion2018_AWD_NFSC.zip),
+extraia e execute `instalar.bat` com NFSC/NFS-VltEd fechados.
+[Release v1.3](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.3)
+· [Notas completas](release/notes-v1.3.md).
+As tags/releases anteriores permanecem disponíveis com seus respectivos acertos.
 
-| Pacote | Carro | Estado |
-| --- | --- | --- |
-| [`Fusion2018_AWD_NFSC.zip`](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/download/v1.2/Fusion2018_AWD_NFSC.zip) | Ford Fusion Titanium AWD 2018 (MUSTANGGT) | visual, nome/logo, AWD e motor BMW +20% |
-
-Notas: [release v1.2](https://github.com/nillander/Ford-Fusion-Titanium-CARBON/releases/tag/v1.2)
-· [`release/notes-v1.2.md`](release/notes-v1.2.md). Baixe o ZIP na release v1.2,
-extraia e execute `instalar.bat` com o jogo fechado.
-
-| Arquivo publicado | SHA-256 |
+| Arquivo | SHA-256 |
 | --- | --- |
 | `CARS/MUSTANGGT/GEOMETRY.BIN` | `4C8CFDF9CEAC10DB58278A2CCA0243C43F4E0A560239AFCA821D36A898E9F65C` |
 | `CARS/MUSTANGGT/TEXTURES.BIN` | `8989A7E4502F92B2D2828E817AD8B7F3ACB0D46A4227B6275CA013EA3651E3AC` |
-| `GLOBAL/attributes.bin` | `D58BEA8A066735CC07A36D2D77107254C85523B89369541C481C166A66FF853D` |
+| `GLOBAL/attributes.bin` | `B5DA3F6865C760D6279B29526D2B8CF83FA3CBAC3694DD88280FFB74CB2580E4` |
 
-O pacote é gerado por `python scripts/package_release.py v1.2 local/release-v1.2`
-a partir dos BIN aprovados (fora do Git, em `work/`). Instalador, LEIA-ME e créditos
-ficam em `release/pacote/`.
-
-A v1.2 instala 22 arquivos com hashes conferidos antes de qualquer cópia e
-backup/restauração do estado anterior. GLOBAL/frontend/idiomas de outra
-versão ou mod são recusados; o pacote traz ModScript para integração manual
-da performance. ZIP/instalar/reinstalar/restaurar e rejeição sem alterações de
-mod desconhecido/pacote corrompido passaram no Windows PowerShell 5.1.
-Auditoria: `docs/release-v1.2-verification.json`.
+Reprodução do pacote: `python scripts/package_release.py v1.3 local/release-v1.3`.
+São 22 arquivos com preflight completo, backup próprio `Fusion2018_v1.3_backup`
+e restauração do estado anterior. Bases/candidatas conhecidas são aceitas;
+mods desconhecidos são recusados antes da cópia. Os ModScripts em `VLT/`
+permitem integrar performance a uma base modificada sem substituir GLOBAL inteiro.
+LEIA-ME, créditos e instalador ficam em `release/pacote/`.
+Auditoria do ZIP/instalador: [docs/release-v1.3-verification.json](docs/release-v1.3-verification.json).
 
 Port dos Fusion 2012 FWD e 2018 da release MW2005 v2.8, por substituição de slots.
 
@@ -70,7 +60,7 @@ BIN proprietários, ferramentas de terceiros e arquivos temporários ficam fora 
 As pastas `reference/` e `tools/vendor/` existem apenas neste computador e podem ser
 recriadas a partir das origens documentadas.
 
-## Estado
+## Estado histórico — primeira integração
 
 Setup e backup feitos. **07/10, manhã:** o Fusion 2018 corrigido foi instalado
 experimentalmente no MUSTANGGT e apareceu na visualização do jogo com rodas.
@@ -110,7 +100,146 @@ continua obsoleto, girado e sem montagem. Diagnóstico original:
 [docs/SESSAO-CLAUDE-2026-10-07.md](docs/SESSAO-CLAUDE-2026-10-07.md).
 Passagem anterior: [docs/CONTINUACAO-CLAUDE.md](docs/CONTINUACAO-CLAUDE.md).
 
-## Aprendizados da construção
+## Aprendizados consolidados — referência atual
+
+Esta seção reúne o que funcionou até a v1.3. As seções históricas seguintes
+preservam tentativas, hipóteses e capturas anteriores; seus estados “pendente”
+descrevem aquela etapa. O estado atual está no topo e no [TODO](TODO.md).
+
+### Referências, conversão e limites
+
+Usar como doador Carbon o **veículo oficial que será substituído**: MUSTANGGT
+para o 2018 atual, CAMARO para o 2012 e SL65 para a alternativa futura.
+O Fusion MW fornece a malha visual; outro mod/exemplo fornece documentação,
+não substitui o doador oficial. Preservar referências e hashes antes de editar.
+Datas de build compatíveis ajudam a investigação, mas não provam origem vanilla.
+
+Renomear um BIN MW não converte seu formato nem garante compatibilidade com
+kits, LODs, damage e AutoSculpt do Carbon. Coincidência de nomes também não
+certifica esses recursos. CAMARON herda de CAMARO: alterações do 2012 precisam
+verificar o efeito sobre o Concept e preservá-lo.
+
+O erro `Indices count ... exceeded 65536` era de **índices**, não vértices.
+A simplificação por material nas cópias de trabalho manteve normais/UVs da fonte
+e ficou abaixo do limite (máximo 65397). Erro ponderado do simplificador não é
+distância em metros; silhueta, costuras e acabamento precisam de inspeção visual.
+
+O nfscgc gerava uma entrada vazia e contagens de material inconsistentes.
+A reexportação Carbon pelo CarToolkit normalizou a saída. Grupos multimaterial
+também exigiram recalcular NumVerts pelas faixas contíguas de índices, conferindo
+o buffer real de 48 bytes/vértice. Compilar sem erro não equivale a BIN válido.
+O nfscgc aplica `(x,y,z)→(y,−x,z)`; preparar posições **e normais** pela inversa
+`(−y,x,z)` evita a rotação de 90°. Índices válidos não detectam orientação errada.
+
+### Compressão e auditoria independente
+
+Blocos CIP têm destinos próprios e podem estar fora de ordem: descomprimir
+para os offsets declarados, conferindo cobertura, limites, tamanho e hash,
+em vez de concatenar. HUFF e JDLZ têm convenções diferentes para tamanho.
+
+O crash do teto foi isolado nas **flags terminais do JDLZ**: o Carbon recarrega
+flags antes de testar o fim; um leitor que para ao completar a saída pode
+aceitar o stream defeituoso. `scripts/jdlz.py` preserva essas flags;
+`normalize_for_game` normaliza o fim com saída descomprimida idêntica.
+Regressões cobrem literais, matches e limites de grupos. As hipóteses anteriores
+sobre crescimento do BIN ou novas peças como causa do crash não ficaram provadas.
+
+Conferir catálogo, malhas, índices, materiais, marcadores e DDS com leitores
+independentes. Comparar bytes/sólidos fora do escopo da alteração e usar hashes
+como gates. A geometria atual tem 190 sólidos; a comparação do teto preservou
+os 186 existentes. Auditoria estrutural aprova o que foi medido; QA no jogo
+continua necessário para aparência, iluminação, comportamento e compatibilidade.
+
+### Lentes, texturas e montagem
+
+O MW ensinou a investigar formato/alpha, UVs no atlas e cobertura/material das
+lentes. Esses diagnósticos não são causas confirmadas do Carbon. DXT3→DXT1,
+aliases longos e material difuso isoladamente **não** resolveram as lanternas
+cinza. O vermelho apareceu ao usar os vínculos dinâmicos oficiais
+`BRAKELIGHT_RIGHT` (02B52399) e `HEADLIGHT_RIGHT` (F68EF19F), em lugar das
+referências diretas dos atlas. O acabamento aprovado das lanternas usa
+`BRAKELIGHT` e `BRAKELIGHT_RIGHT`. Nomes longos OFF/ON/GLASS são válidos no
+Carbon; o limite antigo de 23 caracteres do pipeline MW não se aplica aqui.
+A comparação chegou a 18 texturas. ON ainda copia OFF: freio aceso distinto
+segue pendente. VINYLS original não foi alterado; faixas Mustang ainda pendentes.
+
+OBJ perde cores de vértices do BIN: materiais, flags, cores e recursos
+compartilhados precisam ser restaurados/conferidos, além de UVs e mipmaps.
+Uma prévia em ferramenta não aprova transparência ou acabamento no jogo.
+
+Marcadores são parte do port: adaptar lados (LEFT do doador Carbon em +Y),
+translações da malha Fusion e matrizes do doador oficial. Conferir associação
+à peça/LOD; não copiar cegamente as matrizes de um exemplo. Aerofólios aprovados
+usam correções de −2,3 cm (`SPOILER`) e −8,7 cm (`SPOILER2`) nas BASE_A..E.
+O teto precisa das quatro `KIT00_ROOF_A..D` e do marcador `ROOF_SCOOP` nas peças
+correspondentes: posição (0,10;0;1,23757), inclinação 5,35°. Com JDLZ correto,
+as opções comum e AutoSculpt carregaram e apareceram, confirmadas pelo usuário.
+
+Fogo usa hash explícito EXHAUST `66A4A9DE`, não o hash calculado da palavra.
+Medir o centro das ponteiras na malha: Z 0,135→0,177339 m corrigiu 60 marcadores
+em 30 sólidos de kits/LODs, preservando os outros 160 sólidos. Alinhamento aprovado.
+
+### Nome, logotipo e performance
+
+O nome visível é a string `CARNAME_FORD_MUSTANGGT` (1CC69F99), não um campo de
+nome do nó frontend. Foram alterados só o texto/ponteiro dessa chave em 17
+arquivos Frontend, preservando os demais textos, charset e chunks.
+Nome e logotipo são recursos diferentes: `SECONDARY_LOGO_MUSTANGGT` (710ABB50)
+fica em FRONTB1, 256×64 ARGB8888. Converter a arte MW DXT3 para pixels BGRA,
+preservando cabeçalho/hash/dimensões, e manter BUN e LZC equivalentes.
+Só 65.536 bytes de pixels mudaram; 264 texturas foram verificadas. Ambos aprovados.
+
+O inventário VLT inicial não resolvia os `_top`; o dump completo Attribulator
+mostrou os níveis reais. Converter por nomes, tipos e membros/arrays da base
+Carbon, nunca por offsets MWPS. ModScript deve escrever também valores iguais
+à base quando precisa desfazer candidatas anteriores. Comparar semanticamente
+todos os nós/blobs, pois regravações equivalentes podem ter hashes diferentes.
+A auditoria atual cobre 10.180 nós/312 blobs, só 11 nós/74 campos do Fusion
+alterados frente à base, rollback exato e importação sobre v1.2 equivalente.
+
+O nome AWD da fonte MW escondia RWD; Carbon usa AWD real 50/50 por decisão do
+usuário, incluindo transmissão melhorada. A primeira direção virou mal mesmo
+em baixa velocidade. Aumentar STEERING para 1,1 e STEERING_RANGE em 15% não
+bastou. A terceira candidata aprovada combina diferencial 0,35/0,5/0,5,
+aderência equilibrada, YAW_CONTROL oficial e YAW_SPEED 0,3. Essa aprovação
+não isola qual campo resolveu o problema; registrar o conjunto e seus testes.
+
+A BMW jogável usa `engine/bmwm3gtre46`, não o outro nó `bmwm3gtr`.
+Curva ×1,20 no mesmo domínio de RPM representa potência de motor +20%, sem
+prometer ganho igual de aceleração, velocidade final ou potência nas rodas.
+Base/top usam MAX_RPM 9500, RED_LINE 8500 e IDLE 800; indução/nitro são do slot.
+Com massa 1600 contra 1100 da BMW, a relação potência/peso ainda era 0,825 da
+referência. A v1.3 usa massa 1100, FINAL_GEAR 4,11 e FLYWHEEL_MASS 10.
+Preço 50.000 e demais valores aprovados permanecem; novo QA ainda pendente.
+
+Muscle/Exotic são RacingClass; ambos os carros são racers. Os pais têm os mesmos
+padrões de massa/inércia, e o peso extra estava no override do Fusion. A classe
+participa de regras/música/recompensas; não foi estabelecido um multiplicador
+direto de física. Alterar só RacingClass para EXOTIC no slot preserva a herança;
+rollback remove o campo para recuperar Muscle. Não reparentear nem mudar Tier
+sem evidência. A alternativa no SL65 é uma hipótese a testar, não garantia de
+melhor dirigibilidade: reconstruir usando o próprio SL65 oficial e comparar.
+
+### Entrega reproduzível e continuidade
+
+Guardar BIN proprietários, ferramentas e temporários fora do Git, documentando
+origens/hashes e scripts. Preservar capturas originais e distinguir prévias de
+ferramenta, comparações falhas e confirmações no jogo. As imagens históricas
+abaixo fazem parte desse aprendizado; seus manifestos registram a origem.
+
+O pacote precisa incluir geometria/texturas, performance, logo e todos os
+idiomas; o instalador verifica os 22 destinos/fontes **antes** de copiar,
+recusa hashes desconhecidos e guarda backup/restauração por versão.
+Testar ZIP, instalação, reinstalação, restauração, pacote corrompido e mod
+incompatível no Windows PowerShell 5.1; testar também upgrade/restauração da
+v1.2 e preservação do backup anterior. Publicar ZIP e checksums com tag anotada,
+conferindo os digests dos anexos no GitHub. Registrar aprovação visual separada
+de QA de corrida e atualizar TODO/passagem para impedir repetir testes superados.
+
+Relatórios e reprodução detalhados permanecem nas seções seguintes, em
+[docs/CONTINUACAO-CODEX.md](docs/CONTINUACAO-CODEX.md) e no [TODO.md](TODO.md).
+
+## Aprendizados da construção — histórico detalhado
 
 ### Converter formato e preservar o slot são etapas distintas
 
@@ -581,4 +710,4 @@ usa delete_field e recupera a herança original, conforme a
 [documentação ModScript](https://nfs-tools.blogspot.com/2018/02/nfs-vlted-usage-2-modscript-format.html).
 A geração da candidata completa usa `--racer-weight --racing-class Exotic`.
 Efeito da classe sobre a dirigibilidade ainda exige comparação no jogo.
-O empacotador recusa rotular essa comparação de desenvolvimento como v1.2.
+Esse acerto passa a compor a v1.3; a v1.2 publicada permanece intacta.

@@ -20,8 +20,8 @@ def sha(p):
 
 
 def main():
-    archive = ROOT / 'local/release-v1.2/Fusion2018_AWD_NFSC.zip'
-    folder = ROOT / 'work' / ('release-v12-check-'+uuid.uuid4().hex)
+    archive = ROOT / 'local/release-v1.3/Fusion2018_AWD_NFSC.zip'
+    folder = ROOT / 'work' / ('release-v13-check-'+uuid.uuid4().hex)
     folder.mkdir()
     with zipfile.ZipFile(archive) as z:
         assert z.testzip() is None
@@ -30,7 +30,7 @@ def main():
     for line in (package / 'SHA256SUMS.txt').read_text().splitlines():
         digest,path = line.split('  ',1)
         assert sha(package / path) == digest
-    manifest = json.loads((package / 'arquivos-v1.2.json').read_text())
+    manifest = json.loads((package / 'arquivos.json').read_text())
     game = folder / 'game'
     game.mkdir()
     (game / 'NFSC.exe').write_bytes(b'mock; never execute')
@@ -57,7 +57,7 @@ def main():
     unknown.write_bytes(unknown.read_bytes()+b'other mod')
     before = snapshot()
     run('Install',False)
-    assert snapshot() == before and not (game/'Fusion2018_v1.2_backup').exists()
+    assert snapshot() == before and not (game/'Fusion2018_v1.3_backup').exists()
     shutil.copyfile(sources['GLOBAL/attributes.bin'],unknown)
     run('Install')
     expected = {file['path']:file['sha256'] for file in manifest['files']}
@@ -68,14 +68,35 @@ def main():
     assert snapshot() == original
     # Corrupt archive asset is also refused with no destination changes.
     target = package/'CARS/MUSTANGGT/TEXTURES.BIN'
-    target.write_bytes(target.read_bytes()+b'corrupt')
+    asset = target.read_bytes()
+    target.write_bytes(asset+b'corrupt')
     run('Install',False)
     assert snapshot() == original
+    target.write_bytes(asset)
+    # Upgrade from the published v1.2 must restore that exact prior installation.
+    game = folder / 'game-upgrade'
+    game.mkdir()
+    (game / 'NFSC.exe').write_bytes(b'mock; never execute')
+    with zipfile.ZipFile(ROOT/'local/release-v1.2/Fusion2018_AWD_NFSC.zip') as old:
+        for name in sources:
+            destination = game/name
+            destination.parent.mkdir(parents=True,exist_ok=True)
+            destination.write_bytes(old.read('Fusion2018_AWD_NFSC/'+name))
+    old_backup = game/'Fusion2018_v1.2_backup'
+    old_backup.mkdir()
+    (old_backup/'preservar.txt').write_bytes(b'previous backup sentinel')
+    previous = snapshot()
+    run('Install')
+    assert snapshot() == expected
+    run('Restore')
+    assert snapshot() == previous
+    assert (old_backup/'preservar.txt').read_bytes() == b'previous backup sentinel'
     report = {'passed':True,'archive_sha256':sha(archive),'files_checked':len(expected),
+              'upgrade_v1_2_restore_passed':True,'previous_backup_preserved':True,
               'windows_powershell_5_1':True,'zip_checksums_passed':True,
               'install_reinstall_restore_passed':True,'unknown_mod_preflight_no_changes':True,
               'corrupt_package_preflight_no_changes':True,'mock_directory':str(folder)}
-    (ROOT/'docs/release-v1.2-verification.json').write_text(json.dumps(report,indent=2)+'\n')
+    (ROOT/'docs/release-v1.3-verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print('PASS: ZIP hashes; 22 files; Windows PowerShell install/reinstall/restore; unknown/corrupt preflight.')
 
 

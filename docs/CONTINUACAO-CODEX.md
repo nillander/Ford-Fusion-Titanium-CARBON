@@ -34,8 +34,10 @@ Não alterar flags booleanas desconhecidas nem Tier 2 sem motivo comprovado.
 Usuário respondeu Exotic e disse que testará quando terminar. Aguardar QA da
 categoria no menu e arrancada/retomada/curvas. Backup só leve, ainda Muscle,
 em work/global2018-performance-lightweight (4277ECF9…), gate próprio preservado.
-Nova candidata
-não publicada; v1.2 permanece intacta e o empacotador impede rebatizá-la como v1.2.
+O usuário solicitou publicação deste acerto como v1.3, com QA pendente registrado.
+A v1.2 permanece intacta. README consolidado e TODO incluem a alternativa AWD
+no SL65 AMG oficial, ainda não executada. Não renomear BIN Mustang para SL65:
+reconstruir a compatibilidade com o próprio Mercedes oficial como doador.
 
 ## Histórico — v1.2 e motor BMW +20%
 
